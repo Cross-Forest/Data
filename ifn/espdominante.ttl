@@ -1,0 +1,1542 @@
+@prefix ifn:   <http://crossforest.eu/ifn/ontology/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ds:    <http://crossforest.eu/ifn/data/dominantSpecies/> .
+
+ds:25-02  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris con P. uncinata o con P. nigra o con Quercus ilex o con Q. pubescens (Q. humilis) o con P. halepensis"@es .
+
+ds:06-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Quercus suber"@es .
+
+ds:16-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:26-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:36-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus"@es .
+
+ds:44-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:10-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:20-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:30-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:13-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:23-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Frondosas con otras especies"@es .
+
+ds:41-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus y frondosas"@es .
+
+ds:05-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Bosques incendiados en el periodo entre Inventarios en proceso de regeneración"@es .
+
+ds:08-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Arbutus unedo"@es .
+
+ds:21-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:22-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:27-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:17-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:25-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles fuera del monte, ribera arbolada"@es .
+
+ds:37-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y Pinus sylvestris"@es .
+
+ds:48-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus spp."@es .
+
+ds:04-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:14-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Olea europaea y Eucalyptus camaldulensis"@es .
+
+ds:24-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:34-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:40-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:42-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:11-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus camaldulensis"@es .
+
+ds:17-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:49-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Quercus pyrenaica"@es .
+
+ds:05-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:15-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y Eucalyptus globulus"@es .
+
+ds:35-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:31-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea"@es .
+
+ds:08-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:18-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:46-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:33-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:02-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con Pinus nigra y con Q.faginea"@es .
+
+ds:12-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:22-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea y Quercus pubescens"@es .
+
+ds:40-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea y Pinus pinea con Pinus pinaster"@es .
+
+ds:50-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:10-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:47-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:39-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:36-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:09-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinos y quercíneas"@es .
+
+ds:19-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:29-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus canariensis"@es .
+
+ds:33-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur y Q. petraea"@es .
+
+ds:03-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:13-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:23-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:25-08  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:10-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus suber"@es .
+
+ds:44-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus thurifera y Juniperus thurifera con otras especies"@es .
+
+ds:42-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:09-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con otras especies"@es .
+
+ds:26-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Pseudotsuga menziesii"@es .
+
+ds:28-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo"@es .
+
+ds:24-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:34-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:07-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado disperso"@es .
+
+ds:17-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus petraea y otras especies"@es .
+
+ds:27-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:45-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:01-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:11-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado"@es .
+
+ds:21-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber"@es .
+
+ds:31-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur, Q. petraea"@es .
+
+ds:42-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:18-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:19-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo"@es .
+
+ds:46-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:08-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:18-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:28-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:38-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa y Eucalyptus globulus con Pinus canariensis"@es .
+
+ds:39-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:12-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:22-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris con otras especies"@es .
+
+ds:32-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur"@es .
+
+ds:05-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinos y quercíneas"@es .
+
+ds:15-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:49-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica con pinos"@es .
+
+ds:31-17  a         ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de frondosas"@es .
+
+ds:43-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra con P. sylvestris"@es .
+
+ds:40-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado"@es .
+
+ds:11-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:12-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:19-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:29-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Quercus ilex con otras frondosas"@es .
+
+ds:39-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus"@es .
+
+ds:29-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera y Eucalyptus camaldulensis"@es .
+
+ds:25-03  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus uncinata y P. uncinata con Abies alba"@es .
+
+ds:06-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Monte adehesado"@es .
+
+ds:16-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:26-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con otros Quercus y Crataegus spp."@es .
+
+ds:36-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:44-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:10-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster con Quercus ilex o con Q. suber o con Q. pyrenaica"@es .
+
+ds:20-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Coníferas de crecimiento rápido"@es .
+
+ds:30-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y pinos"@es .
+
+ds:13-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:44-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Monte achaparrado de Quercus ilex y Quercus faginea"@es .
+
+ds:41-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus camaldulensis y Eucalyptus globulus"@es .
+
+ds:08-15  a         ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de frondosas"@es .
+
+ds:25-15  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:22-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:07-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:17-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con otras especies"@es .
+
+ds:27-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:37-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa y Quercus pyrenaica"@es .
+
+ds:31-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:04-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis y Pinus nigra"@es .
+
+ds:14-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:24-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:34-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Populus x canadensis"@es .
+
+ds:42-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:38-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus canariensis"@es .
+
+ds:17-15  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y otras coníferas"@es .
+
+ds:05-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus ilex"@es .
+
+ds:15-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y frondosas"@es .
+
+ds:49-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:08-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pubescens (Q. humilis)"@es .
+
+ds:31-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea con Q. ilex"@es .
+
+ds:33-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:02-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:12-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Quercus faginea"@es .
+
+ds:22-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex solo o con otras especies"@es .
+
+ds:40-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus thurifera y Juniperus thurifera con Quercus ilex"@es .
+
+ds:50-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:10-15  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:47-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos y Quercus ilex"@es .
+
+ds:39-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con Q. pyrenaica y otras frondosas de pequeño porte"@es .
+
+ds:26-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:36-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y Eucalyptus globulus"@es .
+
+ds:09-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:19-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea"@es .
+
+ds:29-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:33-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica y Q. ilex"@es .
+
+ds:03-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera y otras frondosas"@es .
+
+ds:13-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Arbutus unedo"@es .
+
+ds:23-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:25-09  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis con Quercus ilex o con Q. pubescens (Q. humilis) o con Q. faginea"@es .
+
+ds:41-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea y Pinus halepensis"@es .
+
+ds:49-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:10-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus suber y Q. ilex"@es .
+
+ds:44-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea y Quercus faginea con Pinus pinaster"@es .
+
+ds:08-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea"@es .
+
+ds:09-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:25-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:26-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Populus nigra"@es .
+
+ds:28-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado disperso"@es .
+
+ds:48-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:14-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:24-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur / Quercus petraea"@es .
+
+ds:34-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris, Pinus nigra y Pinus pinaster"@es .
+
+ds:17-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa"@es .
+
+ds:27-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:45-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus spp."@es .
+
+ds:01-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur"@es .
+
+ds:11-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:21-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Frondosas y Quercus spp."@es .
+
+ds:31-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur, Q. petraea con Castanea sativa, Q. rubra"@es .
+
+ds:42-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de quercíneas"@es .
+
+ds:17-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Arbutus unedo y otras especies"@es .
+
+ds:19-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Riberas arboladas"@es .
+
+ds:46-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra y Pinus pinaster puros o en mezcla entre sí o con Pinus halepensis"@es .
+
+ds:38-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:08-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de Pinus halepensis con otras especies"@es .
+
+ds:18-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:28-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:34-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:02-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:12-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:22-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus uncinata"@es .
+
+ds:32-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:05-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus oxycedrus y J. communis"@es .
+
+ds:15-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:49-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Populus nigra, Populus x canadensis"@es .
+
+ds:31-18  a         ifn:DominantSpecies ;
+        rdfs:label  "Populus nigra, Populus x canadensis"@es .
+
+ds:43-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de frondosas y pinos"@es .
+
+ds:10-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus ilex con arbolado ralo y disperso"@es .
+
+ds:09-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:19-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:29-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:39-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus con Pinus radiata y Quercus robur"@es .
+
+ds:33-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa"@es .
+
+ds:29-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:25-04  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:06-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus camaldulensis"@es .
+
+ds:16-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus spp. solo o con otras especies"@es .
+
+ds:26-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:36-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:44-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:10-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:20-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Frondosas atlánticas"@es .
+
+ds:30-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinos y coníferas"@es .
+
+ds:43-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con frondosas de pequeño porte"@es .
+
+ds:44-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de Populus spp."@es .
+
+ds:41-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:08-16  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:25-16  a         ifn:DominantSpecies ;
+        rdfs:label  "Bosques incendiados el año 1994 o el año 1998 en proceso de regeneración"@es .
+
+ds:07-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:17-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber"@es .
+
+ds:27-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur"@es .
+
+ds:37-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Monte adehesado"@es .
+
+ds:21-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado"@es .
+
+ds:31-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Abies alba con Pinus sylvestris, Fagus sylvatica"@es .
+
+ds:04-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con Pinus halepensis"@es .
+
+ds:14-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:24-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:34-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:42-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:38-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus canariensis con algo de fayal / brezal"@es .
+
+ds:28-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:17-16  a         ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de frondosas de crecimiento rápido"@es .
+
+ds:39-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:05-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:15-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:49-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado"@es .
+
+ds:31-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata, Larix spp. con Quercus rubra"@es .
+
+ds:43-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:33-15  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo"@es .
+
+ds:02-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:12-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber y Quercus suber con Pinus pinaster"@es .
+
+ds:22-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica solo o con otras especies"@es .
+
+ds:40-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos con Quercus pyrenaica"@es .
+
+ds:50-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea"@es .
+
+ds:16-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:26-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:36-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster, Eucalyptus globulus y Quercus robur"@es .
+
+ds:09-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus thurifera"@es .
+
+ds:19-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:29-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado"@es .
+
+ds:47-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Quercus faginea"@es .
+
+ds:03-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:13-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica y Quercus suber"@es .
+
+ds:23-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:33-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur, Q. petraea, Betula spp. y Eucalyptus globulus"@es .
+
+ds:41-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:49-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo"@es .
+
+ds:10-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus pyrenaica y otras especies"@es .
+
+ds:44-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Quercus ilex con otras especies"@es .
+
+ds:08-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:09-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:24-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de chopos"@es .
+
+ds:25-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con Q. pubescens (Q. humilis) o con Q. faginea o con Juniperus spp. o con frondosas de pequeño porte"@es .
+
+ds:26-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:28-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:48-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Coníferas y pinos de crecimiento rápido"@es .
+
+ds:04-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:14-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:24-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:34-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis y Pinus pinea"@es .
+
+ds:17-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pubescens (Q. humilis) y otras especies"@es .
+
+ds:45-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:01-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercíneas de la región mediterránea"@es .
+
+ds:11-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea y Quercus canariensis"@es .
+
+ds:21-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y P. pinaster con Pinus pinea"@es .
+
+ds:31-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus humilis, Q. pyrenaica"@es .
+
+ds:16-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos con otras especies"@es .
+
+ds:17-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:46-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex puro o en mezcla con Pinus spp."@es .
+
+ds:35-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus canariensis"@es .
+
+ds:08-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:18-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con coníferas"@es .
+
+ds:28-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea, Quercus ilex y Q. faginea"@es .
+
+ds:33-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus y Castanea sativa"@es .
+
+ds:02-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:12-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris y Pinus sylvestris con Pinus nigra"@es .
+
+ds:22-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:32-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa y otras frondosas"@es .
+
+ds:05-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:50-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:31-19  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:43-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:50-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:10-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa"@es .
+
+ds:09-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:19-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:29-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber"@es .
+
+ds:39-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur y Q. petraea"@es .
+
+ds:31-20  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles fuera del monte, ribera arbolada"@es .
+
+ds:33-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa, Quercus robur y Betula spp."@es .
+
+ds:23-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:25-05  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra con Quercus ilex o con Q. pubescens (Q. humilis) o con Q. faginea"@es .
+
+ds:06-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:16-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:26-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:44-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:10-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:20-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:30-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:42-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica y Fagus sylvatica con Pinus sylvestris"@es .
+
+ds:43-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:44-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles fuera del monte, ribera arbolada"@es .
+
+ds:41-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:08-17  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:07-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Olea europaea, Ceratonia siliqua, Arbutus unedo"@es .
+
+ds:17-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber con pinos"@es .
+
+ds:27-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:37-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles fuera del monte, ribera arbolada"@es .
+
+ds:45-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:11-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea, Pinus halepensis y Pinus pinaster"@es .
+
+ds:21-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus y E. camaldulensis"@es .
+
+ds:31-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica con Quercus robur, Q. petraea"@es .
+
+ds:04-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y otras frondosas"@es .
+
+ds:24-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:42-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus thurifera y Juniperus spp. con otras especies"@es .
+
+ds:38-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata con Pinus canariensis"@es .
+
+ds:18-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:28-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:17-17  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera autóctonos"@es .
+
+ds:39-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa con otras frondosas"@es .
+
+ds:05-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea con P. pinaster"@es .
+
+ds:15-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur"@es .
+
+ds:49-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris y P. sylvestis con Pinus nigra y P. pinaster"@es .
+
+ds:31-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Juniperus spp. con Fagus sylvatica, Quercus ilex, Pinus halepensis"@es .
+
+ds:43-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis con P. nigra y P. pinaster"@es .
+
+ds:33-16  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado disperso"@es .
+
+ds:02-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso, principalmente de Pinus halepensis"@es .
+
+ds:12-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Olea europaea, Ceratonia siliqua y ambas con Pinus halepensis"@es .
+
+ds:40-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:50-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercíneas achaparradas"@es .
+
+ds:06-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea y Pinus pinaster"@es .
+
+ds:16-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:26-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica con Fagus sylvatica o Pinus sylvestris"@es .
+
+ds:36-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur"@es .
+
+ds:09-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica y Quercus faginea"@es .
+
+ds:19-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercíneas con pinos y con enebros y sabinas"@es .
+
+ds:30-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:47-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:13-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:23-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus ilex"@es .
+
+ds:33-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de frondosas autóctonas"@es .
+
+ds:41-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus ilex"@es .
+
+ds:08-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus petraea"@es .
+
+ds:09-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de Populus spp."@es .
+
+ds:37-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:23-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:24-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:25-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus pubescens (Q. humilis), Q. petraea y Q. faginea con algo de Pinus sylvestris"@es .
+
+ds:26-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles fuera del monte, ribera arbolada"@es .
+
+ds:48-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Frondosas de la región atlántica"@es .
+
+ds:04-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:14-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Q. ilex con otras especies"@es .
+
+ds:24-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:34-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica y Quercus petraea"@es .
+
+ds:40-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Populus x canadensis"@es .
+
+ds:45-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado"@es .
+
+ds:01-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:11-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Olea europaea y Olea europaea con Quercus suber"@es .
+
+ds:21-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa"@es .
+
+ds:31-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:16-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Chopos y árboles de ribera"@es .
+
+ds:17-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus uncinata"@es .
+
+ds:46-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus thurifera"@es .
+
+ds:35-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:08-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:18-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica solo o con otras especies"@es .
+
+ds:28-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica y otras frondosas"@es .
+
+ds:33-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus y Pinus pinaster"@es .
+
+ds:02-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:12-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y Pinus pinaster con Pinus halepensis"@es .
+
+ds:22-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:32-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado disperso y ralo"@es .
+
+ds:40-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:50-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:43-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con Pinus nigra y P. sylvestris"@es .
+
+ds:10-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Arbutus unedo con otras especies"@es .
+
+ds:47-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:09-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster con Pinus sylvestris"@es .
+
+ds:19-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:29-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Olea europaea"@es .
+
+ds:39-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur y Q. petraea con Castanea sativa y Q. pyrenaica"@es .
+
+ds:33-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:13-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:23-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:25-06  a         ifn:DominantSpecies ;
+        rdfs:label  "Abies alba"@es .
+
+ds:16-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea"@es .
+
+ds:26-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:44-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris con Pinus nigra"@es .
+
+ds:10-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber"@es .
+
+ds:20-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:42-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Populus x canadensis, Populus nigra"@es .
+
+ds:44-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:08-18  a         ifn:DominantSpecies ;
+        rdfs:label  "Zonas incendiadas en 1994 y 1998"@es .
+
+ds:28-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Fraxinus spp. y Populus nigra"@es .
+
+ds:45-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:07-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus phoenicea"@es .
+
+ds:17-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:27-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa y otras frondosas"@es .
+
+ds:37-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:01-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:11-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Abies pinsapo"@es .
+
+ds:21-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:31-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:04-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:42-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:08-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:18-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:28-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:38-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Fayal / brezal con laurisilva"@es .
+
+ds:39-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de frondosas"@es .
+
+ds:32-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:05-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica con Castanea sativa"@es .
+
+ds:15-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur y otras frondosas"@es .
+
+ds:49-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:31-15  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:43-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis con Quercus ilex"@es .
+
+ds:40-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:50-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de Populus spp."@es .
+
+ds:39-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica"@es .
+
+ds:29-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Juniperus spp. y frondosas achaparradas"@es .
+
+ds:25-01  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:06-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:16-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:26-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea"@es .
+
+ds:36-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus robur, Eucalyptus globulus y frondosas"@es .
+
+ds:09-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:20-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:30-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y P. halepensis"@es .
+
+ds:47-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:13-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus ilex"@es .
+
+ds:23-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con pinos"@es .
+
+ds:33-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus"@es .
+
+ds:41-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber"@es .
+
+ds:05-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:08-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber"@es .
+
+ds:09-14  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:25-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Populus nigra, P. x canadensis y Betula spp. con Pinus uncinata, P. sylvestris y Abies alba"@es .
+
+ds:22-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de Populus nigra"@es .
+
+ds:23-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:24-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:27-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:37-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica"@es .
+
+ds:48-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Frondosas de la región mediterránea"@es .
+
+ds:04-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:14-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado"@es .
+
+ds:24-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa"@es .
+
+ds:34-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex y Quercus faginea"@es .
+
+ds:40-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles fuera de monte, ribera arbolada"@es .
+
+ds:42-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:45-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:01-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera y frondosas de la región atlántica"@es .
+
+ds:11-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Arbutus unedo con otras frondosas"@es .
+
+ds:21-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:16-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:17-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:49-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:46-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:15-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:35-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus spp. y Castanea sativa y Laurisilva"@es .
+
+ds:31-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa con Fagus sylvatica, Quercus robur"@es .
+
+ds:08-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus uncinata"@es .
+
+ds:18-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de Populus x canadensis"@es .
+
+ds:28-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus spp."@es .
+
+ds:33-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster y P. sylvestris"@es .
+
+ds:02-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus thurifera"@es .
+
+ds:12-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex con Pinus nigra y con Pinus halepensis"@es .
+
+ds:22-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Abies alba solo o con otras especies"@es .
+
+ds:32-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:40-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:50-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:43-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus humilis, Q. faginea, Q. ilex con Pinus sylvestris y P. nigra"@es .
+
+ds:10-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus camaldulensis"@es .
+
+ds:47-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:39-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus radiata"@es .
+
+ds:09-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra con Pinus sylvestris"@es .
+
+ds:19-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Juniperus spp."@es .
+
+ds:29-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Castanea sativa y otras frondosas"@es .
+
+ds:33-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica y frondosas"@es .
+
+ds:03-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:13-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:23-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:25-07  a         ifn:DominantSpecies ;
+        rdfs:label  "Abies alba con Fagus sylvatica o con Pinus sylvestris y F. sylvatica con P. sylvestris"@es .
+
+ds:16-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de pinos"@es .
+
+ds:10-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Bosque adehesado de Quercus ilex"@es .
+
+ds:44-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Plantaciones de pinos"@es .
+
+ds:42-12  a         ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:28-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Dehesas"@es .
+
+ds:34-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:07-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo"@es .
+
+ds:17-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica y otras especies"@es .
+
+ds:27-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus"@es .
+
+ds:45-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:01-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:11-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus suber"@es .
+
+ds:21-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus ilex"@es .
+
+ds:31-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris con Pinus nigra, Quercus faginea"@es .
+
+ds:42-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus faginea"@es .
+
+ds:19-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Populus x canadensis y Populus nigra"@es .
+
+ds:08-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Mezcla de Pinus sylvestris con otras especies"@es .
+
+ds:18-3  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus spp."@es .
+
+ds:28-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:38-5  a          ifn:DominantSpecies ;
+        rdfs:label  "Fayal / brezal"@es .
+
+ds:39-13  a         ifn:DominantSpecies ;
+        rdfs:label  "Matorral con arbolado ralo y disperso"@es .
+
+ds:22-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:32-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinaster"@es .
+
+ds:05-6  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus sylvestris"@es .
+
+ds:15-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Eucalyptus globulus"@es .
+
+ds:49-7  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus pinea"@es .
+
+ds:31-16  a         ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:43-4  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus nigra"@es .
+
+ds:40-8  a          ifn:DominantSpecies ;
+        rdfs:label  "Quercus pyrenaica y Quercus ilex"@es .
+
+ds:50-9  a          ifn:DominantSpecies ;
+        rdfs:label  "Árboles de ribera"@es .
+
+ds:12-10  a         ifn:DominantSpecies ;
+        rdfs:label  "Juniperus thurifera, Juniperus oxycedrus y ambas con Quercus ilex"@es .
+
+ds:29-1  a          ifn:DominantSpecies ;
+        rdfs:label  "Pinus halepensis"@es .
+
+ds:39-2  a          ifn:DominantSpecies ;
+        rdfs:label  "Fagus sylvatica con Quercus robur y Q. petraea"@es .
+
+ds:29-11  a         ifn:DominantSpecies ;
+        rdfs:label  "Abies pinsapo"@es .
