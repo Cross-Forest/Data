@@ -1,0 +1,233 @@
+@prefix nuts3: <http://crossforest.eu/ifi/data/nuts3/> .
+@prefix nuts2: <http://crossforest.eu/ifi/data/nuts2/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ifi:   <http://crossforest.eu/ifi/ontology/> .
+@prefix nuts1: <http://crossforest.eu/ifi/data/nuts1/> .
+
+<http://crossforest.eu/ifi/data/nuts2/PT/PT18>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALENTEJO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/PT/PT1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT18> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/PT/PT181> , <http://crossforest.eu/ifi/data/nuts3/PT/PT185> , <http://crossforest.eu/ifi/data/nuts3/PT/PT187> , <http://crossforest.eu/ifi/data/nuts3/PT/PT186> , <http://crossforest.eu/ifi/data/nuts3/PT/PT184> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16H>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "BEIRA BAIXA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT119>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "AVE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16B>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "OESTE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT11E>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "TERRAS DE TRÁS-OS-MONTES" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT150>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALGARVE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT15> .
+
+<http://crossforest.eu/ifi/data/nuts2/PT/PT30>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO AUTÓNOMA DA MADEIRA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/PT/PT3> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT30> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/PT/PT300> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT184>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "BAIXO ALENTEJO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT18> .
+
+<http://crossforest.eu/ifi/data/nuts2/PT/PT17>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LISBOA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/PT/PT1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT17> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/PT/PT170> .
+
+<http://crossforest.eu/ifi/data/nuts2/PT/PT11>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "NORTE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/PT/PT1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT11> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/PT/PT112> , <http://crossforest.eu/ifi/data/nuts3/PT/PT11A> , <http://crossforest.eu/ifi/data/nuts3/PT/PT119> , <http://crossforest.eu/ifi/data/nuts3/PT/PT11C> , <http://crossforest.eu/ifi/data/nuts3/PT/PT11B> , <http://crossforest.eu/ifi/data/nuts3/PT/PT111> , <http://crossforest.eu/ifi/data/nuts3/PT/PT11E> , <http://crossforest.eu/ifi/data/nuts3/PT/PT11D> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT112>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CÁVADO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT11D>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "DOURO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16G>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "VISEU DÃO LAFÕES" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts2/PT/PT20>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO AUTÓNOMA DOS AÇORES" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/PT/PT2> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT20> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/PT/PT200> .
+
+<http://crossforest.eu/ifi/data/nuts1/PT/PT3>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO AUTÓNOMA DA MADEIRA" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT3> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/PT/PT30> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT300>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO AUTÓNOMA DA MADEIRA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT30> .
+
+<http://crossforest.eu/ifi/data/nuts2/PT/PT16>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CENTRO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/PT/PT1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT16> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/PT/PT16G> , <http://crossforest.eu/ifi/data/nuts3/PT/PT16B> , <http://crossforest.eu/ifi/data/nuts3/PT/PT16J> , <http://crossforest.eu/ifi/data/nuts3/PT/PT16E> , <http://crossforest.eu/ifi/data/nuts3/PT/PT16I> , <http://crossforest.eu/ifi/data/nuts3/PT/PT16H> , <http://crossforest.eu/ifi/data/nuts3/PT/PT16D> , <http://crossforest.eu/ifi/data/nuts3/PT/PT16F> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT111>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALTO MINHO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16F>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO DE LEIRIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT11C>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "TÂMEGA E SOUSA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts1/PT/PT2>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO AUTÓNOMA DOS AÇORES" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT2> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/PT/PT20> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT200>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO AUTÓNOMA DOS AÇORES" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT20> .
+
+<http://crossforest.eu/ifi/data/nuts2/PT/PT15>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALGARVE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/PT/PT1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT15> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/PT/PT150> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16E>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO DE COIMBRA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT11B>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALTO TÂMEGA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts1/PT/PT1>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CONTINENTE" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/PT1> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/PT/PT18> , <http://crossforest.eu/ifi/data/nuts2/PT/PT17> , <http://crossforest.eu/ifi/data/nuts2/PT/PT16> , <http://crossforest.eu/ifi/data/nuts2/PT/PT15> , <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT181>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALENTEJO LITORAL" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT18> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT187>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALENTEJO CENTRAL" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT18> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16D>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÃO DE AVEIRO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT11A>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ÁREA METROPOLITANA DO PORTO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT11> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16J>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "BEIRAS E SERRA DA ESTRELA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT186>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALTO ALENTEJO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT18> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT16I>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "MÉDIO TEJO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT16> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT170>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ÁREA METROPOLITANA DE LISBOA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT17> .
+
+<http://crossforest.eu/ifi/data/nuts3/PT/PT185>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LEZÍRIA DO TEJO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/PT/PT18> .

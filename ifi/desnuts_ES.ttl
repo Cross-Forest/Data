@@ -1,0 +1,620 @@
+@prefix nuts3: <http://crossforest.eu/ifi/data/nuts3/> .
+@prefix nuts2: <http://crossforest.eu/ifi/data/nuts2/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ifi:   <http://crossforest.eu/ifi/ontology/> .
+@prefix nuts1: <http://crossforest.eu/ifi/data/nuts1/> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES416>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "SEGOVIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES416> .
+
+<http://crossforest.eu/ifi/data/nuts1/ES/ES4>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CENTRO" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES4> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/ES/ES43> , <http://crossforest.eu/ifi/data/nuts2/ES/ES42> , <http://crossforest.eu/ifi/data/nuts2/ES/ES41> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES523>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "VALENCIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES52> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES523> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES12>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "PRINCIPADO DE ASTURIAS" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES12> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES120> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES630>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CEUTA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES63> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES630> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES423>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CUENCA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES42> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES423> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES53>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ISLAS BALEARES" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES5> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES53> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES533> , <http://crossforest.eu/ifi/data/nuts3/ES/ES532> , <http://crossforest.eu/ifi/data/nuts3/ES/ES531> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES615>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "HUELVA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES615> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES707>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LA PALMA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES70> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES707> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES415>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "SALAMANCA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES415> .
+
+<http://crossforest.eu/ifi/data/nuts1/ES/ES3>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "COMUNIDAD DE MADRID" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES3> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/ES/ES30> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES522>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CASTELLÓN" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES52> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES522> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES230>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LA RIOJA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES23> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES230> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES243>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ZARAGOZA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES24> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES243> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES11>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "GALICIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES11> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES114> , <http://crossforest.eu/ifi/data/nuts3/ES/ES113> , <http://crossforest.eu/ifi/data/nuts3/ES/ES112> , <http://crossforest.eu/ifi/data/nuts3/ES/ES111> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES422>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CIUDAD REAL" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES42> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES422> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES52>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "COMUNIDAD VALENCIANA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES5> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES52> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES523> , <http://crossforest.eu/ifi/data/nuts3/ES/ES522> , <http://crossforest.eu/ifi/data/nuts3/ES/ES521> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES130>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CANTABRIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES13> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES130> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES24>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ARAGÓN" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES2> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES24> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES243> , <http://crossforest.eu/ifi/data/nuts3/ES/ES242> , <http://crossforest.eu/ifi/data/nuts3/ES/ES241> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES614>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "GRANADA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES614> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES514>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "TARRAGONA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES51> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES514> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES706>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LA GOMERA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES70> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES706> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES414>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "PALENCIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES414> .
+
+<http://crossforest.eu/ifi/data/nuts1/ES/ES2>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "NORESTE" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES2> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/ES/ES24> , <http://crossforest.eu/ifi/data/nuts2/ES/ES23> , <http://crossforest.eu/ifi/data/nuts2/ES/ES22> , <http://crossforest.eu/ifi/data/nuts2/ES/ES21> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES521>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALICANTE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES52> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES521> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES242>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "TERUEL" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES24> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES242> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES421>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALBACETE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES42> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES421> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES51>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CATALUÑA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES5> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES51> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES514> , <http://crossforest.eu/ifi/data/nuts3/ES/ES513> , <http://crossforest.eu/ifi/data/nuts3/ES/ES512> , <http://crossforest.eu/ifi/data/nuts3/ES/ES511> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES23>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LA RIOJA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES2> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES23> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES230> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES64>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CIUDAD AUTÓNOMA DE MELILLA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES6> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES64> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES640> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES613>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CÓRDOBA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES613> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES114>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "PONTEVEDRA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES11> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES114> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES419>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ZAMORA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES419> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES513>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LÉRIDA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES51> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES513> .
+
+<http://crossforest.eu/ifi/data/nuts1/ES/ES7>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CANARIAS" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES7> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/ES/ES70> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES30>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "COMUNIDAD DE MADRID" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES3> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES30> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES300> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES705>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "GRAN CANARIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES70> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES705> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES620>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÓN DE MURCIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES62> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES620> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES413>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LEÓN" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES413> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES43>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "EXTREMADURA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES4> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES43> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES432> , <http://crossforest.eu/ifi/data/nuts3/ES/ES431> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES300>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "COMUNIDAD DE MADRID" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES30> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES300> .
+
+<http://crossforest.eu/ifi/data/nuts1/ES/ES1>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "NOROESTE" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES1> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/ES/ES13> , <http://crossforest.eu/ifi/data/nuts2/ES/ES12> , <http://crossforest.eu/ifi/data/nuts2/ES/ES11> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES618>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "SEVILLA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES618> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES533>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "MENORCA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES53> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES533> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES241>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "HUESCA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES24> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES241> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES213>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "VIZCAYA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES21> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES213> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES22>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "COMUNIDAD FORAL DE NAVARRA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES2> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES22> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES220> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES640>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "MELILLA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES64> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES640> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES63>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CIUDAD AUTÓNOMA DE CEUTA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES6> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES63> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES630> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES612>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CÁDIZ" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES612> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES113>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ORENSE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES11> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES113> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES418>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "VALLADOLID" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES418> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES512>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "GERONA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES51> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES512> .
+
+<http://crossforest.eu/ifi/data/nuts1/ES/ES6>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "SUR" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES6> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/ES/ES64> , <http://crossforest.eu/ifi/data/nuts2/ES/ES63> , <http://crossforest.eu/ifi/data/nuts2/ES/ES62> , <http://crossforest.eu/ifi/data/nuts2/ES/ES61> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES220>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "COMUNIDAD FORAL DE NAVARRA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES22> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES220> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES704>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "FUERTEVENTURA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES70> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES704> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES70>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CANARIAS" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES7> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES70> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES707> , <http://crossforest.eu/ifi/data/nuts3/ES/ES708> , <http://crossforest.eu/ifi/data/nuts3/ES/ES705> , <http://crossforest.eu/ifi/data/nuts3/ES/ES706> , <http://crossforest.eu/ifi/data/nuts3/ES/ES703> , <http://crossforest.eu/ifi/data/nuts3/ES/ES709> , <http://crossforest.eu/ifi/data/nuts3/ES/ES704> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES412>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "BURGOS" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES412> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES42>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CASTILLA-LA MANCHA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES4> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES42> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES422> , <http://crossforest.eu/ifi/data/nuts3/ES/ES424> , <http://crossforest.eu/ifi/data/nuts3/ES/ES421> , <http://crossforest.eu/ifi/data/nuts3/ES/ES423> , <http://crossforest.eu/ifi/data/nuts3/ES/ES425> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES120>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "PRINCIPADO DE ASTURIAS" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES12> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES120> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES425>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "TOLEDO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES42> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES425> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES617>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "MÁLAGA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES617> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES532>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "MALLORCA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES53> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES532> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES212>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "GUIPÚZCOA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES21> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES212> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES21>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "PAÍS VASCO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES2> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES21> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES213> , <http://crossforest.eu/ifi/data/nuts3/ES/ES212> , <http://crossforest.eu/ifi/data/nuts3/ES/ES211> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES432>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CÁCERES" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES43> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES432> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES62>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "REGIÓN DE MURCIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES6> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES62> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES620> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES611>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ALMERÍA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES611> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES112>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LUGO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES11> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES112> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES709>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "TENERIFE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES70> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES709> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES417>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "SORIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES417> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES511>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "BARCELONA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES51> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES511> .
+
+<http://crossforest.eu/ifi/data/nuts1/ES/ES5>
+        a                 ifi:NUTS1 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ESTE" ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES5> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts2/ES/ES53> , <http://crossforest.eu/ifi/data/nuts2/ES/ES52> , <http://crossforest.eu/ifi/data/nuts2/ES/ES51> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES703>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "EL HIERRO" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES70> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES703> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES411>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ÁVILA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES41> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES411> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES41>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CASTILLA Y LEÓN" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES4> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES41> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES412> , <http://crossforest.eu/ifi/data/nuts3/ES/ES414> , <http://crossforest.eu/ifi/data/nuts3/ES/ES419> , <http://crossforest.eu/ifi/data/nuts3/ES/ES411> , <http://crossforest.eu/ifi/data/nuts3/ES/ES416> , <http://crossforest.eu/ifi/data/nuts3/ES/ES413> , <http://crossforest.eu/ifi/data/nuts3/ES/ES415> , <http://crossforest.eu/ifi/data/nuts3/ES/ES418> , <http://crossforest.eu/ifi/data/nuts3/ES/ES417> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES13>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "CANTABRIA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES1> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES13> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES130> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES424>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "GUADALAJARA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES42> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES424> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES616>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "JAÉN" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES61> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES616> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES531>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "IBIZA Y FORMENTERA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES53> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES531> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES211>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ÁLAVA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES21> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES211> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES431>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "BADAJOZ" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES43> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES431> .
+
+<http://crossforest.eu/ifi/data/nuts2/ES/ES61>
+        a                 ifi:NUTS2 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "ANDALUCÍA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts1/ES/ES6> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES61> ;
+        skos:narrower     <http://crossforest.eu/ifi/data/nuts3/ES/ES612> , <http://crossforest.eu/ifi/data/nuts3/ES/ES618> , <http://crossforest.eu/ifi/data/nuts3/ES/ES617> , <http://crossforest.eu/ifi/data/nuts3/ES/ES611> , <http://crossforest.eu/ifi/data/nuts3/ES/ES616> , <http://crossforest.eu/ifi/data/nuts3/ES/ES615> , <http://crossforest.eu/ifi/data/nuts3/ES/ES614> , <http://crossforest.eu/ifi/data/nuts3/ES/ES613> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES111>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "A CORUÑA" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES11> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES111> .
+
+<http://crossforest.eu/ifi/data/nuts3/ES/ES708>
+        a                 ifi:NUTS3 ;
+        rdfs:isDefinedBy  ifi: ;
+        rdfs:label        "LANZAROTE" ;
+        skos:broader      <http://crossforest.eu/ifi/data/nuts2/ES/ES70> ;
+        skos:exactMatch   <http://nuts.geovocab.org/id/ES708> .
