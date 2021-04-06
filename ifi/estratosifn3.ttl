@@ -1,0 +1,2815 @@
+@prefix infoDominantFormation: <http://crossforest.eu/ifi/data/infoDominantFormation/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix ifi:   <http://crossforest.eu/ifi/ontology/> .
+@prefix stratum: <http://crossforest.eu/ifn/data/stratum/> .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61711>
+        skos:closeMatch  stratum:29-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41906>
+        skos:closeMatch  stratum:49-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42423>
+        skos:closeMatch  stratum:19-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13001>
+        skos:closeMatch  stratum:39-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61415>
+        skos:closeMatch  stratum:18-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41212>
+        skos:closeMatch  stratum:09-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42506>
+        skos:closeMatch  stratum:45-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51314>
+        skos:closeMatch  stratum:25-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11306>
+        skos:closeMatch  stratum:32-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52210>
+        skos:closeMatch  stratum:12-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22007>
+        skos:closeMatch  stratum:31-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07015>
+        skos:closeMatch  stratum:38-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24114>
+        skos:closeMatch  stratum:22-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43106>
+        skos:closeMatch  stratum:06-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61512>
+        skos:closeMatch  stratum:21-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41707>
+        skos:closeMatch  stratum:42-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51114>
+        skos:closeMatch  stratum:08-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23018>
+        skos:closeMatch  stratum:26-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22021>
+        skos:closeMatch  stratum:31-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51411>
+        skos:closeMatch  stratum:43-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61216>
+        skos:closeMatch  stratum:11-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11403>
+        skos:closeMatch  stratum:36-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21208>
+        skos:closeMatch  stratum:20-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30016>
+        skos:closeMatch  stratum:28-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41721>
+        skos:closeMatch  stratum:42-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42307>
+        skos:closeMatch  stratum:16-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24211>
+        skos:closeMatch  stratum:44-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11107>
+        skos:closeMatch  stratum:15-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43203>
+        skos:closeMatch  stratum:10-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05302>
+        skos:closeMatch  stratum:07-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12003>
+        skos:closeMatch  stratum:33-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41804>
+        skos:closeMatch  stratum:47-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51211>
+        skos:closeMatch  stratum:17-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42321>
+        skos:closeMatch  stratum:16-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41508>
+        skos:closeMatch  stratum:37-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42107>
+        skos:closeMatch  stratum:02-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61313>
+        skos:closeMatch  stratum:14-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41110>
+        skos:closeMatch  stratum:05-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21305>
+        skos:closeMatch  stratum:48-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13014>
+        skos:closeMatch  stratum:39-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41225>
+        skos:closeMatch  stratum:09-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42404>
+        skos:closeMatch  stratum:19-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52209>
+        skos:closeMatch  stratum:12-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61807>
+        skos:closeMatch  stratum:41-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11204>
+        skos:closeMatch  stratum:27-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51327>
+        skos:closeMatch  stratum:25-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41901>
+        skos:closeMatch  stratum:49-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61113>
+        skos:closeMatch  stratum:04-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41308>
+        skos:closeMatch  stratum:24-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07028>
+        skos:closeMatch  stratum:38-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61410>
+        skos:closeMatch  stratum:18-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41605>
+        skos:closeMatch  stratum:40-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41322>
+        skos:closeMatch  stratum:24-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51127>
+        skos:closeMatch  stratum:08-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42501>
+        skos:closeMatch  stratum:45-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52306>
+        skos:closeMatch  stratum:46-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11301>
+        skos:closeMatch  stratum:32-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21106>
+        skos:closeMatch  stratum:01-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62010>
+        skos:closeMatch  stratum:30-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42205>
+        skos:closeMatch  stratum:13-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22002>
+        skos:closeMatch  stratum:31-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61608>
+        skos:closeMatch  stratum:23-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24224>
+        skos:closeMatch  stratum:44-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43101>
+        skos:closeMatch  stratum:06-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41702>
+        skos:closeMatch  stratum:42-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43216>
+        skos:closeMatch  stratum:10-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41109>
+        skos:closeMatch  stratum:05-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23013>
+        skos:closeMatch  stratum:26-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12016>
+        skos:closeMatch  stratum:33-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61622>
+        skos:closeMatch  stratum:23-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51224>
+        skos:closeMatch  stratum:17-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24307>
+        skos:closeMatch  stratum:50-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61211>
+        skos:closeMatch  stratum:11-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41406>
+        skos:closeMatch  stratum:34-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21203>
+        skos:closeMatch  stratum:20-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30011>
+        skos:closeMatch  stratum:28-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42302>
+        skos:closeMatch  stratum:16-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52107>
+        skos:closeMatch  stratum:03-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61705>
+        skos:closeMatch  stratum:29-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11102>
+        skos:closeMatch  stratum:15-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42417>
+        skos:closeMatch  stratum:19-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11217>
+        skos:closeMatch  stratum:27-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61409>
+        skos:closeMatch  stratum:18-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41206>
+        skos:closeMatch  stratum:09-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41914>
+        skos:closeMatch  stratum:49-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42102>
+        skos:closeMatch  stratum:02-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41503>
+        skos:closeMatch  stratum:37-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51308>
+        skos:closeMatch  stratum:25-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41220>
+        skos:closeMatch  stratum:09-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52204>
+        skos:closeMatch  stratum:12-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62009>
+        skos:closeMatch  stratum:30-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61802>
+        skos:closeMatch  stratum:41-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24108>
+        skos:closeMatch  stratum:22-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51322>
+        skos:closeMatch  stratum:25-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61506>
+        skos:closeMatch  stratum:21-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41303>
+        skos:closeMatch  stratum:24-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51108>
+        skos:closeMatch  stratum:08-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24122>
+        skos:closeMatch  stratum:22-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22015>
+        skos:closeMatch  stratum:31-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07023>
+        skos:closeMatch  stratum:38-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51405>
+        skos:closeMatch  stratum:43-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43114>
+        skos:closeMatch  stratum:06-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61520>
+        skos:closeMatch  stratum:21-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41715>
+        skos:closeMatch  stratum:42-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51122>
+        skos:closeMatch  stratum:08-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52301>
+        skos:closeMatch  stratum:46-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24205>
+        skos:closeMatch  stratum:44-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21101>
+        skos:closeMatch  stratum:01-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11411>
+        skos:closeMatch  stratum:36-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61603>
+        skos:closeMatch  stratum:23-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51205>
+        skos:closeMatch  stratum:17-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42315>
+        skos:closeMatch  stratum:16-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61718>
+        skos:closeMatch  stratum:29-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11115>
+        skos:closeMatch  stratum:15-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43211>
+        skos:closeMatch  stratum:10-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61307>
+        skos:closeMatch  stratum:14-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41104>
+        skos:closeMatch  stratum:05-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05310>
+        skos:closeMatch  stratum:07-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13008>
+        skos:closeMatch  stratum:39-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12011>
+        skos:closeMatch  stratum:33-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41812>
+        skos:closeMatch  stratum:47-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41219>
+        skos:closeMatch  stratum:09-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24302>
+        skos:closeMatch  stratum:50-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41401>
+        skos:closeMatch  stratum:34-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42115>
+        skos:closeMatch  stratum:02-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41516>
+        skos:closeMatch  stratum:37-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52102>
+        skos:closeMatch  stratum:03-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61107>
+        skos:closeMatch  stratum:04-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42412>
+        skos:closeMatch  stratum:19-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52217>
+        skos:closeMatch  stratum:12-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11212>
+        skos:closeMatch  stratum:27-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61404>
+        skos:closeMatch  stratum:18-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41201>
+        skos:closeMatch  stratum:09-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61519>
+        skos:closeMatch  stratum:21-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41316>
+        skos:closeMatch  stratum:24-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51303>
+        skos:closeMatch  stratum:25-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22028>
+        skos:closeMatch  stratum:31-28 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41613>
+        skos:closeMatch  stratum:40-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62004>
+        skos:closeMatch  stratum:30-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07004>
+        skos:closeMatch  stratum:35-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24103>
+        skos:closeMatch  stratum:22-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51135>
+        skos:closeMatch  stratum:08-35 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24218>
+        skos:closeMatch  stratum:44-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21114>
+        skos:closeMatch  stratum:01-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61501>
+        skos:closeMatch  stratum:21-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51103>
+        skos:closeMatch  stratum:08-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22010>
+        skos:closeMatch  stratum:31-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42213>
+        skos:closeMatch  stratum:13-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23007>
+        skos:closeMatch  stratum:26-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05309>
+        skos:closeMatch  stratum:07-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61616>
+        skos:closeMatch  stratum:23-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51218>
+        skos:closeMatch  stratum:17-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42328>
+        skos:closeMatch  stratum:16-28 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61205>
+        skos:closeMatch  stratum:11-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30005>
+        skos:closeMatch  stratum:28-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41710>
+        skos:closeMatch  stratum:42-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41117>
+        skos:closeMatch  stratum:05-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43224>
+        skos:closeMatch  stratum:10-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41414>
+        skos:closeMatch  stratum:34-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21211>
+        skos:closeMatch  stratum:20-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42310>
+        skos:closeMatch  stratum:16-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41908>
+        skos:closeMatch  stratum:49-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61713>
+        skos:closeMatch  stratum:29-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11110>
+        skos:closeMatch  stratum:15-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42425>
+        skos:closeMatch  stratum:19-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61302>
+        skos:closeMatch  stratum:14-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13003>
+        skos:closeMatch  stratum:39-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61417>
+        skos:closeMatch  stratum:18-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41214>
+        skos:closeMatch  stratum:09-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42508>
+        skos:closeMatch  stratum:45-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42110>
+        skos:closeMatch  stratum:02-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41511>
+        skos:closeMatch  stratum:37-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51316>
+        skos:closeMatch  stratum:25-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11308>
+        skos:closeMatch  stratum:32-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61102>
+        skos:closeMatch  stratum:04-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61810>
+        skos:closeMatch  stratum:41-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52212>
+        skos:closeMatch  stratum:12-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24116>
+        skos:closeMatch  stratum:22-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22009>
+        skos:closeMatch  stratum:31-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07017>
+        skos:closeMatch  stratum:38-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51330>
+        skos:closeMatch  stratum:25-30 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43108>
+        skos:closeMatch  stratum:06-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41709>
+        skos:closeMatch  stratum:42-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61514>
+        skos:closeMatch  stratum:21-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41311>
+        skos:closeMatch  stratum:24-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51116>
+        skos:closeMatch  stratum:08-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22023>
+        skos:closeMatch  stratum:31-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51413>
+        skos:closeMatch  stratum:43-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11405>
+        skos:closeMatch  stratum:36-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30018>
+        skos:closeMatch  stratum:28-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41723>
+        skos:closeMatch  stratum:42-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51130>
+        skos:closeMatch  stratum:08-30 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42309>
+        skos:closeMatch  stratum:16-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24213>
+        skos:closeMatch  stratum:44-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11109>
+        skos:closeMatch  stratum:15-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43205>
+        skos:closeMatch  stratum:10-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23002>
+        skos:closeMatch  stratum:26-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05304>
+        skos:closeMatch  stratum:07-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12005>
+        skos:closeMatch  stratum:33-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61611>
+        skos:closeMatch  stratum:23-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41806>
+        skos:closeMatch  stratum:47-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51213>
+        skos:closeMatch  stratum:17-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42323>
+        skos:closeMatch  stratum:16-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42109>
+        skos:closeMatch  stratum:02-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41112>
+        skos:closeMatch  stratum:05-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21307>
+        skos:closeMatch  stratum:48-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13016>
+        skos:closeMatch  stratum:39-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41227>
+        skos:closeMatch  stratum:09-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42406>
+        skos:closeMatch  stratum:19-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24310>
+        skos:closeMatch  stratum:50-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61809>
+        skos:closeMatch  stratum:41-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11206>
+        skos:closeMatch  stratum:27-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51329>
+        skos:closeMatch  stratum:25-29 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41903>
+        skos:closeMatch  stratum:49-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42420>
+        skos:closeMatch  stratum:19-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61412>
+        skos:closeMatch  stratum:18-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41607>
+        skos:closeMatch  stratum:40-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51129>
+        skos:closeMatch  stratum:08-29 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42503>
+        skos:closeMatch  stratum:45-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52308>
+        skos:closeMatch  stratum:46-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51311>
+        skos:closeMatch  stratum:25-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11303>
+        skos:closeMatch  stratum:32-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21108>
+        skos:closeMatch  stratum:01-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42207>
+        skos:closeMatch  stratum:13-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24111>
+        skos:closeMatch  stratum:22-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62012>
+        skos:closeMatch  stratum:30-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22004>
+        skos:closeMatch  stratum:31-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07012>
+        skos:closeMatch  stratum:38-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24226>
+        skos:closeMatch  stratum:44-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43103>
+        skos:closeMatch  stratum:06-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41704>
+        skos:closeMatch  stratum:42-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51111>
+        skos:closeMatch  stratum:08-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43218>
+        skos:closeMatch  stratum:10-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23015>
+        skos:closeMatch  stratum:26-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61624>
+        skos:closeMatch  stratum:23-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12018>
+        skos:closeMatch  stratum:33-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51226>
+        skos:closeMatch  stratum:17-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24309>
+        skos:closeMatch  stratum:50-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61213>
+        skos:closeMatch  stratum:11-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41408>
+        skos:closeMatch  stratum:34-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21205>
+        skos:closeMatch  stratum:20-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30013>
+        skos:closeMatch  stratum:28-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42304>
+        skos:closeMatch  stratum:16-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61707>
+        skos:closeMatch  stratum:29-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11104>
+        skos:closeMatch  stratum:15-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42419>
+        skos:closeMatch  stratum:19-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41801>
+        skos:closeMatch  stratum:47-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41208>
+        skos:closeMatch  stratum:09-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42104>
+        skos:closeMatch  stratum:02-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61310>
+        skos:closeMatch  stratum:14-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41505>
+        skos:closeMatch  stratum:37-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21302>
+        skos:closeMatch  stratum:48-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13011>
+        skos:closeMatch  stratum:39-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41222>
+        skos:closeMatch  stratum:09-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42401>
+        skos:closeMatch  stratum:19-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52206>
+        skos:closeMatch  stratum:12-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61804>
+        skos:closeMatch  stratum:41-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11201>
+        skos:closeMatch  stratum:27-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51324>
+        skos:closeMatch  stratum:25-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61508>
+        skos:closeMatch  stratum:21-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61110>
+        skos:closeMatch  stratum:04-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41305>
+        skos:closeMatch  stratum:24-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24124>
+        skos:closeMatch  stratum:22-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22017>
+        skos:closeMatch  stratum:31-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07025>
+        skos:closeMatch  stratum:38-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41602>
+        skos:closeMatch  stratum:40-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51407>
+        skos:closeMatch  stratum:43-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61522>
+        skos:closeMatch  stratum:21-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41717>
+        skos:closeMatch  stratum:42-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51124>
+        skos:closeMatch  stratum:08-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52303>
+        skos:closeMatch  stratum:46-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24207>
+        skos:closeMatch  stratum:44-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21103>
+        skos:closeMatch  stratum:01-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11413>
+        skos:closeMatch  stratum:36-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42202>
+        skos:closeMatch  stratum:13-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61605>
+        skos:closeMatch  stratum:23-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51207>
+        skos:closeMatch  stratum:17-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42317>
+        skos:closeMatch  stratum:16-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24221>
+        skos:closeMatch  stratum:44-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11117>
+        skos:closeMatch  stratum:15-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61309>
+        skos:closeMatch  stratum:14-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41106>
+        skos:closeMatch  stratum:05-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43213>
+        skos:closeMatch  stratum:10-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23010>
+        skos:closeMatch  stratum:26-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12013>
+        skos:closeMatch  stratum:33-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41814>
+        skos:closeMatch  stratum:47-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51221>
+        skos:closeMatch  stratum:17-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24304>
+        skos:closeMatch  stratum:50-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41403>
+        skos:closeMatch  stratum:34-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52104>
+        skos:closeMatch  stratum:03-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61702>
+        skos:closeMatch  stratum:29-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61109>
+        skos:closeMatch  stratum:04-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42414>
+        skos:closeMatch  stratum:19-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11214>
+        skos:closeMatch  stratum:27-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61406>
+        skos:closeMatch  stratum:18-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41203>
+        skos:closeMatch  stratum:09-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41911>
+        skos:closeMatch  stratum:49-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41318>
+        skos:closeMatch  stratum:24-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51305>
+        skos:closeMatch  stratum:25-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61420>
+        skos:closeMatch  stratum:18-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41615>
+        skos:closeMatch  stratum:40-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52201>
+        skos:closeMatch  stratum:12-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62006>
+        skos:closeMatch  stratum:30-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07006>
+        skos:closeMatch  stratum:35-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24105>
+        skos:closeMatch  stratum:22-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51137>
+        skos:closeMatch  stratum:08-37 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42511>
+        skos:closeMatch  stratum:45-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11311>
+        skos:closeMatch  stratum:32-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21116>
+        skos:closeMatch  stratum:01-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61503>
+        skos:closeMatch  stratum:21-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51105>
+        skos:closeMatch  stratum:08-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23009>
+        skos:closeMatch  stratum:26-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22012>
+        skos:closeMatch  stratum:31-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07020>
+        skos:closeMatch  stratum:38-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61618>
+        skos:closeMatch  stratum:23-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51402>
+        skos:closeMatch  stratum:43-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61207>
+        skos:closeMatch  stratum:11-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43111>
+        skos:closeMatch  stratum:06-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30007>
+        skos:closeMatch  stratum:28-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41712>
+        skos:closeMatch  stratum:42-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41119>
+        skos:closeMatch  stratum:05-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24202>
+        skos:closeMatch  stratum:44-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21213>
+        skos:closeMatch  stratum:20-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30021>
+        skos:closeMatch  stratum:28-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51202>
+        skos:closeMatch  stratum:17-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42312>
+        skos:closeMatch  stratum:16-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61715>
+        skos:closeMatch  stratum:29-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11112>
+        skos:closeMatch  stratum:15-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42427>
+        skos:closeMatch  stratum:19-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61304>
+        skos:closeMatch  stratum:14-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41101>
+        skos:closeMatch  stratum:05-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13005>
+        skos:closeMatch  stratum:39-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61419>
+        skos:closeMatch  stratum:18-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41216>
+        skos:closeMatch  stratum:09-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51318>
+        skos:closeMatch  stratum:25-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42112>
+        skos:closeMatch  stratum:02-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41513>
+        skos:closeMatch  stratum:37-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21310>
+        skos:closeMatch  stratum:48-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61104>
+        skos:closeMatch  stratum:04-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41230>
+        skos:closeMatch  stratum:09-30 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52214>
+        skos:closeMatch  stratum:12-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24118>
+        skos:closeMatch  stratum:22-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07019>
+        skos:closeMatch  stratum:38-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61401>
+        skos:closeMatch  stratum:18-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51332>
+        skos:closeMatch  stratum:25-32 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61516>
+        skos:closeMatch  stratum:21-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41313>
+        skos:closeMatch  stratum:24-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51118>
+        skos:closeMatch  stratum:08-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22025>
+        skos:closeMatch  stratum:31-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41610>
+        skos:closeMatch  stratum:40-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51415>
+        skos:closeMatch  stratum:43-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11407>
+        skos:closeMatch  stratum:36-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62001>
+        skos:closeMatch  stratum:30-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07001>
+        skos:closeMatch  stratum:35-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41725>
+        skos:closeMatch  stratum:42-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51132>
+        skos:closeMatch  stratum:08-32 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52311>
+        skos:closeMatch  stratum:46-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24215>
+        skos:closeMatch  stratum:44-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21111>
+        skos:closeMatch  stratum:01-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43207>
+        skos:closeMatch  stratum:10-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42210>
+        skos:closeMatch  stratum:13-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23004>
+        skos:closeMatch  stratum:26-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05306>
+        skos:closeMatch  stratum:07-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12007>
+        skos:closeMatch  stratum:33-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61613>
+        skos:closeMatch  stratum:23-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41808>
+        skos:closeMatch  stratum:47-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51215>
+        skos:closeMatch  stratum:17-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42325>
+        skos:closeMatch  stratum:16-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61202>
+        skos:closeMatch  stratum:11-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30002>
+        skos:closeMatch  stratum:28-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43221>
+        skos:closeMatch  stratum:10-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41114>
+        skos:closeMatch  stratum:05-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21309>
+        skos:closeMatch  stratum:48-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13018>
+        skos:closeMatch  stratum:39-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12021>
+        skos:closeMatch  stratum:33-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41229>
+        skos:closeMatch  stratum:09-29 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24312>
+        skos:closeMatch  stratum:50-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42408>
+        skos:closeMatch  stratum:19-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41411>
+        skos:closeMatch  stratum:34-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11208>
+        skos:closeMatch  stratum:27-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61710>
+        skos:closeMatch  stratum:29-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41905>
+        skos:closeMatch  stratum:49-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42422>
+        skos:closeMatch  stratum:19-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41211>
+        skos:closeMatch  stratum:09-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61414>
+        skos:closeMatch  stratum:18-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41609>
+        skos:closeMatch  stratum:40-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42505>
+        skos:closeMatch  stratum:45-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51313>
+        skos:closeMatch  stratum:25-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11305>
+        skos:closeMatch  stratum:32-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24113>
+        skos:closeMatch  stratum:22-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22006>
+        skos:closeMatch  stratum:31-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42209>
+        skos:closeMatch  stratum:13-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07014>
+        skos:closeMatch  stratum:38-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43105>
+        skos:closeMatch  stratum:06-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61511>
+        skos:closeMatch  stratum:21-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41706>
+        skos:closeMatch  stratum:42-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51113>
+        skos:closeMatch  stratum:08-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23017>
+        skos:closeMatch  stratum:26-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22020>
+        skos:closeMatch  stratum:31-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51410>
+        skos:closeMatch  stratum:43-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61215>
+        skos:closeMatch  stratum:11-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11402>
+        skos:closeMatch  stratum:36-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21207>
+        skos:closeMatch  stratum:20-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30015>
+        skos:closeMatch  stratum:28-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41720>
+        skos:closeMatch  stratum:42-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42306>
+        skos:closeMatch  stratum:16-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24210>
+        skos:closeMatch  stratum:44-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61709>
+        skos:closeMatch  stratum:29-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11106>
+        skos:closeMatch  stratum:15-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43202>
+        skos:closeMatch  stratum:10-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05301>
+        skos:closeMatch  stratum:07-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12002>
+        skos:closeMatch  stratum:33-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41803>
+        skos:closeMatch  stratum:47-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51210>
+        skos:closeMatch  stratum:17-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42320>
+        skos:closeMatch  stratum:16-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11120>
+        skos:closeMatch  stratum:15-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61312>
+        skos:closeMatch  stratum:14-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42106>
+        skos:closeMatch  stratum:02-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41507>
+        skos:closeMatch  stratum:37-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21304>
+        skos:closeMatch  stratum:48-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13013>
+        skos:closeMatch  stratum:39-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41224>
+        skos:closeMatch  stratum:09-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42403>
+        skos:closeMatch  stratum:19-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52208>
+        skos:closeMatch  stratum:12-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61806>
+        skos:closeMatch  stratum:41-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11203>
+        skos:closeMatch  stratum:27-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51326>
+        skos:closeMatch  stratum:25-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61112>
+        skos:closeMatch  stratum:04-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41307>
+        skos:closeMatch  stratum:24-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22019>
+        skos:closeMatch  stratum:31-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07027>
+        skos:closeMatch  stratum:38-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24126>
+        skos:closeMatch  stratum:22-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41604>
+        skos:closeMatch  stratum:40-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51409>
+        skos:closeMatch  stratum:43-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41719>
+        skos:closeMatch  stratum:42-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41321>
+        skos:closeMatch  stratum:24-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51126>
+        skos:closeMatch  stratum:08-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52305>
+        skos:closeMatch  stratum:46-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24209>
+        skos:closeMatch  stratum:44-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21105>
+        skos:closeMatch  stratum:01-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11415>
+        skos:closeMatch  stratum:36-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42204>
+        skos:closeMatch  stratum:13-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22001>
+        skos:closeMatch  stratum:31-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61607>
+        skos:closeMatch  stratum:23-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51209>
+        skos:closeMatch  stratum:17-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42319>
+        skos:closeMatch  stratum:16-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24223>
+        skos:closeMatch  stratum:44-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11119>
+        skos:closeMatch  stratum:15-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41701>
+        skos:closeMatch  stratum:42-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43215>
+        skos:closeMatch  stratum:10-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41108>
+        skos:closeMatch  stratum:05-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23012>
+        skos:closeMatch  stratum:26-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12015>
+        skos:closeMatch  stratum:33-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61621>
+        skos:closeMatch  stratum:23-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51223>
+        skos:closeMatch  stratum:17-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24306>
+        skos:closeMatch  stratum:50-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61210>
+        skos:closeMatch  stratum:11-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41405>
+        skos:closeMatch  stratum:34-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21202>
+        skos:closeMatch  stratum:20-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30010>
+        skos:closeMatch  stratum:28-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42301>
+        skos:closeMatch  stratum:16-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52106>
+        skos:closeMatch  stratum:03-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61704>
+        skos:closeMatch  stratum:29-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11101>
+        skos:closeMatch  stratum:15-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42416>
+        skos:closeMatch  stratum:19-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11216>
+        skos:closeMatch  stratum:27-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61408>
+        skos:closeMatch  stratum:18-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41205>
+        skos:closeMatch  stratum:09-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41913>
+        skos:closeMatch  stratum:49-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42101>
+        skos:closeMatch  stratum:02-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41502>
+        skos:closeMatch  stratum:37-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51307>
+        skos:closeMatch  stratum:25-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52203>
+        skos:closeMatch  stratum:12-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62008>
+        skos:closeMatch  stratum:30-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61801>
+        skos:closeMatch  stratum:41-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24107>
+        skos:closeMatch  stratum:22-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42513>
+        skos:closeMatch  stratum:45-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51321>
+        skos:closeMatch  stratum:25-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11313>
+        skos:closeMatch  stratum:32-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21118>
+        skos:closeMatch  stratum:01-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61505>
+        skos:closeMatch  stratum:21-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41302>
+        skos:closeMatch  stratum:24-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51107>
+        skos:closeMatch  stratum:08-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07022>
+        skos:closeMatch  stratum:38-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24121>
+        skos:closeMatch  stratum:22-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22014>
+        skos:closeMatch  stratum:31-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51404>
+        skos:closeMatch  stratum:43-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61209>
+        skos:closeMatch  stratum:11-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43113>
+        skos:closeMatch  stratum:06-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30009>
+        skos:closeMatch  stratum:28-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41714>
+        skos:closeMatch  stratum:42-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51121>
+        skos:closeMatch  stratum:08-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24204>
+        skos:closeMatch  stratum:44-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11410>
+        skos:closeMatch  stratum:36-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61602>
+        skos:closeMatch  stratum:23-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51204>
+        skos:closeMatch  stratum:17-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42314>
+        skos:closeMatch  stratum:16-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61717>
+        skos:closeMatch  stratum:29-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11114>
+        skos:closeMatch  stratum:15-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61306>
+        skos:closeMatch  stratum:14-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43210>
+        skos:closeMatch  stratum:10-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41103>
+        skos:closeMatch  stratum:05-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13007>
+        skos:closeMatch  stratum:39-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12010>
+        skos:closeMatch  stratum:33-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41811>
+        skos:closeMatch  stratum:47-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41218>
+        skos:closeMatch  stratum:09-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24301>
+        skos:closeMatch  stratum:50-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42114>
+        skos:closeMatch  stratum:02-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41515>
+        skos:closeMatch  stratum:37-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21312>
+        skos:closeMatch  stratum:48-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52101>
+        skos:closeMatch  stratum:03-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61106>
+        skos:closeMatch  stratum:04-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42411>
+        skos:closeMatch  stratum:19-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52216>
+        skos:closeMatch  stratum:12-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11211>
+        skos:closeMatch  stratum:27-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61403>
+        skos:closeMatch  stratum:18-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61518>
+        skos:closeMatch  stratum:21-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41315>
+        skos:closeMatch  stratum:24-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51302>
+        skos:closeMatch  stratum:25-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22027>
+        skos:closeMatch  stratum:31-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41612>
+        skos:closeMatch  stratum:40-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51417>
+        skos:closeMatch  stratum:43-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11409>
+        skos:closeMatch  stratum:36-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62003>
+        skos:closeMatch  stratum:30-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24102>
+        skos:closeMatch  stratum:22-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07003>
+        skos:closeMatch  stratum:35-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51134>
+        skos:closeMatch  stratum:08-34 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24217>
+        skos:closeMatch  stratum:44-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21113>
+        skos:closeMatch  stratum:01-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51102>
+        skos:closeMatch  stratum:08-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42212>
+        skos:closeMatch  stratum:13-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43209>
+        skos:closeMatch  stratum:10-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23006>
+        skos:closeMatch  stratum:26-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05308>
+        skos:closeMatch  stratum:07-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61615>
+        skos:closeMatch  stratum:23-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12009>
+        skos:closeMatch  stratum:33-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51217>
+        skos:closeMatch  stratum:17-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42327>
+        skos:closeMatch  stratum:16-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61204>
+        skos:closeMatch  stratum:11-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30004>
+        skos:closeMatch  stratum:28-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43223>
+        skos:closeMatch  stratum:10-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41116>
+        skos:closeMatch  stratum:05-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24314>
+        skos:closeMatch  stratum:50-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41413>
+        skos:closeMatch  stratum:34-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21210>
+        skos:closeMatch  stratum:20-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61712>
+        skos:closeMatch  stratum:29-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41907>
+        skos:closeMatch  stratum:49-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42424>
+        skos:closeMatch  stratum:19-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61301>
+        skos:closeMatch  stratum:14-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13002>
+        skos:closeMatch  stratum:39-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61416>
+        skos:closeMatch  stratum:18-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41213>
+        skos:closeMatch  stratum:09-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42507>
+        skos:closeMatch  stratum:45-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41510>
+        skos:closeMatch  stratum:37-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51315>
+        skos:closeMatch  stratum:25-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11307>
+        skos:closeMatch  stratum:32-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61101>
+        skos:closeMatch  stratum:04-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52211>
+        skos:closeMatch  stratum:12-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07016>
+        skos:closeMatch  stratum:38-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24115>
+        skos:closeMatch  stratum:22-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22008>
+        skos:closeMatch  stratum:31-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43107>
+        skos:closeMatch  stratum:06-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61513>
+        skos:closeMatch  stratum:21-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41708>
+        skos:closeMatch  stratum:42-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41310>
+        skos:closeMatch  stratum:24-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51115>
+        skos:closeMatch  stratum:08-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23019>
+        skos:closeMatch  stratum:26-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22022>
+        skos:closeMatch  stratum:31-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07030>
+        skos:closeMatch  stratum:38-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51412>
+        skos:closeMatch  stratum:43-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11404>
+        skos:closeMatch  stratum:36-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21209>
+        skos:closeMatch  stratum:20-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30017>
+        skos:closeMatch  stratum:28-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41722>
+        skos:closeMatch  stratum:42-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42308>
+        skos:closeMatch  stratum:16-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24212>
+        skos:closeMatch  stratum:44-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11108>
+        skos:closeMatch  stratum:15-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43204>
+        skos:closeMatch  stratum:10-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23001>
+        skos:closeMatch  stratum:26-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05303>
+        skos:closeMatch  stratum:07-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61610>
+        skos:closeMatch  stratum:23-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12004>
+        skos:closeMatch  stratum:33-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41805>
+        skos:closeMatch  stratum:47-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51212>
+        skos:closeMatch  stratum:17-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42322>
+        skos:closeMatch  stratum:16-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42108>
+        skos:closeMatch  stratum:02-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41509>
+        skos:closeMatch  stratum:37-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41111>
+        skos:closeMatch  stratum:05-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21306>
+        skos:closeMatch  stratum:48-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13015>
+        skos:closeMatch  stratum:39-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41226>
+        skos:closeMatch  stratum:09-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42405>
+        skos:closeMatch  stratum:19-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61808>
+        skos:closeMatch  stratum:41-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11205>
+        skos:closeMatch  stratum:27-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51328>
+        skos:closeMatch  stratum:25-28 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41902>
+        skos:closeMatch  stratum:49-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41309>
+        skos:closeMatch  stratum:24-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07029>
+        skos:closeMatch  stratum:38-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61411>
+        skos:closeMatch  stratum:18-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41606>
+        skos:closeMatch  stratum:40-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41323>
+        skos:closeMatch  stratum:24-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51128>
+        skos:closeMatch  stratum:08-28 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42502>
+        skos:closeMatch  stratum:45-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52307>
+        skos:closeMatch  stratum:46-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51310>
+        skos:closeMatch  stratum:25-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11302>
+        skos:closeMatch  stratum:32-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21107>
+        skos:closeMatch  stratum:01-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07011>
+        skos:closeMatch  stratum:38-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62011>
+        skos:closeMatch  stratum:30-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42206>
+        skos:closeMatch  stratum:13-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24110>
+        skos:closeMatch  stratum:22-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22003>
+        skos:closeMatch  stratum:31-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61609>
+        skos:closeMatch  stratum:23-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24225>
+        skos:closeMatch  stratum:44-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43102>
+        skos:closeMatch  stratum:06-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41703>
+        skos:closeMatch  stratum:42-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51110>
+        skos:closeMatch  stratum:08-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43217>
+        skos:closeMatch  stratum:10-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23014>
+        skos:closeMatch  stratum:26-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12017>
+        skos:closeMatch  stratum:33-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61623>
+        skos:closeMatch  stratum:23-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51225>
+        skos:closeMatch  stratum:17-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61212>
+        skos:closeMatch  stratum:11-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41407>
+        skos:closeMatch  stratum:34-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24308>
+        skos:closeMatch  stratum:50-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21204>
+        skos:closeMatch  stratum:20-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30012>
+        skos:closeMatch  stratum:28-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42303>
+        skos:closeMatch  stratum:16-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52108>
+        skos:closeMatch  stratum:03-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61706>
+        skos:closeMatch  stratum:29-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11103>
+        skos:closeMatch  stratum:15-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42418>
+        skos:closeMatch  stratum:19-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41207>
+        skos:closeMatch  stratum:09-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61720>
+        skos:closeMatch  stratum:29-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41915>
+        skos:closeMatch  stratum:49-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42103>
+        skos:closeMatch  stratum:02-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21301>
+        skos:closeMatch  stratum:48-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41504>
+        skos:closeMatch  stratum:37-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51309>
+        skos:closeMatch  stratum:25-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13010>
+        skos:closeMatch  stratum:39-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41221>
+        skos:closeMatch  stratum:09-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52205>
+        skos:closeMatch  stratum:12-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61803>
+        skos:closeMatch  stratum:41-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24109>
+        skos:closeMatch  stratum:22-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51323>
+        skos:closeMatch  stratum:25-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61507>
+        skos:closeMatch  stratum:21-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41304>
+        skos:closeMatch  stratum:24-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51109>
+        skos:closeMatch  stratum:08-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24123>
+        skos:closeMatch  stratum:22-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22016>
+        skos:closeMatch  stratum:31-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07024>
+        skos:closeMatch  stratum:38-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41601>
+        skos:closeMatch  stratum:40-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51406>
+        skos:closeMatch  stratum:43-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61521>
+        skos:closeMatch  stratum:21-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41716>
+        skos:closeMatch  stratum:42-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51123>
+        skos:closeMatch  stratum:08-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52302>
+        skos:closeMatch  stratum:46-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24206>
+        skos:closeMatch  stratum:44-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21102>
+        skos:closeMatch  stratum:01-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11412>
+        skos:closeMatch  stratum:36-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42201>
+        skos:closeMatch  stratum:13-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61604>
+        skos:closeMatch  stratum:23-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51206>
+        skos:closeMatch  stratum:17-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42316>
+        skos:closeMatch  stratum:16-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24220>
+        skos:closeMatch  stratum:44-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61719>
+        skos:closeMatch  stratum:29-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11116>
+        skos:closeMatch  stratum:15-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43212>
+        skos:closeMatch  stratum:10-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61308>
+        skos:closeMatch  stratum:14-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41105>
+        skos:closeMatch  stratum:05-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05311>
+        skos:closeMatch  stratum:07-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13009>
+        skos:closeMatch  stratum:39-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12012>
+        skos:closeMatch  stratum:33-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41813>
+        skos:closeMatch  stratum:47-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51220>
+        skos:closeMatch  stratum:17-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41402>
+        skos:closeMatch  stratum:34-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24303>
+        skos:closeMatch  stratum:50-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42116>
+        skos:closeMatch  stratum:02-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41517>
+        skos:closeMatch  stratum:37-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52103>
+        skos:closeMatch  stratum:03-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61701>
+        skos:closeMatch  stratum:29-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61108>
+        skos:closeMatch  stratum:04-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42413>
+        skos:closeMatch  stratum:19-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52218>
+        skos:closeMatch  stratum:12-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11213>
+        skos:closeMatch  stratum:27-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61405>
+        skos:closeMatch  stratum:18-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41202>
+        skos:closeMatch  stratum:09-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41910>
+        skos:closeMatch  stratum:49-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41317>
+        skos:closeMatch  stratum:24-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51304>
+        skos:closeMatch  stratum:25-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41614>
+        skos:closeMatch  stratum:40-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62005>
+        skos:closeMatch  stratum:30-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24104>
+        skos:closeMatch  stratum:22-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07005>
+        skos:closeMatch  stratum:35-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51136>
+        skos:closeMatch  stratum:08-36 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42510>
+        skos:closeMatch  stratum:45-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11310>
+        skos:closeMatch  stratum:32-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24219>
+        skos:closeMatch  stratum:44-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21115>
+        skos:closeMatch  stratum:01-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61502>
+        skos:closeMatch  stratum:21-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51104>
+        skos:closeMatch  stratum:08-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42214>
+        skos:closeMatch  stratum:13-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23008>
+        skos:closeMatch  stratum:26-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22011>
+        skos:closeMatch  stratum:31-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61617>
+        skos:closeMatch  stratum:23-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51219>
+        skos:closeMatch  stratum:17-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51401>
+        skos:closeMatch  stratum:43-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61206>
+        skos:closeMatch  stratum:11-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43110>
+        skos:closeMatch  stratum:06-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30006>
+        skos:closeMatch  stratum:28-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41711>
+        skos:closeMatch  stratum:42-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41118>
+        skos:closeMatch  stratum:05-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43225>
+        skos:closeMatch  stratum:10-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24201>
+        skos:closeMatch  stratum:44-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21212>
+        skos:closeMatch  stratum:20-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30020>
+        skos:closeMatch  stratum:28-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51201>
+        skos:closeMatch  stratum:17-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42311>
+        skos:closeMatch  stratum:16-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11111>
+        skos:closeMatch  stratum:15-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61714>
+        skos:closeMatch  stratum:29-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41909>
+        skos:closeMatch  stratum:49-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42426>
+        skos:closeMatch  stratum:19-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61303>
+        skos:closeMatch  stratum:14-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13004>
+        skos:closeMatch  stratum:39-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61418>
+        skos:closeMatch  stratum:18-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41215>
+        skos:closeMatch  stratum:09-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42509>
+        skos:closeMatch  stratum:45-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42111>
+        skos:closeMatch  stratum:02-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41512>
+        skos:closeMatch  stratum:37-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51317>
+        skos:closeMatch  stratum:25-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11309>
+        skos:closeMatch  stratum:32-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61103>
+        skos:closeMatch  stratum:04-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52213>
+        skos:closeMatch  stratum:12-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24117>
+        skos:closeMatch  stratum:22-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61811>
+        skos:closeMatch  stratum:41-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07018>
+        skos:closeMatch  stratum:38-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51331>
+        skos:closeMatch  stratum:25-31 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43109>
+        skos:closeMatch  stratum:06-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61515>
+        skos:closeMatch  stratum:21-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41312>
+        skos:closeMatch  stratum:24-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51117>
+        skos:closeMatch  stratum:08-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22024>
+        skos:closeMatch  stratum:31-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51414>
+        skos:closeMatch  stratum:43-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11406>
+        skos:closeMatch  stratum:36-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30019>
+        skos:closeMatch  stratum:28-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41724>
+        skos:closeMatch  stratum:42-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51131>
+        skos:closeMatch  stratum:08-31 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52310>
+        skos:closeMatch  stratum:46-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24214>
+        skos:closeMatch  stratum:44-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21110>
+        skos:closeMatch  stratum:01-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43206>
+        skos:closeMatch  stratum:10-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23003>
+        skos:closeMatch  stratum:26-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05305>
+        skos:closeMatch  stratum:07-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61612>
+        skos:closeMatch  stratum:23-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12006>
+        skos:closeMatch  stratum:33-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41807>
+        skos:closeMatch  stratum:47-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51214>
+        skos:closeMatch  stratum:17-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42324>
+        skos:closeMatch  stratum:16-24 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61201>
+        skos:closeMatch  stratum:11-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30001>
+        skos:closeMatch  stratum:28-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43220>
+        skos:closeMatch  stratum:10-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41113>
+        skos:closeMatch  stratum:05-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21308>
+        skos:closeMatch  stratum:48-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13017>
+        skos:closeMatch  stratum:39-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12020>
+        skos:closeMatch  stratum:33-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41228>
+        skos:closeMatch  stratum:09-28 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42407>
+        skos:closeMatch  stratum:19-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24311>
+        skos:closeMatch  stratum:50-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41410>
+        skos:closeMatch  stratum:34-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11207>
+        skos:closeMatch  stratum:27-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41904>
+        skos:closeMatch  stratum:49-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42421>
+        skos:closeMatch  stratum:19-21 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41210>
+        skos:closeMatch  stratum:09-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61413>
+        skos:closeMatch  stratum:18-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41608>
+        skos:closeMatch  stratum:40-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42504>
+        skos:closeMatch  stratum:45-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52309>
+        skos:closeMatch  stratum:46-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51312>
+        skos:closeMatch  stratum:25-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11304>
+        skos:closeMatch  stratum:32-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21109>
+        skos:closeMatch  stratum:01-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24112>
+        skos:closeMatch  stratum:22-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22005>
+        skos:closeMatch  stratum:31-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42208>
+        skos:closeMatch  stratum:13-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07013>
+        skos:closeMatch  stratum:38-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24227>
+        skos:closeMatch  stratum:44-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43104>
+        skos:closeMatch  stratum:06-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61510>
+        skos:closeMatch  stratum:21-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41705>
+        skos:closeMatch  stratum:42-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51112>
+        skos:closeMatch  stratum:08-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43219>
+        skos:closeMatch  stratum:10-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23016>
+        skos:closeMatch  stratum:26-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12019>
+        skos:closeMatch  stratum:33-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51227>
+        skos:closeMatch  stratum:17-27 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61214>
+        skos:closeMatch  stratum:11-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41409>
+        skos:closeMatch  stratum:34-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11401>
+        skos:closeMatch  stratum:36-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21206>
+        skos:closeMatch  stratum:20-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30014>
+        skos:closeMatch  stratum:28-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42305>
+        skos:closeMatch  stratum:16-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61708>
+        skos:closeMatch  stratum:29-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11105>
+        skos:closeMatch  stratum:15-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43201>
+        skos:closeMatch  stratum:10-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12001>
+        skos:closeMatch  stratum:33-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41802>
+        skos:closeMatch  stratum:47-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41209>
+        skos:closeMatch  stratum:09-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42105>
+        skos:closeMatch  stratum:02-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61311>
+        skos:closeMatch  stratum:14-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41506>
+        skos:closeMatch  stratum:37-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21303>
+        skos:closeMatch  stratum:48-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13012>
+        skos:closeMatch  stratum:39-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41223>
+        skos:closeMatch  stratum:09-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42402>
+        skos:closeMatch  stratum:19-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52207>
+        skos:closeMatch  stratum:12-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES618-61805>
+        skos:closeMatch  stratum:41-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11202>
+        skos:closeMatch  stratum:27-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51325>
+        skos:closeMatch  stratum:25-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61111>
+        skos:closeMatch  stratum:04-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61509>
+        skos:closeMatch  stratum:21-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41306>
+        skos:closeMatch  stratum:24-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07026>
+        skos:closeMatch  stratum:38-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24125>
+        skos:closeMatch  stratum:22-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22018>
+        skos:closeMatch  stratum:31-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41603>
+        skos:closeMatch  stratum:40-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51408>
+        skos:closeMatch  stratum:43-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61523>
+        skos:closeMatch  stratum:21-23 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41718>
+        skos:closeMatch  stratum:42-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41320>
+        skos:closeMatch  stratum:24-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51125>
+        skos:closeMatch  stratum:08-25 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES523-52304>
+        skos:closeMatch  stratum:46-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24208>
+        skos:closeMatch  stratum:44-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21104>
+        skos:closeMatch  stratum:01-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11414>
+        skos:closeMatch  stratum:36-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42203>
+        skos:closeMatch  stratum:13-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61606>
+        skos:closeMatch  stratum:23-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51208>
+        skos:closeMatch  stratum:17-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42318>
+        skos:closeMatch  stratum:16-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24222>
+        skos:closeMatch  stratum:44-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11118>
+        skos:closeMatch  stratum:15-18 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41107>
+        skos:closeMatch  stratum:05-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43214>
+        skos:closeMatch  stratum:10-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23011>
+        skos:closeMatch  stratum:26-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61620>
+        skos:closeMatch  stratum:23-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12014>
+        skos:closeMatch  stratum:33-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51222>
+        skos:closeMatch  stratum:17-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24305>
+        skos:closeMatch  stratum:50-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41404>
+        skos:closeMatch  stratum:34-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21201>
+        skos:closeMatch  stratum:20-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES521-52105>
+        skos:closeMatch  stratum:03-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61703>
+        skos:closeMatch  stratum:29-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42415>
+        skos:closeMatch  stratum:19-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11215>
+        skos:closeMatch  stratum:27-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61407>
+        skos:closeMatch  stratum:18-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41204>
+        skos:closeMatch  stratum:09-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES419-41912>
+        skos:closeMatch  stratum:49-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41319>
+        skos:closeMatch  stratum:24-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41501>
+        skos:closeMatch  stratum:37-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51306>
+        skos:closeMatch  stratum:25-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41616>
+        skos:closeMatch  stratum:40-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52202>
+        skos:closeMatch  stratum:12-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62007>
+        skos:closeMatch  stratum:30-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24106>
+        skos:closeMatch  stratum:22-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51138>
+        skos:closeMatch  stratum:08-38 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES425-42512>
+        skos:closeMatch  stratum:45-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51320>
+        skos:closeMatch  stratum:25-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES113-11312>
+        skos:closeMatch  stratum:32-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21117>
+        skos:closeMatch  stratum:01-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61504>
+        skos:closeMatch  stratum:21-04 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41301>
+        skos:closeMatch  stratum:24-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51106>
+        skos:closeMatch  stratum:08-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07021>
+        skos:closeMatch  stratum:38-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22013>
+        skos:closeMatch  stratum:31-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24120>
+        skos:closeMatch  stratum:22-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61619>
+        skos:closeMatch  stratum:23-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51403>
+        skos:closeMatch  stratum:43-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61208>
+        skos:closeMatch  stratum:11-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES431-43112>
+        skos:closeMatch  stratum:06-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30008>
+        skos:closeMatch  stratum:28-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES417-41713>
+        skos:closeMatch  stratum:42-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51120>
+        skos:closeMatch  stratum:08-20 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24203>
+        skos:closeMatch  stratum:44-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES212-21214>
+        skos:closeMatch  stratum:20-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61601>
+        skos:closeMatch  stratum:23-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51203>
+        skos:closeMatch  stratum:17-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42313>
+        skos:closeMatch  stratum:16-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61716>
+        skos:closeMatch  stratum:29-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES111-11113>
+        skos:closeMatch  stratum:15-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES613-61305>
+        skos:closeMatch  stratum:14-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41102>
+        skos:closeMatch  stratum:05-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13006>
+        skos:closeMatch  stratum:39-06 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41810>
+        skos:closeMatch  stratum:47-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41217>
+        skos:closeMatch  stratum:09-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES421-42113>
+        skos:closeMatch  stratum:02-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES213-21311>
+        skos:closeMatch  stratum:48-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES415-41514>
+        skos:closeMatch  stratum:37-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51319>
+        skos:closeMatch  stratum:25-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES412-41231>
+        skos:closeMatch  stratum:09-31 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES611-61105>
+        skos:closeMatch  stratum:04-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42410>
+        skos:closeMatch  stratum:19-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES522-52215>
+        skos:closeMatch  stratum:12-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11210>
+        skos:closeMatch  stratum:27-10 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24119>
+        skos:closeMatch  stratum:22-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES614-61402>
+        skos:closeMatch  stratum:18-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51333>
+        skos:closeMatch  stratum:25-33 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES615-61517>
+        skos:closeMatch  stratum:21-17 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES413-41314>
+        skos:closeMatch  stratum:24-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51119>
+        skos:closeMatch  stratum:08-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES513-51301>
+        skos:closeMatch  stratum:25-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES220-22026>
+        skos:closeMatch  stratum:31-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES416-41611>
+        skos:closeMatch  stratum:40-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES514-51416>
+        skos:closeMatch  stratum:43-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES114-11408>
+        skos:closeMatch  stratum:36-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES620-62002>
+        skos:closeMatch  stratum:30-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES241-24101>
+        skos:closeMatch  stratum:22-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES070-07002>
+        skos:closeMatch  stratum:35-02 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51133>
+        skos:closeMatch  stratum:08-33 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES242-24216>
+        skos:closeMatch  stratum:44-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES211-21112>
+        skos:closeMatch  stratum:01-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES511-51101>
+        skos:closeMatch  stratum:08-01 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES230-23005>
+        skos:closeMatch  stratum:26-05 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43208>
+        skos:closeMatch  stratum:10-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES422-42211>
+        skos:closeMatch  stratum:13-11 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES053-05307>
+        skos:closeMatch  stratum:07-07 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12008>
+        skos:closeMatch  stratum:33-08 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES616-61614>
+        skos:closeMatch  stratum:23-14 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES418-41809>
+        skos:closeMatch  stratum:47-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES512-51216>
+        skos:closeMatch  stratum:17-16 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES423-42326>
+        skos:closeMatch  stratum:16-26 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES612-61203>
+        skos:closeMatch  stratum:11-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES300-30003>
+        skos:closeMatch  stratum:28-03 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES432-43222>
+        skos:closeMatch  stratum:10-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES411-41115>
+        skos:closeMatch  stratum:05-15 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES130-13019>
+        skos:closeMatch  stratum:39-19 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES120-12022>
+        skos:closeMatch  stratum:33-22 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES414-41412>
+        skos:closeMatch  stratum:34-12 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES424-42409>
+        skos:closeMatch  stratum:19-09 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES243-24313>
+        skos:closeMatch  stratum:50-13 .
+
+<http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES112-11209>
+        skos:closeMatch  stratum:27-09 .
