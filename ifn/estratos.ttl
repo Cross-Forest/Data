@@ -1798,6 +1798,10 @@ stratum:08-16  a                       ifn:Stratum ;
         ifn:isInProvince               province:08 ;
         ifn:numberOfPlots              numberOfPlots:08 .
 
+area:16  a            smo:Measure ;
+        smo:hasUnit   unit:Hectares ;
+        smo:hasValue  701343.8 .
+
 stratum:37-12  a                       ifn:Stratum ;
         ifn:codigo                     "37-12" ;
         ifn:hasDominantSpecies         ds:5 ;
@@ -1806,10 +1810,6 @@ stratum:37-12  a                       ifn:Stratum ;
         ifn:hasNumberOfPlotsInUnities  "92"^^xsd:decimal ;
         ifn:isInProvince               province:37 ;
         ifn:numberOfPlots              numberOfPlots:37 .
-
-area:16  a            smo:Measure ;
-        smo:hasUnit   unit:Hectares ;
-        smo:hasValue  701343.8 .
 
 stratum:15-02  a                       ifn:Stratum ;
         ifn:codigo                     "15-02" ;
@@ -4943,6 +4943,12 @@ numberOfPlots:02-10  a  smo:Measure ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  "42"^^xsd:decimal .
 
+province:09  a                         ifn:Province ;
+        ifn:hasNumberOfPlotsInUnities  "2768"^^xsd:decimal ;
+        ifn:numberOfPlots              numberOfPlots:09 ;
+        spo:hasForestArea              area:09 ;
+        spo:hasForestAreaInHC          475799.8 .
+
 stratum:39-10  a                       ifn:Stratum ;
         ifn:codigo                     "39-10" ;
         ifn:hasDominantSpecies         ds:7 ;
@@ -4951,12 +4957,6 @@ stratum:39-10  a                       ifn:Stratum ;
         ifn:hasNumberOfPlotsInUnities  "86"^^xsd:decimal ;
         ifn:isInProvince               province:39 ;
         ifn:numberOfPlots              numberOfPlots:39 .
-
-province:09  a                         ifn:Province ;
-        ifn:hasNumberOfPlotsInUnities  "2768"^^xsd:decimal ;
-        ifn:numberOfPlots              numberOfPlots:09 ;
-        spo:hasForestArea              area:09 ;
-        spo:hasForestAreaInHC          475799.8 .
 
 area:49  a            smo:Measure ;
         smo:hasUnit   unit:Hectares ;
@@ -6715,6 +6715,10 @@ stratum:08-19  a                       ifn:Stratum ;
         ifn:isInProvince               province:08 ;
         ifn:numberOfPlots              numberOfPlots:08 .
 
+area:19  a            smo:Measure ;
+        smo:hasUnit   unit:Hectares ;
+        smo:hasValue  553732.0 .
+
 stratum:37-15  a                       ifn:Stratum ;
         ifn:codigo                     "37-15" ;
         ifn:hasDominantSpecies         ds:4 ;
@@ -6723,10 +6727,6 @@ stratum:37-15  a                       ifn:Stratum ;
         ifn:hasNumberOfPlotsInUnities  "69"^^xsd:decimal ;
         ifn:isInProvince               province:37 ;
         ifn:numberOfPlots              numberOfPlots:37 .
-
-area:19  a            smo:Measure ;
-        smo:hasUnit   unit:Hectares ;
-        smo:hasValue  553732.0 .
 
 numberOfPlots:17-10  a  smo:Measure ;
         smo:hasUnit   unit:Unities ;
@@ -7973,6 +7973,10 @@ stratum:08-30  a                       ifn:Stratum ;
         ifn:isInProvince               province:08 ;
         ifn:numberOfPlots              numberOfPlots:08 .
 
+area:30  a            smo:Measure ;
+        smo:hasUnit   unit:Hectares ;
+        smo:hasValue  316291.9 .
+
 stratum:38-19  a                       ifn:Stratum ;
         ifn:codigo                     "38-19" ;
         ifn:hasDominantSpecies         ds:7 ;
@@ -7981,10 +7985,6 @@ stratum:38-19  a                       ifn:Stratum ;
         ifn:hasNumberOfPlotsInUnities  "65"^^xsd:decimal ;
         ifn:isInProvince               province:38 ;
         ifn:numberOfPlots              numberOfPlots:38 .
-
-area:30  a            smo:Measure ;
-        smo:hasUnit   unit:Hectares ;
-        smo:hasValue  316291.9 .
 
 numberOfPlots:18-14  a  smo:Measure ;
         smo:hasUnit   unit:Unities ;
@@ -9398,6 +9398,10 @@ stratum:08-18  a                       ifn:Stratum ;
         ifn:isInProvince               province:08 ;
         ifn:numberOfPlots              numberOfPlots:08 .
 
+area:18  a            smo:Measure ;
+        smo:hasUnit   unit:Hectares ;
+        smo:hasValue  335751.9 .
+
 stratum:37-14  a                       ifn:Stratum ;
         ifn:codigo                     "37-14" ;
         ifn:hasDominantSpecies         ds:5 ;
@@ -9406,10 +9410,6 @@ stratum:37-14  a                       ifn:Stratum ;
         ifn:hasNumberOfPlotsInUnities  "75"^^xsd:decimal ;
         ifn:isInProvince               province:37 ;
         ifn:numberOfPlots              numberOfPlots:37 .
-
-area:18  a            smo:Measure ;
-        smo:hasUnit   unit:Hectares ;
-        smo:hasValue  335751.9 .
 
 stratum:15-04  a                       ifn:Stratum ;
         ifn:codigo                     "15-04" ;
@@ -11966,6 +11966,10 @@ stratum:08-17  a                       ifn:Stratum ;
         ifn:isInProvince               province:08 ;
         ifn:numberOfPlots              numberOfPlots:08 .
 
+area:17  a            smo:Measure ;
+        smo:hasUnit   unit:Hectares ;
+        smo:hasValue  365929.9 .
+
 stratum:37-13  a                       ifn:Stratum ;
         ifn:codigo                     "37-13" ;
         ifn:hasDominantSpecies         ds:5 ;
@@ -11974,10 +11978,6 @@ stratum:37-13  a                       ifn:Stratum ;
         ifn:hasNumberOfPlotsInUnities  "78"^^xsd:decimal ;
         ifn:isInProvince               province:37 ;
         ifn:numberOfPlots              numberOfPlots:37 .
-
-area:17  a            smo:Measure ;
-        smo:hasUnit   unit:Hectares ;
-        smo:hasValue  365929.9 .
 
 stratum:15-03  a                       ifn:Stratum ;
         ifn:codigo                     "15-03" ;
