@@ -1,0 +1,442 @@
+@prefix area:  <http://crossforest.eu/mfe/data/area/> .
+@prefix wkt:   <http://www.opengis.net/ont/geosparql#> .
+@prefix occupationOfSpecies: <http://crossforest.eu/mfe/data/occupationOfSpecies/> .
+@prefix crs:   <http://crossforest.eu/epsg/data/crs/> .
+@prefix bound: <http://crossforest.eu/mfe/data/bound/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix canopyCover: <http://crossforest.eu/mfe/data/canopyCover/> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix infoSpecies: <http://crossforest.eu/mfe/data/infoSpecies/> .
+@prefix axis:  <http://epsg.w3id.org/data/axis/> .
+@prefix mfe:   <http://crossforest.eu/mfe/ontology/> .
+@prefix layer: <http://crossforest.eu/mfe/data/layer/> .
+@prefix ifn:   <http://crossforest.eu/ifn/ontology/> .
+@prefix epsg:  <http://epsg.w3id.org/ontology/> .
+@prefix patch: <http://crossforest.eu/mfe/data/patch/> .
+@prefix unit:  <http://crossforest.eu/measures/data/unit/> .
+@prefix spo:   <http://crossforest.eu/position/ontology/> .
+@prefix smo:   <http://crossforest.eu/measures/ontology/> .
+@prefix polygon: <http://crossforest.eu/mfe/data/polygon/> .
+@prefix province: <http://crossforest.eu/ifn/data/province/> .
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+
+patch:s5-04-353032  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-353032-4326 ;
+        esadm:provincia  province:04 .
+
+bound:107--2.109583  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.109583 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--1.630655  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -1.630655 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:s5-04-353549-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  234166.322587 ;
+        spo:hasLeftBound           bound:107--2.087956 ;
+        spo:hasLowerBound          bound:106-37.873001 ;
+        spo:hasRightBound          bound:107--2.079784 ;
+        spo:hasUpperBound          bound:106-37.878691 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -2.087956 ;
+        epsg:hasLowerBound106      37.873001 ;
+        epsg:hasRightBound107      -2.079784 ;
+        epsg:hasUpperBound106      37.878691 ;
+        wkt:asWKT                  "POLYGON((-2.081822 37.87578, -2.080275 37.876671, -2.079784 37.877618, -2.082708 37.878691, -2.084392 37.878433, -2.087956 37.878557, -2.086329 37.877727, -2.086509 37.87691, -2.084697 37.875035, -2.08513 37.873562, -2.084877 37.873001, -2.083285 37.873358, -2.081822 37.87578))"^^wkt:wktLiteral .
+
+bound:107--1.638607  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -1.638607 ;
+        epsg:hasAxis  axis:107 .
+
+patch:s5-04-353551  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-353551-4326 ;
+        esadm:provincia  province:04 .
+
+bound:107--1.63064  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -1.63064 ;
+        epsg:hasAxis  axis:107 .
+
+patch:s5-04-353549  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-353549-4326 ;
+        esadm:provincia  province:04 .
+
+bound:107--2.080275  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.080275 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.869038  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.869038 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.873562  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.873562 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.878557  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.878557 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.873001  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.873001 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.382386  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.382386 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.084697  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.084697 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:s5-04-353071-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  293.254818863 ;
+        spo:hasLeftBound           bound:107--2.025509 ;
+        spo:hasLowerBound          bound:106-37.86888 ;
+        spo:hasRightBound          bound:107--2.025289 ;
+        spo:hasUpperBound          bound:106-37.869069 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -2.025509 ;
+        epsg:hasLowerBound106      37.86888 ;
+        epsg:hasRightBound107      -2.025289 ;
+        epsg:hasUpperBound106      37.869069 ;
+        wkt:asWKT                  "POLYGON((-2.025501 37.86899, -2.025455 37.868893, -2.025341 37.86888, -2.025289 37.869038, -2.025509 37.869069, -2.025501 37.86899))"^^wkt:wktLiteral .
+
+patch:s5-04-326100  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-326100-4326 ;
+        esadm:provincia  province:04 .
+
+patch:s5-04-353071  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-353071-4326 ;
+        esadm:provincia  province:04 .
+
+bound:107--1.630239  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -1.630239 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.878691  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.878691 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--1.638605  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -1.638605 ;
+        epsg:hasAxis  axis:107 .
+
+patch:s5-04-353621  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-353621-4326 ;
+        esadm:provincia  province:04 .
+
+bound:107--2.077779  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.077779 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:s5-04-353782-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  154.36358173 ;
+        spo:hasLeftBound           bound:107--2.109583 ;
+        spo:hasLowerBound          bound:106-37.889476 ;
+        spo:hasRightBound          bound:107--2.109353 ;
+        spo:hasUpperBound          bound:106-37.889739 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -2.109583 ;
+        epsg:hasLowerBound106      37.889476 ;
+        epsg:hasRightBound107      -2.109353 ;
+        epsg:hasUpperBound106      37.889739 ;
+        wkt:asWKT                  "POLYGON((-2.109353 37.889476, -2.109359 37.889621, -2.109583 37.889739, -2.109507 37.889653, -2.109353 37.889476))"^^wkt:wktLiteral .
+
+bound:106-37.375292  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.375292 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.380878  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.380878 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.109353  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.109353 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.375569  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.375569 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.889476  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.889476 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.025289  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.025289 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:s5-04-326710-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  64.4101370069 ;
+        spo:hasLeftBound           bound:107--1.630655 ;
+        spo:hasLowerBound          bound:106-37.375292 ;
+        spo:hasRightBound          bound:107--1.630239 ;
+        spo:hasUpperBound          bound:106-37.375575 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -1.630655 ;
+        epsg:hasLowerBound106      37.375292 ;
+        epsg:hasRightBound107      -1.630239 ;
+        epsg:hasUpperBound106      37.375575 ;
+        wkt:asWKT                  "POLYGON((-1.630239 37.375292, -1.63064 37.375575, -1.630655 37.375569, -1.630636 37.375557, -1.630239 37.375292))"^^wkt:wktLiteral .
+
+patch:s5-04-353782  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-353782-4326 ;
+        esadm:provincia  province:04 .
+
+bound:106-37.873673  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.873673 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.876671  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.876671 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.058809  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.058809 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.868735  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.868735 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.042271  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.042271 ;
+        epsg:hasAxis  axis:107 .
+
+patch:s5-04-353526  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-353526-4326 ;
+        esadm:provincia  province:04 .
+
+bound:107--2.043926  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.043926 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.877975  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.877975 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.079784  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.079784 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.869069  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.869069 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-37.889739  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.889739 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.025341  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.025341 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.880001  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.880001 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.056095  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.056095 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.880874  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.880874 ;
+        epsg:hasAxis  axis:106 .
+
+patch:s5-04-326710  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-326710-4326 ;
+        esadm:provincia  province:04 .
+
+polygon:s5-04-326735-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  726.030349313 ;
+        spo:hasLeftBound           bound:107--1.638607 ;
+        spo:hasLowerBound          bound:106-37.375569 ;
+        spo:hasRightBound          bound:107--1.63064 ;
+        spo:hasUpperBound          bound:106-37.380878 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -1.638607 ;
+        epsg:hasLowerBound106      37.375569 ;
+        epsg:hasRightBound107      -1.63064 ;
+        epsg:hasUpperBound106      37.380878 ;
+        wkt:asWKT                  "POLYGON((-1.630655 37.375569, -1.63064 37.375575, -1.638605 37.380878, -1.638607 37.380876, -1.630655 37.375569))"^^wkt:wktLiteral .
+
+bound:106-37.375575  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.375575 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:s5-04-353551-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  14975.9057008 ;
+        spo:hasLeftBound           bound:107--2.080275 ;
+        spo:hasLowerBound          bound:106-37.876671 ;
+        spo:hasRightBound          bound:107--2.077779 ;
+        spo:hasUpperBound          bound:106-37.877975 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -2.080275 ;
+        epsg:hasLowerBound106      37.876671 ;
+        epsg:hasRightBound107      -2.077779 ;
+        epsg:hasUpperBound106      37.877975 ;
+        wkt:asWKT                  "POLYGON((-2.080275 37.876671, -2.077779 37.877975, -2.079784 37.877618, -2.080275 37.876671))"^^wkt:wktLiteral .
+
+bound:107--2.023321  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.023321 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.380876  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.380876 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--2.096366  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.096366 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:s5-04-326100-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  37.428586191 ;
+        spo:hasLeftBound           bound:107--1.640871 ;
+        spo:hasLowerBound          bound:106-37.380876 ;
+        spo:hasRightBound          bound:107--1.638605 ;
+        spo:hasUpperBound          bound:106-37.382386 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -1.640871 ;
+        epsg:hasLowerBound106      37.380876 ;
+        epsg:hasRightBound107      -1.638605 ;
+        epsg:hasUpperBound106      37.382386 ;
+        wkt:asWKT                  "POLYGON((-1.638607 37.380876, -1.638605 37.380878, -1.640871 37.382386, -1.63872 37.380951, -1.638607 37.380876))"^^wkt:wktLiteral .
+
+bound:107--1.640871  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -1.640871 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--2.087956  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.087956 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-37.87383  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.87383 ;
+        epsg:hasAxis  axis:106 .
+
+patch:s5-04-326735  a    mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:s5-04-326735-4326 ;
+        esadm:provincia  province:04 .
+
+polygon:s5-04-353032-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  4941.35195348 ;
+        spo:hasLeftBound           bound:107--2.025341 ;
+        spo:hasLowerBound          bound:106-37.868735 ;
+        spo:hasRightBound          bound:107--2.023321 ;
+        spo:hasUpperBound          bound:106-37.869038 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -2.025341 ;
+        epsg:hasLowerBound106      37.868735 ;
+        epsg:hasRightBound107      -2.023321 ;
+        epsg:hasUpperBound106      37.869038 ;
+        wkt:asWKT                  "POLYGON((-2.023321 37.868735, -2.025289 37.869038, -2.025341 37.86888, -2.023321 37.868735))"^^wkt:wktLiteral .
+
+polygon:s5-04-353621-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  176558.273585 ;
+        spo:hasLeftBound           bound:107--2.096366 ;
+        spo:hasLowerBound          bound:106-37.873562 ;
+        spo:hasRightBound          bound:107--2.084697 ;
+        spo:hasUpperBound          bound:106-37.878557 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -2.096366 ;
+        epsg:hasLowerBound106      37.873562 ;
+        epsg:hasRightBound107      -2.084697 ;
+        epsg:hasUpperBound106      37.878557 ;
+        wkt:asWKT                  "POLYGON((-2.088972 37.875651, -2.085825 37.87482, -2.08513 37.873562, -2.084697 37.875035, -2.086509 37.87691, -2.086329 37.877727, -2.087956 37.878557, -2.090683 37.87751, -2.095181 37.877573, -2.096366 37.877002, -2.094935 37.876611, -2.0902 37.876052, -2.088972 37.875651))"^^wkt:wktLiteral .
+
+bound:106-37.86888  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  37.86888 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:s5-04-353526-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  9854.56408064 , 5503.25228599 ;
+        spo:hasLeftBound           bound:107--2.058809 , bound:107--2.043926 ;
+        spo:hasLowerBound          bound:106-37.880001 , bound:106-37.873673 ;
+        spo:hasRightBound          bound:107--2.056095 , bound:107--2.042271 ;
+        spo:hasUpperBound          bound:106-37.87383 , bound:106-37.880874 ;
+        spo:isInLayer              layer:s5 ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -2.058809 , -2.043926 ;
+        epsg:hasLowerBound106      37.873673 , 37.880001 ;
+        epsg:hasRightBound107      -2.042271 , -2.056095 ;
+        epsg:hasUpperBound106      37.880874 , 37.87383 ;
+        wkt:asWKT                  "POLYGON((-2.042271 37.873777, -2.043926 37.87383, -2.042523 37.873674, -2.042448 37.873673, -2.042271 37.873777))"^^wkt:wktLiteral , "POLYGON((-2.056095 37.880682, -2.057605 37.880874, -2.058809 37.880001, -2.056095 37.880682))"^^wkt:wktLiteral .
+
+bound:107--2.025509  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -2.025509 ;
+        epsg:hasAxis  axis:107 .
