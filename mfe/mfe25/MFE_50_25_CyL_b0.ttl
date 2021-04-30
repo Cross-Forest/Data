@@ -1,0 +1,1304 @@
+@prefix area:  <http://crossforest.eu/mfe/data/area/> .
+@prefix wkt:   <http://www.opengis.net/ont/geosparql#> .
+@prefix crs:   <http://crossforest.eu/epsg/data/crs/> .
+@prefix bound: <http://crossforest.eu/mfe/data/bound/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix canopyCover: <http://crossforest.eu/mfe/data/canopyCover/> .
+@prefix iter:  <http://w3id.org/sparql-generate/iter/> .
+@prefix axis:  <http://epsg.w3id.org/data/axis/> .
+@prefix mfe:   <http://crossforest.eu/mfe/ontology/> .
+@prefix layer: <http://crossforest.eu/mfe/data/layer/> .
+@prefix ifn:   <http://crossforest.eu/ifn/ontology/> .
+@prefix epsg:  <http://epsg.w3id.org/ontology/> .
+@prefix patch: <http://crossforest.eu/mfe/data/patch/> .
+@prefix unit:  <http://crossforest.eu/measures/data/unit/> .
+@prefix spo:   <http://crossforest.eu/position/ontology/> .
+@prefix smo:   <http://crossforest.eu/measures/ontology/> .
+@prefix polygon: <http://crossforest.eu/mfe/data/polygon/> .
+@prefix province: <http://crossforest.eu/ifn/data/province/> .
+@prefix esadm: <http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#> .
+@prefix fun:   <http://w3id.org/sparql-generate/fn/> .
+
+bound:106-43.046788  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.046788 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.023635  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.023635 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.096761  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.096761 ;
+        epsg:hasAxis  axis:106 .
+
+patch:original-24-285144
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-285144-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--6.216724  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.216724 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.779723  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.779723 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--7.059744  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.059744 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.547774  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.547774 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.09228  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.09228 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.566742  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.566742 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:original-09-301846-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  1480.99434209 , 446.108701169 ;
+        spo:hasLeftBound           bound:107--3.580582 , bound:107--3.543679 ;
+        spo:hasLowerBound          bound:106-43.153082 , bound:106-43.145425 ;
+        spo:hasRightBound          bound:107--3.537126 , bound:107--3.576085 ;
+        spo:hasUpperBound          bound:106-43.14815 , bound:106-43.153406 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -3.543679 , -3.580582 ;
+        epsg:hasLowerBound106      43.145425 , 43.153082 ;
+        epsg:hasRightBound107      -3.537126 , -3.576085 ;
+        epsg:hasUpperBound106      43.14815 , 43.153406 ;
+        wkt:asWKT                  "POLYGON((-3.537126 43.145425, -3.537126 43.145426, -3.543635 43.148146, -3.543679 43.14815, -3.537126 43.145425))"^^wkt:wktLiteral , "POLYGON((-3.576085 43.153082, -3.577594 43.153238, -3.580582 43.153406, -3.580407 43.153368, -3.576085 43.153082))"^^wkt:wktLiteral .
+
+bound:107--6.875151  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.875151 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.213896  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.213896 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.219448  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.219448 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-49-394762-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  97666.8738084 ;
+        spo:hasLeftBound           bound:107--6.986647 ;
+        spo:hasLowerBound          bound:106-41.970898 ;
+        spo:hasRightBound          bound:107--6.983529 ;
+        spo:hasUpperBound          bound:106-41.977527 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.986647 ;
+        epsg:hasLowerBound106      41.970898 ;
+        epsg:hasRightBound107      -6.983529 ;
+        epsg:hasUpperBound106      41.977527 ;
+        wkt:asWKT                  "POLYGON((-6.986387 41.977527, -6.986529 41.977311, -6.986647 41.975895, -6.986274 41.973762, -6.985946 41.973193, -6.985734 41.972941, -6.986007 41.97282, -6.986006 41.972668, -6.985933 41.972543, -6.98604 41.97253, -6.985815 41.971438, -6.984237 41.970898, -6.983599 41.971893, -6.983563 41.972404, -6.983529 41.972895, -6.98454 41.973634, -6.985539 41.977066, -6.986387 41.977527))"^^wkt:wktLiteral .
+
+bound:107--6.221594  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.221594 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.851426  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.851426 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.026054  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.026054 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.015427  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.015427 ;
+        epsg:hasAxis  axis:106 .
+
+patch:original-09-301747
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-09-301747-4326 ;
+        esadm:provincia  province:09 .
+
+patch:original-24-290222
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-290222-4326 ;
+        esadm:provincia  province:24 .
+
+bound:106-42.488442  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.488442 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--3.543679  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.543679 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.497488  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.497488 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.008913  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.008913 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--7.056861  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.056861 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.087447  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.087447 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.154744  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.154744 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.226441  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.226441 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.09194  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.09194 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--3.336902  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.336902 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.162371  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.162371 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:original-24-172394-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  27.5092425702 , 9240.27874674 , 11714.2262202 , 6711.61390677 ;
+        spo:hasLeftBound           bound:107--6.836057 , bound:107--6.854369 , bound:107--6.839743 , bound:107--6.84823 ;
+        spo:hasLowerBound          bound:106-42.48769 , bound:106-42.493194 , bound:106-42.491215 , bound:106-42.487175 ;
+        spo:hasRightBound          bound:107--6.844518 , bound:107--6.852816 , bound:107--6.834023 , bound:107--6.837668 ;
+        spo:hasUpperBound          bound:106-42.487835 , bound:106-42.495009 , bound:106-42.488442 , bound:106-42.495201 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.854369 , -6.84823 , -6.836057 , -6.839743 ;
+        epsg:hasLowerBound106      42.493194 , 42.491215 , 42.48769 , 42.487175 ;
+        epsg:hasRightBound107      -6.844518 , -6.834023 , -6.837668 , -6.852816 ;
+        epsg:hasUpperBound106      42.495201 , 42.487835 , 42.488442 , 42.495009 ;
+        wkt:asWKT                  "POLYGON((-6.852816 42.487825, -6.852988 42.487835, -6.852991 42.487834, -6.853794 42.48769, -6.854369 42.487796, -6.854369 42.487786, -6.853794 42.48769, -6.852988 42.487835, -6.852816 42.487825))"^^wkt:wktLiteral , "POLYGON((-6.834114 42.493568, -6.836057 42.495201, -6.835953 42.494661, -6.834023 42.493194, -6.834047 42.493351, -6.83412 42.493484, -6.834114 42.493568))"^^wkt:wktLiteral , "POLYGON((-6.839743 42.491215, -6.83953 42.491425, -6.838913 42.491765, -6.838563 42.492326, -6.838292 42.492772, -6.838159 42.493356, -6.838038 42.493902, -6.838167 42.494075, -6.837943 42.494439, -6.837673 42.494791, -6.837668 42.494947, -6.837899 42.495009, -6.83796 42.49494, -6.83834 42.49384, -6.838694 42.492817, -6.839424 42.49184, -6.839451 42.491804, -6.839639 42.491552, -6.839639 42.49155, -6.839706 42.491335, -6.839743 42.491215))"^^wkt:wktLiteral , "POLYGON((-6.844609 42.48843, -6.84656 42.488168, -6.84823 42.487175, -6.8482 42.487189, -6.847419 42.48756, -6.845794 42.487903, -6.845403 42.487885, -6.845213 42.487885, -6.845089 42.487887, -6.844591 42.488361, -6.844518 42.488442, -6.844609 42.48843))"^^wkt:wktLiteral .
+
+bound:106-43.02243  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.02243 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.1539  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.1539 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.023312  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.023312 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.038779  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.038779 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--4.83589  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.83589 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.576085  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.576085 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.17768  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.17768 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--7.055934  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.055934 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.044671  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.044671 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.125945  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.125945 ;
+        epsg:hasAxis  axis:106 .
+
+patch:original-24-132495
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-132495-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--6.214182  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.214182 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.087584  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.087584 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.047232  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.047232 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.492848  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.492848 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--3.330468  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.330468 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.493194  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.493194 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.177649  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.177649 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:original-09-301747-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  35.7965844644 ;
+        spo:hasLeftBound           bound:107--3.624433 ;
+        spo:hasLowerBound          bound:106-43.165751 ;
+        spo:hasRightBound          bound:107--3.609742 ;
+        spo:hasUpperBound          bound:106-43.173925 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -3.624433 ;
+        epsg:hasLowerBound106      43.165751 ;
+        epsg:hasRightBound107      -3.609742 ;
+        epsg:hasUpperBound106      43.173925 ;
+        wkt:asWKT                  "POLYGON((-3.609742 43.165751, -3.609979 43.16611, -3.610601 43.166818, -3.611394 43.167363, -3.612449 43.169518, -3.616166 43.170867, -3.617512 43.171409, -3.617897 43.171722, -3.618614 43.172097, -3.619182 43.172301, -3.619847 43.172333, -3.620822 43.172616, -3.621653 43.173314, -3.622864 43.173875, -3.623628 43.173925, -3.624433 43.173885, -3.624176 43.173898, -3.623628 43.173925, -3.623158 43.173894, -3.623135 43.173892, -3.622864 43.173875, -3.621653 43.173314, -3.620822 43.172616, -3.619847 43.172333, -3.619182 43.172301, -3.618614 43.172097, -3.617897 43.171722, -3.617512 43.171409, -3.616166 43.170867, -3.612449 43.169518, -3.611394 43.167363, -3.610624 43.166833, -3.610601 43.166818, -3.610551 43.166755, -3.609979 43.166109, -3.609742 43.165751))"^^wkt:wktLiteral .
+
+bound:107--6.225735  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.225735 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.047119  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.047119 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.56578  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.56578 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.84823  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.84823 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.214574  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.214574 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.677086  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.677086 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.811248  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.811248 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.537126  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.537126 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.83634  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.83634 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-09-303802
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-09-303802-4326 ;
+        esadm:provincia  province:09 .
+
+bound:107--6.854717  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.854717 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.861698  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.861698 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.333697  a  epsg:RightBound , epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.333697 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.675797  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.675797 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.609742  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.609742 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.658155  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.658155 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-41.977527  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  41.977527 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.226452  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.226452 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.83412  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.83412 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.220678  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.220678 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-24-276972
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-276972-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--4.840655  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.840655 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.838843  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.838843 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.559262  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.559262 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.18104  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.18104 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.22632  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.22632 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-09-303803-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  3306.36108507 ;
+        spo:hasLeftBound           bound:107--3.677086 ;
+        spo:hasLowerBound          bound:106-43.1539 ;
+        spo:hasRightBound          bound:107--3.675797 ;
+        spo:hasUpperBound          bound:106-43.154744 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -3.677086 ;
+        epsg:hasLowerBound106      43.1539 ;
+        epsg:hasRightBound107      -3.675797 ;
+        epsg:hasUpperBound106      43.154744 ;
+        wkt:asWKT                  "POLYGON((-3.675797 43.1539, -3.676385 43.154744, -3.677086 43.154505, -3.675797 43.1539))"^^wkt:wktLiteral .
+
+bound:106-41.970898  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  41.970898 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.175679  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.175679 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--3.624433  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.624433 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.167513  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.167513 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--7.055945  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.055945 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.848365  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.848365 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.227319  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.227319 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.557952  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.557952 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.495708  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.495708 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.493902  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.493902 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.036975  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.036975 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--4.784373  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.784373 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.081203  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.081203 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.03881  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.03881 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--4.796435  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.796435 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.097216  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.097216 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.088333  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.088333 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.566188  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.566188 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.225959  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.225959 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.493568  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.493568 ;
+        epsg:hasAxis  axis:106 .
+
+patch:original-24-276925
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-276925-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--6.83357  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.83357 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--7.058468  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.058468 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.166841  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.166841 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.110276  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.110276 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.986647  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.986647 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.170943  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.170943 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.887907  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.887907 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.844518  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.844518 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-24-273531-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  107911.55107 , 210648.050495 ;
+        spo:hasLeftBound           bound:107--6.226441 , bound:107--6.229884 ;
+        spo:hasLowerBound          bound:106-43.015427 , bound:106-43.02243 ;
+        spo:hasRightBound          bound:107--6.221594 , bound:107--6.223153 ;
+        spo:hasUpperBound          bound:106-43.02847 , bound:106-43.023571 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.229884 , -6.226441 ;
+        epsg:hasLowerBound106      43.015427 , 43.02243 ;
+        epsg:hasRightBound107      -6.223153 , -6.221594 ;
+        epsg:hasUpperBound106      43.02847 , 43.023571 ;
+        wkt:asWKT                  "POLYGON((-6.226305 43.026054, -6.226233 43.025968, -6.226197 43.025972, -6.226186 43.025942, -6.226195 43.025908, -6.226208 43.025893, -6.226238 43.025872, -6.226264 43.025789, -6.226312 43.025593, -6.226287 43.025532, -6.226271 43.025469, -6.22626 43.025417, -6.226252 43.025372, -6.226243 43.025327, -6.22626 43.025291, -6.226296 43.025243, -6.226342 43.025183, -6.226441 43.025063, -6.226376 43.025033, -6.226351 43.025024, -6.226323 43.025013, -6.226303 43.025005, -6.226314 43.024994, -6.226338 43.024972, -6.226363 43.024958, -6.226369 43.02495, -6.226376 43.024925, -6.226374 43.024852, -6.226378 43.024724, -6.226378 43.024651, -6.226388 43.024559, -6.226394 43.024509, -6.226385 43.024467, -6.226365 43.024401, -6.226324 43.024263, -6.226295 43.024156, -6.226279 43.024101, -6.226113 43.024043, -6.225765 43.023934, -6.225499 43.023911, -6.225468 43.023937, -6.225123 43.024069, -6.224734 43.024182, -6.224669 43.02415, -6.224904 43.024034, -6.224971 43.023917, -6.224781 43.023765, -6.224446 43.02366, -6.224385 43.023427, -6.224345 43.023287, -6.224508 43.023224, -6.224443 43.023033, -6.224363 43.022955, -6.224132 43.022822, -6.223829 43.022634, -6.22327 43.02243, -6.223147 43.022437, -6.222935 43.022553, -6.222871 43.022632, -6.223071 43.022707, -6.223261 43.022795, -6.22346 43.022941, -6.223405 43.023004, -6.223395 43.023032, -6.22348 43.023125, -6.223603 43.023355, -6.223753 43.023718, -6.223701 43.023912, -6.223638 43.023966, -6.223507 43.024022, -6.223345 43.023952, -6.223332 43.023962, -6.222936 43.024045, -6.22287 43.024046, -6.222767 43.02394, -6.222655 43.023945, -6.222601 43.024041, -6.222691 43.024262, -6.222794 43.024376, -6.222843 43.024443, -6.222947 43.024465, -6.223462 43.024442, -6.223698 43.024365, -6.223723 43.024384, -6.223643 43.024445, -6.223232 43.024499, -6.222549 43.024467, -6.222184 43.024438, -6.222108 43.024501, -6.222113 43.024556, -6.222239 43.02472, -6.222381 43.024981, -6.222383 43.025062, -6.22251 43.025118, -6.222669 43.025191, -6.222853 43.025321, -6.222957 43.025355, -6.223089 43.025317, -6.223402 43.024936, -6.223737 43.024634, -6.22376 43.024572, -6.223933 43.024618, -6.224155 43.024643, -6.224157 43.024703, -6.223996 43.024678, -6.223795 43.024687, -6.223566 43.024843, -6.223533 43.024966, -6.223586 43.025034, -6.223616 43.025076, -6.223666 43.025176, -6.223695 43.025213, -6.223923 43.025328, -6.224211 43.025437, -6.224254 43.02561, -6.224309 43.025746, -6.224505 43.025964, -6.224346 43.025966, -6.224199 43.025973, -6.224053 43.025975, -6.224029 43.025994, -6.223886 43.026033, -6.223783 43.026076, -6.223554 43.026322, -6.223558 43.026377, -6.223559 43.026405, -6.223485 43.026406, -6.223162 43.026634, -6.223126 43.026803, -6.223096 43.026939, -6.223079 43.027091, -6.222871 43.027066, -6.222839 43.027181, -6.222805 43.027264, -6.222549 43.027196, -6.222204 43.027171, -6.221794 43.027045, -6.221678 43.027187, -6.221623 43.027279, -6.221594 43.027579, -6.221667 43.027651, -6.222087 43.027926, -6.222282 43.028012, -6.222369 43.02804, -6.222602 43.028181, -6.222814 43.028288, -6.222953 43.02842, -6.223029 43.02847, -6.22308 43.028373, -6.223185 43.028242, -6.223302 43.028112, -6.223435 43.028043, -6.223594 43.027954, -6.223695 43.027881, -6.223654 43.027782, -6.223645 43.027725, -6.22371 43.027677, -6.223726 43.027609, -6.223779 43.027516, -6.223914 43.027458, -6.22403 43.027444, -6.224183 43.027422, -6.224257 43.027405, -6.224322 43.027287, -6.224413 43.027234, -6.224462 43.02721, -6.224399 43.027079, -6.224493 43.027006, -6.224636 43.026981, -6.224793 43.026994, -6.224943 43.026966, -6.225096 43.026966, -6.225239 43.026921, -6.225363 43.026807, -6.225407 43.026759, -6.225405 43.026673, -6.225413 43.026588, -6.225421 43.026348, -6.225275 43.026281, -6.225275 43.026239, -6.225297 43.026177, -6.225314 43.026113, -6.225537 43.026121, -6.225654 43.02613, -6.225833 43.026135, -6.225985 43.026129, -6.226052 43.026124, -6.226048 43.026116, -6.226292 43.026055, -6.226305 43.026054))"^^wkt:wktLiteral , "POLYGON((-6.223523 43.017963, -6.223419 43.018262, -6.223373 43.018396, -6.223248 43.018757, -6.223153 43.019032, -6.223224 43.019168, -6.223499 43.019131, -6.223573 43.01928, -6.223616 43.019523, -6.223648 43.019564, -6.223911 43.019669, -6.223989 43.019724, -6.224017 43.019867, -6.223958 43.020028, -6.223942 43.020234, -6.224231 43.020584, -6.224306 43.020708, -6.224302 43.02073, -6.223686 43.020775, -6.22351 43.020778, -6.223449 43.02084, -6.223339 43.020813, -6.223324 43.02085, -6.223339 43.02088, -6.223369 43.020915, -6.223384 43.020948, -6.223368 43.021012, -6.223367 43.021037, -6.223425 43.02109, -6.223426 43.021217, -6.223509 43.021289, -6.223447 43.021476, -6.223298 43.021825, -6.223266 43.021924, -6.223273 43.021929, -6.224202 43.021827, -6.224312 43.021639, -6.224334 43.021533, -6.224415 43.021532, -6.224436 43.021379, -6.224416 43.021328, -6.224488 43.021329, -6.224515 43.021367, -6.224511 43.021449, -6.224498 43.021496, -6.224493 43.02153, -6.224521 43.021568, -6.224556 43.021579, -6.224613 43.021597, -6.224669 43.021632, -6.224701 43.021649, -6.224722 43.021654, -6.224795 43.021649, -6.224809 43.021683, -6.224782 43.021731, -6.224719 43.021831, -6.224721 43.021913, -6.224922 43.022014, -6.225023 43.022116, -6.225086 43.022426, -6.225156 43.022498, -6.22526 43.022413, -6.225504 43.022334, -6.225552 43.022278, -6.225643 43.022155, -6.22576 43.022033, -6.225681 43.021986, -6.225579 43.022014, -6.225416 43.022119, -6.225312 43.022082, -6.225207 43.022007, -6.225127 43.021955, -6.225072 43.021738, -6.22523 43.02171, -6.22535 43.021708, -6.225471 43.021703, -6.225627 43.021728, -6.225822 43.021692, -6.225982 43.02169, -6.226084 43.02165, -6.226243 43.021544, -6.226427 43.021495, -6.226662 43.021397, -6.226831 43.021395, -6.227098 43.02123, -6.227319 43.021105, -6.227233 43.021518, -6.227207 43.021529, -6.227156 43.021548, -6.227105 43.021511, -6.226959 43.021518, -6.226915 43.021591, -6.226888 43.021633, -6.226734 43.02175, -6.226553 43.021781, -6.226446 43.021705, -6.2265 43.021621, -6.226434 43.021587, -6.226105 43.021706, -6.225992 43.021799, -6.225998 43.021875, -6.226296 43.021988, -6.226516 43.022113, -6.226775 43.022297, -6.226953 43.02231, -6.227129 43.022338, -6.227141 43.022818, -6.226397 43.022902, -6.225672 43.022963, -6.225852 43.023327, -6.226405 43.023312, -6.226452 43.023405, -6.226537 43.023386, -6.226808 43.023406, -6.227153 43.023424, -6.227263 43.023426, -6.227318 43.023416, -6.227423 43.023376, -6.227549 43.023316, -6.227699 43.023244, -6.227855 43.023168, -6.228002 43.023095, -6.228197 43.023, -6.228441 43.022872, -6.228604 43.023006, -6.228766 43.023135, -6.228858 43.023203, -6.228963 43.023283, -6.229049 43.023363, -6.229084 43.023383, -6.229208 43.023452, -6.229312 43.023503, -6.229386 43.023535, -6.229429 43.023552, -6.229501 43.023571, -6.229527 43.023539, -6.229696 43.02333, -6.229796 43.023156, -6.229842 43.023031, -6.229875 43.022908, -6.229884 43.022865, -6.2298 43.022779, -6.229637 43.022616, -6.229474 43.022439, -6.229232 43.022281, -6.229006 43.022247, -6.228917 43.022124, -6.228867 43.021996, -6.228949 43.021752, -6.228901 43.021583, -6.228848 43.021482, -6.228814 43.021414, -6.228807 43.021147, -6.22882 43.021083, -6.228878 43.021027, -6.229008 43.020951, -6.22902 43.020895, -6.22899 43.020814, -6.22887 43.020604, -6.228751 43.020513, -6.228629 43.020504, -6.228534 43.020469, -6.228444 43.020415, -6.228411 43.020381, -6.228427 43.020353, -6.228492 43.020292, -6.228607 43.020213, -6.228595 43.019876, -6.228592 43.019768, -6.228584 43.019615, -6.228512 43.019518, -6.228199 43.019454, -6.228152 43.019286, -6.228298 43.01896, -6.228319 43.018836, -6.228275 43.018787, -6.228072 43.018794, -6.227928 43.01881, -6.227788 43.018773, -6.227654 43.018828, -6.227558 43.018894, -6.227492 43.018935, -6.227313 43.01897, -6.227251 43.01915, -6.227267 43.01937, -6.227337 43.019535, -6.227512 43.019924, -6.227528 43.020107, -6.227519 43.020297, -6.227411 43.020311, -6.227276 43.020302, -6.227077 43.020297, -6.226913 43.020273, -6.226839 43.020288, -6.226791 43.020315, -6.226795 43.020406, -6.226824 43.020454, -6.226943 43.020531, -6.227049 43.020663, -6.227032 43.020688, -6.226663 43.020704, -6.226263 43.020686, -6.22613 43.020659, -6.226056 43.020642, -6.225978 43.020626, -6.225973 43.020431, -6.225876 43.020363, -6.225647 43.020348, -6.22561 43.02034, -6.225598 43.02035, -6.225236 43.02046, -6.225042 43.020536, -6.224924 43.020691, -6.224888 43.020807, -6.224851 43.020807, -6.224808 43.020803, -6.224773 43.020734, -6.224707 43.020717, -6.224734 43.020681, -6.224819 43.020586, -6.224956 43.020463, -6.225012 43.020369, -6.225004 43.020244, -6.224983 43.020187, -6.224813 43.020076, -6.224874 43.019975, -6.22497 43.019943, -6.225021 43.01987, -6.225025 43.019848, -6.225028 43.019848, -6.225132 43.019868, -6.22519 43.019849, -6.225239 43.019828, -6.225635 43.020044, -6.225808 43.020093, -6.226091 43.019809, -6.226388 43.019444, -6.226267 43.01934, -6.226028 43.019168, -6.225954 43.019152, -6.225944 43.019144, -6.225908 43.019062, -6.226017 43.018946, -6.226057 43.018776, -6.226055 43.018527, -6.226071 43.01834, -6.22615 43.018311, -6.226175 43.01824, -6.226223 43.018207, -6.226234 43.018197, -6.226168 43.018096, -6.226156 43.017942, -6.226603 43.017807, -6.226802 43.017765, -6.22686 43.017721, -6.226857 43.017686, -6.226894 43.017518, -6.226809 43.017178, -6.226778 43.016867, -6.226816 43.016857, -6.226792 43.016669, -6.226677 43.016666, -6.226637 43.016612, -6.226682 43.016594, -6.226689 43.016582, -6.226567 43.016585, -6.226563 43.016513, -6.226514 43.016515, -6.226142 43.016539, -6.226117 43.016661, -6.226054 43.016869, -6.22608 43.016914, -6.226133 43.016981, -6.226102 43.017102, -6.225551 43.017171, -6.225147 43.017194, -6.225117 43.017022, -6.225116 43.017004, -6.225088 43.016703, -6.225017 43.016494, -6.225054 43.016511, -6.22508 43.016548, -6.225176 43.016542, -6.225347 43.016588, -6.225474 43.016523, -6.225386 43.016266, -6.225341 43.015927, -6.225342 43.015849, -6.225139 43.0157, -6.224891 43.015759, -6.224808 43.015783, -6.224697 43.015626, -6.22441 43.015427, -6.22422 43.015946, -6.223523 43.017963))"^^wkt:wktLiteral .
+
+bound:106-42.48769  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.48769 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.560593  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.560593 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--7.057642  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.057642 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.038693  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.038693 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.501231  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.501231 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.166849  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.166849 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:original-24-132495-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  2290.46084016 , 12050.4604461 , 35248.2233056 , 17833.5446152 , 4264.99593699 , 490.581330045 ;
+        spo:hasLeftBound           bound:107--7.057642 , bound:107--7.058468 , bound:107--7.065528 , bound:107--7.069671 , bound:107--7.056971 , bound:107--7.056223 ;
+        spo:hasLowerBound          bound:106-42.547774 , bound:106-42.559262 , bound:106-42.556731 , bound:106-42.552717 , bound:106-42.561674 , bound:106-42.566188 ;
+        spo:hasRightBound          bound:107--7.055934 , bound:107--7.059744 , bound:107--7.056861 , bound:107--7.05628 , bound:107--7.055945 , bound:107--7.064069 ;
+        spo:hasUpperBound          bound:106-42.553949 , bound:106-42.566742 , bound:106-42.557952 , bound:106-42.556421 , bound:106-42.56578 , bound:106-42.560593 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -7.057642 , -7.058468 , -7.065528 , -7.069671 , -7.056971 , -7.056223 ;
+        epsg:hasLowerBound106      42.561674 , 42.556731 , 42.547774 , 42.559262 , 42.566188 , 42.552717 ;
+        epsg:hasRightBound107      -7.05628 , -7.056861 , -7.055934 , -7.059744 , -7.064069 , -7.055945 ;
+        epsg:hasUpperBound106      42.560593 , 42.557952 , 42.566742 , 42.556421 , 42.553949 , 42.56578 ;
+        wkt:asWKT                  "POLYGON((-7.056196 42.566188, -7.055945 42.566742, -7.056083 42.566656, -7.056212 42.566527, -7.056223 42.566437, -7.056206 42.566232, -7.056196 42.566188))"^^wkt:wktLiteral , "POLYGON((-7.060006 42.556203, -7.059744 42.556421, -7.06002 42.556358, -7.060305 42.556244, -7.060679 42.556006, -7.061134 42.555679, -7.061267 42.555437, -7.061459 42.555083, -7.061681 42.554717, -7.061858 42.554374, -7.061967 42.554138, -7.062713 42.553356, -7.064019 42.553338, -7.065028 42.55339, -7.065528 42.553421, -7.063508 42.5528, -7.06288 42.552727, -7.062796 42.552717, -7.06279 42.552726, -7.062237 42.553484, -7.061457 42.554782, -7.060904 42.555459, -7.060878 42.55548, -7.060006 42.556203))"^^wkt:wktLiteral , "POLYGON((-7.057221 42.561674, -7.057144 42.56204, -7.057105 42.562229, -7.057168 42.564325, -7.057164 42.564332, -7.056984 42.564683, -7.056972 42.564694, -7.05656 42.565094, -7.056309 42.565535, -7.05628 42.56578, -7.056523 42.565618, -7.057004 42.565257, -7.057222 42.564818, -7.057373 42.564525, -7.057518 42.564159, -7.057642 42.563741, -7.05745 42.562982, -7.057332 42.562372, -7.057221 42.561674))"^^wkt:wktLiteral , "POLYGON((-7.057001 42.557691, -7.056874 42.557916, -7.056861 42.557952, -7.056922 42.557877, -7.057143 42.557614, -7.057676 42.557283, -7.057979 42.557095, -7.058305 42.556879, -7.058468 42.556731, -7.058072 42.556865, -7.057628 42.557112, -7.057194 42.557353, -7.057191 42.557355, -7.057185 42.557365, -7.057151 42.557426, -7.057001 42.557691))"^^wkt:wktLiteral , "POLYGON((-7.056314 42.559262, -7.055936 42.559756, -7.055934 42.559759, -7.056701 42.560326, -7.056971 42.560593, -7.056882 42.560364, -7.056611 42.559673, -7.056466 42.559381, -7.056314 42.559262))"^^wkt:wktLiteral , "POLYGON((-7.06777 42.553757, -7.068397 42.553858, -7.068971 42.553942, -7.069671 42.553949, -7.068861 42.553752, -7.068305 42.553606, -7.067866 42.553292, -7.067552 42.552906, -7.067234 42.552622, -7.066898 42.552463, -7.066671 42.552266, -7.066219 42.551865, -7.065771 42.551518, -7.065555 42.551275, -7.065325 42.550942, -7.065089 42.550579, -7.064918 42.55036, -7.064806 42.550194, -7.064724 42.549892, -7.064642 42.549578, -7.064572 42.549333, -7.064481 42.549051, -7.064307 42.548696, -7.064204 42.548448, -7.064244 42.548202, -7.064698 42.547774, -7.064382 42.54807, -7.064244 42.5482, -7.064108 42.549023, -7.064108 42.549026, -7.064099 42.549081, -7.064069 42.549259, -7.06419 42.549985, -7.064539 42.550905, -7.064601 42.551068, -7.065009 42.551729, -7.065291 42.55192, -7.065595 42.552126, -7.06636 42.552645, -7.06701 42.553288, -7.067131 42.553362, -7.06777 42.553757))"^^wkt:wktLiteral .
+
+bound:106-43.019032  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.019032 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.023518  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.023518 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--7.056223  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.056223 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-24-170165-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  991.44725929 ;
+        spo:hasLeftBound           bound:107--6.83412 ;
+        spo:hasLowerBound          bound:106-42.492848 ;
+        spo:hasRightBound          bound:107--6.83357 ;
+        spo:hasUpperBound          bound:106-42.493568 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.83412 ;
+        epsg:hasLowerBound106      42.492848 ;
+        epsg:hasRightBound107      -6.83357 ;
+        epsg:hasUpperBound106      42.493568 ;
+        wkt:asWKT                  "POLYGON((-6.83357 42.492848, -6.833822 42.493323, -6.834114 42.493568, -6.83412 42.493484, -6.834047 42.493351, -6.834023 42.493194, -6.83357 42.492848))"^^wkt:wktLiteral .
+
+bound:107--6.219294  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.219294 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.784447  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.784447 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.229884  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.229884 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.79621  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.79621 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-24-170165
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-170165-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--4.848889  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.848889 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.487111  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.487111 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.173925  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.173925 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.834023  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.834023 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-09-14048839-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  117.482499995 , 65.0999976945 ;
+        spo:hasLeftBound           bound:107--3.333697 , bound:107--3.336902 ;
+        spo:hasLowerBound          bound:106-43.165688 ;
+        spo:hasRightBound          bound:107--3.330468 , bound:107--3.333697 ;
+        spo:hasUpperBound          bound:106-43.166849 , bound:106-43.166841 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -3.333697 , -3.336902 ;
+        epsg:hasLowerBound106      43.165688 ;
+        epsg:hasRightBound107      -3.330468 , -3.333697 ;
+        epsg:hasUpperBound106      43.166849 , 43.166841 ;
+        wkt:asWKT                  "POLYGON((-3.333697 43.165688, -3.336902 43.166849, -3.336593 43.166733, -3.333697 43.165688))"^^wkt:wktLiteral , "POLYGON((-3.330468 43.166841, -3.333697 43.165688, -3.33075 43.166732, -3.330468 43.166841))"^^wkt:wktLiteral .
+
+bound:107--4.84683  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.84683 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.165751  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.165751 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.497563  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.497563 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--4.815939  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.815939 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.839743  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.839743 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.215852  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.215852 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.81904  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.81904 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.852816  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.852816 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.495201  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.495201 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.983529  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.983529 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.495009  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.495009 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.14815  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.14815 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.553949  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.553949 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.165688  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.165688 ;
+        epsg:hasAxis  axis:106 .
+
+patch:original-09-303803
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-09-303803-4326 ;
+        esadm:provincia  province:09 .
+
+bound:106-43.026124  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.026124 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.123926  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.123926 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.223153  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.223153 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--3.634432  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.634432 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.023571  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.023571 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.849798  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.849798 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-24-273531
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-273531-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--3.643144  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.643144 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-24-258685
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-258685-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--7.05628  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.05628 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.489605  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.489605 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.556731  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.556731 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:original-24-276925-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  8032.94841599 , 10003.5476165 , 4483.34300728 , 6137.82924784 , 1933.96479955 , 190.591991797 , 128.720084213 ;
+        spo:hasLeftBound           bound:107--4.851426 , bound:107--4.815939 , bound:107--4.79621 , bound:107--4.80075 , bound:107--4.83634 , bound:107--4.784373 , bound:107--4.81991 ;
+        spo:hasLowerBound          bound:106-43.096761 , bound:106-43.083616 , bound:106-43.110276 , bound:106-43.09194 , bound:106-43.087584 , bound:106-43.123926 , bound:106-43.081203 ;
+        spo:hasRightBound          bound:107--4.811248 , bound:107--4.83589 , bound:107--4.81904 , bound:107--4.779723 , bound:107--4.796435 , bound:107--4.846378 , bound:107--4.784447 ;
+        spo:hasUpperBound          bound:106-43.083582 , bound:106-43.097216 , bound:106-43.087447 , bound:106-43.125945 , bound:106-43.111912 , bound:106-43.088333 , bound:106-43.09228 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -4.815939 , -4.851426 , -4.80075 , -4.784373 , -4.83634 , -4.79621 , -4.81991 ;
+        epsg:hasLowerBound106      43.087584 , 43.09194 , 43.123926 , 43.081203 , 43.110276 , 43.083616 , 43.096761 ;
+        epsg:hasRightBound107      -4.83589 , -4.796435 , -4.784447 , -4.779723 , -4.846378 , -4.811248 , -4.81904 ;
+        epsg:hasUpperBound106      43.125945 , 43.087447 , 43.097216 , 43.083582 , 43.09228 , 43.111912 , 43.088333 ;
+        wkt:asWKT                  "POLYGON((-4.81904 43.096761, -4.819353 43.096973, -4.81991 43.097216, -4.81904 43.096761))"^^wkt:wktLiteral , "POLYGON((-4.811248 43.091995, -4.812279 43.092083, -4.814636 43.092228, -4.815939 43.09228, -4.815822 43.092234, -4.812803 43.09194, -4.811248 43.091995))"^^wkt:wktLiteral , "POLYGON((-4.779723 43.081203, -4.784373 43.083582, -4.784075 43.083423, -4.779723 43.081203))"^^wkt:wktLiteral , "POLYGON((-4.796435 43.087584, -4.797151 43.088333, -4.80075 43.087791, -4.800726 43.087781, -4.800171 43.087814, -4.798665 43.087904, -4.797063 43.087835, -4.796832 43.087825, -4.796435 43.087584))"^^wkt:wktLiteral , "POLYGON((-4.846378 43.123926, -4.846421 43.124021, -4.848544 43.124617, -4.85053 43.125658, -4.851426 43.125945, -4.847894 43.12421, -4.846817 43.123957, -4.846378 43.123926))"^^wkt:wktLiteral , "POLYGON((-4.784447 43.083616, -4.788708 43.084121, -4.793983 43.086339, -4.79621 43.087447, -4.794356 43.086324, -4.788489 43.083975, -4.784447 43.083616))"^^wkt:wktLiteral , "POLYGON((-4.83589 43.110276, -4.836258 43.111912, -4.83634 43.111114, -4.83589 43.110276))"^^wkt:wktLiteral .
+
+bound:107--6.226048  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.226048 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-24-285144-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  190357.080138 ;
+        spo:hasLeftBound           bound:107--6.22991 ;
+        spo:hasLowerBound          bound:106-43.008913 ;
+        spo:hasRightBound          bound:107--6.22441 ;
+        spo:hasUpperBound          bound:106-43.022865 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.22991 ;
+        epsg:hasLowerBound106      43.008913 ;
+        epsg:hasRightBound107      -6.22441 ;
+        epsg:hasUpperBound106      43.022865 ;
+        wkt:asWKT                  "POLYGON((-6.22441 43.015427, -6.224697 43.015626, -6.224808 43.015783, -6.224891 43.015759, -6.225139 43.0157, -6.225342 43.015849, -6.225341 43.015927, -6.225386 43.016266, -6.225474 43.016523, -6.225347 43.016588, -6.225176 43.016542, -6.22508 43.016548, -6.225054 43.016511, -6.225017 43.016494, -6.225088 43.016703, -6.225116 43.017004, -6.225117 43.017022, -6.225147 43.017194, -6.225551 43.017171, -6.226102 43.017102, -6.226133 43.016981, -6.22608 43.016914, -6.226054 43.016869, -6.226117 43.016661, -6.226142 43.016539, -6.226514 43.016515, -6.226563 43.016513, -6.226567 43.016585, -6.226689 43.016582, -6.226682 43.016594, -6.226637 43.016612, -6.226677 43.016666, -6.226792 43.016669, -6.226816 43.016857, -6.226778 43.016867, -6.226809 43.017178, -6.226894 43.017518, -6.226857 43.017686, -6.22686 43.017721, -6.226802 43.017765, -6.226603 43.017807, -6.226156 43.017942, -6.226168 43.018096, -6.226234 43.018197, -6.226223 43.018207, -6.226175 43.01824, -6.22615 43.018311, -6.226071 43.01834, -6.226055 43.018527, -6.226057 43.018776, -6.226017 43.018946, -6.225908 43.019062, -6.225944 43.019144, -6.225954 43.019152, -6.226028 43.019168, -6.226267 43.01934, -6.226388 43.019444, -6.226091 43.019809, -6.225808 43.020093, -6.225635 43.020044, -6.225239 43.019828, -6.22519 43.019849, -6.225132 43.019868, -6.225028 43.019848, -6.225025 43.019848, -6.225021 43.01987, -6.22497 43.019943, -6.224874 43.019975, -6.224813 43.020076, -6.224983 43.020187, -6.225004 43.020244, -6.225012 43.020369, -6.224956 43.020463, -6.224819 43.020586, -6.224734 43.020681, -6.224707 43.020717, -6.224773 43.020734, -6.224808 43.020803, -6.224851 43.020807, -6.224888 43.020807, -6.224924 43.020691, -6.225042 43.020536, -6.225236 43.02046, -6.225598 43.02035, -6.22561 43.02034, -6.225647 43.020348, -6.225876 43.020363, -6.225973 43.020431, -6.225978 43.020626, -6.226056 43.020642, -6.22613 43.020659, -6.226263 43.020686, -6.226663 43.020704, -6.227032 43.020688, -6.227049 43.020663, -6.226943 43.020531, -6.226824 43.020454, -6.226795 43.020406, -6.226791 43.020315, -6.226839 43.020288, -6.226913 43.020273, -6.227077 43.020297, -6.227276 43.020302, -6.227411 43.020311, -6.227519 43.020297, -6.227528 43.020107, -6.227512 43.019924, -6.227337 43.019535, -6.227267 43.01937, -6.227251 43.01915, -6.227313 43.01897, -6.227492 43.018935, -6.227558 43.018894, -6.227654 43.018828, -6.227788 43.018773, -6.227928 43.01881, -6.228072 43.018794, -6.228275 43.018787, -6.228319 43.018836, -6.228298 43.01896, -6.228152 43.019286, -6.228199 43.019454, -6.228512 43.019518, -6.228584 43.019615, -6.228592 43.019768, -6.228595 43.019876, -6.228607 43.020213, -6.228492 43.020292, -6.228427 43.020353, -6.228411 43.020381, -6.228444 43.020415, -6.228534 43.020469, -6.228629 43.020504, -6.228751 43.020513, -6.22887 43.020604, -6.22899 43.020814, -6.22902 43.020895, -6.229008 43.020951, -6.228878 43.021027, -6.22882 43.021083, -6.228807 43.021147, -6.228814 43.021414, -6.228848 43.021482, -6.228901 43.021583, -6.228949 43.021752, -6.228867 43.021996, -6.228917 43.022124, -6.229006 43.022247, -6.229232 43.022281, -6.229474 43.022439, -6.229637 43.022616, -6.2298 43.022779, -6.229884 43.022865, -6.22991 43.022752, -6.229761 43.022609, -6.229631 43.022468, -6.229513 43.022332, -6.229399 43.022283, -6.229256 43.022222, -6.229193 43.022217, -6.22912 43.022207, -6.229049 43.022167, -6.229003 43.022112, -6.228938 43.022009, -6.228947 43.021897, -6.228993 43.021722, -6.228992 43.021619, -6.228955 43.021513, -6.228909 43.021384, -6.228907 43.021265, -6.228888 43.021147, -6.228967 43.021097, -6.22911 43.020989, -6.229166 43.020876, -6.22919 43.020765, -6.229187 43.020615, -6.229125 43.020518, -6.229046 43.020399, -6.228991 43.020291, -6.229001 43.020192, -6.229051 43.020093, -6.229134 43.01997, -6.229161 43.019883, -6.229051 43.019776, -6.229014 43.019688, -6.229058 43.019605, -6.22914 43.019538, -6.229194 43.019467, -6.229162 43.019362, -6.22908 43.019259, -6.228984 43.019214, -6.228886 43.019201, -6.228781 43.01921, -6.228631 43.019227, -6.228548 43.019181, -6.228495 43.019107, -6.22854 43.019026, -6.228635 43.018965, -6.228666 43.018909, -6.228571 43.018678, -6.228502 43.018584, -6.228438 43.018467, -6.228403 43.018363, -6.228402 43.01824, -6.228367 43.018076, -6.228324 43.017902, -6.228233 43.01771, -6.22817 43.017547, -6.228086 43.017392, -6.227993 43.01723, -6.227911 43.017118, -6.227793 43.017008, -6.227726 43.016945, -6.227695 43.016858, -6.227671 43.01674, -6.227745 43.016631, -6.227847 43.016489, -6.227938 43.016398, -6.228065 43.016288, -6.228128 43.016208, -6.228198 43.016129, -6.228069 43.016048, -6.227986 43.015997, -6.227899 43.015938, -6.227834 43.015874, -6.227788 43.015804, -6.227808 43.015738, -6.227816 43.015641, -6.227867 43.015492, -6.227827 43.015397, -6.227816 43.01529, -6.227773 43.015211, -6.227688 43.015112, -6.2276 43.015035, -6.227507 43.01496, -6.227451 43.014879, -6.227401 43.014798, -6.227369 43.014694, -6.227355 43.014573, -6.22734 43.014491, -6.227294 43.014417, -6.227201 43.014346, -6.227114 43.014273, -6.22704 43.014222, -6.227021 43.014136, -6.227056 43.014079, -6.227066 43.013998, -6.227066 43.013902, -6.227018 43.013796, -6.227029 43.013693, -6.227046 43.013612, -6.227154 43.013494, -6.227248 43.013402, -6.227295 43.013331, -6.227214 43.013241, -6.227131 43.013202, -6.227048 43.013138, -6.227023 43.013064, -6.22704 43.013006, -6.227107 43.012874, -6.227107 43.012783, -6.227071 43.012663, -6.227002 43.012468, -6.226942 43.012285, -6.226909 43.01214, -6.226925 43.011916, -6.226933 43.011781, -6.226919 43.011632, -6.22693 43.011519, -6.226895 43.011403, -6.226856 43.011278, -6.22681 43.011218, -6.226894 43.011102, -6.226991 43.010955, -6.227056 43.010853, -6.227075 43.010739, -6.227071 43.010641, -6.227057 43.010525, -6.227016 43.010416, -6.226906 43.010334, -6.226818 43.010222, -6.226842 43.010126, -6.226895 43.010027, -6.226908 43.009944, -6.226921 43.009784, -6.226906 43.009636, -6.226904 43.009494, -6.226895 43.00939, -6.226868 43.009281, -6.226836 43.009161, -6.226839 43.009051, -6.226808 43.008913, -6.224885 43.014138, -6.224647 43.014785, -6.22441 43.015427))"^^wkt:wktLiteral .
+
+polygon:original-09-303798-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  10.9246268408 ;
+        spo:hasLeftBound           bound:107--3.643144 ;
+        spo:hasLowerBound          bound:106-43.175679 ;
+        spo:hasRightBound          bound:107--3.634432 ;
+        spo:hasUpperBound          bound:106-43.17768 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -3.643144 ;
+        epsg:hasLowerBound106      43.175679 ;
+        epsg:hasRightBound107      -3.634432 ;
+        epsg:hasUpperBound106      43.17768 ;
+        wkt:asWKT                  "POLYGON((-3.634432 43.175679, -3.635705 43.175858, -3.637211 43.176291, -3.637987 43.176412, -3.641023 43.176071, -3.641378 43.177042, -3.64185 43.177507, -3.643144 43.17768, -3.64185 43.177507, -3.641378 43.177042, -3.641023 43.176071, -3.637987 43.176412, -3.637346 43.176312, -3.637211 43.17629, -3.635705 43.175858, -3.634751 43.175723, -3.634541 43.175694, -3.634433 43.175679, -3.634432 43.175679))"^^wkt:wktLiteral .
+
+patch:original-09-301846
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-09-301846-4326 ;
+        esadm:provincia  province:09 .
+
+bound:107--4.81991  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.81991 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.083616  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.083616 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.22441  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.22441 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--6.225852  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.225852 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-24-258685-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  47.2903202316 , 71.1311710359 , 724.23760965 ;
+        spo:hasLeftBound           bound:107--6.226452 , bound:107--6.22632 , bound:107--6.225959 ;
+        spo:hasLowerBound          bound:106-43.023566 , bound:106-43.026054 , bound:106-43.023312 ;
+        spo:hasRightBound          bound:107--6.226048 , bound:107--6.225852 , bound:107--6.225735 ;
+        spo:hasUpperBound          bound:106-43.026124 , bound:106-43.023635 , bound:106-43.023518 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.225959 , -6.226452 , -6.22632 ;
+        epsg:hasLowerBound106      43.023312 , 43.023566 , 43.026054 ;
+        epsg:hasRightBound107      -6.225735 , -6.225852 , -6.226048 ;
+        epsg:hasUpperBound106      43.026124 , 43.023518 , 43.023635 ;
+        wkt:asWKT                  "POLYGON((-6.226305 43.026054, -6.226292 43.026055, -6.226048 43.026116, -6.226052 43.026124, -6.226094 43.02612, -6.226196 43.026102, -6.22632 43.026072, -6.226305 43.026054))"^^wkt:wktLiteral , "POLYGON((-6.225944 43.023566, -6.225735 43.023611, -6.225742 43.023635, -6.225959 43.023613, -6.225944 43.023566))"^^wkt:wktLiteral , "POLYGON((-6.225852 43.023327, -6.22588 43.023385, -6.225939 43.023518, -6.226452 43.023405, -6.226405 43.023312, -6.225852 43.023327))"^^wkt:wktLiteral .
+
+bound:106-42.487861  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.487861 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.552717  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.552717 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.145425  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.145425 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.023566  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.023566 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.153082  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.153082 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.837668  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.837668 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.80075  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.80075 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-09-303798
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-09-303798-4326 ;
+        esadm:provincia  province:09 .
+
+bound:106-43.022865  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.022865 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.02847  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.02847 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.17191  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.17191 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.038352  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.038352 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.836057  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.836057 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-24-155250-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  1458.04588747 , 1064.50557395 , 54271.73439 , 70022.9513918 ;
+        spo:hasLeftBound           bound:107--6.875151 , bound:107--6.849798 , bound:107--6.887907 , bound:107--6.854717 ;
+        spo:hasLowerBound          bound:106-42.489605 , bound:106-42.497563 , bound:106-42.487588 , bound:106-42.486724 ;
+        spo:hasRightBound          bound:107--6.852816 , bound:107--6.848365 , bound:107--6.861698 , bound:107--6.875232 ;
+        spo:hasUpperBound          bound:106-42.487111 , bound:106-42.501231 , bound:106-42.487861 , bound:106-42.497488 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.875151 , -6.849798 , -6.854717 , -6.887907 ;
+        epsg:hasLowerBound106      42.487588 , 42.489605 , 42.497563 , 42.486724 ;
+        epsg:hasRightBound107      -6.861698 , -6.852816 , -6.848365 , -6.875232 ;
+        epsg:hasUpperBound106      42.497488 , 42.501231 , 42.487111 , 42.487861 ;
+        wkt:asWKT                  "POLYGON((-6.875151 42.497488, -6.875139 42.497477, -6.874289 42.497019, -6.872799 42.496289, -6.87266 42.496031, -6.872413 42.49565, -6.871288 42.494889, -6.869695 42.494073, -6.869535 42.493991, -6.866812 42.492791, -6.866038 42.492213, -6.865512 42.491569, -6.863881 42.490866, -6.863027 42.490477, -6.862021 42.489713, -6.861698 42.489605, -6.86279 42.490548, -6.863752 42.491154, -6.864374 42.491467, -6.865109 42.491838, -6.86666 42.493118, -6.86717 42.493611, -6.867604 42.494032, -6.869057 42.494901, -6.869537 42.494993, -6.869751 42.494987, -6.870973 42.494953, -6.870983 42.494953, -6.871996 42.495603, -6.873446 42.496908, -6.873452 42.496913, -6.874639 42.497224, -6.875151 42.497488))"^^wkt:wktLiteral , "POLYGON((-6.849798 42.486997, -6.84918 42.486724, -6.848365 42.487111, -6.848811 42.486976, -6.849798 42.486997))"^^wkt:wktLiteral , "POLYGON((-6.854369 42.487796, -6.85437 42.487797, -6.854373 42.487797, -6.854717 42.487861, -6.854109 42.487588, -6.852816 42.487825, -6.852988 42.487835, -6.853794 42.48769, -6.854369 42.487786, -6.854369 42.487796))"^^wkt:wktLiteral , "POLYGON((-6.887907 42.501231, -6.886493 42.500582, -6.883446 42.500365, -6.880987 42.499954, -6.878518 42.49889, -6.876005 42.498279, -6.875232 42.497563, -6.876111 42.498578, -6.876294 42.498789, -6.876781 42.499195, -6.878454 42.499699, -6.879794 42.500102, -6.879815 42.500109, -6.879822 42.500111, -6.879844 42.500118, -6.881357 42.500557, -6.883375 42.501142, -6.883388 42.501143, -6.884208 42.501222, -6.887162 42.501184, -6.887166 42.501185, -6.887907 42.501231))"^^wkt:wktLiteral .
+
+bound:107--7.064069  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.064069 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.556421  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.556421 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.875232  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.875232 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-09-14048839
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-09-14048839-4326 ;
+        esadm:provincia  province:09 .
+
+bound:107--6.835953  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.835953 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-49-394762
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-49-394762-4326 ;
+        esadm:provincia  province:49 .
+
+patch:original-24-155250
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-155250-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--3.647098  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.647098 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.083582  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.083582 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.487835  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.487835 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:original-24-274338-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  491849.522255 , 162141.228087 , 37.5770839891 ;
+        spo:hasLeftBound           bound:107--6.219294 , bound:107--6.21956 , bound:107--6.227319 ;
+        spo:hasLowerBound          bound:106-43.038779 , bound:106-43.038693 , bound:106-43.019032 ;
+        spo:hasRightBound          bound:107--6.213896 , bound:107--6.216724 , bound:107--6.219448 ;
+        spo:hasUpperBound          bound:106-43.03881 , bound:106-43.047119 , bound:106-43.038352 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.219294 , -6.21956 , -6.227319 ;
+        epsg:hasLowerBound106      43.038693 , 43.019032 , 43.038779 ;
+        epsg:hasRightBound107      -6.219448 , -6.216724 , -6.213896 ;
+        epsg:hasUpperBound106      43.03881 , 43.047119 , 43.038352 ;
+        wkt:asWKT                  "POLYGON((-6.216724 43.038352, -6.217019 43.03815, -6.217217 43.038029, -6.217325 43.038025, -6.21747 43.038044, -6.21755 43.038065, -6.217646 43.038147, -6.217655 43.038235, -6.217814 43.038317, -6.217857 43.038321, -6.217986 43.038318, -6.218055 43.038292, -6.218146 43.038181, -6.218184 43.038147, -6.217932 43.037911, -6.217932 43.037536, -6.218274 43.037502, -6.218299 43.03748, -6.218348 43.037301, -6.218461 43.037183, -6.218735 43.037183, -6.219004 43.037168, -6.219533 43.037168, -6.219523 43.03707, -6.219523 43.036975, -6.219645 43.036995, -6.21977 43.037009, -6.219868 43.037055, -6.219897 43.037114, -6.22005 43.037199, -6.220239 43.03731, -6.220509 43.037444, -6.220659 43.037527, -6.220678 43.037567, -6.220682 43.037563, -6.220972 43.037278, -6.221208 43.03705, -6.221481 43.036786, -6.221667 43.036574, -6.221915 43.036307, -6.222104 43.036177, -6.222255 43.036037, -6.222371 43.035931, -6.222407 43.035825, -6.222462 43.035605, -6.222556 43.035406, -6.222634 43.03532, -6.222734 43.035226, -6.222692 43.035003, -6.222644 43.034722, -6.222634 43.034462, -6.222654 43.034331, -6.222596 43.034239, -6.222567 43.034077, -6.222605 43.033976, -6.222676 43.033945, -6.222698 43.033885, -6.222674 43.033744, -6.222605 43.033618, -6.222648 43.033532, -6.222668 43.033402, -6.22265 43.033327, -6.222591 43.033242, -6.222493 43.033141, -6.222413 43.033013, -6.222395 43.032948, -6.222444 43.03283, -6.222395 43.032747, -6.222262 43.032625, -6.222272 43.032474, -6.222279 43.032321, -6.222295 43.032231, -6.222327 43.032155, -6.222338 43.032043, -6.222324 43.031909, -6.222341 43.031696, -6.222343 43.031473, -6.222357 43.031194, -6.222379 43.030987, -6.222375 43.030901, -6.222338 43.030815, -6.222329 43.030679, -6.222345 43.030585, -6.22235 43.030473, -6.222377 43.030346, -6.2224 43.030193, -6.222392 43.030042, -6.222371 43.029817, -6.22232 43.029698, -6.222289 43.029629, -6.222364 43.029541, -6.22231 43.029417, -6.222407 43.02935, -6.222507 43.029241, -6.222544 43.029147, -6.222602 43.02901, -6.22261 43.028892, -6.222773 43.028784, -6.222885 43.028709, -6.223018 43.028642, -6.223013 43.0285, -6.223029 43.02847, -6.222953 43.02842, -6.222814 43.028288, -6.222602 43.028181, -6.222369 43.02804, -6.222282 43.028012, -6.222087 43.027926, -6.221667 43.027651, -6.221594 43.027579, -6.221623 43.027279, -6.221678 43.027187, -6.221794 43.027045, -6.222204 43.027171, -6.222549 43.027196, -6.222805 43.027264, -6.222839 43.027181, -6.222871 43.027066, -6.223079 43.027091, -6.223096 43.026939, -6.223126 43.026803, -6.223162 43.026634, -6.223485 43.026406, -6.223559 43.026405, -6.223558 43.026377, -6.223554 43.026322, -6.223783 43.026076, -6.223886 43.026033, -6.224029 43.025994, -6.224053 43.025975, -6.224199 43.025973, -6.224346 43.025966, -6.224505 43.025964, -6.224309 43.025746, -6.224254 43.02561, -6.224211 43.025437, -6.223923 43.025328, -6.223695 43.025213, -6.223666 43.025176, -6.223616 43.025076, -6.223586 43.025034, -6.223533 43.024966, -6.223566 43.024843, -6.223795 43.024687, -6.223996 43.024678, -6.224157 43.024703, -6.224155 43.024643, -6.223933 43.024618, -6.22376 43.024572, -6.223737 43.024634, -6.223402 43.024936, -6.223089 43.025317, -6.222957 43.025355, -6.222853 43.025321, -6.222669 43.025191, -6.22251 43.025118, -6.222383 43.025062, -6.222381 43.024981, -6.222239 43.02472, -6.222113 43.024556, -6.222108 43.024501, -6.222184 43.024438, -6.222549 43.024467, -6.223232 43.024499, -6.223643 43.024445, -6.223723 43.024384, -6.223698 43.024365, -6.223462 43.024442, -6.222947 43.024465, -6.222843 43.024443, -6.222794 43.024376, -6.222691 43.024262, -6.222601 43.024041, -6.222655 43.023945, -6.222767 43.02394, -6.22287 43.024046, -6.222936 43.024045, -6.223332 43.023962, -6.223345 43.023952, -6.223507 43.024022, -6.223638 43.023966, -6.223701 43.023912, -6.223753 43.023718, -6.223603 43.023355, -6.22348 43.023125, -6.223395 43.023032, -6.223405 43.023004, -6.22346 43.022941, -6.223261 43.022795, -6.223071 43.022707, -6.222871 43.022632, -6.222935 43.022553, -6.223147 43.022437, -6.22327 43.02243, -6.223829 43.022634, -6.224132 43.022822, -6.224363 43.022955, -6.224443 43.023033, -6.224508 43.023224, -6.224345 43.023287, -6.224385 43.023427, -6.224446 43.02366, -6.224781 43.023765, -6.224971 43.023917, -6.224904 43.024034, -6.224669 43.02415, -6.224734 43.024182, -6.225123 43.024069, -6.225468 43.023937, -6.225499 43.023911, -6.225765 43.023934, -6.226113 43.024043, -6.226279 43.024101, -6.226263 43.024046, -6.226227 43.023936, -6.225725 43.023805, -6.225682 43.023641, -6.225742 43.023635, -6.225735 43.023611, -6.225944 43.023566, -6.225929 43.023521, -6.225939 43.023518, -6.22588 43.023385, -6.225852 43.023327, -6.225672 43.022963, -6.226397 43.022902, -6.227141 43.022818, -6.227129 43.022338, -6.226953 43.02231, -6.226775 43.022297, -6.226516 43.022113, -6.226296 43.021988, -6.225998 43.021875, -6.225992 43.021799, -6.226105 43.021706, -6.226434 43.021587, -6.2265 43.021621, -6.226446 43.021705, -6.226553 43.021781, -6.226734 43.02175, -6.226888 43.021633, -6.226915 43.021591, -6.226959 43.021518, -6.227105 43.021511, -6.227156 43.021548, -6.227207 43.021529, -6.227233 43.021518, -6.227319 43.021105, -6.227098 43.02123, -6.226831 43.021395, -6.226662 43.021397, -6.226427 43.021495, -6.226243 43.021544, -6.226084 43.02165, -6.225982 43.02169, -6.225822 43.021692, -6.225627 43.021728, -6.225471 43.021703, -6.22535 43.021708, -6.22523 43.02171, -6.225072 43.021738, -6.225127 43.021955, -6.225207 43.022007, -6.225312 43.022082, -6.225416 43.022119, -6.225579 43.022014, -6.225681 43.021986, -6.22576 43.022033, -6.225643 43.022155, -6.225552 43.022278, -6.225504 43.022334, -6.22526 43.022413, -6.225156 43.022498, -6.225086 43.022426, -6.225023 43.022116, -6.224922 43.022014, -6.224721 43.021913, -6.224719 43.021831, -6.224782 43.021731, -6.224809 43.021683, -6.224795 43.021649, -6.224722 43.021654, -6.224701 43.021649, -6.224669 43.021632, -6.224613 43.021597, -6.224556 43.021579, -6.224521 43.021568, -6.224493 43.02153, -6.224498 43.021496, -6.224511 43.021449, -6.224515 43.021367, -6.224488 43.021329, -6.224416 43.021328, -6.224436 43.021379, -6.224415 43.021532, -6.224334 43.021533, -6.224312 43.021639, -6.224202 43.021827, -6.223273 43.021929, -6.223266 43.021924, -6.223298 43.021825, -6.223447 43.021476, -6.223509 43.021289, -6.223426 43.021217, -6.223425 43.02109, -6.223367 43.021037, -6.223368 43.021012, -6.223384 43.020948, -6.223369 43.020915, -6.223339 43.02088, -6.223324 43.02085, -6.223339 43.020813, -6.223449 43.02084, -6.22351 43.020778, -6.223686 43.020775, -6.224302 43.02073, -6.224306 43.020708, -6.224231 43.020584, -6.223942 43.020234, -6.223958 43.020028, -6.224017 43.019867, -6.223989 43.019724, -6.223911 43.019669, -6.223648 43.019564, -6.223616 43.019523, -6.223573 43.01928, -6.223499 43.019131, -6.223224 43.019168, -6.223153 43.019032, -6.223101 43.019183, -6.223056 43.019347, -6.222845 43.020126, -6.222599 43.021035, -6.222535 43.02127, -6.222027 43.022764, -6.221473 43.024393, -6.221097 43.025498, -6.216724 43.038352))"^^wkt:wktLiteral , "POLYGON((-6.213896 43.046662, -6.21403 43.046731, -6.214171 43.046804, -6.214182 43.04681, -6.214225 43.046808, -6.214329 43.046791, -6.214488 43.046788, -6.214564 43.046793, -6.214577 43.046851, -6.214702 43.046917, -6.214829 43.047045, -6.214961 43.047043, -6.215084 43.04705, -6.215325 43.047048, -6.215387 43.047027, -6.215575 43.046939, -6.215757 43.046999, -6.215852 43.047119, -6.215968 43.047081, -6.21612 43.04702, -6.216291 43.046984, -6.216403 43.046956, -6.216503 43.046886, -6.216661 43.046734, -6.216818 43.046556, -6.216966 43.046411, -6.217104 43.046265, -6.217316 43.046055, -6.217489 43.045894, -6.217673 43.045707, -6.217829 43.045511, -6.217927 43.045372, -6.218095 43.04516, -6.218277 43.044968, -6.218367 43.044804, -6.218405 43.044625, -6.218461 43.044462, -6.21859 43.04429, -6.218711 43.044177, -6.218851 43.04406, -6.218965 43.043939, -6.219009 43.043545, -6.219039 43.043279, -6.219046 43.04311, -6.219052 43.042923, -6.219076 43.042724, -6.219152 43.042587, -6.219294 43.042437, -6.219073 43.042227, -6.218928 43.04207, -6.21879 43.041909, -6.218667 43.041741, -6.218584 43.04161, -6.218504 43.041521, -6.218536 43.041395, -6.218582 43.041184, -6.21864 43.040863, -6.218698 43.040561, -6.218771 43.040239, -6.218849 43.03997, -6.218892 43.039697, -6.218929 43.039511, -6.218965 43.039358, -6.219006 43.03927, -6.219104 43.039137, -6.219127 43.039117, -6.219027 43.039149, -6.218949 43.039255, -6.218903 43.039376, -6.218719 43.039376, -6.218678 43.039153, -6.218601 43.039078, -6.21857 43.039034, -6.218491 43.038827, -6.218343 43.038781, -6.218119 43.038779, -6.218223 43.038945, -6.218032 43.039155, -6.217976 43.039196, -6.21795 43.039294, -6.217916 43.039376, -6.217738 43.039479, -6.21767 43.039563, -6.217599 43.039645, -6.217494 43.03979, -6.217278 43.039887, -6.216969 43.03992, -6.216992 43.040135, -6.21696 43.040273, -6.217017 43.040562, -6.217119 43.040769, -6.217129 43.040862, -6.217079 43.041049, -6.217058 43.041203, -6.217146 43.041413, -6.217212 43.041507, -6.217265 43.041692, -6.217717 43.04185, -6.217839 43.041933, -6.21791 43.042027, -6.217513 43.042311, -6.217323 43.042625, -6.217098 43.043171, -6.216863 43.043373, -6.21647 43.043566, -6.216383 43.043821, -6.216249 43.044026, -6.216014 43.044223, -6.215913 43.044239, -6.215419 43.044098, -6.215224 43.044332, -6.215137 43.044362, -6.21491 43.044624, -6.214738 43.044665, -6.214574 43.044671, -6.213896 43.046662))"^^wkt:wktLiteral , "POLYGON((-6.21956 43.038693, -6.21949 43.03871, -6.21946 43.038735, -6.219448 43.03881, -6.21956 43.038693))"^^wkt:wktLiteral .
+
+polygon:original-24-276972-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  193.010853347 , 16.4533989217 ;
+        spo:hasLeftBound           bound:107--4.840655 , bound:107--4.848889 ;
+        spo:hasLowerBound          bound:106-43.170943 , bound:106-43.162371 ;
+        spo:hasRightBound          bound:107--4.84683 , bound:107--4.838843 ;
+        spo:hasUpperBound          bound:106-43.167513 , bound:106-43.17191 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -4.840655 , -4.848889 ;
+        epsg:hasLowerBound106      43.170943 , 43.162371 ;
+        epsg:hasRightBound107      -4.84683 , -4.838843 ;
+        epsg:hasUpperBound106      43.167513 , 43.17191 ;
+        wkt:asWKT                  "POLYGON((-4.84683 43.170943, -4.847719 43.171471, -4.848889 43.17191, -4.847719 43.171469, -4.84683 43.170943))"^^wkt:wktLiteral , "POLYGON((-4.840655 43.162371, -4.838843 43.16675, -4.840083 43.167513, -4.838884 43.166761, -4.838853 43.166742, -4.838852 43.166741, -4.840655 43.162371))"^^wkt:wktLiteral .
+
+polygon:original-09-303802-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  13.6645872151 ;
+        spo:hasLeftBound           bound:107--3.658155 ;
+        spo:hasLowerBound          bound:106-43.177649 ;
+        spo:hasRightBound          bound:107--3.647098 ;
+        spo:hasUpperBound          bound:106-43.18104 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -3.658155 ;
+        epsg:hasLowerBound106      43.177649 ;
+        epsg:hasRightBound107      -3.647098 ;
+        epsg:hasUpperBound106      43.18104 ;
+        wkt:asWKT                  "POLYGON((-3.647098 43.179252, -3.647983 43.179148, -3.648756 43.180089, -3.649438 43.180635, -3.650168 43.181009, -3.651017 43.18104, -3.651753 43.180793, -3.653486 43.179468, -3.655284 43.178386, -3.656559 43.177992, -3.658155 43.177649, -3.656559 43.177992, -3.655284 43.178386, -3.653486 43.179468, -3.651753 43.180792, -3.651017 43.18104, -3.650868 43.181034, -3.650168 43.181009, -3.649438 43.180634, -3.649335 43.180552, -3.648756 43.180089, -3.647983 43.179148, -3.647098 43.179252))"^^wkt:wktLiteral .
+
+bound:107--6.22991  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.22991 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-43.111912  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.111912 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.491215  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.491215 ;
+        epsg:hasAxis  axis:106 .
+
+polygon:original-24-290222-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  2461.6742226 , 119871.268763 ;
+        spo:hasLeftBound           bound:107--6.215852 , bound:107--6.220678 ;
+        spo:hasLowerBound          bound:106-43.036975 , bound:106-43.046788 ;
+        spo:hasRightBound          bound:107--6.214574 , bound:107--6.214182 ;
+        spo:hasUpperBound          bound:106-43.044671 , bound:106-43.047232 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.220678 , -6.215852 ;
+        epsg:hasLowerBound106      43.036975 , 43.046788 ;
+        epsg:hasRightBound107      -6.214182 , -6.214574 ;
+        epsg:hasUpperBound106      43.044671 , 43.047232 ;
+        wkt:asWKT                  "POLYGON((-6.214182 43.04681, -6.214437 43.046962, -6.214688 43.047087, -6.214981 43.047215, -6.215307 43.047232, -6.21556 43.0472, -6.215737 43.047158, -6.215852 43.047119, -6.215757 43.046999, -6.215575 43.046939, -6.215387 43.047027, -6.215325 43.047048, -6.215084 43.04705, -6.214961 43.047043, -6.214829 43.047045, -6.214702 43.046917, -6.214577 43.046851, -6.214564 43.046793, -6.214488 43.046788, -6.214329 43.046791, -6.214225 43.046808, -6.214182 43.04681))"^^wkt:wktLiteral , "POLYGON((-6.214574 43.044671, -6.214738 43.044665, -6.21491 43.044624, -6.215137 43.044362, -6.215224 43.044332, -6.215419 43.044098, -6.215913 43.044239, -6.216014 43.044223, -6.216249 43.044026, -6.216383 43.043821, -6.21647 43.043566, -6.216863 43.043373, -6.217098 43.043171, -6.217323 43.042625, -6.217513 43.042311, -6.21791 43.042027, -6.217839 43.041933, -6.217717 43.04185, -6.217265 43.041692, -6.217212 43.041507, -6.217146 43.041413, -6.217058 43.041203, -6.217079 43.041049, -6.217129 43.040862, -6.217119 43.040769, -6.217017 43.040562, -6.21696 43.040273, -6.216992 43.040135, -6.216969 43.03992, -6.217278 43.039887, -6.217494 43.03979, -6.217599 43.039645, -6.21767 43.039563, -6.217738 43.039479, -6.217916 43.039376, -6.21795 43.039294, -6.217976 43.039196, -6.218032 43.039155, -6.218223 43.038945, -6.218119 43.038779, -6.218343 43.038781, -6.218491 43.038827, -6.21857 43.039034, -6.218601 43.039078, -6.218678 43.039153, -6.218719 43.039376, -6.218903 43.039376, -6.218949 43.039255, -6.219027 43.039149, -6.219127 43.039117, -6.219349 43.038912, -6.219448 43.03881, -6.21946 43.038735, -6.21949 43.03871, -6.21956 43.038693, -6.219576 43.038676, -6.219902 43.038335, -6.220135 43.03809, -6.220394 43.037839, -6.220678 43.037567, -6.220659 43.037527, -6.220509 43.037444, -6.220239 43.03731, -6.22005 43.037199, -6.219897 43.037114, -6.219868 43.037055, -6.21977 43.037009, -6.219645 43.036995, -6.219523 43.036975, -6.219523 43.03707, -6.219533 43.037168, -6.219004 43.037168, -6.218735 43.037183, -6.218461 43.037183, -6.218348 43.037301, -6.218299 43.03748, -6.218274 43.037502, -6.217932 43.037536, -6.217932 43.037911, -6.218184 43.038147, -6.218146 43.038181, -6.218055 43.038292, -6.217986 43.038318, -6.217857 43.038321, -6.217814 43.038317, -6.217655 43.038235, -6.217646 43.038147, -6.21755 43.038065, -6.21747 43.038044, -6.217325 43.038025, -6.217217 43.038029, -6.217019 43.03815, -6.216724 43.038352, -6.214574 43.044671))"^^wkt:wktLiteral .
+
+bound:107--6.21956  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.21956 ;
+        epsg:hasAxis  axis:107 .
+
+bound:106-42.561674  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.561674 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-42.487175  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.487175 ;
+        epsg:hasAxis  axis:106 .
+
+bound:106-43.153406  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  43.153406 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--3.580582  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -3.580582 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--7.056971  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.056971 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-24-172394
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-172394-4326 ;
+        esadm:provincia  province:24 .
+
+bound:107--6.838167  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.838167 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--4.846378  a  epsg:RightBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -4.846378 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-24-274338
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-274338-4326 ;
+        esadm:provincia  province:24 .
+
+bound:106-42.487588  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.487588 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--7.065528  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.065528 ;
+        epsg:hasAxis  axis:107 .
+
+bound:107--7.069671  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -7.069671 ;
+        epsg:hasAxis  axis:107 .
+
+patch:original-24-172431
+        a                mfe:mfe25patch , mfe:Patch ;
+        spo:hasPolygon   polygon:original-24-172431-4326 ;
+        esadm:provincia  province:24 .
+
+bound:106-42.486724  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  42.486724 ;
+        epsg:hasAxis  axis:106 .
+
+bound:107--6.854369  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -6.854369 ;
+        epsg:hasAxis  axis:107 .
+
+polygon:original-24-172431-4326
+        a                          spo:Polygon ;
+        spo:hasAreaInSquareMeters  7835.89465303 ;
+        spo:hasLeftBound           bound:107--6.838167 ;
+        spo:hasLowerBound          bound:106-42.493902 ;
+        spo:hasRightBound          bound:107--6.835953 ;
+        spo:hasUpperBound          bound:106-42.495708 ;
+        spo:isInLayer              layer:original ;
+        epsg:hasCoordinateReferenceSystem
+                crs:4326 ;
+        epsg:hasLeftBound107       -6.838167 ;
+        epsg:hasLowerBound106      42.493902 ;
+        epsg:hasRightBound107      -6.835953 ;
+        epsg:hasUpperBound106      42.495708 ;
+        wkt:asWKT                  "POLYGON((-6.838038 42.493902, -6.838018 42.493992, -6.837547 42.494925, -6.837039 42.495488, -6.835953 42.494661, -6.836057 42.495201, -6.83649 42.495565, -6.836803 42.495708, -6.837082 42.495699, -6.837391 42.49558, -6.837393 42.495578, -6.837958 42.494943, -6.83796 42.49494, -6.837899 42.495009, -6.837668 42.494947, -6.837673 42.494791, -6.837943 42.494439, -6.838167 42.494075, -6.838038 42.493902))"^^wkt:wktLiteral .
