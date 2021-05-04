@@ -132,16 +132,16 @@ bound:106-28.485468  a  epsg:UpperBound ;
         smo:hasValue  28.485468 ;
         epsg:hasAxis  axis:106 .
 
-occupationOfSpecies:1.14-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  1.14 .
-
 infoPatch:s5-35-341900-3
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-341900 ;
         mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:3-100 .
+
+occupationOfSpecies:1.14-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  1.14 .
 
 bound:107--15.574758  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -737,8 +737,8 @@ infoPatch:s5-35-340387-3
         mfe:hasRateOfPatch        rateOfPatch:3-100 .
 
 patch:s5s5-35-776  a                    mfe:Patch , ifn:Use111 ;
-        mfe:containsPatch               infoPatch:s5-35-332110-8 , infoPatch:s5-35-332113-2 , infoPatch:s5-35-331560-1 , infoPatch:s5-35-338238-11 , infoPatch:s5-35-332111-9 , infoPatch:s5-35-332117-8 , infoPatch:s5-35-332112-3 , infoPatch:s5-35-332118-9 , infoPatch:s5-35-332114-9 , infoPatch:s5-35-332116-8 , infoPatch:s5-35-336913-1 , infoPatch:s5-35-332146-0 , infoPatch:s5-35-332102-10 , infoPatch:s5-35-332115-2 , infoPatch:s5-35-331557-8 , infoPatch:s5-35-332101-1 , infoPatch:s5-35-347184-0 , infoPatch:s5-35-360277-1 , infoPatch:s5-35-331558-7 , infoPatch:s5-35-331564-1 , infoPatch:s5-35-347183-1 ;
-        mfe:containsSpecies             infoSpecies:27-81.48 , infoSpecies:28-0.09 , infoSpecies:23-1.99 , infoSpecies:24-6.51 ;
+        mfe:containsPatch               infoPatch:s5-35-331558-7 , infoPatch:s5-35-332110-8 , infoPatch:s5-35-332113-2 , infoPatch:s5-35-331560-1 , infoPatch:s5-35-338238-11 , infoPatch:s5-35-332111-9 , infoPatch:s5-35-332117-8 , infoPatch:s5-35-332112-3 , infoPatch:s5-35-332118-9 , infoPatch:s5-35-332114-9 , infoPatch:s5-35-332116-8 , infoPatch:s5-35-336913-1 , infoPatch:s5-35-332146-0 , infoPatch:s5-35-332102-10 , infoPatch:s5-35-332115-2 , infoPatch:s5-35-331557-8 , infoPatch:s5-35-332101-1 , infoPatch:s5-35-347184-0 , infoPatch:s5-35-360277-1 , infoPatch:s5-35-331564-1 , infoPatch:s5-35-347183-1 ;
+        mfe:containsSpecies             infoSpecies:28-0.09 , infoSpecies:23-1.99 , infoSpecies:27-81.48 , infoSpecies:24-6.51 ;
         mfe:containsUse                 infoUse:112-22.5 , infoUse:111-77.5 ;
         mfe:hasCanopyCoverTotal         canopyCover:73.05e0 ;
         mfe:hasCanopyCoverTotalPercent  73.05e0 ;
@@ -1738,11 +1738,11 @@ area:846984.658538-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  846984.658538 .
 
-infoPatch:s5-35-333779-1
+infoPatch:s5-35-341575-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-333779 ;
-        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:1-100 .
+        mfe:hasPatch              patch:s5-35-341575 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-28.613652  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -1766,11 +1766,11 @@ polygon:s5s5-35-649-4326
         epsg:hasUpperBound106      28.087375 ;
         wkt:asWKT                  "POLYGON((-15.540407 28.087375, -15.545331 28.086262, -15.545974 28.073772, -15.541134 28.068589, -15.540632 28.068796, -15.540053 28.069875, -15.538585 28.072732, -15.535924 28.078815, -15.53904 28.078725, -15.536955 28.080203, -15.533154 28.078337, -15.533152 28.077829, -15.528781 28.078985, -15.523555 28.082121, -15.528041 28.082305, -15.534262 28.083626, -15.533077 28.085052, -15.5356 28.08559, -15.53951 28.087292, -15.540407 28.087375))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-341575-100
+infoPatch:s5-35-333779-1
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341575 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+        mfe:hasPatch              patch:s5-35-333779 ;
+        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:1-100 .
 
 bound:106-28.667822  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -2772,22 +2772,22 @@ infoSpecies:61-80  a                mfe:SpeciesInPatch ;
         mfe:hasPercentageOfSpecies  "80"^^xsd:decimal ;
         mfe:hasSpecies              ifn:Species61 .
 
-infoPatch:s5-35-340330-17
+infoPatch:s5-35-329927-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-340330 ;
-        mfe:hasPercentageOfPatch  "17"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:17-100 .
+        mfe:hasPatch              patch:s5-35-329927 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:107--15.527321  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  -15.527321 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-329927-100
+infoPatch:s5-35-340330-17
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-329927 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+        mfe:hasPatch              patch:s5-35-340330 ;
+        mfe:hasPercentageOfPatch  "17"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:17-100 .
 
 patch:s5s5-35-637  a                    ifn:Use200 , mfe:Patch ;
         mfe:containsPatch               infoPatch:s5-35-334403-100 ;
@@ -4044,16 +4044,16 @@ infoPatch:s5-35-340557-14
         mfe:hasPercentageOfPatch  "14"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:14-100 .
 
-bound:106-27.881845  a  epsg:LowerBound ;
-        smo:hasUnit   unit:Degrees ;
-        smo:hasValue  27.881845 ;
-        epsg:hasAxis  axis:106 .
-
 infoPatch:s5-35-337522-5
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337522 ;
         mfe:hasPercentageOfPatch  "5"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:5-100 .
+
+bound:106-27.881845  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  27.881845 ;
+        epsg:hasAxis  axis:106 .
 
 area:51837.5621336-M2
         a             smo:MeasureInSquareMeters ;
@@ -4435,11 +4435,11 @@ bound:106-28.313845  a  epsg:UpperBound ;
         smo:hasValue  28.313845 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-338992-0
+infoPatch:s5-35-334218-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338992 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
+        mfe:hasPatch              patch:s5-35-334218 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 infoPatch:s5-35-339735-100
         a                         mfe:PatchInPatch ;
@@ -4457,11 +4457,11 @@ bound:106-28.095338  a  epsg:UpperBound ;
         smo:hasValue  28.095338 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-334218-100
+infoPatch:s5-35-338992-0
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-334218 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+        mfe:hasPatch              patch:s5-35-338992 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 infoPatch:s5-35-340926-0
         a                         mfe:PatchInPatch ;
@@ -5708,16 +5708,16 @@ bound:106-28.959802  a  epsg:UpperBound ;
         smo:hasValue  28.959802 ;
         epsg:hasAxis  axis:106 .
 
-bound:106-27.813281  a  epsg:LowerBound ;
-        smo:hasUnit   unit:Degrees ;
-        smo:hasValue  27.813281 ;
-        epsg:hasAxis  axis:106 .
-
 infoPatch:s5-35-339710-4
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339710 ;
         mfe:hasPercentageOfPatch  "4"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:4-100 .
+
+bound:106-27.813281  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  27.813281 ;
+        epsg:hasAxis  axis:106 .
 
 patch:s5s5-35-248  a                    mfe:Patch , ifn:Use140 ;
         mfe:containsPatch               infoPatch:s5-35-340662-100 ;
@@ -5929,17 +5929,17 @@ bound:106-29.413468  a  epsg:UpperBound ;
         smo:hasValue  29.413468 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-354482-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-354482 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-356599-12
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-356599 ;
         mfe:hasPercentageOfPatch  "12"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:12-100 .
+
+infoPatch:s5-35-354482-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-354482 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:106-27.97253  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -7524,17 +7524,17 @@ polygon:s5s5-35-500-4326
         epsg:hasUpperBound106      29.107415 ;
         wkt:asWKT                  "POLYGON((-13.529764 29.106451, -13.526383 29.106148, -13.529106 29.107415, -13.52996 29.106784, -13.529764 29.106451))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-332626-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332626 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-340788-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-340788 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-332626-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-332626 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 infoPatch:s5-35-330737-100
         a                         mfe:PatchInPatch ;
@@ -8806,17 +8806,17 @@ bound:107--14.082875  a  epsg:RightBound ;
         smo:hasValue  -14.082875 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-332127-2
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332127 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
-
 infoPatch:s5-35-356959-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-356959 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-332127-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-332127 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
 bound:107--15.557677  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -9497,16 +9497,16 @@ bound:107--15.567723  a  epsg:LeftBound ;
         smo:hasValue  -15.567723 ;
         epsg:hasAxis  axis:107 .
 
-infoSpecies:28-47.97  a             mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:47.97-100 ;
-        mfe:hasPercentageOfSpecies  47.97 ;
-        mfe:hasSpecies              ifn:Species28 .
-
 infoPatch:s5-35-332083-5
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-332083 ;
         mfe:hasPercentageOfPatch  "5"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:5-100 .
+
+infoSpecies:28-47.97  a             mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:47.97-100 ;
+        mfe:hasPercentageOfSpecies  47.97 ;
+        mfe:hasSpecies              ifn:Species28 .
 
 area:86330.1221736-M2
         a             smo:MeasureInSquareMeters ;
@@ -9874,17 +9874,17 @@ area:1684531.20496-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  1684531.20496 .
 
-infoPatch:s5-35-339487-99
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339487 ;
-        mfe:hasPercentageOfPatch  "99"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:99-100 .
-
 infoPatch:s5-35-340737-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-340737 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-339487-99
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339487 ;
+        mfe:hasPercentageOfPatch  "99"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:99-100 .
 
 polygon:s5s5-35-573-4326
         a                          spo:Polygon ;
@@ -10895,10 +10895,11 @@ infoPatch:s5-35-335884-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoSpecies:23-1.27  a              mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:1.27-100 ;
-        mfe:hasPercentageOfSpecies  1.27 ;
-        mfe:hasSpecies              ifn:Species23 .
+infoPatch:s5-35-336570-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-336570 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 infoPatch:s5-35-369510-100
         a                         mfe:PatchInPatch ;
@@ -10911,11 +10912,10 @@ area:221936.038785-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  221936.038785 .
 
-infoPatch:s5-35-336570-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336570 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+infoSpecies:23-1.27  a              mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:1.27-100 ;
+        mfe:hasPercentageOfSpecies  1.27 ;
+        mfe:hasSpecies              ifn:Species23 .
 
 bound:106-29.036533  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -10994,17 +10994,17 @@ bound:107--13.872696  a  epsg:LeftBound ;
         smo:hasValue  -13.872696 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-329255-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-329255 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-341814-52
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-341814 ;
         mfe:hasPercentageOfPatch  "52"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:52-100 .
+
+infoPatch:s5-35-329255-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-329255 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:107--13.875838  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -12116,16 +12116,16 @@ bound:107--15.449397  a  epsg:RightBound ;
         smo:hasValue  -15.449397 ;
         epsg:hasAxis  axis:107 .
 
+infoSpecies:69-90  a                mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:90-100 ;
+        mfe:hasPercentageOfSpecies  "90"^^xsd:decimal ;
+        mfe:hasSpecies              ifn:Species69 .
+
 infoPatch:s5-35-336993-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-336993 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-infoSpecies:69-90  a                mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:90-100 ;
-        mfe:hasPercentageOfSpecies  "90"^^xsd:decimal ;
-        mfe:hasSpecies              ifn:Species69 .
 
 rateOfPatch:46-100  a  mfe:RateofPatch ;
         smo:hasUnit   unit:Percentage ;
@@ -12503,11 +12503,11 @@ infoPatch:s5-35-337128-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-335104-1
+infoPatch:s5-35-339933-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-335104 ;
-        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:1-100 .
+        mfe:hasPatch              patch:s5-35-339933 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 infoPatch:s5-35-335668-15
         a                         mfe:PatchInPatch ;
@@ -12547,17 +12547,17 @@ polygon:s5s5-35-75-4326
         epsg:hasUpperBound106      28.401373 ;
         wkt:asWKT                  "POLYGON((-14.060443 28.401373, -14.07069 28.390795, -14.059635 28.389396, -14.060443 28.401373))"^^wkt:wktLiteral .
 
+infoPatch:s5-35-335104-1
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-335104 ;
+        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:1-100 .
+
 infoPatch:s5-35-339198-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339198 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-infoPatch:s5-35-339933-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339933 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-27.750385  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -12570,15 +12570,15 @@ infoPatch:s5-35-336592-9
         mfe:hasPercentageOfPatch  "9"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:9-100 .
 
-infoPatch:s5-35-335102-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-335102 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-340495-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-340495 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-335102-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-335102 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -13395,17 +13395,17 @@ infoPatch:s5-35-335755-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-337728-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-337728 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-339329-6
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339329 ;
         mfe:hasPercentageOfPatch  "6"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:6-100 .
+
+infoPatch:s5-35-337728-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-337728 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 polygon:s5s5-35-257-4326
         a                          spo:Polygon ;
@@ -16068,15 +16068,15 @@ area:43305.1519133-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  43305.1519133 .
 
+rateOfUse:100-100  a  mfe:RateofUse ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  "100"^^xsd:decimal .
+
 infoPatch:s5-35-332237-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-332237 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-rateOfUse:100-100  a  mfe:RateofUse ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  "100"^^xsd:decimal .
 
 infoPatch:s5-35-339808-1
         a                         mfe:PatchInPatch ;
@@ -16793,17 +16793,17 @@ bound:106-27.748485  a  epsg:UpperBound ;
         smo:hasValue  27.748485 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-338097-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338097 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-330111-1
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-330111 ;
         mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:1-100 .
+
+infoPatch:s5-35-338097-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-338097 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 infoPatch:s5-35-336880-49
         a                         mfe:PatchInPatch ;
@@ -17088,17 +17088,17 @@ bound:107--13.997568  a  epsg:RightBound ;
         smo:hasValue  -13.997568 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-337981-16
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-337981 ;
-        mfe:hasPercentageOfPatch  "16"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:16-100 .
-
 infoPatch:s5-35-336580-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-336580 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-337981-16
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-337981 ;
+        mfe:hasPercentageOfPatch  "16"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:16-100 .
 
 infoPatch:s5-35-337968-100
         a                         mfe:PatchInPatch ;
@@ -17491,10 +17491,11 @@ bound:107--15.607732  a  epsg:RightBound ;
         smo:hasValue  -15.607732 ;
         epsg:hasAxis  axis:107 .
 
-occupationOfSpecies:2.31-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  2.31 .
+infoPatch:s5-35-336293-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-336293 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 patch:s5s5-35-244  a                    mfe:Patch , ifn:Use140 ;
         mfe:containsPatch               infoPatch:s5-35-339981-100 ;
@@ -17506,11 +17507,10 @@ patch:s5s5-35-244  a                    mfe:Patch , ifn:Use140 ;
         spo:hasPolygon                  polygon:s5s5-35-244-4326 ;
         esadm:provincia                 province:35 .
 
-infoPatch:s5-35-336293-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336293 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+occupationOfSpecies:2.31-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  2.31 .
 
 patch:s5s5-35-31  a                     mfe:Patch , ifn:Use150 ;
         mfe:containsPatch               infoPatch:s5-35-354921-100 ;
@@ -18192,17 +18192,17 @@ bound:107--15.479251  a  epsg:RightBound ;
         smo:hasValue  -15.479251 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-341487-52
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341487 ;
-        mfe:hasPercentageOfPatch  "52"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:52-100 .
-
 infoPatch:s5-35-332591-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-332591 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-341487-52
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-341487 ;
+        mfe:hasPercentageOfPatch  "52"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:52-100 .
 
 area:8576893.4714028-M2
         a             smo:MeasureInSquareMeters ;
@@ -18236,17 +18236,17 @@ polygon:s5s5-35-553-4326
         epsg:hasUpperBound106      28.492838 ;
         wkt:asWKT                  "POLYGON((-14.01744 28.485363, -14.022666 28.492838, -14.019853 28.485758, -14.01744 28.485363))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-369738-98
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-369738 ;
-        mfe:hasPercentageOfPatch  "98"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:98-100 .
-
 infoPatch:s5-35-334384-11
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-334384 ;
         mfe:hasPercentageOfPatch  "11"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:11-100 .
+
+infoPatch:s5-35-369738-98
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-369738 ;
+        mfe:hasPercentageOfPatch  "98"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:98-100 .
 
 bound:107--15.596271  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -19020,15 +19020,15 @@ infoPatch:s5-35-335301-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-occupationOfSpecies:29.46-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  29.46 .
-
 occupationOfSpecies:14.53-100
         a             mfe:OccupationOfSpecies ;
         smo:hasUnit   unit:Percentage ;
         smo:hasValue  14.53 .
+
+occupationOfSpecies:29.46-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  29.46 .
 
 bound:107--14.132036  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
@@ -19963,6 +19963,12 @@ bound:107--15.444734  a  epsg:LeftBound ;
         smo:hasValue  -15.444734 ;
         epsg:hasAxis  axis:107 .
 
+infoPatch:s5-35-341683-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-341683 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
 patch:s5s5-35-842  a                    ifn:Use500 , mfe:Patch ;
         mfe:containsPatch               infoPatch:s5-35-338465-100 ;
         mfe:containsUse                 infoUse:500-100 ;
@@ -19972,12 +19978,6 @@ patch:s5s5-35-842  a                    ifn:Use500 , mfe:Patch ;
         mfe:hasCanopyCoverTreesPercent  0 ;
         spo:hasPolygon                  polygon:s5s5-35-842-4326 ;
         esadm:provincia                 province:35 .
-
-infoPatch:s5-35-341683-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341683 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 infoPatch:s5-35-338650-0
         a                         mfe:PatchInPatch ;
@@ -20653,11 +20653,10 @@ infoPatch:s5-35-359880-5
         mfe:hasPercentageOfPatch  "5"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:5-100 .
 
-infoPatch:s5-35-333928-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-333928 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+infoSpecies:28-31.16  a             mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:31.16-100 ;
+        mfe:hasPercentageOfSpecies  31.16 ;
+        mfe:hasSpecies              ifn:Species28 .
 
 infoPatch:s5-35-332540-100
         a                         mfe:PatchInPatch ;
@@ -20665,10 +20664,11 @@ infoPatch:s5-35-332540-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoSpecies:28-31.16  a             mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:31.16-100 ;
-        mfe:hasPercentageOfSpecies  31.16 ;
-        mfe:hasSpecies              ifn:Species28 .
+infoPatch:s5-35-333928-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-333928 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:107--15.711666  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -21130,17 +21130,17 @@ bound:106-28.412794  a  epsg:LowerBound ;
         smo:hasValue  28.412794 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-339583-3
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339583 ;
-        mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:3-100 .
-
 infoPatch:s5-35-337429-20
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337429 ;
         mfe:hasPercentageOfPatch  "20"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:20-100 .
+
+infoPatch:s5-35-339583-3
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339583 ;
+        mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:3-100 .
 
 infoPatch:s5-35-369626-100
         a                         mfe:PatchInPatch ;
@@ -21651,11 +21651,11 @@ polygon:s5s5-35-642-4326
         epsg:hasUpperBound106      28.10577 ;
         wkt:asWKT                  "POLYGON((-15.711666 28.105297, -15.711702 28.105255, -15.709203 28.1019, -15.700482 28.09565, -15.69442 28.097382, -15.687647 28.090115, -15.673552 28.080508, -15.671005 28.082259, -15.674917 28.086292, -15.678214 28.089681, -15.693231 28.099526, -15.704757 28.102802, -15.709793 28.10577, -15.711666 28.105297))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-330116-100
+infoPatch:s5-35-332064-6
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-330116 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+        mfe:hasPatch              patch:s5-35-332064 ;
+        mfe:hasPercentageOfPatch  "6"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:6-100 .
 
 polygon:s5s5-35-516-4326
         a                          spo:Polygon ;
@@ -21674,10 +21674,11 @@ polygon:s5s5-35-516-4326
         epsg:hasUpperBound106      28.949306 ;
         wkt:asWKT                  "POLYGON((-13.765041 28.947963, -13.764927 28.949306, -13.786202 28.92898, -13.781918 28.923964, -13.765041 28.947963))"^^wkt:wktLiteral .
 
-occupationOfSpecies:0.33-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  0.33 .
+infoPatch:s5-35-330116-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-330116 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 infoPatch:s5-35-339031-100
         a                         mfe:PatchInPatch ;
@@ -21685,11 +21686,10 @@ infoPatch:s5-35-339031-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-332064-6
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332064 ;
-        mfe:hasPercentageOfPatch  "6"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:6-100 .
+occupationOfSpecies:0.33-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  0.33 .
 
 bound:107--13.538587  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
@@ -21868,15 +21868,15 @@ patch:s5s5-35-360  a                    ifn:Use300 , mfe:Patch ;
         spo:hasPolygon                  polygon:s5s5-35-360-4326 ;
         esadm:provincia                 province:35 .
 
-infoPatch:s5-35-336140-1
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336140 ;
-        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:1-100 .
-
 infoPatch:s5-35-340390-1
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-340390 ;
+        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:1-100 .
+
+infoPatch:s5-35-336140-1
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-336140 ;
         mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:1-100 .
 
@@ -21927,17 +21927,17 @@ infoPatch:s5-35-341440-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-336931-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336931 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-354903-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-354903 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-336931-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-336931 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:106-28.143128  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -22519,15 +22519,15 @@ bound:106-28.337635  a  epsg:LowerBound ;
         smo:hasValue  28.337635 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-339286-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339286 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-335888-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-335888 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-339286-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339286 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -23744,15 +23744,15 @@ bound:107--15.540053  a  epsg:LeftBound ;
         smo:hasValue  -15.540053 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-330735-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-330735 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-334211-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-334211 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-330735-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-330735 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -23877,16 +23877,16 @@ bound:107--13.877062  a  epsg:LeftBound ;
         smo:hasValue  -13.877062 ;
         epsg:hasAxis  axis:107 .
 
+infoSpecies:1500-20  a              mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:20-100 ;
+        mfe:hasPercentageOfSpecies  "20"^^xsd:decimal ;
+        mfe:hasSpecies              ifn:Species1500 .
+
 infoPatch:s5-35-337319-3
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337319 ;
         mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:3-100 .
-
-infoSpecies:1500-20  a              mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:20-100 ;
-        mfe:hasPercentageOfSpecies  "20"^^xsd:decimal ;
-        mfe:hasSpecies              ifn:Species1500 .
 
 bound:106-28.153908  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -23976,17 +23976,17 @@ bound:106-27.778331  a  epsg:UpperBound ;
         smo:hasValue  27.778331 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-331532-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-331532 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-331672-88
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-331672 ;
         mfe:hasPercentageOfPatch  "88"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:88-100 .
+
+infoPatch:s5-35-331532-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-331532 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 patch:s5s5-35-736  a                    ifn:Use122 , mfe:Patch ;
         mfe:containsPatch               infoPatch:s5-35-339853-100 ;
@@ -24423,21 +24423,21 @@ infoPatch:s5-35-337974-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoSpecies:66-60  a                mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:60-100 ;
-        mfe:hasPercentageOfSpecies  "60"^^xsd:decimal ;
-        mfe:hasSpecies              ifn:Species66 .
+infoPatch:s5-35-336616-1
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-336616 ;
+        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:1-100 .
 
 bound:106-28.400916  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  28.400916 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-336616-1
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336616 ;
-        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:1-100 .
+infoSpecies:66-60  a                mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:60-100 ;
+        mfe:hasPercentageOfSpecies  "60"^^xsd:decimal ;
+        mfe:hasSpecies              ifn:Species66 .
 
 bound:106-28.31443  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -24464,15 +24464,15 @@ area:582044.105725-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  582044.105725 .
 
-rateOfPatch:9-100  a  mfe:RateofPatch ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  "9"^^xsd:decimal .
-
 infoPatch:s5-35-330431-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-330431 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+rateOfPatch:9-100  a  mfe:RateofPatch ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  "9"^^xsd:decimal .
 
 bound:106-28.608649  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -25115,17 +25115,17 @@ bound:107--15.426763  a  epsg:RightBound ;
         smo:hasValue  -15.426763 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-341826-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341826 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-339744-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339744 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-341826-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-341826 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:107--15.469751  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
@@ -25322,16 +25322,16 @@ infoPatch:s5-35-333524-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
+infoSpecies:27-81.48  a             mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:81.48-100 ;
+        mfe:hasPercentageOfSpecies  81.48 ;
+        mfe:hasSpecies              ifn:Species27 .
+
 infoPatch:s5-35-339534-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339534 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-infoSpecies:27-81.48  a             mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:81.48-100 ;
-        mfe:hasPercentageOfSpecies  81.48 ;
-        mfe:hasSpecies              ifn:Species27 .
 
 area:5497841.92907-M2
         a             smo:MeasureInSquareMeters ;
@@ -25704,17 +25704,17 @@ area:1177332.88552-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  1177332.88552 .
 
-infoPatch:s5-35-332310-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332310 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-339059-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339059 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-332310-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-332310 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 polygon:s5s5-35-227-4326
         a                          spo:Polygon ;
@@ -26116,22 +26116,22 @@ bound:106-29.147892  a  epsg:UpperBound ;
         smo:hasValue  29.147892 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-337508-12
+infoPatch:s5-35-337070-99
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-337508 ;
-        mfe:hasPercentageOfPatch  "12"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:12-100 .
+        mfe:hasPatch              patch:s5-35-337070 ;
+        mfe:hasPercentageOfPatch  "99"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:99-100 .
 
 bound:106-28.002357  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  28.002357 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-337070-99
+infoPatch:s5-35-337508-12
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-337070 ;
-        mfe:hasPercentageOfPatch  "99"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:99-100 .
+        mfe:hasPatch              patch:s5-35-337508 ;
+        mfe:hasPercentageOfPatch  "12"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:12-100 .
 
 bound:106-28.387848  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -26774,11 +26774,6 @@ bound:107--15.436236  a  epsg:LeftBound ;
         smo:hasValue  -15.436236 ;
         epsg:hasAxis  axis:107 .
 
-bound:106-27.775851  a  epsg:LowerBound ;
-        smo:hasUnit   unit:Degrees ;
-        smo:hasValue  27.775851 ;
-        epsg:hasAxis  axis:106 .
-
 patch:s5s5-35-194  a                    ifn:Use140 , mfe:Patch ;
         mfe:containsPatch               infoPatch:s5-35-339391-1 , infoPatch:s5-35-339396-0 , infoPatch:s5-35-337397-0 , infoPatch:s5-35-339472-1 , infoPatch:s5-35-337398-68 , infoPatch:s5-35-339901-0 , infoPatch:s5-35-339927-1 , infoPatch:s5-35-339477-2 , infoPatch:s5-35-339397-1 , infoPatch:s5-35-339453-0 , infoPatch:s5-35-337310-2 , infoPatch:s5-35-339108-15 , infoPatch:s5-35-339924-1 , infoPatch:s5-35-337372-1 , infoPatch:s5-35-339489-7 ;
         mfe:containsSpecies             infoSpecies:1500-2.81 , infoSpecies:8000-6.3 ;
@@ -26790,27 +26785,26 @@ patch:s5s5-35-194  a                    ifn:Use140 , mfe:Patch ;
         spo:hasPolygon                  polygon:s5s5-35-194-4326 ;
         esadm:provincia                 province:35 .
 
+bound:106-27.775851  a  epsg:LowerBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  27.775851 ;
+        epsg:hasAxis  axis:106 .
+
 area:189776.905107-M2
         a             smo:MeasureInSquareMeters ;
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  189776.905107 .
 
-infoPatch:s5-35-338946-0
+infoPatch:s5-35-339658-1
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338946 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
+        mfe:hasPatch              patch:s5-35-339658 ;
+        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:1-100 .
 
 bound:106-28.145688  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  28.145688 ;
         epsg:hasAxis  axis:106 .
-
-infoPatch:s5-35-338760-3
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338760 ;
-        mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:3-100 .
 
 infoPatch:s5-35-340331-2
         a                         mfe:PatchInPatch ;
@@ -26818,11 +26812,17 @@ infoPatch:s5-35-340331-2
         mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
-infoPatch:s5-35-339658-1
+infoPatch:s5-35-338760-3
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339658 ;
-        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:1-100 .
+        mfe:hasPatch              patch:s5-35-338760 ;
+        mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:3-100 .
+
+infoPatch:s5-35-338946-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-338946 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:107--13.727685  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
@@ -27245,17 +27245,17 @@ infoPatch:s5-35-334415-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-340233-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-340233 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-335882-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-335882 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-340233-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-340233 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:106-28.215188  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -27470,11 +27470,10 @@ infoPatch:s5-35-336907-0
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
-infoPatch:s5-35-336739-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336739 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
+infoSpecies:62-0.49  a              mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:0.49-100 ;
+        mfe:hasPercentageOfSpecies  0.49 ;
+        mfe:hasSpecies              ifn:Species62 .
 
 patch:s5s5-35-532  a                    ifn:Use200 , mfe:Patch ;
         mfe:containsPatch               infoPatch:s5-35-337253-100 ;
@@ -27486,10 +27485,11 @@ patch:s5s5-35-532  a                    ifn:Use200 , mfe:Patch ;
         spo:hasPolygon                  polygon:s5s5-35-532-4326 ;
         esadm:provincia                 province:35 .
 
-infoSpecies:62-0.49  a              mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:0.49-100 ;
-        mfe:hasPercentageOfSpecies  0.49 ;
-        mfe:hasSpecies              ifn:Species62 .
+infoPatch:s5-35-336739-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-336739 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:107--15.548715  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -28083,16 +28083,16 @@ bound:106-28.053905  a  epsg:LowerBound ;
         smo:hasValue  28.053905 ;
         epsg:hasAxis  axis:106 .
 
+infoSpecies:61-16.21  a             mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:16.21-100 ;
+        mfe:hasPercentageOfSpecies  16.21 ;
+        mfe:hasSpecies              ifn:Species61 .
+
 infoPatch:s5-35-341362-2
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-341362 ;
         mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:2-100 .
-
-infoSpecies:61-16.21  a             mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:16.21-100 ;
-        mfe:hasPercentageOfSpecies  16.21 ;
-        mfe:hasSpecies              ifn:Species61 .
 
 bound:107--15.529951  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -28244,9 +28244,9 @@ infoPatch:s5-35-334740-13
         mfe:hasPercentageOfPatch  "13"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:13-100 .
 
-infoPatch:s5-35-341085-100
+infoPatch:s5-35-335865-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341085 ;
+        mfe:hasPatch              patch:s5-35-335865 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -28277,9 +28277,9 @@ patch:s5s5-35-37  a                     mfe:Patch , ifn:Use150 ;
         spo:hasPolygon                  polygon:s5s5-35-37-4326 ;
         esadm:provincia                 province:35 .
 
-infoPatch:s5-35-335865-100
+infoPatch:s5-35-341085-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-335865 ;
+        mfe:hasPatch              patch:s5-35-341085 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -28521,17 +28521,16 @@ patch:s5s5-35-662  a                    ifn:Use200 , mfe:Patch ;
         spo:hasPolygon                  polygon:s5s5-35-662-4326 ;
         esadm:provincia                 province:35 .
 
+infoSpecies:28-0.09  a              mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:0.09-100 ;
+        mfe:hasPercentageOfSpecies  0.09 ;
+        mfe:hasSpecies              ifn:Species28 .
+
 infoPatch:s5-35-337175-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337175 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-infoPatch:s5-35-340127-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-340127 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 area:1648701.1388490999-M2
         a             smo:MeasureInSquareMeters ;
@@ -28548,10 +28547,11 @@ patch:s5s5-35-472  a                    mfe:Patch , ifn:Use300 ;
         spo:hasPolygon                  polygon:s5s5-35-472-4326 ;
         esadm:provincia                 province:35 .
 
-infoSpecies:28-0.09  a              mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:0.09-100 ;
-        mfe:hasPercentageOfSpecies  0.09 ;
-        mfe:hasSpecies              ifn:Species28 .
+infoPatch:s5-35-340127-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-340127 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-27.794737  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -28727,21 +28727,21 @@ area:685230.794549-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  685230.794549 .
 
-infoPatch:s5-35-339603-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339603 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-area:455531.65069-M2  a  smo:MeasureInSquareMeters ;
-        smo:hasUnit   unit:SquareMeters ;
-        smo:hasValue  455531.65069 .
-
 infoPatch:s5-35-337282-1
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337282 ;
         mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:1-100 .
+
+area:455531.65069-M2  a  smo:MeasureInSquareMeters ;
+        smo:hasUnit   unit:SquareMeters ;
+        smo:hasValue  455531.65069 .
+
+infoPatch:s5-35-339603-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339603 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:106-28.984969  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -29916,11 +29916,11 @@ bound:106-28.561041  a  epsg:UpperBound ;
         smo:hasValue  28.561041 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-338614-0
+infoPatch:s5-35-336169-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338614 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
+        mfe:hasPatch              patch:s5-35-336169 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 infoPatch:s5-35-337507-100
         a                         mfe:PatchInPatch ;
@@ -29934,11 +29934,11 @@ infoPatch:s5-35-331383-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-336169-100
+infoPatch:s5-35-338614-0
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336169 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+        mfe:hasPatch              patch:s5-35-338614 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:107--14.084267  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -30985,17 +30985,17 @@ infoPatch:s5-35-341352-0
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
-infoPatch:s5-35-339595-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339595 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-338311-1
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-338311 ;
         mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:1-100 .
+
+infoPatch:s5-35-339595-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339595 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:107--15.418616  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -32053,17 +32053,17 @@ polygon:s5s5-35-601-4326
         epsg:hasUpperBound106      28.337818 ;
         wkt:asWKT                  "POLYGON((-14.006666 28.337725, -14.006758 28.337818, -14.010592 28.336513, -14.008267 28.33637, -14.006666 28.337725))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-339041-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339041 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-1395269-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-1395269 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-339041-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339041 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:106-28.474547  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -32229,17 +32229,17 @@ infoPatch:s5-35-340188-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-333275-1
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-333275 ;
-        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:1-100 .
-
 infoPatch:s5-35-339130-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339130 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-333275-1
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-333275 ;
+        mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:1-100 .
 
 patch:s5s5-35-611  a                    ifn:Use200 , mfe:Patch ;
         mfe:containsPatch               infoPatch:s5-35-339818-100 ;
@@ -33340,16 +33340,16 @@ bound:106-28.969852  a  epsg:LowerBound ;
         smo:hasValue  28.969852 ;
         epsg:hasAxis  axis:106 .
 
+occupationOfSpecies:2.13-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  2.13 .
+
 infoPatch:s5-35-339555-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339555 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-occupationOfSpecies:2.13-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  2.13 .
 
 bound:107--13.473582  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
@@ -33832,21 +33832,21 @@ polygon:s5s5-35-497-4326
         epsg:hasUpperBound106      29.145761 ;
         wkt:asWKT                  "POLYGON((-13.496302 29.141763, -13.490396 29.142315, -13.496867 29.145761, -13.50622 29.140632, -13.520414 29.132443, -13.517073 29.131914, -13.501701 29.136239, -13.496302 29.141763))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-334010-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-334010 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+infoSpecies:8000-80  a              mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:80-100 ;
+        mfe:hasPercentageOfSpecies  "80"^^xsd:decimal ;
+        mfe:hasSpecies              ifn:Species8000 .
 
 area:189688.116229-M2
         a             smo:MeasureInSquareMeters ;
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  189688.116229 .
 
-infoSpecies:8000-80  a              mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:80-100 ;
-        mfe:hasPercentageOfSpecies  "80"^^xsd:decimal ;
-        mfe:hasSpecies              ifn:Species8000 .
+infoPatch:s5-35-334010-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-334010 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-28.994238  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -34780,33 +34780,33 @@ polygon:s5s5-35-363-4326
         epsg:hasUpperBound106      29.006171 ;
         wkt:asWKT                  "POLYGON((-13.550845 29.002352, -13.551105 29.002304, -13.543759 29.00173, -13.542006 29.003355, -13.540599 29.006171, -13.546081 29.005768, -13.550845 29.002352))"^^wkt:wktLiteral .
 
-infoSpecies:8000-22.45
-        a                           mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:22.45-100 ;
-        mfe:hasPercentageOfSpecies  22.45 ;
-        mfe:hasSpecies              ifn:Species8000 .
-
 infoPatch:s5-35-341427-4
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-341427 ;
         mfe:hasPercentageOfPatch  "4"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:4-100 .
 
+infoSpecies:53-10  a                mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:10-100 ;
+        mfe:hasPercentageOfSpecies  "10"^^xsd:decimal ;
+        mfe:hasSpecies              ifn:Species53 .
+
 bound:106-28.613182  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  28.613182 ;
         epsg:hasAxis  axis:106 .
+
+infoSpecies:8000-22.45
+        a                           mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:22.45-100 ;
+        mfe:hasPercentageOfSpecies  22.45 ;
+        mfe:hasSpecies              ifn:Species8000 .
 
 infoPatch:s5-35-334705-1
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-334705 ;
         mfe:hasPercentageOfPatch  "1"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:1-100 .
-
-infoSpecies:53-10  a                mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:10-100 ;
-        mfe:hasPercentageOfSpecies  "10"^^xsd:decimal ;
-        mfe:hasSpecies              ifn:Species53 .
 
 bound:106-27.85767  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -34976,15 +34976,15 @@ patch:s5s5-35-779  a                    mfe:Patch , ifn:Use111 ;
         spo:hasPolygon                  polygon:s5s5-35-779-4326 ;
         esadm:provincia                 province:35 .
 
-infoSpecies:72-5.4  a               mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:5.4-100 ;
-        mfe:hasPercentageOfSpecies  5.4 ;
-        mfe:hasSpecies              ifn:Species72 .
-
 infoUse:111-89.1  a             mfe:UseInPatch ;
         mfe:hasPercentageOfUse  89.1 ;
         mfe:hasRateOfUse        rateOfUse:89.1-100 ;
         mfe:hasUse              ifn:Use111 .
+
+infoSpecies:72-5.4  a               mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:5.4-100 ;
+        mfe:hasPercentageOfSpecies  5.4 ;
+        mfe:hasSpecies              ifn:Species72 .
 
 infoUse:150-100  a              mfe:UseInPatch ;
         mfe:hasPercentageOfUse  "100"^^xsd:decimal ;
@@ -35166,21 +35166,21 @@ occupationOfSpecies:30.69-100
         smo:hasUnit   unit:Percentage ;
         smo:hasValue  30.69 .
 
-infoPatch:s5-35-337944-2
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-337944 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
+infoSpecies:469-20  a               mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:20-100 ;
+        mfe:hasPercentageOfSpecies  "20"^^xsd:decimal ;
+        mfe:hasSpecies              ifn:Species469 .
 
 bound:107--15.669217  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  -15.669217 ;
         epsg:hasAxis  axis:107 .
 
-infoSpecies:469-20  a               mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:20-100 ;
-        mfe:hasPercentageOfSpecies  "20"^^xsd:decimal ;
-        mfe:hasSpecies              ifn:Species469 .
+infoPatch:s5-35-337944-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-337944 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
 area:90580.0559996-M2
         a             smo:MeasureInSquareMeters ;
@@ -35461,17 +35461,17 @@ bound:106-28.343924  a  epsg:UpperBound ;
         smo:hasValue  28.343924 ;
         epsg:hasAxis  axis:106 .
 
+infoPatch:s5-35-337882-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-337882 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
+
 infoPatch:s5-35-338948-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-338948 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
-infoPatch:s5-35-341831-43
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341831 ;
-        mfe:hasPercentageOfPatch  "43"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:43-100 .
 
 bound:106-28.63356  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -35505,11 +35505,11 @@ area:276235.010825-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  276235.010825 .
 
-infoPatch:s5-35-337882-2
+infoPatch:s5-35-341831-43
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-337882 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
+        mfe:hasPatch              patch:s5-35-341831 ;
+        mfe:hasPercentageOfPatch  "43"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:43-100 .
 
 polygon:s5s5-35-414-4326
         a                          spo:Polygon ;
@@ -36862,15 +36862,15 @@ polygon:s5s5-35-192-4326
         epsg:hasUpperBound106      28.721967 ;
         wkt:asWKT                  "POLYGON((-13.87628 28.719854, -13.877185 28.721415, -13.881795 28.721967, -13.883607 28.721384, -13.87628 28.719854))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-341139-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341139 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-329969-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-329969 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-341139-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-341139 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -37725,16 +37725,16 @@ patch:s5s5-35-408  a                    ifn:Use300 , mfe:Patch ;
         spo:hasPolygon                  polygon:s5s5-35-408-4326 ;
         esadm:provincia                 province:35 .
 
+bound:107--15.545259  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -15.545259 ;
+        epsg:hasAxis  axis:107 .
+
 infoPatch:s5-35-337370-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337370 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
-bound:107--15.545259  a  epsg:LeftBound ;
-        smo:hasUnit   unit:Degrees ;
-        smo:hasValue  -15.545259 ;
-        epsg:hasAxis  axis:107 .
 
 patch:s5s5-35-218  a                    ifn:Use140 , mfe:Patch ;
         mfe:containsPatch               infoPatch:s5-35-340128-100 ;
@@ -38084,16 +38084,16 @@ bound:106-28.344114  a  epsg:LowerBound ;
         smo:hasValue  28.344114 ;
         epsg:hasAxis  axis:106 .
 
-bound:107--13.662133  a  epsg:LeftBound ;
-        smo:hasUnit   unit:Degrees ;
-        smo:hasValue  -13.662133 ;
-        epsg:hasAxis  axis:107 .
-
 infoPatch:s5-35-337382-7
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337382 ;
         mfe:hasPercentageOfPatch  "7"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:7-100 .
+
+bound:107--13.662133  a  epsg:LeftBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  -13.662133 ;
+        epsg:hasAxis  axis:107 .
 
 bound:107--14.243534  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
@@ -39259,17 +39259,17 @@ bound:106-29.145761  a  epsg:UpperBound ;
         smo:hasValue  29.145761 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-341438-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341438 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-337870-7
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337870 ;
         mfe:hasPercentageOfPatch  "7"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:7-100 .
+
+infoPatch:s5-35-341438-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-341438 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-28.407387  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -39281,6 +39281,12 @@ bound:107--13.750607  a  epsg:RightBound ;
         smo:hasValue  -13.750607 ;
         epsg:hasAxis  axis:107 .
 
+infoPatch:s5-35-339114-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339114 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
+
 infoSpecies:23-2.78  a              mfe:SpeciesInPatch ;
         mfe:hasOccupationOfSpecies  occupationOfSpecies:2.78-100 ;
         mfe:hasPercentageOfSpecies  2.78 ;
@@ -39291,12 +39297,6 @@ infoPatch:s5-35-336252-100
         mfe:hasPatch              patch:s5-35-336252 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
-infoPatch:s5-35-339114-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339114 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 area:958111.173888-M2
         a             smo:MeasureInSquareMeters ;
@@ -40044,17 +40044,17 @@ infoPatch:s5-35-339631-0
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
-infoPatch:s5-35-332627-5
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332627 ;
-        mfe:hasPercentageOfPatch  "5"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:5-100 .
-
 infoPatch:s5-35-339273-14
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339273 ;
         mfe:hasPercentageOfPatch  "14"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:14-100 .
+
+infoPatch:s5-35-332627-5
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-332627 ;
+        mfe:hasPercentageOfPatch  "5"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:5-100 .
 
 polygon:s5s5-35-498-4326
         a                          spo:Polygon ;
@@ -40103,11 +40103,6 @@ area:33098.075435-M2  a  smo:MeasureInSquareMeters ;
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  33098.075435 .
 
-bound:106-27.798663  a  epsg:UpperBound ;
-        smo:hasUnit   unit:Degrees ;
-        smo:hasValue  27.798663 ;
-        epsg:hasAxis  axis:106 .
-
 patch:s5s5-35-663  a                    mfe:Patch , ifn:Use200 ;
         mfe:containsPatch               infoPatch:s5-35-339035-97 , infoPatch:s5-35-338893-3 ;
         mfe:containsUse                 infoUse:200-100 ;
@@ -40117,6 +40112,11 @@ patch:s5s5-35-663  a                    mfe:Patch , ifn:Use200 ;
         mfe:hasCanopyCoverTreesPercent  0 ;
         spo:hasPolygon                  polygon:s5s5-35-663-4326 ;
         esadm:provincia                 province:35 .
+
+bound:106-27.798663  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  27.798663 ;
+        epsg:hasAxis  axis:106 .
 
 bound:106-28.163442  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -40593,17 +40593,17 @@ bound:107--15.705253  a  epsg:LeftBound ;
         smo:hasValue  -15.705253 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-369734-77
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-369734 ;
-        mfe:hasPercentageOfPatch  "77"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:77-100 .
-
 infoPatch:s5-35-336490-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-336490 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-369734-77
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-369734 ;
+        mfe:hasPercentageOfPatch  "77"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:77-100 .
 
 bound:106-27.910205  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -41908,11 +41908,11 @@ bound:106-28.257074  a  epsg:UpperBound ;
         smo:hasValue  28.257074 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-334225-100
+infoPatch:s5-35-340374-23
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-334225 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+        mfe:hasPatch              patch:s5-35-340374 ;
+        mfe:hasPercentageOfPatch  "23"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:23-100 .
 
 bound:106-29.042782  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -41929,11 +41929,11 @@ patch:s5s5-35-561  a                    ifn:Use200 , mfe:Patch ;
         spo:hasPolygon                  polygon:s5s5-35-561-4326 ;
         esadm:provincia                 province:35 .
 
-infoPatch:s5-35-340374-23
+infoPatch:s5-35-334225-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-340374 ;
-        mfe:hasPercentageOfPatch  "23"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:23-100 .
+        mfe:hasPatch              patch:s5-35-334225 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-28.330861  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -42055,22 +42055,22 @@ infoPatch:s5-35-335294-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoSpecies:8000-0.41
-        a                           mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:0.41-100 ;
-        mfe:hasPercentageOfSpecies  0.41 ;
-        mfe:hasSpecies              ifn:Species8000 .
+infoPatch:s5-35-335918-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-335918 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 area:9877341.99966-M2
         a             smo:MeasureInSquareMeters ;
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  9877341.99966 .
 
-infoPatch:s5-35-335918-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-335918 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
+infoSpecies:8000-0.41
+        a                           mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:0.41-100 ;
+        mfe:hasPercentageOfSpecies  0.41 ;
+        mfe:hasSpecies              ifn:Species8000 .
 
 rateOfPatch:77-100  a  mfe:RateofPatch ;
         smo:hasUnit   unit:Percentage ;
@@ -42554,15 +42554,15 @@ patch:s5s5-35-107  a                    mfe:Patch , ifn:Use150 ;
         spo:hasPolygon                  polygon:s5s5-35-107-4326 ;
         esadm:provincia                 province:35 .
 
-area:51995.9727185-M2
-        a             smo:MeasureInSquareMeters ;
-        smo:hasUnit   unit:SquareMeters ;
-        smo:hasValue  51995.9727185 .
-
 bound:107--15.540319  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  -15.540319 ;
         epsg:hasAxis  axis:107 .
+
+area:51995.9727185-M2
+        a             smo:MeasureInSquareMeters ;
+        smo:hasUnit   unit:SquareMeters ;
+        smo:hasValue  51995.9727185 .
 
 bound:106-28.078978  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -42873,17 +42873,17 @@ bound:106-28.90731  a  epsg:UpperBound ;
         smo:hasValue  28.90731 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-332120-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332120 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-329946-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-329946 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-332120-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-332120 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:107--15.392883  a  epsg:RightBound ;
         smo:hasUnit   unit:Degrees ;
@@ -43806,16 +43806,16 @@ bound:107--15.762696  a  epsg:LeftBound ;
         smo:hasValue  -15.762696 ;
         epsg:hasAxis  axis:107 .
 
+occupationOfSpecies:20.73-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  20.73 .
+
 infoPatch:s5-35-335371-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-335371 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
-occupationOfSpecies:20.73-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  20.73 .
 
 <http://crossforest.eu/mfe/data/data/canopyCover/trees41.66e0>
         a             mfe:CanopyCoverTrees ;
@@ -44029,17 +44029,17 @@ bound:107--14.162328  a  epsg:RightBound ;
         smo:hasValue  -14.162328 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-341108-2
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341108 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
-
 infoPatch:s5-35-329929-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-329929 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-341108-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-341108 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
 area:2089463.05898-M2
         a             smo:MeasureInSquareMeters ;
@@ -44716,16 +44716,16 @@ bound:106-28.124236  a  epsg:UpperBound ;
         smo:hasValue  28.124236 ;
         epsg:hasAxis  axis:106 .
 
-bound:106-28.076271  a  epsg:UpperBound ;
-        smo:hasUnit   unit:Degrees ;
-        smo:hasValue  28.076271 ;
-        epsg:hasAxis  axis:106 .
-
 infoPatch:s5-35-339828-13
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339828 ;
         mfe:hasPercentageOfPatch  "13"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:13-100 .
+
+bound:106-28.076271  a  epsg:UpperBound ;
+        smo:hasUnit   unit:Degrees ;
+        smo:hasValue  28.076271 ;
+        epsg:hasAxis  axis:106 .
 
 rateOfPatch:26-100  a  mfe:RateofPatch ;
         smo:hasUnit   unit:Percentage ;
@@ -44819,17 +44819,17 @@ bound:106-28.04566  a  epsg:LowerBound ;
         smo:hasValue  28.04566 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-347284-2
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-347284 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
-
 infoPatch:s5-35-340938-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-340938 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-347284-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-347284 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
 bound:107--14.141859  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -45059,15 +45059,9 @@ bound:106-29.020384  a  epsg:UpperBound ;
         smo:hasValue  29.020384 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-337417-34
+infoPatch:s5-35-338675-0
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-337417 ;
-        mfe:hasPercentageOfPatch  "34"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:34-100 .
-
-infoPatch:s5-35-340609-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-340609 ;
+        mfe:hasPatch              patch:s5-35-338675 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
@@ -45077,11 +45071,17 @@ infoPatch:s5-35-339787-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-338675-0
+infoPatch:s5-35-340609-0
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338675 ;
+        mfe:hasPatch              patch:s5-35-340609 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
+
+infoPatch:s5-35-337417-34
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-337417 ;
+        mfe:hasPercentageOfPatch  "34"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:34-100 .
 
 area:46211.5007768-M2
         a             smo:MeasureInSquareMeters ;
@@ -45581,9 +45581,9 @@ bound:107--15.674231  a  epsg:RightBound ;
         smo:hasValue  -15.674231 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-330457-100
+infoPatch:s5-35-335974-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-330457 ;
+        mfe:hasPatch              patch:s5-35-335974 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -45592,9 +45592,9 @@ bound:106-29.002352  a  epsg:LowerBound ;
         smo:hasValue  29.002352 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-335974-100
+infoPatch:s5-35-330457-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-335974 ;
+        mfe:hasPatch              patch:s5-35-330457 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -45656,16 +45656,16 @@ bound:106-28.418482  a  epsg:LowerBound ;
         smo:hasValue  28.418482 ;
         epsg:hasAxis  axis:106 .
 
-occupationOfSpecies:0.54-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  0.54 .
-
 infoPatch:s5-35-336067-0
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-336067 ;
         mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:0-100 .
+
+occupationOfSpecies:0.54-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  0.54 .
 
 bound:107--15.494203  a  epsg:RightBound , epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -45760,17 +45760,17 @@ bound:107--14.038792  a  epsg:LeftBound ;
         smo:hasValue  -14.038792 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-341074-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-341074 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-340648-96
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-340648 ;
         mfe:hasPercentageOfPatch  "96"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:96-100 .
+
+infoPatch:s5-35-341074-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-341074 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 bound:107--15.634456  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -46211,14 +46211,14 @@ bound:107--14.007802  a  epsg:RightBound ;
         smo:hasValue  -14.007802 ;
         epsg:hasAxis  axis:107 .
 
+rateOfPatch:1-100  a  mfe:RateofPatch ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  "1"^^xsd:decimal .
+
 bound:107--14.128044  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  -14.128044 ;
         epsg:hasAxis  axis:107 .
-
-rateOfPatch:1-100  a  mfe:RateofPatch ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  "1"^^xsd:decimal .
 
 occupationOfSpecies:84.52-100
         a             mfe:OccupationOfSpecies ;
@@ -46676,22 +46676,22 @@ area:1197627.04544-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  1197627.04544 .
 
-infoPatch:s5-35-339019-0
+infoPatch:s5-35-335957-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339019 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
+        mfe:hasPatch              patch:s5-35-335957 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-29.095614  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
         smo:hasValue  29.095614 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-335957-100
+infoPatch:s5-35-339019-0
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-335957 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+        mfe:hasPatch              patch:s5-35-339019 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 polygon:s5s5-35-617-4326
         a                          spo:Polygon ;
@@ -48022,11 +48022,11 @@ bound:107--13.651624  a  epsg:RightBound ;
         smo:hasValue  -13.651624 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-336833-13
+infoPatch:s5-35-339789-35
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336833 ;
-        mfe:hasPercentageOfPatch  "13"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:13-100 .
+        mfe:hasPatch              patch:s5-35-339789 ;
+        mfe:hasPercentageOfPatch  "35"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:35-100 .
 
 bound:106-27.907101  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -48060,11 +48060,11 @@ bound:107--15.522291  a  epsg:RightBound ;
         smo:hasValue  -15.522291 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-339789-35
+infoPatch:s5-35-336833-13
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339789 ;
-        mfe:hasPercentageOfPatch  "35"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:35-100 .
+        mfe:hasPatch              patch:s5-35-336833 ;
+        mfe:hasPercentageOfPatch  "13"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:13-100 .
 
 infoPatch:s5-35-335923-100
         a                         mfe:PatchInPatch ;
@@ -48164,22 +48164,22 @@ polygon:s5s5-35-234-4326
         epsg:hasUpperBound106      28.409757 ;
         wkt:asWKT                  "POLYGON((-14.006514 28.407968, -14.006516 28.40652, -14.002362 28.406301, -14.004034 28.406695, -14.005774 28.408168, -14.00486 28.409757, -14.006514 28.407968))"^^wkt:wktLiteral .
 
-infoSpecies:1500-1.14
-        a                           mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:1.14-100 ;
-        mfe:hasPercentageOfSpecies  1.14 ;
-        mfe:hasSpecies              ifn:Species1500 .
+infoPatch:s5-35-332417-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-332417 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
 area:198712.546152-M2
         a             smo:MeasureInSquareMeters ;
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  198712.546152 .
 
-infoPatch:s5-35-332417-2
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332417 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
+infoSpecies:1500-1.14
+        a                           mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:1.14-100 ;
+        mfe:hasPercentageOfSpecies  1.14 ;
+        mfe:hasSpecies              ifn:Species1500 .
 
 occupationOfSpecies:30-100
         a             mfe:OccupationOfSpecies ;
@@ -49994,15 +49994,15 @@ bound:107--13.55742  a  epsg:LeftBound ;
         smo:hasValue  -13.55742 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-339637-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339637 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-339559-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339559 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-339637-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339637 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -50236,17 +50236,17 @@ bound:106-28.230473  a  epsg:UpperBound ;
         smo:hasValue  28.230473 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-339317-82
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339317 ;
-        mfe:hasPercentageOfPatch  "82"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:82-100 .
-
 infoPatch:s5-35-339620-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339620 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-339317-82
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339317 ;
+        mfe:hasPercentageOfPatch  "82"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:82-100 .
 
 patch:s5s5-35-539  a                    mfe:Patch , ifn:Use200 ;
         mfe:containsPatch               infoPatch:s5-35-1395269-100 ;
@@ -50283,15 +50283,15 @@ bound:106-28.462313  a  epsg:LowerBound ;
         smo:hasValue  28.462313 ;
         epsg:hasAxis  axis:106 .
 
-infoSpecies:66-90  a                mfe:SpeciesInPatch ;
-        mfe:hasOccupationOfSpecies  occupationOfSpecies:90-100 ;
-        mfe:hasPercentageOfSpecies  "90"^^xsd:decimal ;
-        mfe:hasSpecies              ifn:Species66 .
-
 occupationOfSpecies:0.98-100
         a             mfe:OccupationOfSpecies ;
         smo:hasUnit   unit:Percentage ;
         smo:hasValue  0.98 .
+
+infoSpecies:66-90  a                mfe:SpeciesInPatch ;
+        mfe:hasOccupationOfSpecies  occupationOfSpecies:90-100 ;
+        mfe:hasPercentageOfSpecies  "90"^^xsd:decimal ;
+        mfe:hasSpecies              ifn:Species66 .
 
 bound:106-27.915327  a  epsg:LowerBound ;
         smo:hasUnit   unit:Degrees ;
@@ -50397,17 +50397,17 @@ area:49169.6777022-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  49169.6777022 .
 
-infoPatch:s5-35-338238-11
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338238 ;
-        mfe:hasPercentageOfPatch  "11"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:11-100 .
-
 infoPatch:s5-35-337324-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337324 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-338238-11
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-338238 ;
+        mfe:hasPercentageOfPatch  "11"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:11-100 .
 
 bound:106-28.393712  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -50455,17 +50455,17 @@ bound:107--15.637849  a  epsg:LeftBound ;
         smo:hasValue  -15.637849 ;
         epsg:hasAxis  axis:107 .
 
-infoPatch:s5-35-336144-2
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-336144 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
-
 infoPatch:s5-35-337300-5
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-337300 ;
         mfe:hasPercentageOfPatch  "5"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:5-100 .
+
+infoPatch:s5-35-336144-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-336144 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
 area:2686484.47093-M2
         a             smo:MeasureInSquareMeters ;
@@ -50687,17 +50687,17 @@ polygon:s5s5-35-607-4326
         epsg:hasUpperBound106      28.310731 ;
         wkt:asWKT                  "POLYGON((-14.145889 28.303408, -14.148956 28.308425, -14.151365 28.310731, -14.145889 28.303408))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-335283-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-335283 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-339663-42
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339663 ;
         mfe:hasPercentageOfPatch  "42"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:42-100 .
+
+infoPatch:s5-35-335283-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-335283 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 area:391692.392652-M2
         a             smo:MeasureInSquareMeters ;
@@ -51381,17 +51381,17 @@ rateOfPatch:82-100  a  mfe:RateofPatch ;
         smo:hasUnit   unit:Percentage ;
         smo:hasValue  "82"^^xsd:decimal .
 
-infoPatch:s5-35-338839-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338839 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-335085-4
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-335085 ;
         mfe:hasPercentageOfPatch  "4"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:4-100 .
+
+infoPatch:s5-35-338839-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-338839 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 bound:106-28.259832  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -51409,10 +51409,11 @@ area:308000.343253-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  308000.343253 .
 
-infoUse:111-45.75  a            mfe:UseInPatch ;
-        mfe:hasPercentageOfUse  45.75 ;
-        mfe:hasRateOfUse        rateOfUse:45.75-100 ;
-        mfe:hasUse              ifn:Use111 .
+infoPatch:s5-35-330036-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-330036 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 polygon:s5s5-35-634-4326
         a                          spo:Polygon ;
@@ -51431,11 +51432,10 @@ polygon:s5s5-35-634-4326
         epsg:hasUpperBound106      28.154084 ;
         wkt:asWKT                  "POLYGON((-15.519831 28.149335, -15.529807 28.154084, -15.530085 28.153908, -15.532458 28.151932, -15.525284 28.151802, -15.518486 28.146687, -15.519831 28.149335))"^^wkt:wktLiteral .
 
-infoPatch:s5-35-330036-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-330036 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+infoUse:111-45.75  a            mfe:UseInPatch ;
+        mfe:hasPercentageOfUse  45.75 ;
+        mfe:hasRateOfUse        rateOfUse:45.75-100 ;
+        mfe:hasUse              ifn:Use111 .
 
 <http://crossforest.eu/mfe/data/data/canopyCover/trees1.95e0>
         a             mfe:CanopyCoverTrees ;
@@ -52545,16 +52545,16 @@ area:163522.265469-M2
         smo:hasUnit   unit:SquareMeters ;
         smo:hasValue  163522.265469 .
 
-occupationOfSpecies:5.55-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  5.55 .
-
 infoPatch:s5-35-333338-22
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-333338 ;
         mfe:hasPercentageOfPatch  "22"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:22-100 .
+
+occupationOfSpecies:5.55-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  5.55 .
 
 bound:107--14.152383  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -52671,6 +52671,12 @@ polygon:s5s5-35-26-4326
         epsg:hasUpperBound106      29.043108 ;
         wkt:asWKT                  "POLYGON((-13.642115 29.042452, -13.636604 29.039281, -13.635214 29.043108, -13.640882 29.042869, -13.642115 29.042452))"^^wkt:wktLiteral .
 
+infoPatch:s5-35-334389-2
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-334389 ;
+        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:2-100 .
+
 infoPatch:s5-35-339292-76
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339292 ;
@@ -52681,12 +52687,6 @@ occupationOfSpecies:53.35-100
         a             mfe:OccupationOfSpecies ;
         smo:hasUnit   unit:Percentage ;
         smo:hasValue  53.35 .
-
-infoPatch:s5-35-334389-2
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-334389 ;
-        mfe:hasPercentageOfPatch  "2"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:2-100 .
 
 bound:107--13.52179  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
@@ -52807,17 +52807,17 @@ bound:106-29.303921  a  epsg:UpperBound ;
         smo:hasValue  29.303921 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-340131-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-340131 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoSpecies:1500-8.09
         a                           mfe:SpeciesInPatch ;
         mfe:hasOccupationOfSpecies  occupationOfSpecies:8.09-100 ;
         mfe:hasPercentageOfSpecies  8.09 ;
         mfe:hasSpecies              ifn:Species1500 .
+
+infoPatch:s5-35-340131-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-340131 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
 polygon:s5s5-35-157-4326
         a                          spo:Polygon ;
@@ -54156,10 +54156,11 @@ bound:107--14.030723  a  epsg:LeftBound ;
         smo:hasValue  -14.030723 ;
         epsg:hasAxis  axis:107 .
 
-occupationOfSpecies:2.39-100
-        a             mfe:OccupationOfSpecies ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  2.39 .
+infoPatch:s5-35-338143-3
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-338143 ;
+        mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:3-100 .
 
 area:182151.738819-M2
         a             smo:MeasureInSquareMeters ;
@@ -54181,11 +54182,10 @@ patch:s5s5-35-520  a                    ifn:Use200 , mfe:Patch ;
         spo:hasPolygon                  polygon:s5s5-35-520-4326 ;
         esadm:provincia                 province:35 .
 
-infoPatch:s5-35-338143-3
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-338143 ;
-        mfe:hasPercentageOfPatch  "3"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:3-100 .
+occupationOfSpecies:2.39-100
+        a             mfe:OccupationOfSpecies ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  2.39 .
 
 bound:106-27.991595  a  epsg:UpperBound ;
         smo:hasUnit   unit:Degrees ;
@@ -54599,9 +54599,9 @@ patch:s5s5-35-465  a                    mfe:Patch , ifn:Use300 ;
         spo:hasPolygon                  polygon:s5s5-35-465-4326 ;
         esadm:provincia                 province:35 .
 
-infoPatch:s5-35-332536-100
+infoPatch:s5-35-369733-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-332536 ;
+        mfe:hasPatch              patch:s5-35-369733 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -54627,9 +54627,9 @@ bound:106-28.981458  a  epsg:UpperBound ;
         smo:hasValue  28.981458 ;
         epsg:hasAxis  axis:106 .
 
-infoPatch:s5-35-369733-100
+infoPatch:s5-35-332536-100
         a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-369733 ;
+        mfe:hasPatch              patch:s5-35-332536 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -55013,15 +55013,15 @@ infoPatch:s5-35-340075-28
         mfe:hasPercentageOfPatch  "28"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:28-100 .
 
-infoPatch:s5-35-339664-100
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339664 ;
-        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:100-100 .
-
 infoPatch:s5-35-339742-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-339742 ;
+        mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-339664-100
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339664 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
@@ -56502,17 +56502,17 @@ infoPatch:s5-35-340368-100
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
 
-infoPatch:s5-35-339519-0
-        a                         mfe:PatchInPatch ;
-        mfe:hasPatch              patch:s5-35-339519 ;
-        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
-        mfe:hasRateOfPatch        rateOfPatch:0-100 .
-
 infoPatch:s5-35-341132-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-341132 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoPatch:s5-35-339519-0
+        a                         mfe:PatchInPatch ;
+        mfe:hasPatch              patch:s5-35-339519 ;
+        mfe:hasPercentageOfPatch  "0"^^xsd:decimal ;
+        mfe:hasRateOfPatch        rateOfPatch:0-100 .
 
 infoPatch:s5-35-329962-100
         a                         mfe:PatchInPatch ;
@@ -57567,16 +57567,16 @@ patch:s5s5-35-836  a                    mfe:Patch , ifn:Use500 ;
         spo:hasPolygon                  polygon:s5s5-35-836-4326 ;
         esadm:provincia                 province:35 .
 
-infoUse:122-14.94  a            mfe:UseInPatch ;
-        mfe:hasPercentageOfUse  14.94 ;
-        mfe:hasRateOfUse        rateOfUse:14.94-100 ;
-        mfe:hasUse              ifn:Use122 .
-
 infoPatch:s5-35-334877-100
         a                         mfe:PatchInPatch ;
         mfe:hasPatch              patch:s5-35-334877 ;
         mfe:hasPercentageOfPatch  "100"^^xsd:decimal ;
         mfe:hasRateOfPatch        rateOfPatch:100-100 .
+
+infoUse:122-14.94  a            mfe:UseInPatch ;
+        mfe:hasPercentageOfUse  14.94 ;
+        mfe:hasRateOfUse        rateOfUse:14.94-100 ;
+        mfe:hasUse              ifn:Use122 .
 
 area:78301.9113983-M2
         a             smo:MeasureInSquareMeters ;
@@ -57763,6 +57763,10 @@ bound:106-28.490384  a  epsg:UpperBound ;
         smo:hasValue  28.490384 ;
         epsg:hasAxis  axis:106 .
 
+rateOfPatch:5-100  a  mfe:RateofPatch ;
+        smo:hasUnit   unit:Percentage ;
+        smo:hasValue  "5"^^xsd:decimal .
+
 polygon:s5s5-35-142-4326
         a                          spo:Polygon ;
         spo:hasArea                area:857359.768621-M2 ;
@@ -57779,10 +57783,6 @@ polygon:s5s5-35-142-4326
         epsg:hasRightBound107      -15.38692 ;
         epsg:hasUpperBound106      27.894276 ;
         wkt:asWKT                  "POLYGON((-15.390387 27.894276, -15.396236 27.889046, -15.39561 27.889234, -15.39606 27.885591, -15.38692 27.877812, -15.393536 27.890639, -15.390387 27.894276))"^^wkt:wktLiteral .
-
-rateOfPatch:5-100  a  mfe:RateofPatch ;
-        smo:hasUnit   unit:Percentage ;
-        smo:hasValue  "5"^^xsd:decimal .
 
 bound:107--14.154265  a  epsg:LeftBound ;
         smo:hasUnit   unit:Degrees ;
