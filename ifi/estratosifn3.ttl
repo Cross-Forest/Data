@@ -1,7 +1,7 @@
 @prefix infoDominantFormation: <http://crossforest.eu/ifi/data/infoDominantFormation/> .
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix ifi:   <http://crossforest.eu/ifi/ontology/> .
-@prefix stratum: <http://crossforest.eu/ifn/data/stratum/> .
+@prefix stratum: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn/stratum/> .
 
 <http://crossforest.eu/ifi/data/infoDominantFormation/ES/3/ES617-61711>
         skos:closeMatch  stratum:29-11 .

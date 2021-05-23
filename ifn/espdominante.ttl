@@ -1,6 +1,6 @@
-@prefix ifn:   <http://crossforest.eu/ifn/ontology/> .
+@prefix ifn:   <https://datos.iepnb.es/def/sector-publico/medio-ambiente/ifn/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ds:    <http://crossforest.eu/ifn/data/dominantSpecies/> .
+@prefix ds:    <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn/dominantSpecies/> .
 
 ds:25-02  a         ifn:DominantSpecies ;
         rdfs:label  "Pinus sylvestris con P. uncinata o con P. nigra o con Quercus ilex o con Q. pubescens (Q. humilis) o con P. halepensis"@es .
