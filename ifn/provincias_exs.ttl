@@ -3,7 +3,7 @@
 @prefix spo:   <http://crossforest.eu/position/ontology/> .
 @prefix basalArea: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn/basalArea/> .
 @prefix smo:   <http://crossforest.eu/measures/ontology/> .
-@prefix province: <http://datos.iepnb.es/recurso/sector-publico/territorio/Provincia/> .
+@prefix province: <https://datos.iepnb.es/recurso/sector-publico/territorio/Provincia/> .
 @prefix numberOfTrees: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn/numberOfTrees/> .
 @prefix plot:  <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn/plot/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
@@ -827,10 +827,6 @@ volumeWithoutBark:36-054
         smo:hasUnit   unit:M3 ;
         smo:hasValue  186147.2618173842758800 .
 
-basalArea:09-926  a   ifn:BasalArea ;
-        smo:hasUnit   unit:M2 ;
-        smo:hasValue  91582.4727236204677600 .
-
 infoSpecies:35-028  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:35-028 ;
         ifn:hasBasalAreaInM2          13766.9030342043410000 ;
@@ -842,16 +838,9 @@ infoSpecies:35-028  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:35-028 ;
         ifn:hasVolumeWithoutBarkInM3  55632.3491157270920000 .
 
-province:49  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:49-043 , infoSpecies:49-045 , infoSpecies:49-025 , infoSpecies:49-990 , infoSpecies:49-050 , infoSpecies:49-054 , infoSpecies:49-258 , infoSpecies:49-026 , infoSpecies:49-058 , infoSpecies:49-023 , infoSpecies:49-021 ;
-        ifn:hasBasalArea              basalArea:49 ;
-        ifn:hasBasalAreaInM2          1903278.9043439983971300 ;
-        ifn:hasNumberOfTrees          numberOfTrees:49 ;
-        ifn:hasNumberOfTreesInUnits   74643667.8205152794660000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:49 ;
-        ifn:hasVolumeWithBarkInM3     8199128.8234496352140000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:49 ;
-        ifn:hasVolumeWithoutBarkInM3  5941841.9033825084838200 .
+basalArea:09-926  a   ifn:BasalArea ;
+        smo:hasUnit   unit:M2 ;
+        smo:hasValue  91582.4727236204677600 .
 
 volumeWithoutBark:08-090
         a             ifn:VolumeWithoutBark ;
@@ -872,6 +861,17 @@ infoSpecies:49-026  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     2267908.9982000211795600 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:49-026 ;
         ifn:hasVolumeWithoutBarkInM3  1407906.7840341023873100 .
+
+province:19  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:19-043 , infoSpecies:19-026 , infoSpecies:19-044 , infoSpecies:19-024 , infoSpecies:19-025 , infoSpecies:19-937 , infoSpecies:19-990 , infoSpecies:19-045 , infoSpecies:19-050 , infoSpecies:19-958 , infoSpecies:19-021 ;
+        ifn:hasBasalArea              basalArea:19 ;
+        ifn:hasBasalAreaInM2          4816612.9882763458964400 ;
+        ifn:hasNumberOfTrees          numberOfTrees:19 ;
+        ifn:hasNumberOfTreesInUnits   231676158.3264042066720000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:19 ;
+        ifn:hasVolumeWithBarkInM3     20437776.0020550957053700 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:19 ;
+        ifn:hasVolumeWithoutBarkInM3  14856687.4470477307699200 .
 
 numberOfTrees:50-045  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -917,17 +917,6 @@ volumeWithoutBark:48-061
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  1066951.3281855215000000 .
-
-province:28  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:28-958 , infoSpecies:28-044 , infoSpecies:28-045 , infoSpecies:28-026 , infoSpecies:28-024 , infoSpecies:28-837 , infoSpecies:28-025 , infoSpecies:28-054 , infoSpecies:28-090 , infoSpecies:28-021 , infoSpecies:28-057 , infoSpecies:28-043 , infoSpecies:28-955 , infoSpecies:28-051 , infoSpecies:28-070 , infoSpecies:28-023 ;
-        ifn:hasBasalArea              basalArea:28 ;
-        ifn:hasBasalAreaInM2          2296516.3312629386305900 ;
-        ifn:hasNumberOfTrees          numberOfTrees:28 ;
-        ifn:hasNumberOfTreesInUnits   83508240.4623550937380000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:28 ;
-        ifn:hasVolumeWithBarkInM3     10895344.5729697473165400 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:28 ;
-        ifn:hasVolumeWithoutBarkInM3  8481217.5726125736164400 .
 
 numberOfTrees:19-044  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -1008,17 +997,6 @@ volumeWithBark:34-044
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  265770.8808573573460000 .
-
-province:07  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:07-045 , infoSpecies:07-066 , infoSpecies:07-067 , infoSpecies:07-099 , infoSpecies:07-039 , infoSpecies:07-024 ;
-        ifn:hasBasalArea              basalArea:07 ;
-        ifn:hasBasalAreaInM2          1887372.7645803369566190 ;
-        ifn:hasNumberOfTrees          numberOfTrees:07 ;
-        ifn:hasNumberOfTreesInUnits   62796996.6557974424844300 ;
-        ifn:hasVolumeWithBark         volumeWithBark:07 ;
-        ifn:hasVolumeWithBarkInM3     7525456.9484753523066649 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:07 ;
-        ifn:hasVolumeWithoutBarkInM3  6032266.0557843361688202 .
 
 volumeWithBark:08-050
         a             ifn:VolumeWithBark ;
@@ -1110,6 +1088,17 @@ basalArea:29-028  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  28493.9987246064000000 .
 
+province:35  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:35-989 , infoSpecies:35-060 , infoSpecies:35-072 , infoSpecies:35-027 , infoSpecies:35-028 ;
+        ifn:hasBasalArea              basalArea:35 ;
+        ifn:hasBasalAreaInM2          178738.4748803264190000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:35 ;
+        ifn:hasNumberOfTreesInUnits   4950336.8252355190000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:35 ;
+        ifn:hasVolumeWithBarkInM3     1012385.8642429647010000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:35 ;
+        ifn:hasVolumeWithoutBarkInM3  747070.0020498002540000 .
+
 infoSpecies:09-050  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:09-050 ;
         ifn:hasBasalAreaInM2          68648.3585052298283400 ;
@@ -1196,17 +1185,6 @@ volumeWithBark:07-067
         smo:hasUnit   unit:M3 ;
         smo:hasValue  98774.5313673926861625 .
 
-province:44  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:44-057 , infoSpecies:44-099 , infoSpecies:44-026 , infoSpecies:44-044 , infoSpecies:44-021 , infoSpecies:44-958 , infoSpecies:44-024 , infoSpecies:44-045 , infoSpecies:44-038 , infoSpecies:44-025 ;
-        ifn:hasBasalArea              basalArea:44 ;
-        ifn:hasBasalAreaInM2          5927434.2359416907148300 ;
-        ifn:hasNumberOfTrees          numberOfTrees:44 ;
-        ifn:hasNumberOfTreesInUnits   243017847.0419220360900000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:44 ;
-        ifn:hasVolumeWithBarkInM3     26609941.4776754410010900 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:44 ;
-        ifn:hasVolumeWithoutBarkInM3  19988587.5254105587688900 .
-
 basalArea:20-074  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  23094.0509924496000000 .
@@ -1230,6 +1208,17 @@ infoSpecies:49-021  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     1418893.4092383656211500 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:49-021 ;
         ifn:hasVolumeWithoutBarkInM3  1114470.4868675291984700 .
+
+province:14  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:14-099 , infoSpecies:14-053 , infoSpecies:14-066 , infoSpecies:14-045 , infoSpecies:14-026 , infoSpecies:14-046 , infoSpecies:14-044 , infoSpecies:14-062 , infoSpecies:14-023 , infoSpecies:14-050 ;
+        ifn:hasBasalArea              basalArea:14 ;
+        ifn:hasBasalAreaInM2          3764518.7372496590695162 ;
+        ifn:hasNumberOfTrees          numberOfTrees:14 ;
+        ifn:hasNumberOfTreesInUnits   93379564.5784810662437100 ;
+        ifn:hasVolumeWithBark         volumeWithBark:14 ;
+        ifn:hasVolumeWithBarkInM3     10632175.6511119818035130 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:14 ;
+        ifn:hasVolumeWithoutBarkInM3  8232426.2664180084209461 .
 
 numberOfTrees:26-976  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -1260,17 +1249,6 @@ volumeWithBark:45-068
 basalArea:24-072  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  369963.3761476640313700 .
-
-province:23  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:23-050 , infoSpecies:23-024 , infoSpecies:23-046 , infoSpecies:23-026 , infoSpecies:23-099 , infoSpecies:23-045 , infoSpecies:23-023 , infoSpecies:23-025 , infoSpecies:23-044 , infoSpecies:23-237 ;
-        ifn:hasBasalArea              basalArea:23 ;
-        ifn:hasBasalAreaInM2          4351465.9417091662000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:23 ;
-        ifn:hasNumberOfTreesInUnits   154361996.6045347300000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:23 ;
-        ifn:hasVolumeWithBarkInM3     19571617.7021714548000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:23 ;
-        ifn:hasVolumeWithoutBarkInM3  14505553.0757455425000000 .
 
 numberOfTrees:26-955  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -1355,17 +1333,6 @@ numberOfTrees:46-099  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  842297.7764232069454900 .
 
-province:02  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:02-038 , infoSpecies:02-099 , infoSpecies:02-958 , infoSpecies:02-044 , infoSpecies:02-026 , infoSpecies:02-024 , infoSpecies:02-045 , infoSpecies:02-025 , infoSpecies:02-051 , infoSpecies:02-023 ;
-        ifn:hasBasalArea              basalArea:02 ;
-        ifn:hasBasalAreaInM2          3141817.4985066703644900 ;
-        ifn:hasNumberOfTrees          numberOfTrees:02 ;
-        ifn:hasNumberOfTreesInUnits   127769412.3093199014610000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:02 ;
-        ifn:hasVolumeWithBarkInM3     12428626.9484468930324100 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:02 ;
-        ifn:hasVolumeWithoutBarkInM3  8810579.5992851901755100 .
-
 volumeWithoutBark:20-255
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -1432,6 +1399,17 @@ volumeWithBark:31-028
 basalArea:29-023  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  42432.4279502115000000 .
+
+province:30  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:30-024 , infoSpecies:30-025 , infoSpecies:30-045 , infoSpecies:30-026 ;
+        ifn:hasBasalArea              basalArea:30 ;
+        ifn:hasBasalAreaInM2          1834622.1531144572531100 ;
+        ifn:hasNumberOfTrees          numberOfTrees:30 ;
+        ifn:hasNumberOfTreesInUnits   84597294.3454412078910000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:30 ;
+        ifn:hasVolumeWithBarkInM3     6919544.2157524901089700 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:30 ;
+        ifn:hasVolumeWithoutBarkInM3  4852446.2780941655118100 .
 
 volumeWithBark:45-026
         a             ifn:VolumeWithBark ;
@@ -2862,26 +2840,15 @@ infoSpecies:33-028  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:33-028 ;
         ifn:hasVolumeWithoutBarkInM3  1833960.5609822425292200 .
 
-volumeWithBark:43-243
-        a             ifn:VolumeWithBark ;
-        smo:hasUnit   unit:M3 ;
-        smo:hasValue  47688.3266709714661100 .
-
 volumeWithBark:36-026
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  11082501.7424443618677800 .
 
-province:19  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:19-958 , infoSpecies:19-044 , infoSpecies:19-024 , infoSpecies:19-937 , infoSpecies:19-043 , infoSpecies:19-045 , infoSpecies:19-025 , infoSpecies:19-021 , infoSpecies:19-990 , infoSpecies:19-050 , infoSpecies:19-026 ;
-        ifn:hasBasalArea              basalArea:19 ;
-        ifn:hasBasalAreaInM2          4816612.9882763458964400 ;
-        ifn:hasNumberOfTrees          numberOfTrees:19 ;
-        ifn:hasNumberOfTreesInUnits   231676158.3264042066720000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:19 ;
-        ifn:hasVolumeWithBarkInM3     20437776.0020550957053700 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:19 ;
-        ifn:hasVolumeWithoutBarkInM3  14856687.4470477307699200 .
+volumeWithBark:43-243
+        a             ifn:VolumeWithBark ;
+        smo:hasUnit   unit:M3 ;
+        smo:hasValue  47688.3266709714661100 .
 
 volumeWithoutBark:31-031
         a             ifn:VolumeWithoutBark ;
@@ -2956,6 +2923,17 @@ infoSpecies:49-054  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:49-054 ;
         ifn:hasVolumeWithoutBarkInM3  70613.8145236780921800 .
 
+province:47  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:47-099 , infoSpecies:47-024 , infoSpecies:47-023 , infoSpecies:47-958 , infoSpecies:47-926 , infoSpecies:47-026 , infoSpecies:47-044 , infoSpecies:47-045 ;
+        ifn:hasBasalArea              basalArea:47 ;
+        ifn:hasBasalAreaInM2          1265665.4762216430110600 ;
+        ifn:hasNumberOfTrees          numberOfTrees:47 ;
+        ifn:hasNumberOfTreesInUnits   33628354.2923153602430000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:47 ;
+        ifn:hasVolumeWithBarkInM3     5793436.4418363971641900 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:47 ;
+        ifn:hasVolumeWithoutBarkInM3  4174286.0634615772151500 .
+
 volumeWithBark:39-955
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
@@ -3026,6 +3004,17 @@ infoSpecies:50-237  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:50-237 ;
         ifn:hasVolumeWithoutBarkInM3  63208.6321294416047900 .
 
+province:26  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:26-022 , infoSpecies:26-015 , infoSpecies:26-024 , infoSpecies:26-976 , infoSpecies:26-065 , infoSpecies:26-057 , infoSpecies:26-099 , infoSpecies:26-026 , infoSpecies:26-034 , infoSpecies:26-958 , infoSpecies:26-045 , infoSpecies:26-042 , infoSpecies:26-043 , infoSpecies:26-021 , infoSpecies:26-071 , infoSpecies:26-955 , infoSpecies:26-044 , infoSpecies:26-025 ;
+        ifn:hasBasalArea              basalArea:26 ;
+        ifn:hasBasalAreaInM2          2830847.9090930130335600 ;
+        ifn:hasNumberOfTrees          numberOfTrees:26 ;
+        ifn:hasNumberOfTreesInUnits   117714160.9746286674000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:26 ;
+        ifn:hasVolumeWithBarkInM3     15516949.6993199557616800 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:26 ;
+        ifn:hasVolumeWithoutBarkInM3  12656075.1460433709257000 .
+
 basalArea:24-026  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  500350.1993992559091700 .
@@ -3095,20 +3084,20 @@ volumeWithoutBark:09-026
         smo:hasUnit   unit:M3 ;
         smo:hasValue  2633577.7010817178666200 .
 
-province:35  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:35-989 , infoSpecies:35-028 , infoSpecies:35-060 , infoSpecies:35-072 , infoSpecies:35-027 ;
-        ifn:hasBasalArea              basalArea:35 ;
-        ifn:hasBasalAreaInM2          178738.4748803264190000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:35 ;
-        ifn:hasNumberOfTreesInUnits   4950336.8252355190000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:35 ;
-        ifn:hasVolumeWithBarkInM3     1012385.8642429647010000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:35 ;
-        ifn:hasVolumeWithoutBarkInM3  747070.0020498002540000 .
-
 numberOfTrees:20-255  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  1095078.5910144500000000 .
+
+province:05  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:05-045 , infoSpecies:05-072 , infoSpecies:05-026 , infoSpecies:05-023 , infoSpecies:05-021 , infoSpecies:05-050 , infoSpecies:05-025 , infoSpecies:05-090 , infoSpecies:05-237 , infoSpecies:05-070 , infoSpecies:05-043 ;
+        ifn:hasBasalArea              basalArea:05 ;
+        ifn:hasBasalAreaInM2          2580358.3452044932250500 ;
+        ifn:hasNumberOfTrees          numberOfTrees:05 ;
+        ifn:hasNumberOfTreesInUnits   67878059.1623820102370000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:05 ;
+        ifn:hasVolumeWithBarkInM3     12057317.5043718538225900 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:05 ;
+        ifn:hasVolumeWithoutBarkInM3  8747295.2629699580812200 .
 
 volumeWithoutBark:10-072
         a             ifn:VolumeWithoutBark ;
@@ -3168,17 +3157,6 @@ numberOfTrees:11-047  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  2001482.0716719000000000 .
 
-province:14  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:14-053 , infoSpecies:14-062 , infoSpecies:14-066 , infoSpecies:14-046 , infoSpecies:14-044 , infoSpecies:14-099 , infoSpecies:14-026 , infoSpecies:14-050 , infoSpecies:14-023 , infoSpecies:14-045 ;
-        ifn:hasBasalArea              basalArea:14 ;
-        ifn:hasBasalAreaInM2          3764518.7372496590695162 ;
-        ifn:hasNumberOfTrees          numberOfTrees:14 ;
-        ifn:hasNumberOfTreesInUnits   93379564.5784810662437100 ;
-        ifn:hasVolumeWithBark         volumeWithBark:14 ;
-        ifn:hasVolumeWithBarkInM3     10632175.6511119818035130 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:14 ;
-        ifn:hasVolumeWithoutBarkInM3  8232426.2664180084209461 .
-
 basalArea:34-042  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  257823.5476466523421600 .
@@ -3226,6 +3204,17 @@ infoSpecies:37-021  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     483778.5199892501925400 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:37-021 ;
         ifn:hasVolumeWithoutBarkInM3  381864.9900233782879700 .
+
+province:42  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:42-026 , infoSpecies:42-025 , infoSpecies:42-050 , infoSpecies:42-099 , infoSpecies:42-071 , infoSpecies:42-045 , infoSpecies:42-258 , infoSpecies:42-021 , infoSpecies:42-038 , infoSpecies:42-044 , infoSpecies:42-043 , infoSpecies:42-058 ;
+        ifn:hasBasalArea              basalArea:42 ;
+        ifn:hasBasalAreaInM2          5628995.4590820936976100 ;
+        ifn:hasNumberOfTrees          numberOfTrees:42 ;
+        ifn:hasNumberOfTreesInUnits   230382030.9581846581710000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:42 ;
+        ifn:hasVolumeWithBarkInM3     29533610.4590484035601500 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:42 ;
+        ifn:hasVolumeWithoutBarkInM3  21843507.1698459457148900 .
 
 basalArea:24-042  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -3315,6 +3304,17 @@ volumeWithoutBark:05-023
         smo:hasUnit   unit:M3 ;
         smo:hasValue  463445.2776090824942100 .
 
+province:21  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:21-061 , infoSpecies:21-099 , infoSpecies:21-045 , infoSpecies:21-046 , infoSpecies:21-050 , infoSpecies:21-062 , infoSpecies:21-072 , infoSpecies:21-023 , infoSpecies:21-026 ;
+        ifn:hasBasalArea              basalArea:21 ;
+        ifn:hasBasalAreaInM2          3495757.5100270463822200 ;
+        ifn:hasNumberOfTrees          numberOfTrees:21 ;
+        ifn:hasNumberOfTreesInUnits   99422760.4962894266270000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:21 ;
+        ifn:hasVolumeWithBarkInM3     12228007.9742282595561700 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:21 ;
+        ifn:hasVolumeWithoutBarkInM3  9663587.9643124396129600 .
+
 numberOfTrees:28-026  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  5518802.3039497479830000 .
@@ -3389,17 +3389,6 @@ volumeWithoutBark:09-021
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  9786500.6366979770027600 .
-
-province:30  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:30-024 , infoSpecies:30-045 , infoSpecies:30-025 , infoSpecies:30-026 ;
-        ifn:hasBasalArea              basalArea:30 ;
-        ifn:hasBasalAreaInM2          1834622.1531144572531100 ;
-        ifn:hasNumberOfTrees          numberOfTrees:30 ;
-        ifn:hasNumberOfTreesInUnits   84597294.3454412078910000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:30 ;
-        ifn:hasVolumeWithBarkInM3     6919544.2157524901089700 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:30 ;
-        ifn:hasVolumeWithoutBarkInM3  4852446.2780941655118100 .
 
 volumeWithBark:43-026
         a             ifn:VolumeWithBark ;
@@ -4823,6 +4812,17 @@ infoSpecies:49-045  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:49-045 ;
         ifn:hasVolumeWithoutBarkInM3  521628.9213307976906000 .
 
+province:38  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:38-089 , infoSpecies:38-238 , infoSpecies:38-081 , infoSpecies:38-027 , infoSpecies:38-028 , infoSpecies:38-072 , infoSpecies:38-083 , infoSpecies:38-082 , infoSpecies:38-084 , infoSpecies:38-294 , infoSpecies:38-469 , infoSpecies:38-061 ;
+        ifn:hasBasalArea              basalArea:38 ;
+        ifn:hasBasalAreaInM2          1963091.5594752616651000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:38 ;
+        ifn:hasNumberOfTreesInUnits   58291225.4932657959530000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:38 ;
+        ifn:hasVolumeWithBarkInM3     12531146.2465688154709900 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:38 ;
+        ifn:hasVolumeWithoutBarkInM3  9601945.9704585606196600 .
+
 volumeWithBark:50-099
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
@@ -4910,17 +4910,6 @@ volumeWithBark:36-054
         smo:hasUnit   unit:M3 ;
         smo:hasValue  204711.9869563012793100 .
 
-province:47  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:47-026 , infoSpecies:47-926 , infoSpecies:47-958 , infoSpecies:47-023 , infoSpecies:47-045 , infoSpecies:47-099 , infoSpecies:47-024 , infoSpecies:47-044 ;
-        ifn:hasBasalArea              basalArea:47 ;
-        ifn:hasBasalAreaInM2          1265665.4762216430110600 ;
-        ifn:hasNumberOfTrees          numberOfTrees:47 ;
-        ifn:hasNumberOfTreesInUnits   33628354.2923153602430000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:47 ;
-        ifn:hasVolumeWithBarkInM3     5793436.4418363971641900 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:47 ;
-        ifn:hasVolumeWithoutBarkInM3  4174286.0634615772151500 .
-
 numberOfTrees:31  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  266606811.0337554886570000 .
@@ -4929,6 +4918,17 @@ volumeWithBark:08-090
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  124747.5816246535008100 .
+
+province:17  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:17-071 , infoSpecies:17-958 , infoSpecies:17-072 , infoSpecies:17-022 , infoSpecies:17-070 , infoSpecies:17-068 , infoSpecies:17-045 , infoSpecies:17-024 , infoSpecies:17-090 , infoSpecies:17-050 , infoSpecies:17-919 , infoSpecies:17-046 , infoSpecies:17-026 , infoSpecies:17-025 , infoSpecies:17-021 , infoSpecies:17-243 , infoSpecies:17-023 , infoSpecies:17-042 ;
+        ifn:hasBasalArea              basalArea:17 ;
+        ifn:hasBasalAreaInM2          6632348.5211852847107600 ;
+        ifn:hasNumberOfTrees          numberOfTrees:17 ;
+        ifn:hasNumberOfTreesInUnits   318284760.5245211477510000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:17 ;
+        ifn:hasVolumeWithBarkInM3     34782060.6754253697921600 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:17 ;
+        ifn:hasVolumeWithoutBarkInM3  26106594.5414404086660500 .
 
 basalArea:48-073  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -4965,17 +4965,6 @@ numberOfTrees:40-043  a  ifn:NumberOfTrees ;
 numberOfTrees:17-072  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  8867735.6270054855290000 .
-
-province:26  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:26-976 , infoSpecies:26-045 , infoSpecies:26-026 , infoSpecies:26-099 , infoSpecies:26-955 , infoSpecies:26-057 , infoSpecies:26-025 , infoSpecies:26-071 , infoSpecies:26-015 , infoSpecies:26-958 , infoSpecies:26-042 , infoSpecies:26-034 , infoSpecies:26-022 , infoSpecies:26-044 , infoSpecies:26-065 , infoSpecies:26-024 , infoSpecies:26-021 , infoSpecies:26-043 ;
-        ifn:hasBasalArea              basalArea:26 ;
-        ifn:hasBasalAreaInM2          2830847.9090930130335600 ;
-        ifn:hasNumberOfTrees          numberOfTrees:26 ;
-        ifn:hasNumberOfTreesInUnits   117714160.9746286674000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:26 ;
-        ifn:hasVolumeWithBarkInM3     15516949.6993199557616800 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:26 ;
-        ifn:hasVolumeWithoutBarkInM3  12656075.1460433709257000 .
 
 basalArea:25-976  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -5047,17 +5036,6 @@ volumeWithBark:34-042
         smo:hasUnit   unit:M3 ;
         smo:hasValue  1397670.9762536409258800 .
 
-province:05  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:05-023 , infoSpecies:05-021 , infoSpecies:05-090 , infoSpecies:05-043 , infoSpecies:05-025 , infoSpecies:05-045 , infoSpecies:05-070 , infoSpecies:05-072 , infoSpecies:05-237 , infoSpecies:05-026 , infoSpecies:05-050 ;
-        ifn:hasBasalArea              basalArea:05 ;
-        ifn:hasBasalAreaInM2          2580358.3452044932250500 ;
-        ifn:hasNumberOfTrees          numberOfTrees:05 ;
-        ifn:hasNumberOfTreesInUnits   67878059.1623820102370000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:05 ;
-        ifn:hasVolumeWithBarkInM3     12057317.5043718538225900 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:05 ;
-        ifn:hasVolumeWithoutBarkInM3  8747295.2629699580812200 .
-
 numberOfTrees:19-021  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  26409614.8454331439610000 .
@@ -5121,6 +5099,17 @@ infoSpecies:33-072  a                 ifn:InfoSpecies ;
 basalArea:29-026  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  399174.1302710748000000 .
+
+province:33  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:33-071 , infoSpecies:33-065 , infoSpecies:33-015 , infoSpecies:33-095 , infoSpecies:33-077 , infoSpecies:33-041 , infoSpecies:33-057 , infoSpecies:33-054 , infoSpecies:33-026 , infoSpecies:33-021 , infoSpecies:33-043 , infoSpecies:33-019 , infoSpecies:33-074 , infoSpecies:33-045 , infoSpecies:33-955 , infoSpecies:33-042 , infoSpecies:33-099 , infoSpecies:33-976 , infoSpecies:33-061 , infoSpecies:33-078 , infoSpecies:33-073 , infoSpecies:33-028 , infoSpecies:33-072 ;
+        ifn:hasBasalArea              basalArea:33 ;
+        ifn:hasBasalAreaInM2          8195164.3542656086372500 ;
+        ifn:hasNumberOfTrees          numberOfTrees:33 ;
+        ifn:hasNumberOfTreesInUnits   262047944.9167863435450000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:33 ;
+        ifn:hasVolumeWithBarkInM3     47300540.6597128329190400 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:33 ;
+        ifn:hasVolumeWithoutBarkInM3  39636179.9143429771246500 .
 
 basalArea:42-258  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -5224,20 +5213,20 @@ numberOfTrees:25-255  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  2346438.0059543351835300 .
 
-province:42  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:42-044 , infoSpecies:42-071 , infoSpecies:42-021 , infoSpecies:42-258 , infoSpecies:42-099 , infoSpecies:42-058 , infoSpecies:42-045 , infoSpecies:42-050 , infoSpecies:42-025 , infoSpecies:42-038 , infoSpecies:42-043 , infoSpecies:42-026 ;
-        ifn:hasBasalArea              basalArea:42 ;
-        ifn:hasBasalAreaInM2          5628995.4590820936976100 ;
-        ifn:hasNumberOfTrees          numberOfTrees:42 ;
-        ifn:hasNumberOfTreesInUnits   230382030.9581846581710000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:42 ;
-        ifn:hasVolumeWithBarkInM3     29533610.4590484035601500 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:42 ;
-        ifn:hasVolumeWithoutBarkInM3  21843507.1698459457148900 .
-
 basalArea:20-072  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  214299.9714800609000000 .
+
+province:12  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:12-026 , infoSpecies:12-067 , infoSpecies:12-046 , infoSpecies:12-021 , infoSpecies:12-066 , infoSpecies:12-038 , infoSpecies:12-045 , infoSpecies:12-025 , infoSpecies:12-237 , infoSpecies:12-099 , infoSpecies:12-044 , infoSpecies:12-024 ;
+        ifn:hasBasalArea              basalArea:12 ;
+        ifn:hasBasalAreaInM2          2246822.3004109193000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:12 ;
+        ifn:hasNumberOfTreesInUnits   112259958.6713274200000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:12 ;
+        ifn:hasVolumeWithBarkInM3     8412552.4737098766000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:12 ;
+        ifn:hasVolumeWithoutBarkInM3  6141540.4362807898000000 .
 
 volumeWithoutBark:50-071
         a             ifn:VolumeWithoutBark ;
@@ -5326,17 +5315,6 @@ volumeWithoutBark:05-072
 numberOfTrees:11-054  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  168409.1223301900000000 .
-
-province:21  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:21-072 , infoSpecies:21-062 , infoSpecies:21-099 , infoSpecies:21-046 , infoSpecies:21-045 , infoSpecies:21-050 , infoSpecies:21-026 , infoSpecies:21-061 , infoSpecies:21-023 ;
-        ifn:hasBasalArea              basalArea:21 ;
-        ifn:hasBasalAreaInM2          3495757.5100270463822200 ;
-        ifn:hasNumberOfTrees          numberOfTrees:21 ;
-        ifn:hasNumberOfTreesInUnits   99422760.4962894266270000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:21 ;
-        ifn:hasVolumeWithBarkInM3     12228007.9742282595561700 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:21 ;
-        ifn:hasVolumeWithoutBarkInM3  9663587.9643124396129600 .
 
 basalArea:22-021  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -6807,6 +6785,17 @@ numberOfTrees:43  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  102007559.1719376229760000 .
 
+province:29  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:29-026 , infoSpecies:29-062 , infoSpecies:29-045 , infoSpecies:29-050 , infoSpecies:29-032 , infoSpecies:29-099 , infoSpecies:29-028 , infoSpecies:29-046 , infoSpecies:29-023 , infoSpecies:29-237 , infoSpecies:29-066 , infoSpecies:29-072 , infoSpecies:29-047 , infoSpecies:29-024 ;
+        ifn:hasBasalArea              basalArea:29 ;
+        ifn:hasBasalAreaInM2          1869431.1731460977000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:29 ;
+        ifn:hasNumberOfTreesInUnits   50522580.4336715600000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:29 ;
+        ifn:hasVolumeWithBarkInM3     6585850.9743547936000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:29 ;
+        ifn:hasVolumeWithoutBarkInM3  5089669.5742728852000000 .
+
 infoSpecies:09-044  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:09-044 ;
         ifn:hasBasalAreaInM2          498922.2530460823243900 ;
@@ -6860,25 +6849,14 @@ numberOfTrees:40-055  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  637663.7080331487990000 .
 
-volumeWithoutBark:48-071
-        a             ifn:VolumeWithoutBark ;
-        smo:hasUnit   unit:M3 ;
-        smo:hasValue  406017.3993627775000000 .
-
 numberOfTrees:23-099  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  11759057.4317567500000000 .
 
-province:38  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:38-294 , infoSpecies:38-469 , infoSpecies:38-081 , infoSpecies:38-072 , infoSpecies:38-238 , infoSpecies:38-061 , infoSpecies:38-083 , infoSpecies:38-082 , infoSpecies:38-084 , infoSpecies:38-089 , infoSpecies:38-027 , infoSpecies:38-028 ;
-        ifn:hasBasalArea              basalArea:38 ;
-        ifn:hasBasalAreaInM2          1963091.5594752616651000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:38 ;
-        ifn:hasNumberOfTreesInUnits   58291225.4932657959530000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:38 ;
-        ifn:hasVolumeWithBarkInM3     12531146.2465688154709900 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:38 ;
-        ifn:hasVolumeWithoutBarkInM3  9601945.9704585606196600 .
+volumeWithoutBark:48-071
+        a             ifn:VolumeWithoutBark ;
+        smo:hasUnit   unit:M3 ;
+        smo:hasValue  406017.3993627775000000 .
 
 infoSpecies:30-024  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:30-024 ;
@@ -6910,6 +6888,17 @@ volumeWithBark:48-073
 numberOfTrees:22  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  332502747.7940857406430000 .
+
+province:08  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:08-050 , infoSpecies:08-072 , infoSpecies:08-068 , infoSpecies:08-019 , infoSpecies:08-025 , infoSpecies:08-976 , infoSpecies:08-070 , infoSpecies:08-243 , infoSpecies:08-023 , infoSpecies:08-090 , infoSpecies:08-071 , infoSpecies:08-045 , infoSpecies:08-022 , infoSpecies:08-024 , infoSpecies:08-044 , infoSpecies:08-046 , infoSpecies:08-021 , infoSpecies:08-042 ;
+        ifn:hasBasalArea              basalArea:08 ;
+        ifn:hasBasalAreaInM2          6108267.9804949371037600 ;
+        ifn:hasNumberOfTrees          numberOfTrees:08 ;
+        ifn:hasNumberOfTreesInUnits   275984790.4763421336420000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:08 ;
+        ifn:hasVolumeWithBarkInM3     32447005.3811397222432000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:08 ;
+        ifn:hasVolumeWithoutBarkInM3  24130952.4672298814041700 .
 
 infoSpecies:09-023  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:09-023 ;
@@ -7004,17 +6993,6 @@ volumeWithoutBark:48-050
         smo:hasUnit   unit:M3 ;
         smo:hasValue  38189.7034873568000000 .
 
-province:17  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:17-071 , infoSpecies:17-024 , infoSpecies:17-046 , infoSpecies:17-068 , infoSpecies:17-023 , infoSpecies:17-050 , infoSpecies:17-072 , infoSpecies:17-919 , infoSpecies:17-045 , infoSpecies:17-090 , infoSpecies:17-025 , infoSpecies:17-070 , infoSpecies:17-958 , infoSpecies:17-022 , infoSpecies:17-243 , infoSpecies:17-042 , infoSpecies:17-026 , infoSpecies:17-021 ;
-        ifn:hasBasalArea              basalArea:17 ;
-        ifn:hasBasalAreaInM2          6632348.5211852847107600 ;
-        ifn:hasNumberOfTrees          numberOfTrees:17 ;
-        ifn:hasNumberOfTreesInUnits   318284760.5245211477510000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:17 ;
-        ifn:hasVolumeWithBarkInM3     34782060.6754253697921600 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:17 ;
-        ifn:hasVolumeWithoutBarkInM3  26106594.5414404086660500 .
-
 infoSpecies:47-024  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:47-024 ;
         ifn:hasBasalAreaInM2          83128.1032775711761600 ;
@@ -7097,6 +7075,17 @@ numberOfTrees:49-025  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  2662897.2644675091200000 .
 
+province:45  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:45-237 , infoSpecies:45-958 , infoSpecies:45-026 , infoSpecies:45-050 , infoSpecies:45-046 , infoSpecies:45-043 , infoSpecies:45-068 , infoSpecies:45-045 , infoSpecies:45-044 , infoSpecies:45-053 , infoSpecies:45-023 , infoSpecies:45-055 ;
+        ifn:hasBasalArea              basalArea:45 ;
+        ifn:hasBasalAreaInM2          2341461.1479604073000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:45 ;
+        ifn:hasNumberOfTreesInUnits   92770631.9771582500000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:45 ;
+        ifn:hasVolumeWithBarkInM3     7346503.8598534849000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:45 ;
+        ifn:hasVolumeWithoutBarkInM3  5258466.8154418165000000 .
+
 basalArea:24-045  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  196932.4872657941445500 .
@@ -7166,19 +7155,30 @@ basalArea:10-026  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  1045333.6695985409948700 .
 
+numberOfTrees:50-050  a  ifn:NumberOfTrees ;
+        smo:hasUnit   unit:Units ;
+        smo:hasValue  2944720.5593382941990000 .
+
 volumeWithoutBark:08-976
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  165106.7333713309101800 .
 
-numberOfTrees:50-050  a  ifn:NumberOfTrees ;
-        smo:hasUnit   unit:Units ;
-        smo:hasValue  2944720.5593382941990000 .
-
 volumeWithoutBark:05-026
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  4466153.8994292058503400 .
+
+province:24  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:24-043 , infoSpecies:24-041 , infoSpecies:24-258 , infoSpecies:24-042 , infoSpecies:24-025 , infoSpecies:24-050 , infoSpecies:24-026 , infoSpecies:24-045 , infoSpecies:24-078 , infoSpecies:24-021 , infoSpecies:24-028 , infoSpecies:24-990 , infoSpecies:24-065 , infoSpecies:24-072 , infoSpecies:24-071 , infoSpecies:24-073 , infoSpecies:24-058 ;
+        ifn:hasBasalArea              basalArea:24 ;
+        ifn:hasBasalAreaInM2          5863326.4096536885225100 ;
+        ifn:hasNumberOfTrees          numberOfTrees:24 ;
+        ifn:hasNumberOfTreesInUnits   262073200.6622186330060000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:24 ;
+        ifn:hasVolumeWithBarkInM3     26519829.4964216963472800 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:24 ;
+        ifn:hasVolumeWithoutBarkInM3  20332335.8100765245982500 .
 
 numberOfTrees:17-021  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -7260,16 +7260,16 @@ infoSpecies:33-042  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:33-042 ;
         ifn:hasVolumeWithoutBarkInM3  1409047.7286926555976600 .
 
-province:33  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:33-042 , infoSpecies:33-019 , infoSpecies:33-095 , infoSpecies:33-071 , infoSpecies:33-078 , infoSpecies:33-077 , infoSpecies:33-057 , infoSpecies:33-074 , infoSpecies:33-061 , infoSpecies:33-043 , infoSpecies:33-072 , infoSpecies:33-041 , infoSpecies:33-099 , infoSpecies:33-976 , infoSpecies:33-955 , infoSpecies:33-045 , infoSpecies:33-065 , infoSpecies:33-028 , infoSpecies:33-054 , infoSpecies:33-015 , infoSpecies:33-021 , infoSpecies:33-073 , infoSpecies:33-026 ;
-        ifn:hasBasalArea              basalArea:33 ;
-        ifn:hasBasalAreaInM2          8195164.3542656086372500 ;
-        ifn:hasNumberOfTrees          numberOfTrees:33 ;
-        ifn:hasNumberOfTreesInUnits   262047944.9167863435450000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:33 ;
-        ifn:hasVolumeWithBarkInM3     47300540.6597128329190400 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:33 ;
-        ifn:hasVolumeWithoutBarkInM3  39636179.9143429771246500 .
+province:03  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:03-024 , infoSpecies:03-099 , infoSpecies:03-045 , infoSpecies:03-023 , infoSpecies:03-050 ;
+        ifn:hasBasalArea              basalArea:03 ;
+        ifn:hasBasalAreaInM2          768219.0787080434000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:03 ;
+        ifn:hasNumberOfTreesInUnits   32366990.3104565698000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:03 ;
+        ifn:hasVolumeWithBarkInM3     2789324.9771409985280000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:03 ;
+        ifn:hasVolumeWithoutBarkInM3  2087344.1845429296300000 .
 
 volumeWithoutBark:15-364
         a             ifn:VolumeWithoutBark ;
@@ -7353,17 +7353,6 @@ infoSpecies:33-021  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:33-021 ;
         ifn:hasVolumeWithoutBarkInM3  466006.0342500186553300 .
 
-province:12  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:12-026 , infoSpecies:12-038 , infoSpecies:12-099 , infoSpecies:12-046 , infoSpecies:12-021 , infoSpecies:12-067 , infoSpecies:12-045 , infoSpecies:12-025 , infoSpecies:12-044 , infoSpecies:12-066 , infoSpecies:12-024 , infoSpecies:12-237 ;
-        ifn:hasBasalArea              basalArea:12 ;
-        ifn:hasBasalAreaInM2          2246822.3004109193000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:12 ;
-        ifn:hasNumberOfTreesInUnits   112259958.6713274200000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:12 ;
-        ifn:hasVolumeWithBarkInM3     8412552.4737098766000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:12 ;
-        ifn:hasVolumeWithoutBarkInM3  6141540.4362807898000000 .
-
 infoSpecies:25-070  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:25-070 ;
         ifn:hasBasalAreaInM2          18107.5821394780156819 ;
@@ -7413,6 +7402,17 @@ volumeWithBark:43-066
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  30470.5420610929427400 .
+
+province:40  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:40-055 , infoSpecies:40-050 , infoSpecies:40-099 , infoSpecies:40-021 , infoSpecies:40-038 , infoSpecies:40-025 , infoSpecies:40-026 , infoSpecies:40-045 , infoSpecies:40-258 , infoSpecies:40-023 , infoSpecies:40-058 , infoSpecies:40-043 , infoSpecies:40-044 ;
+        ifn:hasBasalArea              basalArea:40 ;
+        ifn:hasBasalAreaInM2          3112980.4761925433342800 ;
+        ifn:hasNumberOfTrees          numberOfTrees:40 ;
+        ifn:hasNumberOfTreesInUnits   79668147.8665529565610000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:40 ;
+        ifn:hasVolumeWithBarkInM3     18443251.3202603902539800 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:40 ;
+        ifn:hasVolumeWithoutBarkInM3  13900516.9747154071300600 .
 
 numberOfTrees:28-045  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -8946,17 +8946,6 @@ numberOfTrees:19-045  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  69583708.4590330797580000 .
 
-province:29  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:29-062 , infoSpecies:29-047 , infoSpecies:29-046 , infoSpecies:29-072 , infoSpecies:29-099 , infoSpecies:29-024 , infoSpecies:29-050 , infoSpecies:29-066 , infoSpecies:29-032 , infoSpecies:29-237 , infoSpecies:29-028 , infoSpecies:29-045 , infoSpecies:29-026 , infoSpecies:29-023 ;
-        ifn:hasBasalArea              basalArea:29 ;
-        ifn:hasBasalAreaInM2          1869431.1731460977000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:29 ;
-        ifn:hasNumberOfTreesInUnits   50522580.4336715600000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:29 ;
-        ifn:hasVolumeWithBarkInM3     6585850.9743547936000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:29 ;
-        ifn:hasVolumeWithoutBarkInM3  5089669.5742728852000000 .
-
 volumeWithoutBark:31-041
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -9061,17 +9050,6 @@ volumeWithoutBark:48-041
         smo:hasUnit   unit:M3 ;
         smo:hasValue  807327.7983970222000000 .
 
-province:08  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:08-068 , infoSpecies:08-050 , infoSpecies:08-019 , infoSpecies:08-021 , infoSpecies:08-976 , infoSpecies:08-071 , infoSpecies:08-022 , infoSpecies:08-023 , infoSpecies:08-046 , infoSpecies:08-090 , infoSpecies:08-072 , infoSpecies:08-070 , infoSpecies:08-024 , infoSpecies:08-044 , infoSpecies:08-243 , infoSpecies:08-045 , infoSpecies:08-042 , infoSpecies:08-025 ;
-        ifn:hasBasalArea              basalArea:08 ;
-        ifn:hasBasalAreaInM2          6108267.9804949371037600 ;
-        ifn:hasNumberOfTrees          numberOfTrees:08 ;
-        ifn:hasNumberOfTreesInUnits   275984790.4763421336420000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:08 ;
-        ifn:hasVolumeWithBarkInM3     32447005.3811397222432000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:08 ;
-        ifn:hasVolumeWithoutBarkInM3  24130952.4672298814041700 .
-
 volumeWithBark:48-043
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
@@ -9144,6 +9122,17 @@ infoSpecies:49-043  a                 ifn:InfoSpecies ;
 basalArea:18-021  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  317635.5609068397000000 .
+
+province:36  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:36-046 , infoSpecies:36-028 , infoSpecies:36-054 , infoSpecies:36-061 , infoSpecies:36-072 , infoSpecies:36-007 , infoSpecies:36-099 , infoSpecies:36-026 , infoSpecies:36-041 ;
+        ifn:hasBasalArea              basalArea:36 ;
+        ifn:hasBasalAreaInM2          3250974.1039551893241200 ;
+        ifn:hasNumberOfTrees          numberOfTrees:36 ;
+        ifn:hasNumberOfTreesInUnits   99880832.7253385642500000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:36 ;
+        ifn:hasVolumeWithBarkInM3     23435638.1634359969548700 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:36 ;
+        ifn:hasVolumeWithoutBarkInM3  17772963.6617123998857000 .
 
 numberOfTrees:15-364  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -9238,20 +9227,20 @@ volumeWithoutBark:07-066
         smo:hasUnit   unit:M3 ;
         smo:hasValue  473666.6649156615729875 .
 
-province:45  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:45-055 , infoSpecies:45-068 , infoSpecies:45-023 , infoSpecies:45-237 , infoSpecies:45-050 , infoSpecies:45-043 , infoSpecies:45-026 , infoSpecies:45-958 , infoSpecies:45-046 , infoSpecies:45-045 , infoSpecies:45-044 , infoSpecies:45-053 ;
-        ifn:hasBasalArea              basalArea:45 ;
-        ifn:hasBasalAreaInM2          2341461.1479604073000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:45 ;
-        ifn:hasNumberOfTreesInUnits   92770631.9771582500000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:45 ;
-        ifn:hasVolumeWithBarkInM3     7346503.8598534849000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:45 ;
-        ifn:hasVolumeWithoutBarkInM3  5258466.8154418165000000 .
-
 basalArea:22-045  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  540043.8363962264621300 .
+
+province:15  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:15-072 , infoSpecies:15-099 , infoSpecies:15-061 , infoSpecies:15-041 , infoSpecies:15-364 , infoSpecies:15-028 , infoSpecies:15-026 , infoSpecies:15-073 , infoSpecies:15-054 ;
+        ifn:hasBasalArea              basalArea:15 ;
+        ifn:hasBasalAreaInM2          5624607.9589427367362800 ;
+        ifn:hasNumberOfTrees          numberOfTrees:15 ;
+        ifn:hasNumberOfTreesInUnits   197617032.9489712350000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:15 ;
+        ifn:hasVolumeWithBarkInM3     40804528.3150011064361300 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:15 ;
+        ifn:hasVolumeWithoutBarkInM3  31467525.4663447897694400 .
 
 volumeWithoutBark:17-045
         a             ifn:VolumeWithoutBark ;
@@ -9317,17 +9306,6 @@ volumeWithoutBark:07-045
 numberOfTrees:17-070  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  5151779.0942878383910000 .
-
-province:24  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:24-990 , infoSpecies:24-071 , infoSpecies:24-073 , infoSpecies:24-042 , infoSpecies:24-078 , infoSpecies:24-058 , infoSpecies:24-021 , infoSpecies:24-072 , infoSpecies:24-043 , infoSpecies:24-041 , infoSpecies:24-065 , infoSpecies:24-026 , infoSpecies:24-050 , infoSpecies:24-258 , infoSpecies:24-028 , infoSpecies:24-045 , infoSpecies:24-025 ;
-        ifn:hasBasalArea              basalArea:24 ;
-        ifn:hasBasalAreaInM2          5863326.4096536885225100 ;
-        ifn:hasNumberOfTrees          numberOfTrees:24 ;
-        ifn:hasNumberOfTreesInUnits   262073200.6622186330060000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:24 ;
-        ifn:hasVolumeWithBarkInM3     26519829.4964216963472800 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:24 ;
-        ifn:hasVolumeWithoutBarkInM3  20332335.8100765245982500 .
 
 basalArea:20-054  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -9413,17 +9391,6 @@ volumeWithBark:40-055
         smo:hasUnit   unit:M3 ;
         smo:hasValue  127639.4388961449380500 .
 
-province:03  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:03-023 , infoSpecies:03-045 , infoSpecies:03-024 , infoSpecies:03-099 , infoSpecies:03-050 ;
-        ifn:hasBasalArea              basalArea:03 ;
-        ifn:hasBasalAreaInM2          768219.0787080434000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:03 ;
-        ifn:hasNumberOfTreesInUnits   32366990.3104565698000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:03 ;
-        ifn:hasVolumeWithBarkInM3     2789324.9771409985280000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:03 ;
-        ifn:hasVolumeWithoutBarkInM3  2087344.1845429296300000 .
-
 infoSpecies:18-026  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:18-026 ;
         ifn:hasBasalAreaInM2          601160.0834208395000000 ;
@@ -9485,6 +9452,17 @@ numberOfTrees:19-958  a  ifn:NumberOfTrees ;
 basalArea:29-024  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  410201.4748905240000000 .
+
+province:31  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:31-057 , infoSpecies:31-958 , infoSpecies:31-071 , infoSpecies:31-955 , infoSpecies:31-099 , infoSpecies:31-031 , infoSpecies:31-054 , infoSpecies:31-976 , infoSpecies:31-042 , infoSpecies:31-024 , infoSpecies:31-041 , infoSpecies:31-243 , infoSpecies:31-022 , infoSpecies:31-035 , infoSpecies:31-025 , infoSpecies:31-074 , infoSpecies:31-021 , infoSpecies:31-015 , infoSpecies:31-028 , infoSpecies:31-045 , infoSpecies:31-072 , infoSpecies:31-937 , infoSpecies:31-048 , infoSpecies:31-044 , infoSpecies:31-043 ;
+        ifn:hasBasalArea              basalArea:31 ;
+        ifn:hasBasalAreaInM2          8866338.4237815641758800 ;
+        ifn:hasNumberOfTrees          numberOfTrees:31 ;
+        ifn:hasNumberOfTreesInUnits   266606811.0337554886570000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:31 ;
+        ifn:hasVolumeWithBarkInM3     54651038.9737383330962000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:31 ;
+        ifn:hasVolumeWithoutBarkInM3  46803747.7944085508064900 .
 
 basalArea:08-976  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -9550,20 +9528,20 @@ volumeWithoutBark:49-023
         smo:hasUnit   unit:M3 ;
         smo:hasValue  253960.6614234784360500 .
 
-province:40  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:40-055 , infoSpecies:40-099 , infoSpecies:40-038 , infoSpecies:40-058 , infoSpecies:40-021 , infoSpecies:40-050 , infoSpecies:40-025 , infoSpecies:40-258 , infoSpecies:40-045 , infoSpecies:40-044 , infoSpecies:40-023 , infoSpecies:40-043 , infoSpecies:40-026 ;
-        ifn:hasBasalArea              basalArea:40 ;
-        ifn:hasBasalAreaInM2          3112980.4761925433342800 ;
-        ifn:hasNumberOfTrees          numberOfTrees:40 ;
-        ifn:hasNumberOfTreesInUnits   79668147.8665529565610000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:40 ;
-        ifn:hasVolumeWithBarkInM3     18443251.3202603902539800 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:40 ;
-        ifn:hasVolumeWithoutBarkInM3  13900516.9747154071300600 .
-
 numberOfTrees:19-937  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  15722268.0062630668380000 .
+
+province:10  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:10-046 , infoSpecies:10-062 , infoSpecies:10-023 , infoSpecies:10-043 , infoSpecies:10-050 , infoSpecies:10-045 , infoSpecies:10-026 , infoSpecies:10-072 , infoSpecies:10-099 ;
+        ifn:hasBasalArea              basalArea:10 ;
+        ifn:hasBasalAreaInM2          5784017.7314486411881200 ;
+        ifn:hasNumberOfTrees          numberOfTrees:10 ;
+        ifn:hasNumberOfTreesInUnits   152639511.7147197344280000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:10 ;
+        ifn:hasVolumeWithBarkInM3     19148601.7235340625666000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:10 ;
+        ifn:hasVolumeWithoutBarkInM3  14433106.3814235418968900 .
 
 volumeWithBark:50-071
         a             ifn:VolumeWithBark ;
@@ -10995,6 +10973,17 @@ infoSpecies:12-021  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:12-021 ;
         ifn:hasVolumeWithoutBarkInM3  336158.0734919080000000 .
 
+province:48  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:48-025 , infoSpecies:48-074 , infoSpecies:48-073 , infoSpecies:48-026 , infoSpecies:48-092 , infoSpecies:48-028 , infoSpecies:48-043 , infoSpecies:48-034 , infoSpecies:48-035 , infoSpecies:48-045 , infoSpecies:48-044 , infoSpecies:48-255 , infoSpecies:48-050 , infoSpecies:48-061 , infoSpecies:48-064 , infoSpecies:48-021 , infoSpecies:48-018 , infoSpecies:48-071 , infoSpecies:48-054 , infoSpecies:48-068 , infoSpecies:48-099 , infoSpecies:48-041 , infoSpecies:48-072 ;
+        ifn:hasBasalArea              basalArea:48 ;
+        ifn:hasBasalAreaInM2          2444755.9948549309000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:48 ;
+        ifn:hasNumberOfTreesInUnits   65078549.5593276600000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:48 ;
+        ifn:hasVolumeWithBarkInM3     18893970.1204697095000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:48 ;
+        ifn:hasVolumeWithoutBarkInM3  15309625.6855854280000000 .
+
 numberOfTrees:17-045  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  117754281.6784812466910000 .
@@ -11064,6 +11053,17 @@ volumeWithBark:48-092
 numberOfTrees:41  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  38197074.0452182649680000 .
+
+province:27  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:27-073 , infoSpecies:27-061 , infoSpecies:27-021 , infoSpecies:27-072 , infoSpecies:27-041 , infoSpecies:27-057 , infoSpecies:27-026 , infoSpecies:27-043 , infoSpecies:27-028 , infoSpecies:27-099 , infoSpecies:27-054 ;
+        ifn:hasBasalArea              basalArea:27 ;
+        ifn:hasBasalAreaInM2          7913505.5255450163084300 ;
+        ifn:hasNumberOfTrees          numberOfTrees:27 ;
+        ifn:hasNumberOfTreesInUnits   254827942.5039067937660000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:27 ;
+        ifn:hasVolumeWithBarkInM3     46220912.6452665393968700 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:27 ;
+        ifn:hasVolumeWithoutBarkInM3  35991449.8231707247378600 .
 
 infoSpecies:42-071  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:42-071 ;
@@ -11161,17 +11161,6 @@ volumeWithoutBark:36-041
         smo:hasUnit   unit:M3 ;
         smo:hasValue  2336760.2127505712761600 .
 
-province:36  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:36-041 , infoSpecies:36-072 , infoSpecies:36-007 , infoSpecies:36-046 , infoSpecies:36-099 , infoSpecies:36-054 , infoSpecies:36-026 , infoSpecies:36-028 , infoSpecies:36-061 ;
-        ifn:hasBasalArea              basalArea:36 ;
-        ifn:hasBasalAreaInM2          3250974.1039551893241200 ;
-        ifn:hasNumberOfTrees          numberOfTrees:36 ;
-        ifn:hasNumberOfTreesInUnits   99880832.7253385642500000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:36 ;
-        ifn:hasVolumeWithBarkInM3     23435638.1634359969548700 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:36 ;
-        ifn:hasVolumeWithoutBarkInM3  17772963.6617123998857000 .
-
 volumeWithBark:48-071
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
@@ -11180,6 +11169,17 @@ volumeWithBark:48-071
 numberOfTrees:20  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  63905869.0264424300000000 .
+
+province:06  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:06-046 , infoSpecies:06-045 , infoSpecies:06-099 , infoSpecies:06-023 , infoSpecies:06-026 , infoSpecies:06-062 ;
+        ifn:hasBasalArea              basalArea:06 ;
+        ifn:hasBasalAreaInM2          5384081.4049725123450700 ;
+        ifn:hasNumberOfTrees          numberOfTrees:06 ;
+        ifn:hasNumberOfTreesInUnits   94215401.1380647470950000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:06 ;
+        ifn:hasVolumeWithBarkInM3     14106900.5390381165272000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:06 ;
+        ifn:hasVolumeWithoutBarkInM3  11232251.2676483027452400 .
 
 infoSpecies:42-050  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:42-050 ;
@@ -11258,17 +11258,6 @@ volumeWithBark:22-024
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  1591788.0631281545899800 .
-
-province:15  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:15-041 , infoSpecies:15-028 , infoSpecies:15-026 , infoSpecies:15-364 , infoSpecies:15-073 , infoSpecies:15-054 , infoSpecies:15-099 , infoSpecies:15-072 , infoSpecies:15-061 ;
-        ifn:hasBasalArea              basalArea:15 ;
-        ifn:hasBasalAreaInM2          5624607.9589427367362800 ;
-        ifn:hasNumberOfTrees          numberOfTrees:15 ;
-        ifn:hasNumberOfTreesInUnits   197617032.9489712350000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:15 ;
-        ifn:hasVolumeWithBarkInM3     40804528.3150011064361300 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:15 ;
-        ifn:hasVolumeWithoutBarkInM3  31467525.4663447897694400 .
 
 volumeWithBark:48-050
         a             ifn:VolumeWithBark ;
@@ -11360,6 +11349,17 @@ infoSpecies:49-050  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:49-050 ;
         ifn:hasVolumeWithoutBarkInM3  117603.0824922728480000 .
 
+province:43  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:43-045 , infoSpecies:43-066 , infoSpecies:43-044 , infoSpecies:43-026 , infoSpecies:43-021 , infoSpecies:43-025 , infoSpecies:43-024 , infoSpecies:43-090 , infoSpecies:43-243 , infoSpecies:43-976 , infoSpecies:43-051 , infoSpecies:43-023 ;
+        ifn:hasBasalArea              basalArea:43 ;
+        ifn:hasBasalAreaInM2          2169336.8817705357792900 ;
+        ifn:hasNumberOfTrees          numberOfTrees:43 ;
+        ifn:hasNumberOfTreesInUnits   102007559.1719376229760000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:43 ;
+        ifn:hasVolumeWithBarkInM3     9511315.3376237411149100 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:43 ;
+        ifn:hasVolumeWithoutBarkInM3  6978600.6575579973646000 .
+
 volumeWithoutBark:05-045
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -11446,6 +11446,17 @@ volumeWithoutBark:09-043
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  2478571.9564540141325800 .
+
+province:22  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:22-958 , infoSpecies:22-031 , infoSpecies:22-044 , infoSpecies:22-021 , infoSpecies:22-071 , infoSpecies:22-050 , infoSpecies:22-099 , infoSpecies:22-045 , infoSpecies:22-025 , infoSpecies:22-237 , infoSpecies:22-243 , infoSpecies:22-022 , infoSpecies:22-024 ;
+        ifn:hasBasalArea              basalArea:22 ;
+        ifn:hasBasalAreaInM2          7912271.7269031152333900 ;
+        ifn:hasNumberOfTrees          numberOfTrees:22 ;
+        ifn:hasNumberOfTreesInUnits   332502747.7940857406430000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:22 ;
+        ifn:hasVolumeWithBarkInM3     36906740.0878213866260900 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:22 ;
+        ifn:hasVolumeWithoutBarkInM3  29162942.4826834037252400 .
 
 volumeWithBark:08-976
         a             ifn:VolumeWithBark ;
@@ -11564,17 +11575,6 @@ infoSpecies:06-026  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:06-026 ;
         ifn:hasVolumeWithoutBarkInM3  858555.8733013686505000 .
 
-province:31  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:31-042 , infoSpecies:31-937 , infoSpecies:31-958 , infoSpecies:31-074 , infoSpecies:31-043 , infoSpecies:31-057 , infoSpecies:31-048 , infoSpecies:31-025 , infoSpecies:31-054 , infoSpecies:31-044 , infoSpecies:31-021 , infoSpecies:31-031 , infoSpecies:31-071 , infoSpecies:31-024 , infoSpecies:31-072 , infoSpecies:31-015 , infoSpecies:31-243 , infoSpecies:31-041 , infoSpecies:31-955 , infoSpecies:31-028 , infoSpecies:31-976 , infoSpecies:31-035 , infoSpecies:31-045 , infoSpecies:31-022 , infoSpecies:31-099 ;
-        ifn:hasBasalArea              basalArea:31 ;
-        ifn:hasBasalAreaInM2          8866338.4237815641758800 ;
-        ifn:hasNumberOfTrees          numberOfTrees:31 ;
-        ifn:hasNumberOfTreesInUnits   266606811.0337554886570000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:31 ;
-        ifn:hasVolumeWithBarkInM3     54651038.9737383330962000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:31 ;
-        ifn:hasVolumeWithoutBarkInM3  46803747.7944085508064900 .
-
 infoSpecies:22-099  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:22-099 ;
         ifn:hasBasalAreaInM2          130225.6840242320954300 ;
@@ -11589,6 +11589,17 @@ infoSpecies:22-099  a                 ifn:InfoSpecies ;
 basalArea:22-031  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  152204.2221800804845200 .
+
+province:01  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:01-071 , infoSpecies:01-050 , infoSpecies:01-021 , infoSpecies:01-099 , infoSpecies:01-045 , infoSpecies:01-026 , infoSpecies:01-041 , infoSpecies:01-054 , infoSpecies:01-034 , infoSpecies:01-215 , infoSpecies:01-068 , infoSpecies:01-018 , infoSpecies:01-044 , infoSpecies:01-028 , infoSpecies:01-092 , infoSpecies:01-043 , infoSpecies:01-025 , infoSpecies:01-076 ;
+        ifn:hasBasalArea              basalArea:01 ;
+        ifn:hasBasalAreaInM2          2821991.0932161918008700 ;
+        ifn:hasNumberOfTrees          numberOfTrees:01 ;
+        ifn:hasNumberOfTreesInUnits   97995603.9619724654690000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:01 ;
+        ifn:hasVolumeWithBarkInM3     15433344.7026527377682400 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:01 ;
+        ifn:hasVolumeWithoutBarkInM3  12806831.4976191619807000 .
 
 volumeWithBark:15-364
         a             ifn:VolumeWithBark ;
@@ -11647,17 +11658,6 @@ volumeWithBark:45-055
 basalArea:31-048  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  64952.0786009803768000 .
-
-province:10  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:10-099 , infoSpecies:10-062 , infoSpecies:10-043 , infoSpecies:10-023 , infoSpecies:10-045 , infoSpecies:10-046 , infoSpecies:10-026 , infoSpecies:10-050 , infoSpecies:10-072 ;
-        ifn:hasBasalArea              basalArea:10 ;
-        ifn:hasBasalAreaInM2          5784017.7314486411881200 ;
-        ifn:hasNumberOfTrees          numberOfTrees:10 ;
-        ifn:hasNumberOfTreesInUnits   152639511.7147197344280000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:10 ;
-        ifn:hasVolumeWithBarkInM3     19148601.7235340625666000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:10 ;
-        ifn:hasVolumeWithoutBarkInM3  14433106.3814235418968900 .
 
 basalArea:45-046  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -12912,6 +12912,17 @@ basalArea:18-024  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  648168.2167168612000000 .
 
+province:39  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:39-090 , infoSpecies:39-045 , infoSpecies:39-955 , infoSpecies:39-057 , infoSpecies:39-065 , infoSpecies:39-021 , infoSpecies:39-041 , infoSpecies:39-958 , infoSpecies:39-028 , infoSpecies:39-071 , infoSpecies:39-073 , infoSpecies:39-070 , infoSpecies:39-072 , infoSpecies:39-054 , infoSpecies:39-061 , infoSpecies:39-074 , infoSpecies:39-042 , infoSpecies:39-043 , infoSpecies:39-215 ;
+        ifn:hasBasalArea              basalArea:39 ;
+        ifn:hasBasalAreaInM2          3886442.5277569743769100 ;
+        ifn:hasNumberOfTrees          numberOfTrees:39 ;
+        ifn:hasNumberOfTreesInUnits   139995411.7998486202420000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:39 ;
+        ifn:hasVolumeWithBarkInM3     25206929.2641117702576300 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:39 ;
+        ifn:hasVolumeWithoutBarkInM3  20959925.9587431332930600 .
+
 volumeWithBark:29-099
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
@@ -12979,17 +12990,6 @@ infoSpecies:35-027  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:35-027 ;
         ifn:hasVolumeWithoutBarkInM3  609658.0780588030900000 .
 
-province:48  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:48-021 , infoSpecies:48-061 , infoSpecies:48-045 , infoSpecies:48-073 , infoSpecies:48-092 , infoSpecies:48-255 , infoSpecies:48-026 , infoSpecies:48-099 , infoSpecies:48-028 , infoSpecies:48-018 , infoSpecies:48-035 , infoSpecies:48-050 , infoSpecies:48-072 , infoSpecies:48-064 , infoSpecies:48-054 , infoSpecies:48-025 , infoSpecies:48-074 , infoSpecies:48-034 , infoSpecies:48-044 , infoSpecies:48-041 , infoSpecies:48-068 , infoSpecies:48-071 , infoSpecies:48-043 ;
-        ifn:hasBasalArea              basalArea:48 ;
-        ifn:hasBasalAreaInM2          2444755.9948549309000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:48 ;
-        ifn:hasNumberOfTreesInUnits   65078549.5593276600000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:48 ;
-        ifn:hasVolumeWithBarkInM3     18893970.1204697095000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:48 ;
-        ifn:hasVolumeWithoutBarkInM3  15309625.6855854280000000 .
-
 numberOfTrees:32  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  135736143.8612285644110000 .
@@ -13009,6 +13009,17 @@ infoSpecies:49-025  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     243686.4826502994544000 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:49-025 ;
         ifn:hasVolumeWithoutBarkInM3  165716.1034990205311300 .
+
+province:18  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:18-026 , infoSpecies:18-937 , infoSpecies:18-043 , infoSpecies:18-050 , infoSpecies:18-045 , infoSpecies:18-258 , infoSpecies:18-099 , infoSpecies:18-025 , infoSpecies:18-021 , infoSpecies:18-024 ;
+        ifn:hasBasalArea              basalArea:18 ;
+        ifn:hasBasalAreaInM2          2663403.9671107599000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:18 ;
+        ifn:hasNumberOfTreesInUnits   114452809.5418747900000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:18 ;
+        ifn:hasVolumeWithBarkInM3     10158367.5266443638000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:18 ;
+        ifn:hasVolumeWithoutBarkInM3  7539340.4263225770000000 .
 
 numberOfTrees:50-044  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -13047,17 +13058,6 @@ numberOfTrees:05-045  a  ifn:NumberOfTrees ;
 numberOfTrees:40-044  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  1174425.9116297124230000 .
-
-province:27  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:27-054 , infoSpecies:27-072 , infoSpecies:27-099 , infoSpecies:27-028 , infoSpecies:27-041 , infoSpecies:27-057 , infoSpecies:27-021 , infoSpecies:27-043 , infoSpecies:27-073 , infoSpecies:27-061 , infoSpecies:27-026 ;
-        ifn:hasBasalArea              basalArea:27 ;
-        ifn:hasBasalAreaInM2          7913505.5255450163084300 ;
-        ifn:hasNumberOfTrees          numberOfTrees:27 ;
-        ifn:hasNumberOfTreesInUnits   254827942.5039067937660000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:27 ;
-        ifn:hasVolumeWithBarkInM3     46220912.6452665393968700 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:27 ;
-        ifn:hasVolumeWithoutBarkInM3  35991449.8231707247378600 .
 
 numberOfTrees:19-043  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -13122,17 +13122,6 @@ volumeWithBark:40-058
 basalArea:07-099  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  15769.8661288564802026 .
-
-province:06  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:06-099 , infoSpecies:06-023 , infoSpecies:06-026 , infoSpecies:06-062 , infoSpecies:06-045 , infoSpecies:06-046 ;
-        ifn:hasBasalArea              basalArea:06 ;
-        ifn:hasBasalAreaInM2          5384081.4049725123450700 ;
-        ifn:hasNumberOfTrees          numberOfTrees:06 ;
-        ifn:hasNumberOfTreesInUnits   94215401.1380647470950000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:06 ;
-        ifn:hasVolumeWithBarkInM3     14106900.5390381165272000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:06 ;
-        ifn:hasVolumeWithoutBarkInM3  11232251.2676483027452400 .
 
 infoSpecies:11-066  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:11-066 ;
@@ -13217,6 +13206,17 @@ infoSpecies:33-073  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:33-073 ;
         ifn:hasVolumeWithoutBarkInM3  1213976.6652782839988400 .
 
+province:34  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:34-045 , infoSpecies:34-258 , infoSpecies:34-099 , infoSpecies:34-026 , infoSpecies:34-024 , infoSpecies:34-042 , infoSpecies:34-044 , infoSpecies:34-071 , infoSpecies:34-021 , infoSpecies:34-023 , infoSpecies:34-050 , infoSpecies:34-025 , infoSpecies:34-038 , infoSpecies:34-043 ;
+        ifn:hasBasalArea              basalArea:34 ;
+        ifn:hasBasalAreaInM2          2080133.5310343928604400 ;
+        ifn:hasNumberOfTrees          numberOfTrees:34 ;
+        ifn:hasNumberOfTreesInUnits   97127566.6430703230420000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:34 ;
+        ifn:hasVolumeWithBarkInM3     9946134.8245804446992100 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:34 ;
+        ifn:hasVolumeWithoutBarkInM3  7529658.3717707645686100 .
+
 numberOfTrees:23-046  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  1257274.8278463700000000 .
@@ -13273,20 +13273,20 @@ volumeWithBark:07-066
         smo:hasUnit   unit:M3 ;
         smo:hasValue  564959.6482932060298894 .
 
-province:43  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:43-026 , infoSpecies:43-023 , infoSpecies:43-051 , infoSpecies:43-044 , infoSpecies:43-090 , infoSpecies:43-024 , infoSpecies:43-021 , infoSpecies:43-045 , infoSpecies:43-976 , infoSpecies:43-025 , infoSpecies:43-066 , infoSpecies:43-243 ;
-        ifn:hasBasalArea              basalArea:43 ;
-        ifn:hasBasalAreaInM2          2169336.8817705357792900 ;
-        ifn:hasNumberOfTrees          numberOfTrees:43 ;
-        ifn:hasNumberOfTreesInUnits   102007559.1719376229760000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:43 ;
-        ifn:hasVolumeWithBarkInM3     9511315.3376237411149100 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:43 ;
-        ifn:hasVolumeWithoutBarkInM3  6978600.6575579973646000 .
-
 basalArea:20-073  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  42679.0138077692000000 .
+
+province:13  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:13-258 , infoSpecies:13-045 , infoSpecies:13-046 , infoSpecies:13-062 , infoSpecies:13-068 , infoSpecies:13-023 , infoSpecies:13-237 , infoSpecies:13-050 , infoSpecies:13-026 , infoSpecies:13-043 , infoSpecies:13-099 , infoSpecies:13-044 ;
+        ifn:hasBasalArea              basalArea:13 ;
+        ifn:hasBasalAreaInM2          3137576.3898790146216700 ;
+        ifn:hasNumberOfTrees          numberOfTrees:13 ;
+        ifn:hasNumberOfTreesInUnits   152198507.9906707350170000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:13 ;
+        ifn:hasVolumeWithBarkInM3     10282558.4645882529500300 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:13 ;
+        ifn:hasVolumeWithoutBarkInM3  7054598.6220766843139100 .
 
 basalArea:34-071  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
@@ -13374,17 +13374,6 @@ volumeWithBark:07-045
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  1106404.5844522877389152 .
-
-province:22  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:22-237 , infoSpecies:22-243 , infoSpecies:22-031 , infoSpecies:22-025 , infoSpecies:22-099 , infoSpecies:22-958 , infoSpecies:22-021 , infoSpecies:22-071 , infoSpecies:22-022 , infoSpecies:22-050 , infoSpecies:22-024 , infoSpecies:22-044 , infoSpecies:22-045 ;
-        ifn:hasBasalArea              basalArea:22 ;
-        ifn:hasBasalAreaInM2          7912271.7269031152333900 ;
-        ifn:hasNumberOfTrees          numberOfTrees:22 ;
-        ifn:hasNumberOfTreesInUnits   332502747.7940857406430000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:22 ;
-        ifn:hasVolumeWithBarkInM3     36906740.0878213866260900 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:22 ;
-        ifn:hasVolumeWithoutBarkInM3  29162942.4826834037252400 .
 
 infoSpecies:18-045  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:18-045 ;
@@ -13476,6 +13465,17 @@ volumeWithoutBark:45-044
         smo:hasUnit   unit:M3 ;
         smo:hasValue  82397.1436563472000000 .
 
+province:50  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:50-237 , infoSpecies:50-024 , infoSpecies:50-021 , infoSpecies:50-099 , infoSpecies:50-045 , infoSpecies:50-071 , infoSpecies:50-050 , infoSpecies:50-025 , infoSpecies:50-958 , infoSpecies:50-044 , infoSpecies:50-026 ;
+        ifn:hasBasalArea              basalArea:50 ;
+        ifn:hasBasalAreaInM2          2993066.1226564469266800 ;
+        ifn:hasNumberOfTrees          numberOfTrees:50 ;
+        ifn:hasNumberOfTreesInUnits   159470624.4045081080580000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:50 ;
+        ifn:hasVolumeWithBarkInM3     10821631.4032706437660300 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:50 ;
+        ifn:hasVolumeWithoutBarkInM3  8062326.6396375012227800 .
+
 volumeWithBark:45-046
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
@@ -13495,17 +13495,6 @@ infoSpecies:04-026  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     497095.8159056252232921 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:04-026 ;
         ifn:hasVolumeWithoutBarkInM3  331087.7824205886974439 .
-
-province:01  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:01-041 , infoSpecies:01-076 , infoSpecies:01-045 , infoSpecies:01-071 , infoSpecies:01-018 , infoSpecies:01-099 , infoSpecies:01-054 , infoSpecies:01-025 , infoSpecies:01-021 , infoSpecies:01-026 , infoSpecies:01-044 , infoSpecies:01-043 , infoSpecies:01-215 , infoSpecies:01-034 , infoSpecies:01-068 , infoSpecies:01-028 , infoSpecies:01-050 , infoSpecies:01-092 ;
-        ifn:hasBasalArea              basalArea:01 ;
-        ifn:hasBasalAreaInM2          2821991.0932161918008700 ;
-        ifn:hasNumberOfTrees          numberOfTrees:01 ;
-        ifn:hasNumberOfTreesInUnits   97995603.9619724654690000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:01 ;
-        ifn:hasVolumeWithBarkInM3     15433344.7026527377682400 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:01 ;
-        ifn:hasVolumeWithoutBarkInM3  12806831.4976191619807000 .
 
 infoSpecies:20-099  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:20-099 ;
@@ -14925,17 +14914,6 @@ volumeWithBark:36-046
         smo:hasUnit   unit:M3 ;
         smo:hasValue  146565.6320178976646000 .
 
-province:39  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:39-041 , infoSpecies:39-065 , infoSpecies:39-043 , infoSpecies:39-072 , infoSpecies:39-955 , infoSpecies:39-090 , infoSpecies:39-057 , infoSpecies:39-215 , infoSpecies:39-054 , infoSpecies:39-021 , infoSpecies:39-073 , infoSpecies:39-074 , infoSpecies:39-070 , infoSpecies:39-958 , infoSpecies:39-045 , infoSpecies:39-061 , infoSpecies:39-028 , infoSpecies:39-042 , infoSpecies:39-071 ;
-        ifn:hasBasalArea              basalArea:39 ;
-        ifn:hasBasalAreaInM2          3886442.5277569743769100 ;
-        ifn:hasNumberOfTrees          numberOfTrees:39 ;
-        ifn:hasNumberOfTreesInUnits   139995411.7998486202420000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:39 ;
-        ifn:hasVolumeWithBarkInM3     25206929.2641117702576300 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:39 ;
-        ifn:hasVolumeWithoutBarkInM3  20959925.9587431332930600 .
-
 volumeWithoutBark:48-072
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -14971,6 +14949,17 @@ infoSpecies:11-099  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     34505.0985625482000000 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:11-099 ;
         ifn:hasVolumeWithoutBarkInM3  28902.1975227366000000 .
+
+province:09  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:09-026 , infoSpecies:09-090 , infoSpecies:09-021 , infoSpecies:09-043 , infoSpecies:09-025 , infoSpecies:09-050 , infoSpecies:09-070 , infoSpecies:09-258 , infoSpecies:09-038 , infoSpecies:09-042 , infoSpecies:09-926 , infoSpecies:09-044 , infoSpecies:09-023 , infoSpecies:09-058 , infoSpecies:09-045 , infoSpecies:09-028 , infoSpecies:09-071 ;
+        ifn:hasBasalArea              basalArea:09 ;
+        ifn:hasBasalAreaInM2          6343061.5408882277671400 ;
+        ifn:hasNumberOfTrees          numberOfTrees:09 ;
+        ifn:hasNumberOfTreesInUnits   272443965.3649370520040000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:09 ;
+        ifn:hasVolumeWithBarkInM3     32075465.0095188005637200 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:09 ;
+        ifn:hasVolumeWithoutBarkInM3  24453211.2581299344163000 .
 
 numberOfTrees:10-043  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -15040,17 +15029,6 @@ volumeWithoutBark:07-039
         smo:hasUnit   unit:M3 ;
         smo:hasValue  44510.3830868926758299 .
 
-province:18  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:18-099 , infoSpecies:18-937 , infoSpecies:18-026 , infoSpecies:18-258 , infoSpecies:18-024 , infoSpecies:18-021 , infoSpecies:18-025 , infoSpecies:18-045 , infoSpecies:18-050 , infoSpecies:18-043 ;
-        ifn:hasBasalArea              basalArea:18 ;
-        ifn:hasBasalAreaInM2          2663403.9671107599000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:18 ;
-        ifn:hasNumberOfTreesInUnits   114452809.5418747900000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:18 ;
-        ifn:hasVolumeWithBarkInM3     10158367.5266443638000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:18 ;
-        ifn:hasVolumeWithoutBarkInM3  7539340.4263225770000000 .
-
 basalArea:20-048  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  55610.7391608022000000 .
@@ -15096,6 +15074,17 @@ infoSpecies:18-099  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:18-099 ;
         ifn:hasVolumeWithoutBarkInM3  43629.7899017910000000 .
 
+province:46  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:46-026 , infoSpecies:46-024 , infoSpecies:46-258 , infoSpecies:46-099 , infoSpecies:46-050 , infoSpecies:46-067 , infoSpecies:46-045 , infoSpecies:46-038 , infoSpecies:46-025 ;
+        ifn:hasBasalArea              basalArea:46 ;
+        ifn:hasBasalAreaInM2          2216335.9098020603564761 ;
+        ifn:hasNumberOfTrees          numberOfTrees:46 ;
+        ifn:hasNumberOfTreesInUnits   87066638.4109265029705900 ;
+        ifn:hasVolumeWithBark         volumeWithBark:46 ;
+        ifn:hasVolumeWithBarkInM3     8863180.0461092480149579 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:46 ;
+        ifn:hasVolumeWithoutBarkInM3  6559569.4492616512872099 .
+
 volumeWithoutBark:14-053
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -15109,6 +15098,17 @@ volumeWithoutBark:50-026
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  766161.6082325132428200 .
+
+province:25  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:25-024 , infoSpecies:25-071 , infoSpecies:25-070 , infoSpecies:25-025 , infoSpecies:25-031 , infoSpecies:25-042 , infoSpecies:25-243 , infoSpecies:25-090 , infoSpecies:25-073 , infoSpecies:25-019 , infoSpecies:25-050 , infoSpecies:25-044 , infoSpecies:25-078 , infoSpecies:25-045 , infoSpecies:25-976 , infoSpecies:25-255 , infoSpecies:25-021 , infoSpecies:25-022 ;
+        ifn:hasBasalArea              basalArea:25 ;
+        ifn:hasBasalAreaInM2          7731550.3614630917596807 ;
+        ifn:hasNumberOfTrees          numberOfTrees:25 ;
+        ifn:hasNumberOfTreesInUnits   339130776.5360742182723400 ;
+        ifn:hasVolumeWithBark         volumeWithBark:25 ;
+        ifn:hasVolumeWithBarkInM3     41416743.6761095736654980 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:25 ;
+        ifn:hasVolumeWithoutBarkInM3  32181693.7410057754638458 .
 
 volumeWithoutBark:43-976
         a             ifn:VolumeWithoutBark ;
@@ -15195,17 +15195,6 @@ volumeWithoutBark:09-025
         smo:hasUnit   unit:M3 ;
         smo:hasValue  799867.9759609760870600 .
 
-province:34  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:34-025 , infoSpecies:34-071 , infoSpecies:34-050 , infoSpecies:34-042 , infoSpecies:34-044 , infoSpecies:34-026 , infoSpecies:34-024 , infoSpecies:34-038 , infoSpecies:34-258 , infoSpecies:34-021 , infoSpecies:34-045 , infoSpecies:34-043 , infoSpecies:34-023 , infoSpecies:34-099 ;
-        ifn:hasBasalArea              basalArea:34 ;
-        ifn:hasBasalAreaInM2          2080133.5310343928604400 ;
-        ifn:hasNumberOfTrees          numberOfTrees:34 ;
-        ifn:hasNumberOfTreesInUnits   97127566.6430703230420000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:34 ;
-        ifn:hasVolumeWithBarkInM3     9946134.8245804446992100 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:34 ;
-        ifn:hasVolumeWithoutBarkInM3  7529658.3717707645686100 .
-
 volumeWithBark:36-041
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
@@ -15214,6 +15203,17 @@ volumeWithBark:36-041
 numberOfTrees:19-050  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  1100732.5493236916120000 .
+
+province:04  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:04-045 , infoSpecies:04-026 , infoSpecies:04-021 , infoSpecies:04-099 , infoSpecies:04-024 , infoSpecies:04-025 ;
+        ifn:hasBasalArea              basalArea:04 ;
+        ifn:hasBasalAreaInM2          1220792.1659229857923882 ;
+        ifn:hasNumberOfTrees          numberOfTrees:04 ;
+        ifn:hasNumberOfTreesInUnits   57100158.6636068210007400 ;
+        ifn:hasVolumeWithBark         volumeWithBark:04 ;
+        ifn:hasVolumeWithBarkInM3     4091716.4793369376565784 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:04 ;
+        ifn:hasVolumeWithoutBarkInM3  3055792.2123299289787332 .
 
 numberOfTrees:21-046  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -15279,17 +15279,6 @@ volumeWithBark:34-050
         a             ifn:VolumeWithBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  61353.3780246513763300 .
-
-province:13  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:13-050 , infoSpecies:13-046 , infoSpecies:13-026 , infoSpecies:13-043 , infoSpecies:13-237 , infoSpecies:13-062 , infoSpecies:13-023 , infoSpecies:13-045 , infoSpecies:13-258 , infoSpecies:13-068 , infoSpecies:13-099 , infoSpecies:13-044 ;
-        ifn:hasBasalArea              basalArea:13 ;
-        ifn:hasBasalAreaInM2          3137576.3898790146216700 ;
-        ifn:hasNumberOfTrees          numberOfTrees:13 ;
-        ifn:hasNumberOfTreesInUnits   152198507.9906707350170000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:13 ;
-        ifn:hasVolumeWithBarkInM3     10282558.4645882529500300 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:13 ;
-        ifn:hasVolumeWithoutBarkInM3  7054598.6220766843139100 .
 
 numberOfTrees:02-099  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -15359,6 +15348,17 @@ basalArea:10-043  a   ifn:BasalArea ;
 basalArea:22-071  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  346857.6006688875815700 .
+
+province:41  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:41-046 , infoSpecies:41-061 , infoSpecies:41-050 , infoSpecies:41-045 , infoSpecies:41-023 , infoSpecies:41-099 , infoSpecies:41-062 , infoSpecies:41-024 ;
+        ifn:hasBasalArea              basalArea:41 ;
+        ifn:hasBasalAreaInM2          1698571.0852690831300200 ;
+        ifn:hasNumberOfTrees          numberOfTrees:41 ;
+        ifn:hasNumberOfTreesInUnits   38197074.0452182649680000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:41 ;
+        ifn:hasVolumeWithBarkInM3     4455989.9297717135869000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:41 ;
+        ifn:hasVolumeWithoutBarkInM3  3651493.4391069314057600 .
 
 volumeWithoutBark:05-043
         a             ifn:VolumeWithoutBark ;
@@ -15447,17 +15447,6 @@ infoSpecies:06-045  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:06-045 ;
         ifn:hasVolumeWithoutBarkInM3  7523450.6064011421107300 .
 
-province:50  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:50-026 , infoSpecies:50-021 , infoSpecies:50-958 , infoSpecies:50-024 , infoSpecies:50-044 , infoSpecies:50-045 , infoSpecies:50-050 , infoSpecies:50-025 , infoSpecies:50-071 , infoSpecies:50-099 , infoSpecies:50-237 ;
-        ifn:hasBasalArea              basalArea:50 ;
-        ifn:hasBasalAreaInM2          2993066.1226564469266800 ;
-        ifn:hasNumberOfTrees          numberOfTrees:50 ;
-        ifn:hasNumberOfTreesInUnits   159470624.4045081080580000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:50 ;
-        ifn:hasVolumeWithBarkInM3     10821631.4032706437660300 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:50 ;
-        ifn:hasVolumeWithoutBarkInM3  8062326.6396375012227800 .
-
 basalArea:22-050  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  88658.8927783568250400 .
@@ -15465,6 +15454,17 @@ basalArea:22-050  a   ifn:BasalArea ;
 basalArea:35-028  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  13766.9030342043410000 .
+
+province:20  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:20-099 , infoSpecies:20-048 , infoSpecies:20-025 , infoSpecies:20-074 , infoSpecies:20-073 , infoSpecies:20-050 , infoSpecies:20-034 , infoSpecies:20-035 , infoSpecies:20-072 , infoSpecies:20-041 , infoSpecies:20-018 , infoSpecies:20-255 , infoSpecies:20-045 , infoSpecies:20-071 , infoSpecies:20-028 , infoSpecies:20-054 , infoSpecies:20-076 , infoSpecies:20-092 ;
+        ifn:hasBasalArea              basalArea:20 ;
+        ifn:hasBasalAreaInM2          2826366.3432952732000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:20 ;
+        ifn:hasNumberOfTreesInUnits   63905869.0264424300000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:20 ;
+        ifn:hasVolumeWithBarkInM3     20489190.2746800607000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:20 ;
+        ifn:hasVolumeWithoutBarkInM3  17216676.0001727207000000 .
 
 numberOfTrees:28-025  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -16723,17 +16723,6 @@ numberOfTrees:19-025  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  26729364.9405234853100000 .
 
-province:09  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:09-028 , infoSpecies:09-071 , infoSpecies:09-038 , infoSpecies:09-026 , infoSpecies:09-042 , infoSpecies:09-021 , infoSpecies:09-044 , infoSpecies:09-045 , infoSpecies:09-025 , infoSpecies:09-926 , infoSpecies:09-090 , infoSpecies:09-070 , infoSpecies:09-050 , infoSpecies:09-258 , infoSpecies:09-023 , infoSpecies:09-058 , infoSpecies:09-043 ;
-        ifn:hasBasalArea              basalArea:09 ;
-        ifn:hasBasalAreaInM2          6343061.5408882277671400 ;
-        ifn:hasNumberOfTrees          numberOfTrees:09 ;
-        ifn:hasNumberOfTreesInUnits   272443965.3649370520040000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:09 ;
-        ifn:hasVolumeWithBarkInM3     32075465.0095188005637200 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:09 ;
-        ifn:hasVolumeWithoutBarkInM3  24453211.2581299344163000 .
-
 volumeWithoutBark:31-021
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -16782,6 +16771,17 @@ volumeWithoutBark:09-058
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  326146.2484935585094800 .
+
+province:37  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:37-050 , infoSpecies:37-046 , infoSpecies:37-021 , infoSpecies:37-072 , infoSpecies:37-099 , infoSpecies:37-026 , infoSpecies:37-043 , infoSpecies:37-045 , infoSpecies:37-044 ;
+        ifn:hasBasalArea              basalArea:37 ;
+        ifn:hasBasalAreaInM2          3678414.1100520607154700 ;
+        ifn:hasNumberOfTrees          numberOfTrees:37 ;
+        ifn:hasNumberOfTreesInUnits   92823730.6632750527740000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:37 ;
+        ifn:hasVolumeWithBarkInM3     11202913.5830546176510800 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:37 ;
+        ifn:hasVolumeWithoutBarkInM3  8408679.1016044135791200 .
 
 volumeWithoutBark:40-038
         a             ifn:VolumeWithoutBark ;
@@ -16848,17 +16848,6 @@ infoSpecies:16-099  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:16-099 ;
         ifn:hasVolumeWithoutBarkInM3  26160.1583947153326200 .
 
-province:46  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:46-067 , infoSpecies:46-026 , infoSpecies:46-038 , infoSpecies:46-050 , infoSpecies:46-024 , infoSpecies:46-258 , infoSpecies:46-099 , infoSpecies:46-025 , infoSpecies:46-045 ;
-        ifn:hasBasalArea              basalArea:46 ;
-        ifn:hasBasalAreaInM2          2216335.9098020603564761 ;
-        ifn:hasNumberOfTrees          numberOfTrees:46 ;
-        ifn:hasNumberOfTreesInUnits   87066638.4109265029705900 ;
-        ifn:hasVolumeWithBark         volumeWithBark:46 ;
-        ifn:hasVolumeWithBarkInM3     8863180.0461092480149579 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:46 ;
-        ifn:hasVolumeWithoutBarkInM3  6559569.4492616512872099 .
-
 infoSpecies:13-258  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:13-258 ;
         ifn:hasBasalAreaInM2          19157.2477053875997900 ;
@@ -16888,6 +16877,17 @@ infoSpecies:49-023  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     373392.7911317362282500 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:49-023 ;
         ifn:hasVolumeWithoutBarkInM3  253960.6614234784360500 .
+
+province:16  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:16-026 , infoSpecies:16-058 , infoSpecies:16-024 , infoSpecies:16-050 , infoSpecies:16-045 , infoSpecies:16-937 , infoSpecies:16-099 , infoSpecies:16-021 , infoSpecies:16-044 , infoSpecies:16-023 , infoSpecies:16-258 , infoSpecies:16-926 , infoSpecies:16-025 ;
+        ifn:hasBasalArea              basalArea:16 ;
+        ifn:hasBasalAreaInM2          6715000.4596241876581400 ;
+        ifn:hasNumberOfTrees          numberOfTrees:16 ;
+        ifn:hasNumberOfTreesInUnits   254286550.1913073693410000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:16 ;
+        ifn:hasVolumeWithBarkInM3     33238758.5676783853036200 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:16 ;
+        ifn:hasVolumeWithoutBarkInM3  23585179.5430084152595500 .
 
 volumeWithoutBark:17-046
         a             ifn:VolumeWithoutBark ;
@@ -16954,17 +16954,6 @@ numberOfTrees:05-043  a  ifn:NumberOfTrees ;
 numberOfTrees:17-071  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  14506423.1163524095920000 .
-
-province:25  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:25-976 , infoSpecies:25-022 , infoSpecies:25-044 , infoSpecies:25-024 , infoSpecies:25-255 , infoSpecies:25-031 , infoSpecies:25-078 , infoSpecies:25-243 , infoSpecies:25-071 , infoSpecies:25-090 , infoSpecies:25-021 , infoSpecies:25-073 , infoSpecies:25-042 , infoSpecies:25-045 , infoSpecies:25-019 , infoSpecies:25-025 , infoSpecies:25-050 , infoSpecies:25-070 ;
-        ifn:hasBasalArea              basalArea:25 ;
-        ifn:hasBasalAreaInM2          7731550.3614630917596807 ;
-        ifn:hasNumberOfTrees          numberOfTrees:25 ;
-        ifn:hasNumberOfTreesInUnits   339130776.5360742182723400 ;
-        ifn:hasVolumeWithBark         volumeWithBark:25 ;
-        ifn:hasVolumeWithBarkInM3     41416743.6761095736654980 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:25 ;
-        ifn:hasVolumeWithoutBarkInM3  32181693.7410057754638458 .
 
 infoSpecies:13-237  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:13-237 ;
@@ -17038,17 +17027,6 @@ numberOfTrees:17-050  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  9574596.6149659173530000 .
 
-province:04  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:04-026 , infoSpecies:04-099 , infoSpecies:04-025 , infoSpecies:04-024 , infoSpecies:04-021 , infoSpecies:04-045 ;
-        ifn:hasBasalArea              basalArea:04 ;
-        ifn:hasBasalAreaInM2          1220792.1659229857923882 ;
-        ifn:hasNumberOfTrees          numberOfTrees:04 ;
-        ifn:hasNumberOfTreesInUnits   57100158.6636068210007400 ;
-        ifn:hasVolumeWithBark         volumeWithBark:04 ;
-        ifn:hasVolumeWithBarkInM3     4091716.4793369376565784 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:04 ;
-        ifn:hasVolumeWithoutBarkInM3  3055792.2123299289787332 .
-
 numberOfTrees:39-215  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  1871543.4159774653740000 .
@@ -17111,6 +17089,17 @@ volumeWithoutBark:45-026
         smo:hasUnit   unit:M3 ;
         smo:hasValue  1724243.1794601548000000 .
 
+province:32  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:32-073 , infoSpecies:32-041 , infoSpecies:32-046 , infoSpecies:32-072 , infoSpecies:32-026 , infoSpecies:32-050 , infoSpecies:32-099 , infoSpecies:32-021 , infoSpecies:32-043 , infoSpecies:32-028 , infoSpecies:32-061 ;
+        ifn:hasBasalArea              basalArea:32 ;
+        ifn:hasBasalAreaInM2          4083618.9749953640563800 ;
+        ifn:hasNumberOfTrees          numberOfTrees:32 ;
+        ifn:hasNumberOfTreesInUnits   135736143.8612285644110000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:32 ;
+        ifn:hasVolumeWithBarkInM3     22631674.6133478060364200 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:32 ;
+        ifn:hasVolumeWithoutBarkInM3  16463498.7210899605863900 .
+
 numberOfTrees:23-044  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  3530515.6231604000000000 .
@@ -17141,20 +17130,20 @@ volumeWithBark:35-028
         smo:hasUnit   unit:M3 ;
         smo:hasValue  70498.3229303232070000 .
 
-province:41  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:41-023 , infoSpecies:41-046 , infoSpecies:41-061 , infoSpecies:41-045 , infoSpecies:41-050 , infoSpecies:41-099 , infoSpecies:41-024 , infoSpecies:41-062 ;
-        ifn:hasBasalArea              basalArea:41 ;
-        ifn:hasBasalAreaInM2          1698571.0852690831300200 ;
-        ifn:hasNumberOfTrees          numberOfTrees:41 ;
-        ifn:hasNumberOfTreesInUnits   38197074.0452182649680000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:41 ;
-        ifn:hasVolumeWithBarkInM3     4455989.9297717135869000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:41 ;
-        ifn:hasVolumeWithoutBarkInM3  3651493.4391069314057600 .
-
 basalArea:20-071  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  467798.3647121945000000 .
+
+province:11  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:11-032 , infoSpecies:11-045 , infoSpecies:11-044 , infoSpecies:11-008 , infoSpecies:11-062 , infoSpecies:11-068 , infoSpecies:11-024 , infoSpecies:11-047 , infoSpecies:11-050 , infoSpecies:11-023 , infoSpecies:11-054 , infoSpecies:11-099 , infoSpecies:11-026 , infoSpecies:11-066 , infoSpecies:11-046 ;
+        ifn:hasBasalArea              basalArea:11 ;
+        ifn:hasBasalAreaInM2          2417075.1879340624000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:11 ;
+        ifn:hasNumberOfTreesInUnits   50004714.8710089000000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:11 ;
+        ifn:hasVolumeWithBarkInM3     7246984.7362285265000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:11 ;
+        ifn:hasVolumeWithoutBarkInM3  5735286.2660024870000000 .
 
 volumeWithBark:03-045
         a             ifn:VolumeWithBark ;
@@ -17210,17 +17199,6 @@ infoSpecies:04-045  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithBarkInM3     211184.1311678699819564 ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:04-045 ;
         ifn:hasVolumeWithoutBarkInM3  167182.2263565658424288 .
-
-province:20  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:20-092 , infoSpecies:20-041 , infoSpecies:20-054 , infoSpecies:20-072 , infoSpecies:20-034 , infoSpecies:20-045 , infoSpecies:20-073 , infoSpecies:20-048 , infoSpecies:20-099 , infoSpecies:20-076 , infoSpecies:20-035 , infoSpecies:20-255 , infoSpecies:20-050 , infoSpecies:20-025 , infoSpecies:20-071 , infoSpecies:20-028 , infoSpecies:20-074 , infoSpecies:20-018 ;
-        ifn:hasBasalArea              basalArea:20 ;
-        ifn:hasBasalAreaInM2          2826366.3432952732000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:20 ;
-        ifn:hasNumberOfTreesInUnits   63905869.0264424300000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:20 ;
-        ifn:hasVolumeWithBarkInM3     20489190.2746800607000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:20 ;
-        ifn:hasVolumeWithoutBarkInM3  17216676.0001727207000000 .
 
 infoSpecies:18-043  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:18-043 ;
@@ -18399,6 +18377,17 @@ infoSpecies:24-050  a                 ifn:InfoSpecies ;
         ifn:hasVolumeWithoutBark      volumeWithoutBark:24-050 ;
         ifn:hasVolumeWithoutBarkInM3  346111.4194964946421200 .
 
+province:49  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:49-054 , infoSpecies:49-025 , infoSpecies:49-050 , infoSpecies:49-258 , infoSpecies:49-058 , infoSpecies:49-990 , infoSpecies:49-026 , infoSpecies:49-043 , infoSpecies:49-045 , infoSpecies:49-023 , infoSpecies:49-021 ;
+        ifn:hasBasalArea              basalArea:49 ;
+        ifn:hasBasalAreaInM2          1903278.9043439983971300 ;
+        ifn:hasNumberOfTrees          numberOfTrees:49 ;
+        ifn:hasNumberOfTreesInUnits   74643667.8205152794660000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:49 ;
+        ifn:hasVolumeWithBarkInM3     8199128.8234496352140000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:49 ;
+        ifn:hasVolumeWithoutBarkInM3  5941841.9033825084838200 .
+
 volumeWithoutBark:39-955
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -18471,6 +18460,17 @@ basalArea:24-028  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  62079.9759172005423600 .
 
+province:28  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:28-090 , infoSpecies:28-958 , infoSpecies:28-026 , infoSpecies:28-044 , infoSpecies:28-057 , infoSpecies:28-070 , infoSpecies:28-043 , infoSpecies:28-837 , infoSpecies:28-051 , infoSpecies:28-045 , infoSpecies:28-025 , infoSpecies:28-054 , infoSpecies:28-021 , infoSpecies:28-024 , infoSpecies:28-955 , infoSpecies:28-023 ;
+        ifn:hasBasalArea              basalArea:28 ;
+        ifn:hasBasalAreaInM2          2296516.3312629386305900 ;
+        ifn:hasNumberOfTrees          numberOfTrees:28 ;
+        ifn:hasNumberOfTreesInUnits   83508240.4623550937380000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:28 ;
+        ifn:hasVolumeWithBarkInM3     10895344.5729697473165400 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:28 ;
+        ifn:hasVolumeWithoutBarkInM3  8481217.5726125736164400 .
+
 basalArea:11-050  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  30447.7014322670000000 .
@@ -18542,17 +18542,6 @@ volumeWithoutBark:09-028
         smo:hasUnit   unit:M3 ;
         smo:hasValue  249951.1357567404165200 .
 
-province:37  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:37-046 , infoSpecies:37-044 , infoSpecies:37-026 , infoSpecies:37-021 , infoSpecies:37-043 , infoSpecies:37-045 , infoSpecies:37-099 , infoSpecies:37-072 , infoSpecies:37-050 ;
-        ifn:hasBasalArea              basalArea:37 ;
-        ifn:hasBasalAreaInM2          3678414.1100520607154700 ;
-        ifn:hasNumberOfTrees          numberOfTrees:37 ;
-        ifn:hasNumberOfTreesInUnits   92823730.6632750527740000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:37 ;
-        ifn:hasVolumeWithBarkInM3     11202913.5830546176510800 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:37 ;
-        ifn:hasVolumeWithoutBarkInM3  8408679.1016044135791200 .
-
 infoSpecies:47-044  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:47-044 ;
         ifn:hasBasalAreaInM2          38255.5718180280346800 ;
@@ -18572,6 +18561,17 @@ volumeWithBark:48-072
 numberOfTrees:21  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
         smo:hasValue  99422760.4962894266270000 .
+
+province:07  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:07-045 , infoSpecies:07-067 , infoSpecies:07-066 , infoSpecies:07-024 , infoSpecies:07-099 , infoSpecies:07-039 ;
+        ifn:hasBasalArea              basalArea:07 ;
+        ifn:hasBasalAreaInM2          1887372.7645803369566190 ;
+        ifn:hasNumberOfTrees          numberOfTrees:07 ;
+        ifn:hasNumberOfTreesInUnits   62796996.6557974424844300 ;
+        ifn:hasVolumeWithBark         volumeWithBark:07 ;
+        ifn:hasVolumeWithBarkInM3     7525456.9484753523066649 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:07 ;
+        ifn:hasVolumeWithoutBarkInM3  6032266.0557843361688202 .
 
 numberOfTrees:33-077  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Units ;
@@ -18663,17 +18663,6 @@ volumeWithBark:07-039
         smo:hasUnit   unit:M3 ;
         smo:hasValue  53959.6751580316234784 .
 
-province:16  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:16-050 , infoSpecies:16-044 , infoSpecies:16-021 , infoSpecies:16-937 , infoSpecies:16-099 , infoSpecies:16-926 , infoSpecies:16-023 , infoSpecies:16-025 , infoSpecies:16-058 , infoSpecies:16-258 , infoSpecies:16-026 , infoSpecies:16-024 , infoSpecies:16-045 ;
-        ifn:hasBasalArea              basalArea:16 ;
-        ifn:hasBasalAreaInM2          6715000.4596241876581400 ;
-        ifn:hasNumberOfTrees          numberOfTrees:16 ;
-        ifn:hasNumberOfTreesInUnits   254286550.1913073693410000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:16 ;
-        ifn:hasVolumeWithBarkInM3     33238758.5676783853036200 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:16 ;
-        ifn:hasVolumeWithoutBarkInM3  23585179.5430084152595500 .
-
 infoSpecies:47-023  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:47-023 ;
         ifn:hasBasalAreaInM2          633599.0623521749255300 ;
@@ -18739,6 +18728,17 @@ basalArea:10-046  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  812311.1929489825085000 .
 
+province:44  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:44-025 , infoSpecies:44-024 , infoSpecies:44-045 , infoSpecies:44-099 , infoSpecies:44-057 , infoSpecies:44-044 , infoSpecies:44-021 , infoSpecies:44-038 , infoSpecies:44-026 , infoSpecies:44-958 ;
+        ifn:hasBasalArea              basalArea:44 ;
+        ifn:hasBasalAreaInM2          5927434.2359416907148300 ;
+        ifn:hasNumberOfTrees          numberOfTrees:44 ;
+        ifn:hasNumberOfTreesInUnits   243017847.0419220360900000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:44 ;
+        ifn:hasVolumeWithBarkInM3     26609941.4776754410010900 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:44 ;
+        ifn:hasVolumeWithoutBarkInM3  19988587.5254105587688900 .
+
 volumeWithoutBark:40-045
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
@@ -18783,6 +18783,17 @@ volumeWithoutBark:09-044
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  1166007.5681543157518000 .
+
+province:23  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:23-044 , infoSpecies:23-099 , infoSpecies:23-023 , infoSpecies:23-237 , infoSpecies:23-050 , infoSpecies:23-046 , infoSpecies:23-025 , infoSpecies:23-045 , infoSpecies:23-024 , infoSpecies:23-026 ;
+        ifn:hasBasalArea              basalArea:23 ;
+        ifn:hasBasalAreaInM2          4351465.9417091662000000 ;
+        ifn:hasNumberOfTrees          numberOfTrees:23 ;
+        ifn:hasNumberOfTreesInUnits   154361996.6045347300000000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:23 ;
+        ifn:hasVolumeWithBarkInM3     19571617.7021714548000000 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:23 ;
+        ifn:hasVolumeWithoutBarkInM3  14505553.0757455425000000 .
 
 volumeWithoutBark:05-025
         a             ifn:VolumeWithoutBark ;
@@ -18851,20 +18862,20 @@ volumeWithoutBark:09-023
         smo:hasUnit   unit:M3 ;
         smo:hasValue  68421.5529629047510100 .
 
-province:32  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:32-061 , infoSpecies:32-026 , infoSpecies:32-021 , infoSpecies:32-072 , infoSpecies:32-099 , infoSpecies:32-073 , infoSpecies:32-050 , infoSpecies:32-046 , infoSpecies:32-043 , infoSpecies:32-028 , infoSpecies:32-041 ;
-        ifn:hasBasalArea              basalArea:32 ;
-        ifn:hasBasalAreaInM2          4083618.9749953640563800 ;
-        ifn:hasNumberOfTrees          numberOfTrees:32 ;
-        ifn:hasNumberOfTreesInUnits   135736143.8612285644110000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:32 ;
-        ifn:hasVolumeWithBarkInM3     22631674.6133478060364200 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:32 ;
-        ifn:hasVolumeWithoutBarkInM3  16463498.7210899605863900 .
-
 basalArea:45-068  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;
         smo:hasValue  75838.5456964026000000 .
+
+province:02  a                        ifn:Province ;
+        ifn:containsSpecies           infoSpecies:02-045 , infoSpecies:02-044 , infoSpecies:02-051 , infoSpecies:02-025 , infoSpecies:02-958 , infoSpecies:02-023 , infoSpecies:02-099 , infoSpecies:02-026 , infoSpecies:02-038 , infoSpecies:02-024 ;
+        ifn:hasBasalArea              basalArea:02 ;
+        ifn:hasBasalAreaInM2          3141817.4985066703644900 ;
+        ifn:hasNumberOfTrees          numberOfTrees:02 ;
+        ifn:hasNumberOfTreesInUnits   127769412.3093199014610000 ;
+        ifn:hasVolumeWithBark         volumeWithBark:02 ;
+        ifn:hasVolumeWithBarkInM3     12428626.9484468930324100 ;
+        ifn:hasVolumeWithoutBark      volumeWithoutBark:02 ;
+        ifn:hasVolumeWithoutBarkInM3  8810579.5992851901755100 .
 
 infoSpecies:25-090  a                 ifn:InfoSpecies ;
         ifn:hasBasalArea              basalArea:25-090 ;
@@ -18926,17 +18937,6 @@ volumeWithoutBark:17-090
         a             ifn:VolumeWithoutBark ;
         smo:hasUnit   unit:M3 ;
         smo:hasValue  232824.3404169233155500 .
-
-province:11  a                        ifn:Province ;
-        ifn:containsSpecies           infoSpecies:11-054 , infoSpecies:11-050 , infoSpecies:11-045 , infoSpecies:11-023 , infoSpecies:11-024 , infoSpecies:11-046 , infoSpecies:11-047 , infoSpecies:11-068 , infoSpecies:11-062 , infoSpecies:11-026 , infoSpecies:11-099 , infoSpecies:11-044 , infoSpecies:11-008 , infoSpecies:11-032 , infoSpecies:11-066 ;
-        ifn:hasBasalArea              basalArea:11 ;
-        ifn:hasBasalAreaInM2          2417075.1879340624000000 ;
-        ifn:hasNumberOfTrees          numberOfTrees:11 ;
-        ifn:hasNumberOfTreesInUnits   50004714.8710089000000000 ;
-        ifn:hasVolumeWithBark         volumeWithBark:11 ;
-        ifn:hasVolumeWithBarkInM3     7246984.7362285265000000 ;
-        ifn:hasVolumeWithoutBark      volumeWithoutBark:11 ;
-        ifn:hasVolumeWithoutBarkInM3  5735286.2660024870000000 .
 
 basalArea:33-019  a   ifn:BasalArea ;
         smo:hasUnit   unit:M2 ;

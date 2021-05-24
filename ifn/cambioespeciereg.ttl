@@ -3,7 +3,7 @@
 @prefix unit:  <http://crossforest.eu/measures/data/unit/> .
 @prefix spo:   <http://crossforest.eu/position/ontology/> .
 @prefix smo:   <http://crossforest.eu/measures/ontology/> .
-@prefix province: <http://datos.iepnb.es/recurso/sector-publico/territorio/Provincia/> .
+@prefix province: <https://datos.iepnb.es/recurso/sector-publico/territorio/Provincia/> .
 @prefix numberOfTrees: <https://datos.iepnb.es/recurso/sector-publico/medio-ambiente/ifn/numberOfTrees/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
@@ -1143,9 +1143,6 @@ changeOfSpecies:28-097-090
         ifn:hasNumberOfTreesInUnits  14 ;
         ifn:hasOriginalSpecies       ifn:Species97 .
 
-province:49  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:49-065-099 , changeOfSpecies:49-009-099 , changeOfSpecies:49-378-099 , changeOfSpecies:49-075-099 , changeOfSpecies:49-053-099 , changeOfSpecies:49-095-099 , changeOfSpecies:49-022-021 , changeOfSpecies:49-315-099 , changeOfSpecies:49-016-099 , changeOfSpecies:49-041-043 , changeOfSpecies:49-015-099 , changeOfSpecies:49-057-099 , changeOfSpecies:49-072-099 , changeOfSpecies:49-026-026 , changeOfSpecies:49-021-021 , changeOfSpecies:49-068-099 , changeOfSpecies:49-025-019 , changeOfSpecies:49-045-045 , changeOfSpecies:49-074-099 , changeOfSpecies:49-042-043 , changeOfSpecies:49-257-099 , changeOfSpecies:49-055-099 , changeOfSpecies:49-023-019 , changeOfSpecies:49-051-099 , changeOfSpecies:49-058-099 , changeOfSpecies:49-097-099 , changeOfSpecies:49-012-099 , changeOfSpecies:49-295-099 , changeOfSpecies:49-093-099 , changeOfSpecies:49-657-099 , changeOfSpecies:49-357-099 , changeOfSpecies:49-395-099 , changeOfSpecies:49-038-019 , changeOfSpecies:49-255-099 , changeOfSpecies:49-003-099 , changeOfSpecies:49-044-043 , changeOfSpecies:49-046-045 , changeOfSpecies:49-037-019 , changeOfSpecies:49-215-099 , changeOfSpecies:49-054-099 , changeOfSpecies:49-043-043 , changeOfSpecies:49-237-019 , changeOfSpecies:49-273-099 , changeOfSpecies:49-056-099 , changeOfSpecies:49-258-258 .
-
 changeOfSpecies:17-095-090
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species90 ;
@@ -1156,6 +1153,9 @@ changeOfSpecies:17-095-090
 numberOfTrees:33  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  33 .
+
+province:19  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:19-236-019 , changeOfSpecies:19-657-099 , changeOfSpecies:19-258-099 , changeOfSpecies:19-099-099 , changeOfSpecies:19-057-099 , changeOfSpecies:19-091-099 , changeOfSpecies:19-004-099 , changeOfSpecies:19-036-019 , changeOfSpecies:19-066-099 , changeOfSpecies:19-034-025 , changeOfSpecies:19-025-025 , changeOfSpecies:19-045-045 , changeOfSpecies:19-074-099 , changeOfSpecies:19-257-099 , changeOfSpecies:19-075-099 , changeOfSpecies:19-065-099 , changeOfSpecies:19-051-099 , changeOfSpecies:19-237-937 , changeOfSpecies:19-012-099 , changeOfSpecies:19-078-099 , changeOfSpecies:19-058-099 , changeOfSpecies:19-273-099 , changeOfSpecies:19-043-043 , changeOfSpecies:19-278-099 , changeOfSpecies:19-023-019 , changeOfSpecies:19-395-099 , changeOfSpecies:19-295-099 , changeOfSpecies:19-957-099 , changeOfSpecies:19-068-099 , changeOfSpecies:19-415-099 , changeOfSpecies:19-055-099 , changeOfSpecies:19-215-099 , changeOfSpecies:19-095-099 , changeOfSpecies:19-757-099 , changeOfSpecies:19-014-025 , changeOfSpecies:19-056-099 , changeOfSpecies:19-276-099 , changeOfSpecies:19-038-937 , changeOfSpecies:19-015-099 , changeOfSpecies:19-003-099 , changeOfSpecies:19-076-099 , changeOfSpecies:19-239-937 , changeOfSpecies:19-926-019 , changeOfSpecies:19-857-099 , changeOfSpecies:19-399-099 , changeOfSpecies:19-039-937 , changeOfSpecies:19-092-099 , changeOfSpecies:19-002-099 , changeOfSpecies:19-044-044 , changeOfSpecies:19-024-019 , changeOfSpecies:19-016-099 , changeOfSpecies:19-042-043 , changeOfSpecies:19-357-099 , changeOfSpecies:19-026-019 , changeOfSpecies:19-021-019 , changeOfSpecies:19-378-099 , changeOfSpecies:19-071-099 , changeOfSpecies:19-009-099 , changeOfSpecies:19-097-099 , changeOfSpecies:19-093-099 , changeOfSpecies:19-037-937 , changeOfSpecies:19-053-099 , changeOfSpecies:19-054-099 .
 
 changeOfSpecies:11-040-099
         a                       ifn:ChangeOfSpecies ;
@@ -1224,13 +1224,6 @@ changeOfSpecies:50-059-099
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species59 .
 
-changeOfSpecies:48-065-068
-        a                            ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies            ifn:Species68 ;
-        ifn:hasNumberOfTrees         numberOfTrees:34 ;
-        ifn:hasNumberOfTreesInUnits  34 ;
-        ifn:hasOriginalSpecies       ifn:Species65 .
-
 changeOfSpecies:04-017-026
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species26 ;
@@ -1238,8 +1231,12 @@ changeOfSpecies:04-017-026
         ifn:hasNumberOfTreesInUnits  2 ;
         ifn:hasOriginalSpecies       ifn:Species17 .
 
-province:28  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:28-053-099 , changeOfSpecies:28-043-043 , changeOfSpecies:28-657-099 , changeOfSpecies:28-013-099 , changeOfSpecies:28-021-021 , changeOfSpecies:28-051-099 , changeOfSpecies:28-023-019 , changeOfSpecies:28-016-090 , changeOfSpecies:28-024-019 , changeOfSpecies:28-026-019 , changeOfSpecies:28-295-090 , changeOfSpecies:28-036-019 , changeOfSpecies:28-055-099 , changeOfSpecies:28-678-099 , changeOfSpecies:28-025-019 , changeOfSpecies:28-276-099 , changeOfSpecies:28-056-099 , changeOfSpecies:28-012-090 , changeOfSpecies:28-357-099 , changeOfSpecies:28-072-099 , changeOfSpecies:28-014-021 , changeOfSpecies:28-046-099 , changeOfSpecies:28-004-090 , changeOfSpecies:28-005-090 , changeOfSpecies:28-258-099 , changeOfSpecies:28-045-045 , changeOfSpecies:28-476-099 , changeOfSpecies:28-041-099 , changeOfSpecies:28-002-090 , changeOfSpecies:28-057-099 , changeOfSpecies:28-009-090 , changeOfSpecies:28-957-099 , changeOfSpecies:28-099-090 , changeOfSpecies:28-066-090 , changeOfSpecies:28-003-090 , changeOfSpecies:28-022-021 , changeOfSpecies:28-037-837 , changeOfSpecies:28-378-099 , changeOfSpecies:28-299-090 , changeOfSpecies:28-039-837 , changeOfSpecies:28-054-099 , changeOfSpecies:28-257-099 , changeOfSpecies:28-215-090 , changeOfSpecies:28-857-099 , changeOfSpecies:28-071-099 , changeOfSpecies:28-058-099 , changeOfSpecies:28-093-090 , changeOfSpecies:28-376-099 , changeOfSpecies:28-095-090 , changeOfSpecies:28-076-099 , changeOfSpecies:28-034-019 , changeOfSpecies:28-042-099 , changeOfSpecies:28-356-099 , changeOfSpecies:28-065-090 , changeOfSpecies:28-097-090 , changeOfSpecies:28-044-099 , changeOfSpecies:28-011-099 , changeOfSpecies:28-237-837 .
+changeOfSpecies:48-065-068
+        a                            ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies            ifn:Species68 ;
+        ifn:hasNumberOfTrees         numberOfTrees:34 ;
+        ifn:hasNumberOfTreesInUnits  34 ;
+        ifn:hasOriginalSpecies       ifn:Species65 .
 
 numberOfTrees:193  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
@@ -1370,6 +1367,9 @@ changeOfSpecies:49-044-043
         ifn:hasNumberOfTreesInUnits  119 ;
         ifn:hasOriginalSpecies       ifn:Species44 .
 
+province:35  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:35-051-989 , changeOfSpecies:35-299-989 , changeOfSpecies:35-082-989 , changeOfSpecies:35-083-989 , changeOfSpecies:35-294-989 , changeOfSpecies:35-024-028 , changeOfSpecies:35-042-989 , changeOfSpecies:35-337-028 , changeOfSpecies:35-058-989 , changeOfSpecies:35-253-989 , changeOfSpecies:35-069-989 , changeOfSpecies:35-056-989 , changeOfSpecies:35-023-028 , changeOfSpecies:35-469-989 , changeOfSpecies:35-062-060 , changeOfSpecies:35-293-989 , changeOfSpecies:35-088-989 , changeOfSpecies:35-095-989 , changeOfSpecies:35-858-989 , changeOfSpecies:35-072-072 , changeOfSpecies:35-027-027 , changeOfSpecies:35-061-060 , changeOfSpecies:35-007-989 , changeOfSpecies:35-077-989 , changeOfSpecies:35-207-989 , changeOfSpecies:35-066-989 , changeOfSpecies:35-081-989 , changeOfSpecies:35-075-989 , changeOfSpecies:35-036-028 , changeOfSpecies:35-028-028 , changeOfSpecies:35-016-989 , changeOfSpecies:35-067-989 .
+
 numberOfTrees:634  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  634 .
@@ -1416,9 +1416,6 @@ changeOfSpecies:45-051-050
         ifn:hasNumberOfTreesInUnits  24 ;
         ifn:hasOriginalSpecies       ifn:Species51 .
 
-province:44  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:44-478-099 , changeOfSpecies:44-097-099 , changeOfSpecies:44-957-099 , changeOfSpecies:44-013-099 , changeOfSpecies:44-757-099 , changeOfSpecies:44-074-099 , changeOfSpecies:44-091-099 , changeOfSpecies:44-021-021 , changeOfSpecies:44-236-019 , changeOfSpecies:44-012-099 , changeOfSpecies:44-395-099 , changeOfSpecies:44-045-045 , changeOfSpecies:44-009-099 , changeOfSpecies:44-092-099 , changeOfSpecies:44-237-019 , changeOfSpecies:44-257-099 , changeOfSpecies:44-043-099 , changeOfSpecies:44-278-099 , changeOfSpecies:44-076-099 , changeOfSpecies:44-002-099 , changeOfSpecies:44-058-958 , changeOfSpecies:44-056-099 , changeOfSpecies:44-024-019 , changeOfSpecies:44-052-099 , changeOfSpecies:44-037-019 , changeOfSpecies:44-023-019 , changeOfSpecies:44-276-099 , changeOfSpecies:44-053-099 , changeOfSpecies:44-044-044 , changeOfSpecies:44-022-019 , changeOfSpecies:44-357-099 , changeOfSpecies:44-025-025 , changeOfSpecies:44-857-099 , changeOfSpecies:44-057-099 , changeOfSpecies:44-066-099 , changeOfSpecies:44-036-019 , changeOfSpecies:44-075-099 , changeOfSpecies:44-295-099 , changeOfSpecies:44-038-019 , changeOfSpecies:44-095-099 , changeOfSpecies:44-068-099 , changeOfSpecies:44-378-099 , changeOfSpecies:44-039-019 , changeOfSpecies:44-258-958 , changeOfSpecies:44-026-019 , changeOfSpecies:44-065-099 , changeOfSpecies:44-051-099 , changeOfSpecies:44-299-099 , changeOfSpecies:44-215-099 , changeOfSpecies:44-055-099 , changeOfSpecies:44-239-019 , changeOfSpecies:44-014-019 , changeOfSpecies:44-008-099 , changeOfSpecies:44-476-099 , changeOfSpecies:44-004-099 , changeOfSpecies:44-093-099 .
-
 changeOfSpecies:15-373-073
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species73 ;
@@ -1453,6 +1450,9 @@ changeOfSpecies:01-003-099
         ifn:hasNumberOfTrees         numberOfTrees:18 ;
         ifn:hasNumberOfTreesInUnits  18 ;
         ifn:hasOriginalSpecies       ifn:Species3 .
+
+province:14  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:14-046-046 , changeOfSpecies:14-044-044 , changeOfSpecies:14-004-050 , changeOfSpecies:14-026-026 , changeOfSpecies:14-045-045 , changeOfSpecies:14-053-053 , changeOfSpecies:14-369-099 , changeOfSpecies:14-068-099 , changeOfSpecies:14-299-050 , changeOfSpecies:14-049-044 , changeOfSpecies:14-237-026 , changeOfSpecies:14-008-099 , changeOfSpecies:14-066-066 , changeOfSpecies:14-054-050 , changeOfSpecies:14-057-050 , changeOfSpecies:14-013-099 , changeOfSpecies:14-027-026 , changeOfSpecies:14-257-050 , changeOfSpecies:14-058-050 , changeOfSpecies:14-051-050 , changeOfSpecies:14-016-099 , changeOfSpecies:14-095-099 , changeOfSpecies:14-215-099 , changeOfSpecies:14-276-099 , changeOfSpecies:14-093-099 , changeOfSpecies:14-056-050 , changeOfSpecies:14-062-062 , changeOfSpecies:14-043-044 , changeOfSpecies:14-006-099 , changeOfSpecies:14-055-050 , changeOfSpecies:14-023-023 , changeOfSpecies:14-024-023 .
 
 changeOfSpecies:33-273-099
         a                            ifn:ChangeOfSpecies ;
@@ -1527,9 +1527,6 @@ changeOfSpecies:39-075-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species75 .
-
-province:23  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:23-008-099 , changeOfSpecies:23-258-050 , changeOfSpecies:23-015-099 , changeOfSpecies:23-075-099 , changeOfSpecies:23-011-099 , changeOfSpecies:23-062-050 , changeOfSpecies:23-065-099 , changeOfSpecies:23-023-023 , changeOfSpecies:23-094-099 , changeOfSpecies:23-757-050 , changeOfSpecies:23-051-050 , changeOfSpecies:23-026-026 , changeOfSpecies:23-025-025 , changeOfSpecies:23-378-099 , changeOfSpecies:23-056-050 , changeOfSpecies:23-255-050 , changeOfSpecies:23-024-024 , changeOfSpecies:23-068-099 , changeOfSpecies:23-058-050 , changeOfSpecies:23-457-050 , changeOfSpecies:23-415-099 , changeOfSpecies:23-009-050 , changeOfSpecies:23-076-099 , changeOfSpecies:23-021-025 , changeOfSpecies:23-236-237 , changeOfSpecies:23-276-099 , changeOfSpecies:23-043-044 , changeOfSpecies:23-357-050 , changeOfSpecies:23-295-099 , changeOfSpecies:23-399-099 , changeOfSpecies:23-237-237 , changeOfSpecies:23-057-050 , changeOfSpecies:23-092-050 , changeOfSpecies:23-004-050 , changeOfSpecies:23-857-050 , changeOfSpecies:23-476-099 , changeOfSpecies:23-054-050 , changeOfSpecies:23-578-099 , changeOfSpecies:23-957-050 , changeOfSpecies:23-478-099 , changeOfSpecies:23-093-099 , changeOfSpecies:23-299-099 , changeOfSpecies:23-028-025 , changeOfSpecies:23-044-044 , changeOfSpecies:23-006-099 , changeOfSpecies:23-395-099 , changeOfSpecies:23-257-050 , changeOfSpecies:23-215-099 , changeOfSpecies:23-376-099 , changeOfSpecies:23-046-046 , changeOfSpecies:23-013-099 , changeOfSpecies:23-066-099 , changeOfSpecies:23-091-099 , changeOfSpecies:23-002-099 , changeOfSpecies:23-055-050 , changeOfSpecies:23-016-099 , changeOfSpecies:23-095-099 , changeOfSpecies:23-045-045 , changeOfSpecies:23-036-237 , changeOfSpecies:23-053-050 , changeOfSpecies:23-037-237 , changeOfSpecies:23-039-237 , changeOfSpecies:23-278-099 .
 
 changeOfSpecies:15-264-099
         a                            ifn:ChangeOfSpecies ;
@@ -1659,9 +1656,6 @@ changeOfSpecies:12-095-099
         ifn:hasNumberOfTreesInUnits  18 ;
         ifn:hasOriginalSpecies       ifn:Species95 .
 
-province:02  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:02-099-099 , changeOfSpecies:02-278-099 , changeOfSpecies:02-026-026 , changeOfSpecies:02-039-038 , changeOfSpecies:02-258-958 , changeOfSpecies:02-295-099 , changeOfSpecies:02-476-099 , changeOfSpecies:02-055-051 , changeOfSpecies:02-051-051 , changeOfSpecies:02-045-045 , changeOfSpecies:02-215-099 , changeOfSpecies:02-066-099 , changeOfSpecies:02-357-051 , changeOfSpecies:02-023-023 , changeOfSpecies:02-037-038 , changeOfSpecies:02-075-099 , changeOfSpecies:02-008-099 , changeOfSpecies:02-058-958 , changeOfSpecies:02-036-023 , changeOfSpecies:02-044-044 , changeOfSpecies:02-025-025 , changeOfSpecies:02-053-051 , changeOfSpecies:02-478-099 , changeOfSpecies:02-062-051 , changeOfSpecies:02-578-099 , changeOfSpecies:02-016-099 , changeOfSpecies:02-237-038 , changeOfSpecies:02-038-038 , changeOfSpecies:02-257-051 , changeOfSpecies:02-095-099 , changeOfSpecies:02-024-024 , changeOfSpecies:02-657-051 , changeOfSpecies:02-957-051 , changeOfSpecies:02-013-099 , changeOfSpecies:02-056-099 , changeOfSpecies:02-068-099 , changeOfSpecies:02-256-099 , changeOfSpecies:02-757-051 , changeOfSpecies:02-057-051 , changeOfSpecies:02-002-099 , changeOfSpecies:02-415-099 , changeOfSpecies:02-399-099 , changeOfSpecies:02-091-099 , changeOfSpecies:02-004-099 , changeOfSpecies:02-093-099 .
-
 changeOfSpecies:47-038-024
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species24 ;
@@ -1751,6 +1745,9 @@ changeOfSpecies:08-017-019
         ifn:hasNewSpecies       ifn:Species19 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species17 .
+
+province:30  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:30-038-019 , changeOfSpecies:30-295-099 , changeOfSpecies:30-037-019 , changeOfSpecies:30-025-019 , changeOfSpecies:30-237-237 , changeOfSpecies:30-039-039 , changeOfSpecies:30-024-024 , changeOfSpecies:30-075-099 , changeOfSpecies:30-219-019 , changeOfSpecies:30-215-099 , changeOfSpecies:30-045-045 , changeOfSpecies:30-023-019 , changeOfSpecies:30-004-099 , changeOfSpecies:30-269-099 , changeOfSpecies:30-095-099 , changeOfSpecies:30-026-019 , changeOfSpecies:30-047-099 , changeOfSpecies:30-044-099 , changeOfSpecies:30-036-019 , changeOfSpecies:30-067-099 , changeOfSpecies:30-091-099 , changeOfSpecies:30-002-099 , changeOfSpecies:30-068-099 , changeOfSpecies:30-093-099 , changeOfSpecies:30-049-099 , changeOfSpecies:30-476-099 , changeOfSpecies:30-066-099 , changeOfSpecies:30-378-099 , changeOfSpecies:30-276-099 .
 
 changeOfSpecies:26-038-026
         a                       ifn:ChangeOfSpecies ;
@@ -3422,9 +3419,6 @@ numberOfTrees:667  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  667 .
 
-province:19  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:19-093-099 , changeOfSpecies:19-056-099 , changeOfSpecies:19-857-099 , changeOfSpecies:19-099-099 , changeOfSpecies:19-054-099 , changeOfSpecies:19-044-044 , changeOfSpecies:19-004-099 , changeOfSpecies:19-057-099 , changeOfSpecies:19-021-019 , changeOfSpecies:19-395-099 , changeOfSpecies:19-237-937 , changeOfSpecies:19-957-099 , changeOfSpecies:19-926-019 , changeOfSpecies:19-097-099 , changeOfSpecies:19-009-099 , changeOfSpecies:19-357-099 , changeOfSpecies:19-278-099 , changeOfSpecies:19-055-099 , changeOfSpecies:19-215-099 , changeOfSpecies:19-378-099 , changeOfSpecies:19-091-099 , changeOfSpecies:19-026-019 , changeOfSpecies:19-078-099 , changeOfSpecies:19-025-025 , changeOfSpecies:19-016-099 , changeOfSpecies:19-071-099 , changeOfSpecies:19-076-099 , changeOfSpecies:19-273-099 , changeOfSpecies:19-002-099 , changeOfSpecies:19-003-099 , changeOfSpecies:19-058-099 , changeOfSpecies:19-074-099 , changeOfSpecies:19-757-099 , changeOfSpecies:19-295-099 , changeOfSpecies:19-045-045 , changeOfSpecies:19-042-043 , changeOfSpecies:19-066-099 , changeOfSpecies:19-039-937 , changeOfSpecies:19-053-099 , changeOfSpecies:19-034-025 , changeOfSpecies:19-095-099 , changeOfSpecies:19-014-025 , changeOfSpecies:19-075-099 , changeOfSpecies:19-239-937 , changeOfSpecies:19-092-099 , changeOfSpecies:19-065-099 , changeOfSpecies:19-038-937 , changeOfSpecies:19-012-099 , changeOfSpecies:19-257-099 , changeOfSpecies:19-037-937 , changeOfSpecies:19-043-043 , changeOfSpecies:19-258-099 , changeOfSpecies:19-015-099 , changeOfSpecies:19-236-019 , changeOfSpecies:19-024-019 , changeOfSpecies:19-399-099 , changeOfSpecies:19-415-099 , changeOfSpecies:19-276-099 , changeOfSpecies:19-051-099 , changeOfSpecies:19-657-099 , changeOfSpecies:19-036-019 , changeOfSpecies:19-023-019 , changeOfSpecies:19-068-099 .
-
 changeOfSpecies:35-028-028
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species28 ;
@@ -3502,6 +3496,9 @@ numberOfTrees:61  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  61 .
 
+province:47  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:47-045-045 , changeOfSpecies:47-023-023 , changeOfSpecies:47-257-099 , changeOfSpecies:47-009-099 , changeOfSpecies:47-026-026 , changeOfSpecies:47-057-099 , changeOfSpecies:47-055-099 , changeOfSpecies:47-957-099 , changeOfSpecies:47-395-099 , changeOfSpecies:47-236-024 , changeOfSpecies:47-046-044 , changeOfSpecies:47-095-099 , changeOfSpecies:47-039-024 , changeOfSpecies:47-258-958 , changeOfSpecies:47-021-024 , changeOfSpecies:47-053-099 , changeOfSpecies:47-926-026 , changeOfSpecies:47-038-024 , changeOfSpecies:47-215-099 , changeOfSpecies:47-075-099 , changeOfSpecies:47-020-024 , changeOfSpecies:47-357-099 , changeOfSpecies:47-036-024 , changeOfSpecies:47-058-958 , changeOfSpecies:47-237-024 , changeOfSpecies:47-024-024 , changeOfSpecies:47-051-099 , changeOfSpecies:47-037-024 , changeOfSpecies:47-097-099 , changeOfSpecies:47-295-099 , changeOfSpecies:47-056-099 , changeOfSpecies:47-025-024 , changeOfSpecies:47-044-044 .
+
 numberOfTrees:646  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  646 .
@@ -3555,6 +3552,13 @@ changeOfSpecies:12-215-099
         ifn:hasNumberOfTreesInUnits  28 ;
         ifn:hasOriginalSpecies       ifn:Species215 .
 
+changeOfSpecies:43-074-090
+        a                            ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies            ifn:Species90 ;
+        ifn:hasNumberOfTrees         numberOfTrees:54 ;
+        ifn:hasNumberOfTreesInUnits  54 ;
+        ifn:hasOriginalSpecies       ifn:Species74 .
+
 numberOfTrees:40  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  40 .
@@ -3566,12 +3570,8 @@ changeOfSpecies:11-045-099
         ifn:hasNumberOfTreesInUnits  275 ;
         ifn:hasOriginalSpecies       ifn:Species45 .
 
-changeOfSpecies:43-074-090
-        a                            ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies            ifn:Species90 ;
-        ifn:hasNumberOfTrees         numberOfTrees:54 ;
-        ifn:hasNumberOfTreesInUnits  54 ;
-        ifn:hasOriginalSpecies       ifn:Species74 .
+province:26  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:26-003-099 , changeOfSpecies:26-039-026 , changeOfSpecies:26-476-099 , changeOfSpecies:26-043-043 , changeOfSpecies:26-053-099 , changeOfSpecies:26-095-099 , changeOfSpecies:26-292-099 , changeOfSpecies:26-016-099 , changeOfSpecies:26-377-099 , changeOfSpecies:26-357-099 , changeOfSpecies:26-014-026 , changeOfSpecies:26-044-099 , changeOfSpecies:26-278-099 , changeOfSpecies:26-038-026 , changeOfSpecies:26-237-026 , changeOfSpecies:26-065-099 , changeOfSpecies:26-066-099 , changeOfSpecies:26-041-099 , changeOfSpecies:26-009-099 , changeOfSpecies:26-058-099 , changeOfSpecies:26-075-099 , changeOfSpecies:26-295-099 , changeOfSpecies:26-277-099 , changeOfSpecies:26-052-099 , changeOfSpecies:26-012-099 , changeOfSpecies:26-008-099 , changeOfSpecies:26-026-026 , changeOfSpecies:26-051-099 , changeOfSpecies:26-239-026 , changeOfSpecies:26-074-099 , changeOfSpecies:26-024-019 , changeOfSpecies:26-258-099 , changeOfSpecies:26-021-021 , changeOfSpecies:26-255-099 , changeOfSpecies:26-045-045 , changeOfSpecies:26-657-099 , changeOfSpecies:26-215-099 , changeOfSpecies:26-057-099 , changeOfSpecies:26-243-043 , changeOfSpecies:26-034-019 , changeOfSpecies:26-035-019 , changeOfSpecies:26-055-099 , changeOfSpecies:26-276-099 , changeOfSpecies:26-091-099 , changeOfSpecies:26-042-099 , changeOfSpecies:26-071-071 , changeOfSpecies:26-097-099 , changeOfSpecies:26-076-099 , changeOfSpecies:26-056-099 , changeOfSpecies:26-857-099 , changeOfSpecies:26-005-099 , changeOfSpecies:26-002-099 , changeOfSpecies:26-378-099 , changeOfSpecies:26-073-099 , changeOfSpecies:26-004-099 , changeOfSpecies:26-025-019 , changeOfSpecies:26-099-099 , changeOfSpecies:26-078-099 , changeOfSpecies:26-022-019 , changeOfSpecies:26-068-099 , changeOfSpecies:26-077-099 , changeOfSpecies:26-578-099 , changeOfSpecies:26-478-099 , changeOfSpecies:26-037-026 , changeOfSpecies:26-257-099 .
 
 changeOfSpecies:20-058-099
         a                       ifn:ChangeOfSpecies ;
@@ -3625,9 +3625,6 @@ changeOfSpecies:39-237-019
         ifn:hasNumberOfTreesInUnits  34 ;
         ifn:hasOriginalSpecies       ifn:Species237 .
 
-province:35  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:35-077-989 , changeOfSpecies:35-207-989 , changeOfSpecies:35-253-989 , changeOfSpecies:35-061-060 , changeOfSpecies:35-042-989 , changeOfSpecies:35-293-989 , changeOfSpecies:35-016-989 , changeOfSpecies:35-056-989 , changeOfSpecies:35-007-989 , changeOfSpecies:35-299-989 , changeOfSpecies:35-028-028 , changeOfSpecies:35-858-989 , changeOfSpecies:35-027-027 , changeOfSpecies:35-058-989 , changeOfSpecies:35-072-072 , changeOfSpecies:35-051-989 , changeOfSpecies:35-069-989 , changeOfSpecies:35-081-989 , changeOfSpecies:35-075-989 , changeOfSpecies:35-023-028 , changeOfSpecies:35-062-060 , changeOfSpecies:35-095-989 , changeOfSpecies:35-469-989 , changeOfSpecies:35-083-989 , changeOfSpecies:35-082-989 , changeOfSpecies:35-067-989 , changeOfSpecies:35-294-989 , changeOfSpecies:35-036-028 , changeOfSpecies:35-088-989 , changeOfSpecies:35-024-028 , changeOfSpecies:35-337-028 , changeOfSpecies:35-066-989 .
-
 changeOfSpecies:13-063-062
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species62 ;
@@ -3654,6 +3651,9 @@ changeOfSpecies:08-067-090
         ifn:hasNumberOfTrees         numberOfTrees:13 ;
         ifn:hasNumberOfTreesInUnits  13 ;
         ifn:hasOriginalSpecies       ifn:Species67 .
+
+province:05  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:05-043-043 , changeOfSpecies:05-074-099 , changeOfSpecies:05-095-090 , changeOfSpecies:05-056-099 , changeOfSpecies:05-006-090 , changeOfSpecies:05-957-099 , changeOfSpecies:05-857-099 , changeOfSpecies:05-003-090 , changeOfSpecies:05-037-237 , changeOfSpecies:05-378-099 , changeOfSpecies:05-057-099 , changeOfSpecies:05-255-099 , changeOfSpecies:05-093-090 , changeOfSpecies:05-278-099 , changeOfSpecies:05-017-019 , changeOfSpecies:05-026-026 , changeOfSpecies:05-072-099 , changeOfSpecies:05-258-099 , changeOfSpecies:05-076-099 , changeOfSpecies:05-045-045 , changeOfSpecies:05-051-099 , changeOfSpecies:05-023-019 , changeOfSpecies:05-299-090 , changeOfSpecies:05-016-090 , changeOfSpecies:05-046-045 , changeOfSpecies:05-075-099 , changeOfSpecies:05-215-090 , changeOfSpecies:05-068-090 , changeOfSpecies:05-058-099 , changeOfSpecies:05-395-090 , changeOfSpecies:05-357-099 , changeOfSpecies:05-295-090 , changeOfSpecies:05-237-237 , changeOfSpecies:05-099-090 , changeOfSpecies:05-055-099 , changeOfSpecies:05-025-019 , changeOfSpecies:05-044-043 , changeOfSpecies:05-021-021 , changeOfSpecies:05-054-099 , changeOfSpecies:05-012-090 , changeOfSpecies:05-066-099 , changeOfSpecies:05-097-090 , changeOfSpecies:05-257-099 , changeOfSpecies:05-373-099 .
 
 changeOfSpecies:38-027-027
         a                            ifn:ChangeOfSpecies ;
@@ -3696,9 +3696,6 @@ changeOfSpecies:45-215-068
         ifn:hasNumberOfTrees         numberOfTrees:11 ;
         ifn:hasNumberOfTreesInUnits  11 ;
         ifn:hasOriginalSpecies       ifn:Species215 .
-
-province:14  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:14-299-050 , changeOfSpecies:14-044-044 , changeOfSpecies:14-237-026 , changeOfSpecies:14-055-050 , changeOfSpecies:14-093-099 , changeOfSpecies:14-016-099 , changeOfSpecies:14-027-026 , changeOfSpecies:14-257-050 , changeOfSpecies:14-043-044 , changeOfSpecies:14-068-099 , changeOfSpecies:14-066-066 , changeOfSpecies:14-026-026 , changeOfSpecies:14-053-053 , changeOfSpecies:14-023-023 , changeOfSpecies:14-024-023 , changeOfSpecies:14-215-099 , changeOfSpecies:14-051-050 , changeOfSpecies:14-004-050 , changeOfSpecies:14-056-050 , changeOfSpecies:14-013-099 , changeOfSpecies:14-062-062 , changeOfSpecies:14-045-045 , changeOfSpecies:14-008-099 , changeOfSpecies:14-006-099 , changeOfSpecies:14-369-099 , changeOfSpecies:14-276-099 , changeOfSpecies:14-057-050 , changeOfSpecies:14-049-044 , changeOfSpecies:14-054-050 , changeOfSpecies:14-058-050 , changeOfSpecies:14-095-099 , changeOfSpecies:14-046-046 .
 
 changeOfSpecies:12-003-099
         a                       ifn:ChangeOfSpecies ;
@@ -3791,6 +3788,9 @@ changeOfSpecies:10-004-099
         ifn:hasNumberOfTreesInUnits  2 ;
         ifn:hasOriginalSpecies       ifn:Species4 .
 
+province:42  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:42-058-999 , changeOfSpecies:42-016-999 , changeOfSpecies:42-037-038 , changeOfSpecies:42-009-999 , changeOfSpecies:42-071-999 , changeOfSpecies:42-021-021 , changeOfSpecies:42-042-043 , changeOfSpecies:42-038-038 , changeOfSpecies:42-255-999 , changeOfSpecies:42-078-999 , changeOfSpecies:42-015-999 , changeOfSpecies:42-395-999 , changeOfSpecies:42-276-999 , changeOfSpecies:42-957-999 , changeOfSpecies:42-065-999 , changeOfSpecies:42-278-999 , changeOfSpecies:42-057-999 , changeOfSpecies:42-237-038 , changeOfSpecies:42-024-019 , changeOfSpecies:42-857-999 , changeOfSpecies:42-215-999 , changeOfSpecies:42-757-999 , changeOfSpecies:42-095-999 , changeOfSpecies:42-258-999 , changeOfSpecies:42-074-999 , changeOfSpecies:42-295-999 , changeOfSpecies:42-056-999 , changeOfSpecies:42-002-999 , changeOfSpecies:42-099-999 , changeOfSpecies:42-023-019 , changeOfSpecies:42-039-038 , changeOfSpecies:42-378-999 , changeOfSpecies:42-026-019 , changeOfSpecies:42-003-999 , changeOfSpecies:42-273-999 , changeOfSpecies:42-073-999 , changeOfSpecies:42-076-999 , changeOfSpecies:42-045-045 , changeOfSpecies:42-657-999 , changeOfSpecies:42-357-999 , changeOfSpecies:42-075-999 , changeOfSpecies:42-044-044 , changeOfSpecies:42-025-019 , changeOfSpecies:42-043-043 , changeOfSpecies:42-257-999 , changeOfSpecies:42-051-999 , changeOfSpecies:42-012-999 , changeOfSpecies:42-004-999 , changeOfSpecies:42-022-021 , changeOfSpecies:42-055-999 .
+
 changeOfSpecies:28-012-090
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species90 ;
@@ -3870,13 +3870,6 @@ changeOfSpecies:28-002-090
         ifn:hasNumberOfTreesInUnits  1 ;
         ifn:hasOriginalSpecies       ifn:Species2 .
 
-changeOfSpecies:48-076-099
-        a                            ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies            ifn:Species99 ;
-        ifn:hasNumberOfTrees         numberOfTrees:5 ;
-        ifn:hasNumberOfTreesInUnits  5 ;
-        ifn:hasOriginalSpecies       ifn:Species76 .
-
 changeOfSpecies:50-045-045
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species45 ;
@@ -3884,18 +3877,18 @@ changeOfSpecies:50-045-045
         ifn:hasNumberOfTreesInUnits  2949 ;
         ifn:hasOriginalSpecies       ifn:Species45 .
 
+changeOfSpecies:48-076-099
+        a                            ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies            ifn:Species99 ;
+        ifn:hasNumberOfTrees         numberOfTrees:5 ;
+        ifn:hasNumberOfTreesInUnits  5 ;
+        ifn:hasOriginalSpecies       ifn:Species76 .
+
 changeOfSpecies:46-395-099
         a                       ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species395 .
-
-changeOfSpecies:33-021-019
-        a                            ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies            ifn:Species19 ;
-        ifn:hasNumberOfTrees         numberOfTrees:533 ;
-        ifn:hasNumberOfTreesInUnits  533 ;
-        ifn:hasOriginalSpecies       ifn:Species21 .
 
 changeOfSpecies:33-278-099
         a                            ifn:ChangeOfSpecies ;
@@ -3904,18 +3897,19 @@ changeOfSpecies:33-278-099
         ifn:hasNumberOfTreesInUnits  32 ;
         ifn:hasOriginalSpecies       ifn:Species278 .
 
+changeOfSpecies:33-021-019
+        a                            ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies            ifn:Species19 ;
+        ifn:hasNumberOfTrees         numberOfTrees:533 ;
+        ifn:hasNumberOfTreesInUnits  533 ;
+        ifn:hasOriginalSpecies       ifn:Species21 .
+
 changeOfSpecies:19-257-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
         ifn:hasNumberOfTrees         numberOfTrees:9 ;
         ifn:hasNumberOfTreesInUnits  9 ;
         ifn:hasOriginalSpecies       ifn:Species257 .
-
-changeOfSpecies:21-058-098
-        a                       ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies       ifn:Species98 ;
-        ifn:hasNumberOfTrees    numberOfTrees:0 ;
-        ifn:hasOriginalSpecies  ifn:Species58 .
 
 changeOfSpecies:26-024-019
         a                            ifn:ChangeOfSpecies ;
@@ -3924,12 +3918,21 @@ changeOfSpecies:26-024-019
         ifn:hasNumberOfTreesInUnits  60 ;
         ifn:hasOriginalSpecies       ifn:Species24 .
 
+changeOfSpecies:21-058-098
+        a                       ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies       ifn:Species98 ;
+        ifn:hasNumberOfTrees    numberOfTrees:0 ;
+        ifn:hasOriginalSpecies  ifn:Species58 .
+
 changeOfSpecies:01-273-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
         ifn:hasNumberOfTrees         numberOfTrees:5 ;
         ifn:hasNumberOfTreesInUnits  5 ;
         ifn:hasOriginalSpecies       ifn:Species273 .
+
+province:21  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:21-006-099 , changeOfSpecies:21-016-099 , changeOfSpecies:21-299-099 , changeOfSpecies:21-004-099 , changeOfSpecies:21-068-099 , changeOfSpecies:21-015-099 , changeOfSpecies:21-055-098 , changeOfSpecies:21-053-098 , changeOfSpecies:21-093-099 , changeOfSpecies:21-095-099 , changeOfSpecies:21-075-098 , changeOfSpecies:21-057-098 , changeOfSpecies:21-058-098 , changeOfSpecies:21-060-098 , changeOfSpecies:21-043-098 , changeOfSpecies:21-215-099 , changeOfSpecies:21-003-099 , changeOfSpecies:21-357-098 , changeOfSpecies:21-369-099 , changeOfSpecies:21-044-098 , changeOfSpecies:21-067-099 , changeOfSpecies:21-039-026 , changeOfSpecies:21-026-026 , changeOfSpecies:21-066-099 , changeOfSpecies:21-237-026 , changeOfSpecies:21-054-098 , changeOfSpecies:21-063-098 , changeOfSpecies:21-307-099 , changeOfSpecies:21-099-099 , changeOfSpecies:21-008-099 , changeOfSpecies:21-257-098 , changeOfSpecies:21-023-023 , changeOfSpecies:21-046-098 , changeOfSpecies:21-657-098 , changeOfSpecies:21-072-098 , changeOfSpecies:21-045-045 , changeOfSpecies:21-064-098 , changeOfSpecies:21-062-098 , changeOfSpecies:21-061-061 , changeOfSpecies:21-144-098 , changeOfSpecies:21-051-098 , changeOfSpecies:21-047-098 .
 
 changeOfSpecies:08-255-099
         a                            ifn:ChangeOfSpecies ;
@@ -4032,9 +4035,6 @@ changeOfSpecies:24-025-019
         ifn:hasNumberOfTrees         numberOfTrees:3375 ;
         ifn:hasNumberOfTreesInUnits  3375 ;
         ifn:hasOriginalSpecies       ifn:Species25 .
-
-province:30  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:30-378-099 , changeOfSpecies:30-075-099 , changeOfSpecies:30-037-019 , changeOfSpecies:30-038-019 , changeOfSpecies:30-093-099 , changeOfSpecies:30-476-099 , changeOfSpecies:30-215-099 , changeOfSpecies:30-024-024 , changeOfSpecies:30-219-019 , changeOfSpecies:30-044-099 , changeOfSpecies:30-095-099 , changeOfSpecies:30-047-099 , changeOfSpecies:30-066-099 , changeOfSpecies:30-269-099 , changeOfSpecies:30-023-019 , changeOfSpecies:30-045-045 , changeOfSpecies:30-039-039 , changeOfSpecies:30-295-099 , changeOfSpecies:30-049-099 , changeOfSpecies:30-237-237 , changeOfSpecies:30-026-019 , changeOfSpecies:30-068-099 , changeOfSpecies:30-276-099 , changeOfSpecies:30-036-019 , changeOfSpecies:30-025-019 , changeOfSpecies:30-004-099 , changeOfSpecies:30-091-099 , changeOfSpecies:30-067-099 , changeOfSpecies:30-002-099 .
 
 changeOfSpecies:01-033-019
         a                            ifn:ChangeOfSpecies ;
@@ -5609,6 +5609,9 @@ changeOfSpecies:39-045-040
         ifn:hasNumberOfTreesInUnits  878 ;
         ifn:hasOriginalSpecies       ifn:Species45 .
 
+province:38  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:38-061-099 , changeOfSpecies:38-021-019 , changeOfSpecies:38-016-099 , changeOfSpecies:38-282-082 , changeOfSpecies:38-389-099 , changeOfSpecies:38-469-099 , changeOfSpecies:38-436-019 , changeOfSpecies:38-299-099 , changeOfSpecies:38-062-099 , changeOfSpecies:38-095-099 , changeOfSpecies:38-495-099 , changeOfSpecies:38-046-099 , changeOfSpecies:38-569-099 , changeOfSpecies:38-026-019 , changeOfSpecies:38-294-294 , changeOfSpecies:38-036-019 , changeOfSpecies:38-082-082 , changeOfSpecies:38-084-099 , changeOfSpecies:38-042-099 , changeOfSpecies:38-858-099 , changeOfSpecies:38-087-099 , changeOfSpecies:38-238-019 , changeOfSpecies:38-489-099 , changeOfSpecies:38-083-083 , changeOfSpecies:38-017-019 , changeOfSpecies:38-028-019 , changeOfSpecies:38-072-099 , changeOfSpecies:38-337-019 , changeOfSpecies:38-027-027 , changeOfSpecies:38-088-099 , changeOfSpecies:38-092-099 , changeOfSpecies:38-099-099 , changeOfSpecies:38-283-083 , changeOfSpecies:38-001-099 , changeOfSpecies:38-019-019 , changeOfSpecies:38-268-294 , changeOfSpecies:38-086-099 , changeOfSpecies:38-066-099 , changeOfSpecies:38-399-099 , changeOfSpecies:38-011-099 , changeOfSpecies:38-081-081 , changeOfSpecies:38-068-294 , changeOfSpecies:38-089-099 , changeOfSpecies:38-024-019 .
+
 changeOfSpecies:09-042-042
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species42 ;
@@ -5667,9 +5670,6 @@ changeOfSpecies:16-042-044
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species42 .
 
-province:47  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:47-025-024 , changeOfSpecies:47-020-024 , changeOfSpecies:47-046-044 , changeOfSpecies:47-258-958 , changeOfSpecies:47-055-099 , changeOfSpecies:47-021-024 , changeOfSpecies:47-023-023 , changeOfSpecies:47-957-099 , changeOfSpecies:47-056-099 , changeOfSpecies:47-237-024 , changeOfSpecies:47-075-099 , changeOfSpecies:47-009-099 , changeOfSpecies:47-026-026 , changeOfSpecies:47-215-099 , changeOfSpecies:47-045-045 , changeOfSpecies:47-044-044 , changeOfSpecies:47-058-958 , changeOfSpecies:47-038-024 , changeOfSpecies:47-036-024 , changeOfSpecies:47-037-024 , changeOfSpecies:47-039-024 , changeOfSpecies:47-057-099 , changeOfSpecies:47-095-099 , changeOfSpecies:47-395-099 , changeOfSpecies:47-051-099 , changeOfSpecies:47-926-026 , changeOfSpecies:47-097-099 , changeOfSpecies:47-295-099 , changeOfSpecies:47-236-024 , changeOfSpecies:47-053-099 , changeOfSpecies:47-024-024 , changeOfSpecies:47-357-099 , changeOfSpecies:47-257-099 .
-
 changeOfSpecies:29-010-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -5680,6 +5680,9 @@ changeOfSpecies:29-010-099
 numberOfTrees:31  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  31 .
+
+province:17  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:17-093-090 , changeOfSpecies:17-256-099 , changeOfSpecies:17-023-019 , changeOfSpecies:17-278-090 , changeOfSpecies:17-073-099 , changeOfSpecies:17-079-099 , changeOfSpecies:17-055-099 , changeOfSpecies:17-043-099 , changeOfSpecies:17-295-090 , changeOfSpecies:17-046-099 , changeOfSpecies:17-054-099 , changeOfSpecies:17-053-099 , changeOfSpecies:17-033-019 , changeOfSpecies:17-757-099 , changeOfSpecies:17-217-026 , changeOfSpecies:17-041-099 , changeOfSpecies:17-356-099 , changeOfSpecies:17-373-099 , changeOfSpecies:17-578-090 , changeOfSpecies:17-003-090 , changeOfSpecies:17-657-099 , changeOfSpecies:17-047-099 , changeOfSpecies:17-676-099 , changeOfSpecies:17-039-019 , changeOfSpecies:17-077-099 , changeOfSpecies:17-057-099 , changeOfSpecies:17-009-090 , changeOfSpecies:17-024-019 , changeOfSpecies:17-478-090 , changeOfSpecies:17-094-090 , changeOfSpecies:17-495-090 , changeOfSpecies:17-395-090 , changeOfSpecies:17-044-099 , changeOfSpecies:17-068-068 , changeOfSpecies:17-066-090 , changeOfSpecies:17-034-019 , changeOfSpecies:17-299-090 , changeOfSpecies:17-014-019 , changeOfSpecies:17-273-099 , changeOfSpecies:17-499-099 , changeOfSpecies:17-016-090 , changeOfSpecies:17-078-090 , changeOfSpecies:17-013-099 , changeOfSpecies:17-061-099 , changeOfSpecies:17-377-099 , changeOfSpecies:17-097-090 , changeOfSpecies:17-074-099 , changeOfSpecies:17-021-021 , changeOfSpecies:17-058-099 , changeOfSpecies:17-025-019 , changeOfSpecies:17-376-099 , changeOfSpecies:17-011-090 , changeOfSpecies:17-015-090 , changeOfSpecies:17-277-099 , changeOfSpecies:17-476-099 , changeOfSpecies:17-576-099 , changeOfSpecies:17-237-026 , changeOfSpecies:17-004-090 , changeOfSpecies:17-355-099 , changeOfSpecies:17-065-090 , changeOfSpecies:17-276-099 , changeOfSpecies:17-357-099 , changeOfSpecies:17-075-099 , changeOfSpecies:17-008-090 , changeOfSpecies:17-031-019 , changeOfSpecies:17-071-099 , changeOfSpecies:17-051-099 , changeOfSpecies:17-072-099 , changeOfSpecies:17-012-090 , changeOfSpecies:17-028-019 , changeOfSpecies:17-257-099 , changeOfSpecies:17-297-090 , changeOfSpecies:17-076-099 , changeOfSpecies:17-052-099 , changeOfSpecies:17-005-090 , changeOfSpecies:17-255-099 , changeOfSpecies:17-037-026 , changeOfSpecies:17-045-045 , changeOfSpecies:17-092-099 , changeOfSpecies:17-258-099 , changeOfSpecies:17-006-099 , changeOfSpecies:17-026-026 , changeOfSpecies:17-099-099 , changeOfSpecies:17-062-099 , changeOfSpecies:17-378-090 , changeOfSpecies:17-056-099 , changeOfSpecies:17-022-019 , changeOfSpecies:17-957-099 , changeOfSpecies:17-215-090 , changeOfSpecies:17-243-099 , changeOfSpecies:17-091-090 , changeOfSpecies:17-095-090 , changeOfSpecies:17-042-099 , changeOfSpecies:17-002-090 .
 
 changeOfSpecies:11-024-024
         a                            ifn:ChangeOfSpecies ;
@@ -5767,9 +5770,6 @@ numberOfTrees:674  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  674 .
 
-province:26  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:26-025-019 , changeOfSpecies:26-045-045 , changeOfSpecies:26-243-043 , changeOfSpecies:26-035-019 , changeOfSpecies:26-042-099 , changeOfSpecies:26-378-099 , changeOfSpecies:26-026-026 , changeOfSpecies:26-476-099 , changeOfSpecies:26-014-026 , changeOfSpecies:26-043-043 , changeOfSpecies:26-099-099 , changeOfSpecies:26-073-099 , changeOfSpecies:26-053-099 , changeOfSpecies:26-008-099 , changeOfSpecies:26-077-099 , changeOfSpecies:26-857-099 , changeOfSpecies:26-051-099 , changeOfSpecies:26-066-099 , changeOfSpecies:26-657-099 , changeOfSpecies:26-292-099 , changeOfSpecies:26-055-099 , changeOfSpecies:26-215-099 , changeOfSpecies:26-057-099 , changeOfSpecies:26-278-099 , changeOfSpecies:26-578-099 , changeOfSpecies:26-075-099 , changeOfSpecies:26-038-026 , changeOfSpecies:26-021-021 , changeOfSpecies:26-071-071 , changeOfSpecies:26-012-099 , changeOfSpecies:26-024-019 , changeOfSpecies:26-074-099 , changeOfSpecies:26-002-099 , changeOfSpecies:26-058-099 , changeOfSpecies:26-065-099 , changeOfSpecies:26-095-099 , changeOfSpecies:26-078-099 , changeOfSpecies:26-044-099 , changeOfSpecies:26-034-019 , changeOfSpecies:26-009-099 , changeOfSpecies:26-257-099 , changeOfSpecies:26-237-026 , changeOfSpecies:26-041-099 , changeOfSpecies:26-478-099 , changeOfSpecies:26-016-099 , changeOfSpecies:26-239-026 , changeOfSpecies:26-005-099 , changeOfSpecies:26-255-099 , changeOfSpecies:26-276-099 , changeOfSpecies:26-003-099 , changeOfSpecies:26-277-099 , changeOfSpecies:26-295-099 , changeOfSpecies:26-037-026 , changeOfSpecies:26-097-099 , changeOfSpecies:26-076-099 , changeOfSpecies:26-022-019 , changeOfSpecies:26-004-099 , changeOfSpecies:26-377-099 , changeOfSpecies:26-357-099 , changeOfSpecies:26-056-099 , changeOfSpecies:26-052-099 , changeOfSpecies:26-091-099 , changeOfSpecies:26-068-099 , changeOfSpecies:26-039-026 , changeOfSpecies:26-258-099 .
-
 changeOfSpecies:09-009-050
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species50 ;
@@ -5843,9 +5843,6 @@ changeOfSpecies:08-657-099
 numberOfTrees:653  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  653 .
-
-province:05  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:05-055-099 , changeOfSpecies:05-003-090 , changeOfSpecies:05-076-099 , changeOfSpecies:05-046-045 , changeOfSpecies:05-057-099 , changeOfSpecies:05-045-045 , changeOfSpecies:05-017-019 , changeOfSpecies:05-025-019 , changeOfSpecies:05-075-099 , changeOfSpecies:05-037-237 , changeOfSpecies:05-068-090 , changeOfSpecies:05-074-099 , changeOfSpecies:05-299-090 , changeOfSpecies:05-295-090 , changeOfSpecies:05-051-099 , changeOfSpecies:05-093-090 , changeOfSpecies:05-278-099 , changeOfSpecies:05-215-090 , changeOfSpecies:05-012-090 , changeOfSpecies:05-378-099 , changeOfSpecies:05-258-099 , changeOfSpecies:05-099-090 , changeOfSpecies:05-072-099 , changeOfSpecies:05-857-099 , changeOfSpecies:05-023-019 , changeOfSpecies:05-395-090 , changeOfSpecies:05-957-099 , changeOfSpecies:05-237-237 , changeOfSpecies:05-056-099 , changeOfSpecies:05-021-021 , changeOfSpecies:05-026-026 , changeOfSpecies:05-097-090 , changeOfSpecies:05-255-099 , changeOfSpecies:05-044-043 , changeOfSpecies:05-257-099 , changeOfSpecies:05-054-099 , changeOfSpecies:05-066-099 , changeOfSpecies:05-095-090 , changeOfSpecies:05-373-099 , changeOfSpecies:05-016-090 , changeOfSpecies:05-357-099 , changeOfSpecies:05-043-043 , changeOfSpecies:05-006-090 , changeOfSpecies:05-058-099 .
 
 changeOfSpecies:19-239-937
         a                            ifn:ChangeOfSpecies ;
@@ -5922,6 +5919,9 @@ changeOfSpecies:39-273-099
         ifn:hasNumberOfTreesInUnits  46 ;
         ifn:hasOriginalSpecies       ifn:Species273 .
 
+province:33  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:33-052-099 , changeOfSpecies:33-021-019 , changeOfSpecies:33-061-061 , changeOfSpecies:33-377-099 , changeOfSpecies:33-054-099 , changeOfSpecies:33-045-099 , changeOfSpecies:33-278-099 , changeOfSpecies:33-295-099 , changeOfSpecies:33-074-074 , changeOfSpecies:33-014-019 , changeOfSpecies:33-072-072 , changeOfSpecies:33-048-099 , changeOfSpecies:33-005-099 , changeOfSpecies:33-094-099 , changeOfSpecies:33-075-099 , changeOfSpecies:33-678-099 , changeOfSpecies:33-033-019 , changeOfSpecies:33-034-019 , changeOfSpecies:33-042-099 , changeOfSpecies:33-018-019 , changeOfSpecies:33-557-099 , changeOfSpecies:33-215-099 , changeOfSpecies:33-046-099 , changeOfSpecies:33-065-099 , changeOfSpecies:33-857-099 , changeOfSpecies:33-299-099 , changeOfSpecies:33-064-061 , changeOfSpecies:33-378-099 , changeOfSpecies:33-003-099 , changeOfSpecies:33-015-099 , changeOfSpecies:33-476-099 , changeOfSpecies:33-043-099 , changeOfSpecies:33-055-099 , changeOfSpecies:33-079-099 , changeOfSpecies:33-207-099 , changeOfSpecies:33-056-099 , changeOfSpecies:33-028-019 , changeOfSpecies:33-478-099 , changeOfSpecies:33-016-099 , changeOfSpecies:33-095-099 , changeOfSpecies:33-009-099 , changeOfSpecies:33-576-099 , changeOfSpecies:33-076-099 , changeOfSpecies:33-255-099 , changeOfSpecies:33-657-099 , changeOfSpecies:33-757-099 , changeOfSpecies:33-092-099 , changeOfSpecies:33-399-099 , changeOfSpecies:33-057-099 , changeOfSpecies:33-357-099 , changeOfSpecies:33-007-099 , changeOfSpecies:33-071-099 , changeOfSpecies:33-073-099 , changeOfSpecies:33-373-099 , changeOfSpecies:33-004-099 , changeOfSpecies:33-256-099 , changeOfSpecies:33-676-099 , changeOfSpecies:33-297-099 , changeOfSpecies:33-257-099 , changeOfSpecies:33-025-019 , changeOfSpecies:33-273-099 , changeOfSpecies:33-026-026 , changeOfSpecies:33-277-099 , changeOfSpecies:33-012-099 , changeOfSpecies:33-578-099 , changeOfSpecies:33-036-019 , changeOfSpecies:33-258-099 , changeOfSpecies:33-099-099 , changeOfSpecies:33-097-099 , changeOfSpecies:33-068-099 , changeOfSpecies:33-077-099 , changeOfSpecies:33-041-099 , changeOfSpecies:33-023-019 , changeOfSpecies:33-058-099 .
+
 changeOfSpecies:16-025-025
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species25 ;
@@ -5979,8 +5979,8 @@ changeOfSpecies:21-004-099
         ifn:hasNumberOfTreesInUnits  7 ;
         ifn:hasOriginalSpecies       ifn:Species4 .
 
-province:42  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:42-015-999 , changeOfSpecies:42-857-999 , changeOfSpecies:42-026-019 , changeOfSpecies:42-039-038 , changeOfSpecies:42-056-999 , changeOfSpecies:42-273-999 , changeOfSpecies:42-022-021 , changeOfSpecies:42-099-999 , changeOfSpecies:42-051-999 , changeOfSpecies:42-043-043 , changeOfSpecies:42-357-999 , changeOfSpecies:42-055-999 , changeOfSpecies:42-076-999 , changeOfSpecies:42-025-019 , changeOfSpecies:42-257-999 , changeOfSpecies:42-657-999 , changeOfSpecies:42-258-999 , changeOfSpecies:42-021-021 , changeOfSpecies:42-078-999 , changeOfSpecies:42-276-999 , changeOfSpecies:42-012-999 , changeOfSpecies:42-042-043 , changeOfSpecies:42-058-999 , changeOfSpecies:42-395-999 , changeOfSpecies:42-002-999 , changeOfSpecies:42-071-999 , changeOfSpecies:42-057-999 , changeOfSpecies:42-295-999 , changeOfSpecies:42-003-999 , changeOfSpecies:42-004-999 , changeOfSpecies:42-037-038 , changeOfSpecies:42-009-999 , changeOfSpecies:42-016-999 , changeOfSpecies:42-038-038 , changeOfSpecies:42-957-999 , changeOfSpecies:42-237-038 , changeOfSpecies:42-073-999 , changeOfSpecies:42-023-019 , changeOfSpecies:42-757-999 , changeOfSpecies:42-278-999 , changeOfSpecies:42-044-044 , changeOfSpecies:42-074-999 , changeOfSpecies:42-215-999 , changeOfSpecies:42-075-999 , changeOfSpecies:42-065-999 , changeOfSpecies:42-045-045 , changeOfSpecies:42-378-999 , changeOfSpecies:42-024-019 , changeOfSpecies:42-255-999 , changeOfSpecies:42-095-999 .
+province:12  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:12-215-099 , changeOfSpecies:12-395-099 , changeOfSpecies:12-012-099 , changeOfSpecies:12-008-099 , changeOfSpecies:12-278-099 , changeOfSpecies:12-478-099 , changeOfSpecies:12-037-237 , changeOfSpecies:12-068-099 , changeOfSpecies:12-076-099 , changeOfSpecies:12-058-099 , changeOfSpecies:12-045-045 , changeOfSpecies:12-036-026 , changeOfSpecies:12-093-099 , changeOfSpecies:12-057-099 , changeOfSpecies:12-026-026 , changeOfSpecies:12-056-099 , changeOfSpecies:12-039-038 , changeOfSpecies:12-258-099 , changeOfSpecies:12-025-025 , changeOfSpecies:12-044-044 , changeOfSpecies:12-023-024 , changeOfSpecies:12-075-099 , changeOfSpecies:12-369-099 , changeOfSpecies:12-021-021 , changeOfSpecies:12-002-099 , changeOfSpecies:12-067-067 , changeOfSpecies:12-237-237 , changeOfSpecies:12-392-099 , changeOfSpecies:12-095-099 , changeOfSpecies:12-046-046 , changeOfSpecies:12-043-044 , changeOfSpecies:12-336-026 , changeOfSpecies:12-005-099 , changeOfSpecies:12-015-099 , changeOfSpecies:12-065-099 , changeOfSpecies:12-009-099 , changeOfSpecies:12-069-099 , changeOfSpecies:12-299-099 , changeOfSpecies:12-014-021 , changeOfSpecies:12-016-099 , changeOfSpecies:12-072-099 , changeOfSpecies:12-038-038 , changeOfSpecies:12-024-024 , changeOfSpecies:12-276-099 , changeOfSpecies:12-096-099 , changeOfSpecies:12-378-099 , changeOfSpecies:12-476-099 , changeOfSpecies:12-078-099 , changeOfSpecies:12-006-099 , changeOfSpecies:12-003-099 , changeOfSpecies:12-091-099 , changeOfSpecies:12-066-066 , changeOfSpecies:12-004-099 , changeOfSpecies:12-295-099 .
 
 changeOfSpecies:44-278-099
         a                            ifn:ChangeOfSpecies ;
@@ -5995,9 +5995,6 @@ changeOfSpecies:39-578-099
         ifn:hasNumberOfTrees         numberOfTrees:1 ;
         ifn:hasNumberOfTreesInUnits  1 ;
         ifn:hasOriginalSpecies       ifn:Species578 .
-
-province:21  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:21-058-098 , changeOfSpecies:21-051-098 , changeOfSpecies:21-003-099 , changeOfSpecies:21-068-099 , changeOfSpecies:21-064-098 , changeOfSpecies:21-026-026 , changeOfSpecies:21-023-023 , changeOfSpecies:21-043-098 , changeOfSpecies:21-237-026 , changeOfSpecies:21-008-099 , changeOfSpecies:21-044-098 , changeOfSpecies:21-015-099 , changeOfSpecies:21-144-098 , changeOfSpecies:21-054-098 , changeOfSpecies:21-215-099 , changeOfSpecies:21-307-099 , changeOfSpecies:21-066-099 , changeOfSpecies:21-369-099 , changeOfSpecies:21-299-099 , changeOfSpecies:21-046-098 , changeOfSpecies:21-016-099 , changeOfSpecies:21-061-061 , changeOfSpecies:21-072-098 , changeOfSpecies:21-039-026 , changeOfSpecies:21-075-098 , changeOfSpecies:21-257-098 , changeOfSpecies:21-060-098 , changeOfSpecies:21-357-098 , changeOfSpecies:21-053-098 , changeOfSpecies:21-045-045 , changeOfSpecies:21-093-099 , changeOfSpecies:21-057-098 , changeOfSpecies:21-047-098 , changeOfSpecies:21-657-098 , changeOfSpecies:21-063-098 , changeOfSpecies:21-004-099 , changeOfSpecies:21-055-098 , changeOfSpecies:21-067-099 , changeOfSpecies:21-006-099 , changeOfSpecies:21-062-098 , changeOfSpecies:21-095-099 , changeOfSpecies:21-099-099 .
 
 changeOfSpecies:34-095-099
         a                            ifn:ChangeOfSpecies ;
@@ -7507,6 +7504,9 @@ changeOfSpecies:25-073-099
         ifn:hasNumberOfTreesInUnits  121 ;
         ifn:hasOriginalSpecies       ifn:Species73 .
 
+province:29  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:29-276-099 , changeOfSpecies:29-015-099 , changeOfSpecies:29-013-099 , changeOfSpecies:29-008-099 , changeOfSpecies:29-016-099 , changeOfSpecies:29-056-099 , changeOfSpecies:29-395-099 , changeOfSpecies:29-044-047 , changeOfSpecies:29-096-099 , changeOfSpecies:29-049-047 , changeOfSpecies:29-067-099 , changeOfSpecies:29-291-099 , changeOfSpecies:29-026-026 , changeOfSpecies:29-364-062 , changeOfSpecies:29-236-028 , changeOfSpecies:29-093-099 , changeOfSpecies:29-369-099 , changeOfSpecies:29-299-050 , changeOfSpecies:29-003-050 , changeOfSpecies:29-356-099 , changeOfSpecies:29-068-099 , changeOfSpecies:29-061-062 , changeOfSpecies:29-069-099 , changeOfSpecies:29-028-028 , changeOfSpecies:29-039-237 , changeOfSpecies:29-258-050 , changeOfSpecies:29-019-028 , changeOfSpecies:29-357-050 , changeOfSpecies:29-237-237 , changeOfSpecies:29-051-050 , changeOfSpecies:29-045-045 , changeOfSpecies:29-657-050 , changeOfSpecies:29-095-099 , changeOfSpecies:29-046-046 , changeOfSpecies:29-009-050 , changeOfSpecies:29-057-050 , changeOfSpecies:29-295-099 , changeOfSpecies:29-058-050 , changeOfSpecies:29-047-047 , changeOfSpecies:29-006-050 , changeOfSpecies:29-055-050 , changeOfSpecies:29-857-050 , changeOfSpecies:29-021-028 , changeOfSpecies:29-091-099 , changeOfSpecies:29-032-032 , changeOfSpecies:29-215-099 , changeOfSpecies:29-004-050 , changeOfSpecies:29-024-024 , changeOfSpecies:29-099-099 , changeOfSpecies:29-478-099 , changeOfSpecies:29-010-099 , changeOfSpecies:29-053-050 , changeOfSpecies:29-066-066 , changeOfSpecies:29-072-072 , changeOfSpecies:29-036-028 , changeOfSpecies:29-957-050 , changeOfSpecies:29-027-028 , changeOfSpecies:29-037-237 , changeOfSpecies:29-023-023 , changeOfSpecies:29-256-099 , changeOfSpecies:29-757-050 , changeOfSpecies:29-062-062 , changeOfSpecies:29-025-028 .
+
 changeOfSpecies:38-399-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -7612,9 +7612,6 @@ changeOfSpecies:05-016-090
         ifn:hasNumberOfTreesInUnits  1 ;
         ifn:hasOriginalSpecies       ifn:Species16 .
 
-province:38  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:38-026-019 , changeOfSpecies:38-088-099 , changeOfSpecies:38-299-099 , changeOfSpecies:38-024-019 , changeOfSpecies:38-083-083 , changeOfSpecies:38-019-019 , changeOfSpecies:38-282-082 , changeOfSpecies:38-389-099 , changeOfSpecies:38-238-019 , changeOfSpecies:38-569-099 , changeOfSpecies:38-046-099 , changeOfSpecies:38-099-099 , changeOfSpecies:38-027-027 , changeOfSpecies:38-068-294 , changeOfSpecies:38-489-099 , changeOfSpecies:38-001-099 , changeOfSpecies:38-016-099 , changeOfSpecies:38-061-099 , changeOfSpecies:38-268-294 , changeOfSpecies:38-092-099 , changeOfSpecies:38-436-019 , changeOfSpecies:38-089-099 , changeOfSpecies:38-495-099 , changeOfSpecies:38-337-019 , changeOfSpecies:38-087-099 , changeOfSpecies:38-011-099 , changeOfSpecies:38-021-019 , changeOfSpecies:38-066-099 , changeOfSpecies:38-082-082 , changeOfSpecies:38-084-099 , changeOfSpecies:38-072-099 , changeOfSpecies:38-081-081 , changeOfSpecies:38-469-099 , changeOfSpecies:38-017-019 , changeOfSpecies:38-294-294 , changeOfSpecies:38-858-099 , changeOfSpecies:38-028-019 , changeOfSpecies:38-283-083 , changeOfSpecies:38-036-019 , changeOfSpecies:38-042-099 , changeOfSpecies:38-095-099 , changeOfSpecies:38-086-099 , changeOfSpecies:38-399-099 , changeOfSpecies:38-062-099 .
-
 changeOfSpecies:39-043-040
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species40 ;
@@ -7625,6 +7622,9 @@ changeOfSpecies:39-043-040
 numberOfTrees:22  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  22 .
+
+province:08  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:08-076-099 , changeOfSpecies:08-036-019 , changeOfSpecies:08-022-019 , changeOfSpecies:08-078-099 , changeOfSpecies:08-032-019 , changeOfSpecies:08-378-099 , changeOfSpecies:08-002-090 , changeOfSpecies:08-011-099 , changeOfSpecies:08-033-019 , changeOfSpecies:08-055-099 , changeOfSpecies:08-256-099 , changeOfSpecies:08-058-099 , changeOfSpecies:08-065-090 , changeOfSpecies:08-021-021 , changeOfSpecies:08-054-099 , changeOfSpecies:08-276-099 , changeOfSpecies:08-061-099 , changeOfSpecies:08-074-090 , changeOfSpecies:08-576-099 , changeOfSpecies:08-299-090 , changeOfSpecies:08-071-099 , changeOfSpecies:08-069-090 , changeOfSpecies:08-273-099 , changeOfSpecies:08-099-090 , changeOfSpecies:08-096-090 , changeOfSpecies:08-015-090 , changeOfSpecies:08-006-090 , changeOfSpecies:08-356-099 , changeOfSpecies:08-578-099 , changeOfSpecies:08-307-099 , changeOfSpecies:08-237-019 , changeOfSpecies:08-355-099 , changeOfSpecies:08-079-099 , changeOfSpecies:08-026-019 , changeOfSpecies:08-025-019 , changeOfSpecies:08-295-090 , changeOfSpecies:08-072-099 , changeOfSpecies:08-013-090 , changeOfSpecies:08-239-019 , changeOfSpecies:08-075-099 , changeOfSpecies:08-008-090 , changeOfSpecies:08-046-099 , changeOfSpecies:08-014-019 , changeOfSpecies:08-357-099 , changeOfSpecies:08-012-090 , changeOfSpecies:08-277-099 , changeOfSpecies:08-478-099 , changeOfSpecies:08-009-090 , changeOfSpecies:08-044-099 , changeOfSpecies:08-377-099 , changeOfSpecies:08-278-099 , changeOfSpecies:08-297-090 , changeOfSpecies:08-003-090 , changeOfSpecies:08-052-099 , changeOfSpecies:08-067-090 , changeOfSpecies:08-066-090 , changeOfSpecies:08-001-090 , changeOfSpecies:08-091-090 , changeOfSpecies:08-499-090 , changeOfSpecies:08-056-099 , changeOfSpecies:08-037-019 , changeOfSpecies:08-757-099 , changeOfSpecies:08-336-019 , changeOfSpecies:08-047-099 , changeOfSpecies:08-258-099 , changeOfSpecies:08-077-099 , changeOfSpecies:08-476-099 , changeOfSpecies:08-068-068 , changeOfSpecies:08-395-090 , changeOfSpecies:08-257-099 , changeOfSpecies:08-039-019 , changeOfSpecies:08-093-090 , changeOfSpecies:08-043-099 , changeOfSpecies:08-369-090 , changeOfSpecies:08-657-099 , changeOfSpecies:08-051-099 , changeOfSpecies:08-017-019 , changeOfSpecies:08-016-090 , changeOfSpecies:08-024-024 , changeOfSpecies:08-045-045 , changeOfSpecies:08-057-099 , changeOfSpecies:08-042-099 , changeOfSpecies:08-038-019 , changeOfSpecies:08-097-099 , changeOfSpecies:08-095-090 , changeOfSpecies:08-243-099 , changeOfSpecies:08-217-019 , changeOfSpecies:08-094-090 , changeOfSpecies:08-028-019 , changeOfSpecies:08-255-099 , changeOfSpecies:08-004-090 , changeOfSpecies:08-023-019 , changeOfSpecies:08-492-099 , changeOfSpecies:08-092-099 , changeOfSpecies:08-041-099 , changeOfSpecies:08-034-019 , changeOfSpecies:08-215-090 , changeOfSpecies:08-676-099 , changeOfSpecies:08-031-019 .
 
 changeOfSpecies:23-415-099
         a                            ifn:ChangeOfSpecies ;
@@ -7712,9 +7712,6 @@ changeOfSpecies:09-094-090
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species94 .
 
-province:17  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:17-053-099 , changeOfSpecies:17-299-090 , changeOfSpecies:17-074-099 , changeOfSpecies:17-057-099 , changeOfSpecies:17-065-090 , changeOfSpecies:17-021-021 , changeOfSpecies:17-033-019 , changeOfSpecies:17-478-090 , changeOfSpecies:17-066-090 , changeOfSpecies:17-376-099 , changeOfSpecies:17-028-019 , changeOfSpecies:17-016-090 , changeOfSpecies:17-026-026 , changeOfSpecies:17-499-099 , changeOfSpecies:17-377-099 , changeOfSpecies:17-006-099 , changeOfSpecies:17-355-099 , changeOfSpecies:17-039-019 , changeOfSpecies:17-072-099 , changeOfSpecies:17-034-019 , changeOfSpecies:17-075-099 , changeOfSpecies:17-068-068 , changeOfSpecies:17-008-090 , changeOfSpecies:17-278-090 , changeOfSpecies:17-015-090 , changeOfSpecies:17-014-019 , changeOfSpecies:17-043-099 , changeOfSpecies:17-273-099 , changeOfSpecies:17-011-090 , changeOfSpecies:17-024-019 , changeOfSpecies:17-022-019 , changeOfSpecies:17-295-090 , changeOfSpecies:17-093-090 , changeOfSpecies:17-071-099 , changeOfSpecies:17-023-019 , changeOfSpecies:17-576-099 , changeOfSpecies:17-079-099 , changeOfSpecies:17-073-099 , changeOfSpecies:17-957-099 , changeOfSpecies:17-476-099 , changeOfSpecies:17-276-099 , changeOfSpecies:17-099-099 , changeOfSpecies:17-055-099 , changeOfSpecies:17-052-099 , changeOfSpecies:17-757-099 , changeOfSpecies:17-256-099 , changeOfSpecies:17-097-090 , changeOfSpecies:17-013-099 , changeOfSpecies:17-092-099 , changeOfSpecies:17-657-099 , changeOfSpecies:17-037-026 , changeOfSpecies:17-255-099 , changeOfSpecies:17-005-090 , changeOfSpecies:17-217-026 , changeOfSpecies:17-237-026 , changeOfSpecies:17-258-099 , changeOfSpecies:17-578-090 , changeOfSpecies:17-076-099 , changeOfSpecies:17-009-090 , changeOfSpecies:17-003-090 , changeOfSpecies:17-095-090 , changeOfSpecies:17-031-019 , changeOfSpecies:17-045-045 , changeOfSpecies:17-002-090 , changeOfSpecies:17-056-099 , changeOfSpecies:17-046-099 , changeOfSpecies:17-041-099 , changeOfSpecies:17-004-090 , changeOfSpecies:17-058-099 , changeOfSpecies:17-378-090 , changeOfSpecies:17-042-099 , changeOfSpecies:17-277-099 , changeOfSpecies:17-356-099 , changeOfSpecies:17-373-099 , changeOfSpecies:17-495-090 , changeOfSpecies:17-047-099 , changeOfSpecies:17-395-090 , changeOfSpecies:17-078-090 , changeOfSpecies:17-044-099 , changeOfSpecies:17-077-099 , changeOfSpecies:17-215-090 , changeOfSpecies:17-094-090 , changeOfSpecies:17-012-090 , changeOfSpecies:17-054-099 , changeOfSpecies:17-091-090 , changeOfSpecies:17-676-099 , changeOfSpecies:17-257-099 , changeOfSpecies:17-061-099 , changeOfSpecies:17-025-019 , changeOfSpecies:17-357-099 , changeOfSpecies:17-297-090 , changeOfSpecies:17-243-099 , changeOfSpecies:17-062-099 , changeOfSpecies:17-051-099 .
-
 numberOfTrees:182  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  182 .
@@ -7799,6 +7796,9 @@ changeOfSpecies:34-215-099
         ifn:hasNumberOfTreesInUnits  215 ;
         ifn:hasOriginalSpecies       ifn:Species215 .
 
+province:45  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:45-056-068 , changeOfSpecies:45-024-023 , changeOfSpecies:45-657-050 , changeOfSpecies:45-215-068 , changeOfSpecies:45-066-068 , changeOfSpecies:45-062-050 , changeOfSpecies:45-093-068 , changeOfSpecies:45-256-068 , changeOfSpecies:45-376-068 , changeOfSpecies:45-045-045 , changeOfSpecies:45-023-023 , changeOfSpecies:45-052-050 , changeOfSpecies:45-357-050 , changeOfSpecies:45-097-050 , changeOfSpecies:45-012-068 , changeOfSpecies:45-237-237 , changeOfSpecies:45-578-068 , changeOfSpecies:45-236-023 , changeOfSpecies:45-057-050 , changeOfSpecies:45-258-958 , changeOfSpecies:45-013-068 , changeOfSpecies:45-051-050 , changeOfSpecies:45-395-068 , changeOfSpecies:45-399-068 , changeOfSpecies:45-095-068 , changeOfSpecies:45-021-026 , changeOfSpecies:45-016-068 , changeOfSpecies:45-058-958 , changeOfSpecies:45-026-026 , changeOfSpecies:45-275-068 , changeOfSpecies:45-072-068 , changeOfSpecies:45-043-043 , changeOfSpecies:45-053-053 , changeOfSpecies:45-046-046 , changeOfSpecies:45-004-050 , changeOfSpecies:45-276-068 , changeOfSpecies:45-054-050 , changeOfSpecies:45-068-068 , changeOfSpecies:45-076-068 , changeOfSpecies:45-257-050 , changeOfSpecies:45-299-068 , changeOfSpecies:45-025-026 , changeOfSpecies:45-037-237 , changeOfSpecies:45-044-044 , changeOfSpecies:45-055-055 .
+
 changeOfSpecies:33-045-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -7880,6 +7880,12 @@ numberOfTrees:6620  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  6620 .
 
+changeOfSpecies:43-269-090
+        a                       ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies       ifn:Species90 ;
+        ifn:hasNumberOfTrees    numberOfTrees:0 ;
+        ifn:hasOriginalSpecies  ifn:Species269 .
+
 changeOfSpecies:33-678-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -7892,12 +7898,6 @@ changeOfSpecies:19-657-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species657 .
-
-changeOfSpecies:43-269-090
-        a                       ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies       ifn:Species90 ;
-        ifn:hasNumberOfTrees    numberOfTrees:0 ;
-        ifn:hasOriginalSpecies  ifn:Species269 .
 
 changeOfSpecies:22-676-099
         a                            ifn:ChangeOfSpecies ;
@@ -7912,6 +7912,9 @@ changeOfSpecies:29-066-066
         ifn:hasNumberOfTrees         numberOfTrees:325 ;
         ifn:hasNumberOfTreesInUnits  325 ;
         ifn:hasOriginalSpecies       ifn:Species66 .
+
+province:24  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:24-026-026 , changeOfSpecies:24-022-021 , changeOfSpecies:24-044-045 , changeOfSpecies:24-078-999 , changeOfSpecies:24-015-999 , changeOfSpecies:24-025-019 , changeOfSpecies:24-009-999 , changeOfSpecies:24-057-999 , changeOfSpecies:24-276-999 , changeOfSpecies:24-357-999 , changeOfSpecies:24-043-043 , changeOfSpecies:24-037-026 , changeOfSpecies:24-277-999 , changeOfSpecies:24-056-999 , changeOfSpecies:24-278-999 , changeOfSpecies:24-002-999 , changeOfSpecies:24-258-999 , changeOfSpecies:24-028-019 , changeOfSpecies:24-476-999 , changeOfSpecies:24-023-026 , changeOfSpecies:24-239-026 , changeOfSpecies:24-857-999 , changeOfSpecies:24-077-999 , changeOfSpecies:24-236-026 , changeOfSpecies:24-097-999 , changeOfSpecies:24-029-026 , changeOfSpecies:24-957-999 , changeOfSpecies:24-045-045 , changeOfSpecies:24-038-026 , changeOfSpecies:24-576-999 , changeOfSpecies:24-255-999 , changeOfSpecies:24-377-999 , changeOfSpecies:24-757-999 , changeOfSpecies:24-095-999 , changeOfSpecies:24-042-999 , changeOfSpecies:24-215-999 , changeOfSpecies:24-074-999 , changeOfSpecies:24-275-999 , changeOfSpecies:24-076-999 , changeOfSpecies:24-051-999 , changeOfSpecies:24-436-026 , changeOfSpecies:24-046-045 , changeOfSpecies:24-012-999 , changeOfSpecies:24-273-999 , changeOfSpecies:24-378-999 , changeOfSpecies:24-395-999 , changeOfSpecies:24-926-026 , changeOfSpecies:24-016-999 , changeOfSpecies:24-257-999 , changeOfSpecies:24-065-999 , changeOfSpecies:24-578-999 , changeOfSpecies:24-014-026 , changeOfSpecies:24-054-999 , changeOfSpecies:24-295-999 , changeOfSpecies:24-068-999 , changeOfSpecies:24-073-999 , changeOfSpecies:24-373-999 , changeOfSpecies:24-061-999 , changeOfSpecies:24-058-999 , changeOfSpecies:24-072-999 , changeOfSpecies:24-052-999 , changeOfSpecies:24-005-999 , changeOfSpecies:24-003-999 , changeOfSpecies:24-055-999 , changeOfSpecies:24-071-071 , changeOfSpecies:24-021-021 , changeOfSpecies:24-657-999 , changeOfSpecies:24-041-999 , changeOfSpecies:24-093-999 , changeOfSpecies:24-004-999 , changeOfSpecies:24-075-999 .
 
 changeOfSpecies:41-046-046
         a                            ifn:ChangeOfSpecies ;
@@ -7994,9 +7997,6 @@ changeOfSpecies:24-075-999
         ifn:hasNumberOfTreesInUnits  3 ;
         ifn:hasOriginalSpecies       ifn:Species75 .
 
-province:33  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:33-018-019 , changeOfSpecies:33-378-099 , changeOfSpecies:33-028-019 , changeOfSpecies:33-005-099 , changeOfSpecies:33-257-099 , changeOfSpecies:33-557-099 , changeOfSpecies:33-757-099 , changeOfSpecies:33-012-099 , changeOfSpecies:33-041-099 , changeOfSpecies:33-576-099 , changeOfSpecies:33-007-099 , changeOfSpecies:33-079-099 , changeOfSpecies:33-277-099 , changeOfSpecies:33-045-099 , changeOfSpecies:33-036-019 , changeOfSpecies:33-357-099 , changeOfSpecies:33-258-099 , changeOfSpecies:33-094-099 , changeOfSpecies:33-299-099 , changeOfSpecies:33-097-099 , changeOfSpecies:33-399-099 , changeOfSpecies:33-023-019 , changeOfSpecies:33-014-019 , changeOfSpecies:33-099-099 , changeOfSpecies:33-034-019 , changeOfSpecies:33-295-099 , changeOfSpecies:33-054-099 , changeOfSpecies:33-033-019 , changeOfSpecies:33-056-099 , changeOfSpecies:33-009-099 , changeOfSpecies:33-857-099 , changeOfSpecies:33-016-099 , changeOfSpecies:33-048-099 , changeOfSpecies:33-058-099 , changeOfSpecies:33-478-099 , changeOfSpecies:33-061-061 , changeOfSpecies:33-273-099 , changeOfSpecies:33-215-099 , changeOfSpecies:33-004-099 , changeOfSpecies:33-046-099 , changeOfSpecies:33-073-099 , changeOfSpecies:33-373-099 , changeOfSpecies:33-064-061 , changeOfSpecies:33-025-019 , changeOfSpecies:33-278-099 , changeOfSpecies:33-092-099 , changeOfSpecies:33-065-099 , changeOfSpecies:33-377-099 , changeOfSpecies:33-076-099 , changeOfSpecies:33-095-099 , changeOfSpecies:33-043-099 , changeOfSpecies:33-678-099 , changeOfSpecies:33-676-099 , changeOfSpecies:33-207-099 , changeOfSpecies:33-071-099 , changeOfSpecies:33-057-099 , changeOfSpecies:33-075-099 , changeOfSpecies:33-256-099 , changeOfSpecies:33-074-074 , changeOfSpecies:33-068-099 , changeOfSpecies:33-578-099 , changeOfSpecies:33-042-099 , changeOfSpecies:33-021-019 , changeOfSpecies:33-003-099 , changeOfSpecies:33-055-099 , changeOfSpecies:33-026-026 , changeOfSpecies:33-476-099 , changeOfSpecies:33-077-099 , changeOfSpecies:33-255-099 , changeOfSpecies:33-297-099 , changeOfSpecies:33-052-099 , changeOfSpecies:33-657-099 , changeOfSpecies:33-072-072 , changeOfSpecies:33-015-099 .
-
 changeOfSpecies:17-066-090
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species90 ;
@@ -8009,6 +8009,9 @@ changeOfSpecies:34-003-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species3 .
+
+province:03  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:03-058-050 , changeOfSpecies:03-299-099 , changeOfSpecies:03-056-099 , changeOfSpecies:03-095-099 , changeOfSpecies:03-023-023 , changeOfSpecies:03-215-099 , changeOfSpecies:03-026-023 , changeOfSpecies:03-025-023 , changeOfSpecies:03-369-099 , changeOfSpecies:03-053-050 , changeOfSpecies:03-024-024 , changeOfSpecies:03-068-099 , changeOfSpecies:03-045-045 , changeOfSpecies:03-036-023 , changeOfSpecies:03-063-050 , changeOfSpecies:03-237-023 , changeOfSpecies:03-044-099 , changeOfSpecies:03-436-023 , changeOfSpecies:03-057-050 , changeOfSpecies:03-096-099 , changeOfSpecies:03-062-050 , changeOfSpecies:03-012-099 , changeOfSpecies:03-219-023 , changeOfSpecies:03-039-023 , changeOfSpecies:03-013-099 , changeOfSpecies:03-002-099 , changeOfSpecies:03-093-099 , changeOfSpecies:03-067-099 , changeOfSpecies:03-258-050 , changeOfSpecies:03-295-099 , changeOfSpecies:03-066-099 , changeOfSpecies:03-016-099 , changeOfSpecies:03-355-050 , changeOfSpecies:03-075-099 , changeOfSpecies:03-236-023 , changeOfSpecies:03-004-050 , changeOfSpecies:03-395-099 , changeOfSpecies:03-009-050 , changeOfSpecies:03-476-099 , changeOfSpecies:03-099-099 , changeOfSpecies:03-278-099 .
 
 changeOfSpecies:28-014-021
         a                       ifn:ChangeOfSpecies ;
@@ -8048,9 +8051,6 @@ changeOfSpecies:14-066-066
         ifn:hasNumberOfTrees         numberOfTrees:302 ;
         ifn:hasNumberOfTreesInUnits  302 ;
         ifn:hasOriginalSpecies       ifn:Species66 .
-
-province:12  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:12-299-099 , changeOfSpecies:12-336-026 , changeOfSpecies:12-026-026 , changeOfSpecies:12-036-026 , changeOfSpecies:12-072-099 , changeOfSpecies:12-091-099 , changeOfSpecies:12-295-099 , changeOfSpecies:12-004-099 , changeOfSpecies:12-006-099 , changeOfSpecies:12-093-099 , changeOfSpecies:12-057-099 , changeOfSpecies:12-008-099 , changeOfSpecies:12-024-024 , changeOfSpecies:12-039-038 , changeOfSpecies:12-395-099 , changeOfSpecies:12-021-021 , changeOfSpecies:12-069-099 , changeOfSpecies:12-014-021 , changeOfSpecies:12-016-099 , changeOfSpecies:12-009-099 , changeOfSpecies:12-478-099 , changeOfSpecies:12-378-099 , changeOfSpecies:12-015-099 , changeOfSpecies:12-005-099 , changeOfSpecies:12-078-099 , changeOfSpecies:12-025-025 , changeOfSpecies:12-012-099 , changeOfSpecies:12-075-099 , changeOfSpecies:12-215-099 , changeOfSpecies:12-065-099 , changeOfSpecies:12-095-099 , changeOfSpecies:12-043-044 , changeOfSpecies:12-066-066 , changeOfSpecies:12-369-099 , changeOfSpecies:12-044-044 , changeOfSpecies:12-258-099 , changeOfSpecies:12-046-046 , changeOfSpecies:12-003-099 , changeOfSpecies:12-096-099 , changeOfSpecies:12-276-099 , changeOfSpecies:12-392-099 , changeOfSpecies:12-056-099 , changeOfSpecies:12-476-099 , changeOfSpecies:12-045-045 , changeOfSpecies:12-002-099 , changeOfSpecies:12-038-038 , changeOfSpecies:12-076-099 , changeOfSpecies:12-023-024 , changeOfSpecies:12-237-237 , changeOfSpecies:12-058-099 , changeOfSpecies:12-037-237 , changeOfSpecies:12-067-067 , changeOfSpecies:12-068-099 , changeOfSpecies:12-278-099 .
 
 changeOfSpecies:23-757-050
         a                       ifn:ChangeOfSpecies ;
@@ -8121,6 +8121,9 @@ changeOfSpecies:46-039-038
         ifn:hasNumberOfTrees         numberOfTrees:741 ;
         ifn:hasNumberOfTreesInUnits  741 ;
         ifn:hasOriginalSpecies       ifn:Species39 .
+
+province:40  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:40-044-044 , changeOfSpecies:40-045-045 , changeOfSpecies:40-065-099 , changeOfSpecies:40-657-050 , changeOfSpecies:40-395-099 , changeOfSpecies:40-356-099 , changeOfSpecies:40-099-099 , changeOfSpecies:40-004-050 , changeOfSpecies:40-005-099 , changeOfSpecies:40-056-099 , changeOfSpecies:40-037-038 , changeOfSpecies:40-957-050 , changeOfSpecies:40-215-099 , changeOfSpecies:40-014-025 , changeOfSpecies:40-039-038 , changeOfSpecies:40-297-050 , changeOfSpecies:40-002-099 , changeOfSpecies:40-026-026 , changeOfSpecies:40-074-099 , changeOfSpecies:40-009-050 , changeOfSpecies:40-357-050 , changeOfSpecies:40-051-050 , changeOfSpecies:40-008-099 , changeOfSpecies:40-003-099 , changeOfSpecies:40-057-050 , changeOfSpecies:40-258-258 , changeOfSpecies:40-255-055 , changeOfSpecies:40-237-038 , changeOfSpecies:40-075-099 , changeOfSpecies:40-299-099 , changeOfSpecies:40-295-099 , changeOfSpecies:40-043-043 , changeOfSpecies:40-021-021 , changeOfSpecies:40-071-099 , changeOfSpecies:40-257-050 , changeOfSpecies:40-023-023 , changeOfSpecies:40-576-099 , changeOfSpecies:40-012-099 , changeOfSpecies:40-038-038 , changeOfSpecies:40-025-025 , changeOfSpecies:40-256-099 , changeOfSpecies:40-095-099 , changeOfSpecies:40-058-058 , changeOfSpecies:40-054-050 , changeOfSpecies:40-055-055 , changeOfSpecies:40-016-099 , changeOfSpecies:40-052-050 .
 
 changeOfSpecies:44-276-099
         a                            ifn:ChangeOfSpecies ;
@@ -9446,9 +9449,6 @@ changeOfSpecies:37-058-050
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species58 .
 
-province:29  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:29-256-099 , changeOfSpecies:29-046-046 , changeOfSpecies:29-039-237 , changeOfSpecies:29-215-099 , changeOfSpecies:29-016-099 , changeOfSpecies:29-276-099 , changeOfSpecies:29-093-099 , changeOfSpecies:29-037-237 , changeOfSpecies:29-069-099 , changeOfSpecies:29-023-023 , changeOfSpecies:29-045-045 , changeOfSpecies:29-857-050 , changeOfSpecies:29-047-047 , changeOfSpecies:29-395-099 , changeOfSpecies:29-062-062 , changeOfSpecies:29-295-099 , changeOfSpecies:29-049-047 , changeOfSpecies:29-091-099 , changeOfSpecies:29-025-028 , changeOfSpecies:29-291-099 , changeOfSpecies:29-051-050 , changeOfSpecies:29-061-062 , changeOfSpecies:29-357-050 , changeOfSpecies:29-028-028 , changeOfSpecies:29-019-028 , changeOfSpecies:29-095-099 , changeOfSpecies:29-004-050 , changeOfSpecies:29-057-050 , changeOfSpecies:29-006-050 , changeOfSpecies:29-055-050 , changeOfSpecies:29-015-099 , changeOfSpecies:29-026-026 , changeOfSpecies:29-299-050 , changeOfSpecies:29-072-072 , changeOfSpecies:29-056-099 , changeOfSpecies:29-053-050 , changeOfSpecies:29-364-062 , changeOfSpecies:29-096-099 , changeOfSpecies:29-068-099 , changeOfSpecies:29-027-028 , changeOfSpecies:29-757-050 , changeOfSpecies:29-008-099 , changeOfSpecies:29-058-050 , changeOfSpecies:29-237-237 , changeOfSpecies:29-032-032 , changeOfSpecies:29-066-066 , changeOfSpecies:29-657-050 , changeOfSpecies:29-478-099 , changeOfSpecies:29-236-028 , changeOfSpecies:29-957-050 , changeOfSpecies:29-010-099 , changeOfSpecies:29-021-028 , changeOfSpecies:29-013-099 , changeOfSpecies:29-003-050 , changeOfSpecies:29-369-099 , changeOfSpecies:29-356-099 , changeOfSpecies:29-036-028 , changeOfSpecies:29-024-024 , changeOfSpecies:29-258-050 , changeOfSpecies:29-009-050 , changeOfSpecies:29-044-047 , changeOfSpecies:29-067-099 , changeOfSpecies:29-099-099 .
-
 changeOfSpecies:09-002-090
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species90 ;
@@ -9571,9 +9571,6 @@ changeOfSpecies:39-019-019
         ifn:hasNewSpecies       ifn:Species19 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species19 .
-
-province:08  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:08-021-021 , changeOfSpecies:08-071-099 , changeOfSpecies:08-044-099 , changeOfSpecies:08-022-019 , changeOfSpecies:08-003-090 , changeOfSpecies:08-057-099 , changeOfSpecies:08-377-099 , changeOfSpecies:08-016-090 , changeOfSpecies:08-069-090 , changeOfSpecies:08-054-099 , changeOfSpecies:08-237-019 , changeOfSpecies:08-079-099 , changeOfSpecies:08-099-090 , changeOfSpecies:08-278-099 , changeOfSpecies:08-011-099 , changeOfSpecies:08-255-099 , changeOfSpecies:08-273-099 , changeOfSpecies:08-013-090 , changeOfSpecies:08-006-090 , changeOfSpecies:08-047-099 , changeOfSpecies:08-091-090 , changeOfSpecies:08-056-099 , changeOfSpecies:08-058-099 , changeOfSpecies:08-033-019 , changeOfSpecies:08-657-099 , changeOfSpecies:08-004-090 , changeOfSpecies:08-068-068 , changeOfSpecies:08-356-099 , changeOfSpecies:08-001-090 , changeOfSpecies:08-046-099 , changeOfSpecies:08-492-099 , changeOfSpecies:08-097-099 , changeOfSpecies:08-043-099 , changeOfSpecies:08-032-019 , changeOfSpecies:08-067-090 , changeOfSpecies:08-002-090 , changeOfSpecies:08-676-099 , changeOfSpecies:08-014-019 , changeOfSpecies:08-576-099 , changeOfSpecies:08-499-090 , changeOfSpecies:08-028-019 , changeOfSpecies:08-042-099 , changeOfSpecies:08-041-099 , changeOfSpecies:08-578-099 , changeOfSpecies:08-357-099 , changeOfSpecies:08-025-019 , changeOfSpecies:08-276-099 , changeOfSpecies:08-012-090 , changeOfSpecies:08-023-019 , changeOfSpecies:08-076-099 , changeOfSpecies:08-307-099 , changeOfSpecies:08-009-090 , changeOfSpecies:08-075-099 , changeOfSpecies:08-369-090 , changeOfSpecies:08-295-090 , changeOfSpecies:08-092-099 , changeOfSpecies:08-039-019 , changeOfSpecies:08-026-019 , changeOfSpecies:08-038-019 , changeOfSpecies:08-217-019 , changeOfSpecies:08-031-019 , changeOfSpecies:08-336-019 , changeOfSpecies:08-015-090 , changeOfSpecies:08-077-099 , changeOfSpecies:08-256-099 , changeOfSpecies:08-037-019 , changeOfSpecies:08-257-099 , changeOfSpecies:08-757-099 , changeOfSpecies:08-017-019 , changeOfSpecies:08-096-090 , changeOfSpecies:08-078-099 , changeOfSpecies:08-258-099 , changeOfSpecies:08-055-099 , changeOfSpecies:08-355-099 , changeOfSpecies:08-378-099 , changeOfSpecies:08-065-090 , changeOfSpecies:08-036-019 , changeOfSpecies:08-066-090 , changeOfSpecies:08-277-099 , changeOfSpecies:08-093-090 , changeOfSpecies:08-095-090 , changeOfSpecies:08-045-045 , changeOfSpecies:08-051-099 , changeOfSpecies:08-072-099 , changeOfSpecies:08-395-090 , changeOfSpecies:08-215-090 , changeOfSpecies:08-034-019 , changeOfSpecies:08-008-090 , changeOfSpecies:08-094-090 , changeOfSpecies:08-024-024 , changeOfSpecies:08-478-099 , changeOfSpecies:08-299-090 , changeOfSpecies:08-297-090 , changeOfSpecies:08-074-090 , changeOfSpecies:08-061-099 , changeOfSpecies:08-476-099 , changeOfSpecies:08-239-019 , changeOfSpecies:08-243-099 , changeOfSpecies:08-052-099 .
 
 changeOfSpecies:39-041-040
         a                            ifn:ChangeOfSpecies ;
@@ -9717,9 +9714,6 @@ changeOfSpecies:10-657-999
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species657 .
 
-province:45  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:45-025-026 , changeOfSpecies:45-657-050 , changeOfSpecies:45-093-068 , changeOfSpecies:45-399-068 , changeOfSpecies:45-095-068 , changeOfSpecies:45-045-045 , changeOfSpecies:45-044-044 , changeOfSpecies:45-043-043 , changeOfSpecies:45-013-068 , changeOfSpecies:45-056-068 , changeOfSpecies:45-052-050 , changeOfSpecies:45-236-023 , changeOfSpecies:45-055-055 , changeOfSpecies:45-058-958 , changeOfSpecies:45-256-068 , changeOfSpecies:45-037-237 , changeOfSpecies:45-046-046 , changeOfSpecies:45-276-068 , changeOfSpecies:45-299-068 , changeOfSpecies:45-051-050 , changeOfSpecies:45-357-050 , changeOfSpecies:45-258-958 , changeOfSpecies:45-053-053 , changeOfSpecies:45-024-023 , changeOfSpecies:45-066-068 , changeOfSpecies:45-578-068 , changeOfSpecies:45-026-026 , changeOfSpecies:45-021-026 , changeOfSpecies:45-057-050 , changeOfSpecies:45-257-050 , changeOfSpecies:45-023-023 , changeOfSpecies:45-062-050 , changeOfSpecies:45-016-068 , changeOfSpecies:45-072-068 , changeOfSpecies:45-097-050 , changeOfSpecies:45-004-050 , changeOfSpecies:45-076-068 , changeOfSpecies:45-275-068 , changeOfSpecies:45-237-237 , changeOfSpecies:45-376-068 , changeOfSpecies:45-395-068 , changeOfSpecies:45-215-068 , changeOfSpecies:45-068-068 , changeOfSpecies:45-054-050 , changeOfSpecies:45-012-068 .
-
 changeOfSpecies:39-048-040
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species40 ;
@@ -9752,6 +9746,9 @@ changeOfSpecies:42-009-999
         a                       ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies       ifn:Species999 ;
         ifn:hasOriginalSpecies  ifn:Species9 .
+
+province:15  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:15-056-099 , changeOfSpecies:15-031-019 , changeOfSpecies:15-364-099 , changeOfSpecies:15-036-019 , changeOfSpecies:15-258-099 , changeOfSpecies:15-094-099 , changeOfSpecies:15-072-072 , changeOfSpecies:15-315-099 , changeOfSpecies:15-757-099 , changeOfSpecies:15-025-019 , changeOfSpecies:15-043-040 , changeOfSpecies:15-006-099 , changeOfSpecies:15-095-099 , changeOfSpecies:15-001-099 , changeOfSpecies:15-034-019 , changeOfSpecies:15-017-019 , changeOfSpecies:15-215-099 , changeOfSpecies:15-046-040 , changeOfSpecies:15-264-099 , changeOfSpecies:15-013-099 , changeOfSpecies:15-255-099 , changeOfSpecies:15-024-019 , changeOfSpecies:15-096-099 , changeOfSpecies:15-066-099 , changeOfSpecies:15-009-099 , changeOfSpecies:15-015-099 , changeOfSpecies:15-016-099 , changeOfSpecies:15-256-099 , changeOfSpecies:15-048-040 , changeOfSpecies:15-028-028 , changeOfSpecies:15-042-040 , changeOfSpecies:15-295-099 , changeOfSpecies:15-014-099 , changeOfSpecies:15-071-099 , changeOfSpecies:15-307-007 , changeOfSpecies:15-064-060 , changeOfSpecies:15-092-099 , changeOfSpecies:15-055-099 , changeOfSpecies:15-078-099 , changeOfSpecies:15-011-099 , changeOfSpecies:15-062-060 , changeOfSpecies:15-074-099 , changeOfSpecies:15-297-099 , changeOfSpecies:15-012-099 , changeOfSpecies:15-376-099 , changeOfSpecies:15-373-073 , changeOfSpecies:15-021-019 , changeOfSpecies:15-033-019 , changeOfSpecies:15-207-007 , changeOfSpecies:15-076-099 , changeOfSpecies:15-058-099 , changeOfSpecies:15-091-099 , changeOfSpecies:15-068-099 , changeOfSpecies:15-057-099 , changeOfSpecies:15-957-099 , changeOfSpecies:15-378-099 , changeOfSpecies:15-041-040 , changeOfSpecies:15-054-099 , changeOfSpecies:15-273-073 , changeOfSpecies:15-375-099 , changeOfSpecies:15-007-007 , changeOfSpecies:15-063-060 , changeOfSpecies:15-045-040 , changeOfSpecies:15-065-099 , changeOfSpecies:15-061-060 , changeOfSpecies:15-099-099 , changeOfSpecies:15-576-099 , changeOfSpecies:15-093-099 , changeOfSpecies:15-051-099 , changeOfSpecies:15-082-099 , changeOfSpecies:15-357-099 , changeOfSpecies:15-008-099 , changeOfSpecies:15-217-099 , changeOfSpecies:15-003-099 , changeOfSpecies:15-097-099 , changeOfSpecies:15-060-099 , changeOfSpecies:15-276-099 , changeOfSpecies:15-257-099 , changeOfSpecies:15-073-073 , changeOfSpecies:15-657-099 , changeOfSpecies:15-026-026 , changeOfSpecies:15-023-019 , changeOfSpecies:15-075-099 .
 
 changeOfSpecies:44-258-958
         a                            ifn:ChangeOfSpecies ;
@@ -9829,9 +9826,6 @@ changeOfSpecies:33-676-099
         ifn:hasNumberOfTrees         numberOfTrees:1 ;
         ifn:hasNumberOfTreesInUnits  1 ;
         ifn:hasOriginalSpecies       ifn:Species676 .
-
-province:24  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:24-072-999 , changeOfSpecies:24-044-045 , changeOfSpecies:24-002-999 , changeOfSpecies:24-258-999 , changeOfSpecies:24-015-999 , changeOfSpecies:24-097-999 , changeOfSpecies:24-075-999 , changeOfSpecies:24-065-999 , changeOfSpecies:24-045-045 , changeOfSpecies:24-046-045 , changeOfSpecies:24-073-999 , changeOfSpecies:24-056-999 , changeOfSpecies:24-071-071 , changeOfSpecies:24-023-026 , changeOfSpecies:24-377-999 , changeOfSpecies:24-257-999 , changeOfSpecies:24-054-999 , changeOfSpecies:24-043-043 , changeOfSpecies:24-003-999 , changeOfSpecies:24-239-026 , changeOfSpecies:24-022-021 , changeOfSpecies:24-012-999 , changeOfSpecies:24-926-026 , changeOfSpecies:24-042-999 , changeOfSpecies:24-078-999 , changeOfSpecies:24-255-999 , changeOfSpecies:24-275-999 , changeOfSpecies:24-021-021 , changeOfSpecies:24-061-999 , changeOfSpecies:24-957-999 , changeOfSpecies:24-378-999 , changeOfSpecies:24-076-999 , changeOfSpecies:24-068-999 , changeOfSpecies:24-016-999 , changeOfSpecies:24-215-999 , changeOfSpecies:24-014-026 , changeOfSpecies:24-028-019 , changeOfSpecies:24-051-999 , changeOfSpecies:24-041-999 , changeOfSpecies:24-052-999 , changeOfSpecies:24-093-999 , changeOfSpecies:24-038-026 , changeOfSpecies:24-576-999 , changeOfSpecies:24-077-999 , changeOfSpecies:24-657-999 , changeOfSpecies:24-004-999 , changeOfSpecies:24-009-999 , changeOfSpecies:24-095-999 , changeOfSpecies:24-005-999 , changeOfSpecies:24-857-999 , changeOfSpecies:24-395-999 , changeOfSpecies:24-277-999 , changeOfSpecies:24-074-999 , changeOfSpecies:24-373-999 , changeOfSpecies:24-757-999 , changeOfSpecies:24-357-999 , changeOfSpecies:24-295-999 , changeOfSpecies:24-026-026 , changeOfSpecies:24-278-999 , changeOfSpecies:24-276-999 , changeOfSpecies:24-025-019 , changeOfSpecies:24-029-026 , changeOfSpecies:24-436-026 , changeOfSpecies:24-037-026 , changeOfSpecies:24-057-999 , changeOfSpecies:24-055-999 , changeOfSpecies:24-476-999 , changeOfSpecies:24-273-999 , changeOfSpecies:24-236-026 , changeOfSpecies:24-578-999 , changeOfSpecies:24-058-999 .
 
 changeOfSpecies:03-044-099
         a                       ifn:ChangeOfSpecies ;
@@ -9930,12 +9924,6 @@ changeOfSpecies:24-073-999
         ifn:hasNumberOfTreesInUnits  31 ;
         ifn:hasOriginalSpecies       ifn:Species73 .
 
-changeOfSpecies:03-369-099
-        a                       ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies       ifn:Species99 ;
-        ifn:hasNumberOfTrees    numberOfTrees:0 ;
-        ifn:hasOriginalSpecies  ifn:Species369 .
-
 changeOfSpecies:26-243-043
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species43 ;
@@ -9943,8 +9931,11 @@ changeOfSpecies:26-243-043
         ifn:hasNumberOfTreesInUnits  1 ;
         ifn:hasOriginalSpecies       ifn:Species243 .
 
-province:03  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:03-063-050 , changeOfSpecies:03-068-099 , changeOfSpecies:03-295-099 , changeOfSpecies:03-436-023 , changeOfSpecies:03-476-099 , changeOfSpecies:03-025-023 , changeOfSpecies:03-075-099 , changeOfSpecies:03-237-023 , changeOfSpecies:03-023-023 , changeOfSpecies:03-053-050 , changeOfSpecies:03-044-099 , changeOfSpecies:03-002-099 , changeOfSpecies:03-012-099 , changeOfSpecies:03-219-023 , changeOfSpecies:03-278-099 , changeOfSpecies:03-009-050 , changeOfSpecies:03-062-050 , changeOfSpecies:03-258-050 , changeOfSpecies:03-369-099 , changeOfSpecies:03-395-099 , changeOfSpecies:03-095-099 , changeOfSpecies:03-016-099 , changeOfSpecies:03-099-099 , changeOfSpecies:03-039-023 , changeOfSpecies:03-058-050 , changeOfSpecies:03-355-050 , changeOfSpecies:03-067-099 , changeOfSpecies:03-236-023 , changeOfSpecies:03-056-099 , changeOfSpecies:03-096-099 , changeOfSpecies:03-215-099 , changeOfSpecies:03-093-099 , changeOfSpecies:03-066-099 , changeOfSpecies:03-045-045 , changeOfSpecies:03-299-099 , changeOfSpecies:03-026-023 , changeOfSpecies:03-004-050 , changeOfSpecies:03-013-099 , changeOfSpecies:03-036-023 , changeOfSpecies:03-024-024 , changeOfSpecies:03-057-050 .
+changeOfSpecies:03-369-099
+        a                       ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies       ifn:Species99 ;
+        ifn:hasNumberOfTrees    numberOfTrees:0 ;
+        ifn:hasOriginalSpecies  ifn:Species369 .
 
 changeOfSpecies:42-099-999
         a                       ifn:ChangeOfSpecies ;
@@ -10001,6 +9992,9 @@ changeOfSpecies:47-009-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species9 .
+
+province:31  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:31-015-099 , changeOfSpecies:31-022-019 , changeOfSpecies:31-092-099 , changeOfSpecies:31-068-099 , changeOfSpecies:31-034-019 , changeOfSpecies:31-028-019 , changeOfSpecies:31-657-099 , changeOfSpecies:31-757-099 , changeOfSpecies:31-016-099 , changeOfSpecies:31-009-099 , changeOfSpecies:31-066-099 , changeOfSpecies:31-857-099 , changeOfSpecies:31-095-099 , changeOfSpecies:31-273-099 , changeOfSpecies:31-278-099 , changeOfSpecies:31-042-040 , changeOfSpecies:31-056-099 , changeOfSpecies:31-079-099 , changeOfSpecies:31-378-099 , changeOfSpecies:31-078-099 , changeOfSpecies:31-576-099 , changeOfSpecies:31-057-099 , changeOfSpecies:31-065-099 , changeOfSpecies:31-048-040 , changeOfSpecies:31-037-937 , changeOfSpecies:31-676-099 , changeOfSpecies:31-077-099 , changeOfSpecies:31-074-099 , changeOfSpecies:31-005-099 , changeOfSpecies:31-054-099 , changeOfSpecies:31-041-040 , changeOfSpecies:31-257-099 , changeOfSpecies:31-357-099 , changeOfSpecies:31-007-099 , changeOfSpecies:31-072-099 , changeOfSpecies:31-003-099 , changeOfSpecies:31-076-099 , changeOfSpecies:31-097-099 , changeOfSpecies:31-036-019 , changeOfSpecies:31-012-099 , changeOfSpecies:31-297-099 , changeOfSpecies:31-295-099 , changeOfSpecies:31-026-019 , changeOfSpecies:31-256-099 , changeOfSpecies:31-024-019 , changeOfSpecies:31-093-099 , changeOfSpecies:31-031-019 , changeOfSpecies:31-033-019 , changeOfSpecies:31-052-099 , changeOfSpecies:31-002-099 , changeOfSpecies:31-075-099 , changeOfSpecies:31-071-071 , changeOfSpecies:31-014-019 , changeOfSpecies:31-025-019 , changeOfSpecies:31-215-099 , changeOfSpecies:31-315-099 , changeOfSpecies:31-035-019 , changeOfSpecies:31-276-099 , changeOfSpecies:31-279-099 , changeOfSpecies:31-044-040 , changeOfSpecies:31-004-099 , changeOfSpecies:31-055-099 , changeOfSpecies:31-039-937 , changeOfSpecies:31-045-040 , changeOfSpecies:31-091-091 , changeOfSpecies:31-008-099 , changeOfSpecies:31-021-021 , changeOfSpecies:31-258-099 , changeOfSpecies:31-557-099 , changeOfSpecies:31-038-937 , changeOfSpecies:31-476-099 , changeOfSpecies:31-058-099 , changeOfSpecies:31-043-040 , changeOfSpecies:31-243-040 , changeOfSpecies:31-578-099 , changeOfSpecies:31-237-937 , changeOfSpecies:31-377-099 , changeOfSpecies:31-073-099 , changeOfSpecies:31-255-099 , changeOfSpecies:31-299-099 , changeOfSpecies:31-051-099 , changeOfSpecies:31-373-099 .
 
 changeOfSpecies:31-021-021
         a                            ifn:ChangeOfSpecies ;
@@ -10069,9 +10063,6 @@ changeOfSpecies:21-023-023
         ifn:hasNumberOfTreesInUnits  201 ;
         ifn:hasOriginalSpecies       ifn:Species23 .
 
-province:40  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:40-012-099 , changeOfSpecies:40-095-099 , changeOfSpecies:40-576-099 , changeOfSpecies:40-043-043 , changeOfSpecies:40-056-099 , changeOfSpecies:40-045-045 , changeOfSpecies:40-025-025 , changeOfSpecies:40-002-099 , changeOfSpecies:40-055-055 , changeOfSpecies:40-005-099 , changeOfSpecies:40-255-055 , changeOfSpecies:40-016-099 , changeOfSpecies:40-044-044 , changeOfSpecies:40-957-050 , changeOfSpecies:40-257-050 , changeOfSpecies:40-023-023 , changeOfSpecies:40-657-050 , changeOfSpecies:40-026-026 , changeOfSpecies:40-052-050 , changeOfSpecies:40-356-099 , changeOfSpecies:40-258-258 , changeOfSpecies:40-009-050 , changeOfSpecies:40-075-099 , changeOfSpecies:40-014-025 , changeOfSpecies:40-074-099 , changeOfSpecies:40-051-050 , changeOfSpecies:40-395-099 , changeOfSpecies:40-057-050 , changeOfSpecies:40-256-099 , changeOfSpecies:40-037-038 , changeOfSpecies:40-299-099 , changeOfSpecies:40-215-099 , changeOfSpecies:40-058-058 , changeOfSpecies:40-297-050 , changeOfSpecies:40-357-050 , changeOfSpecies:40-054-050 , changeOfSpecies:40-003-099 , changeOfSpecies:40-099-099 , changeOfSpecies:40-038-038 , changeOfSpecies:40-004-050 , changeOfSpecies:40-039-038 , changeOfSpecies:40-295-099 , changeOfSpecies:40-071-099 , changeOfSpecies:40-008-099 , changeOfSpecies:40-065-099 , changeOfSpecies:40-021-021 , changeOfSpecies:40-237-038 .
-
 changeOfSpecies:46-037-038
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species38 ;
@@ -10084,6 +10075,9 @@ changeOfSpecies:11-016-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species16 .
+
+province:10  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:10-058-999 , changeOfSpecies:10-243-043 , changeOfSpecies:10-395-099 , changeOfSpecies:10-094-099 , changeOfSpecies:10-012-099 , changeOfSpecies:10-057-999 , changeOfSpecies:10-021-026 , changeOfSpecies:10-657-999 , changeOfSpecies:10-215-099 , changeOfSpecies:10-003-099 , changeOfSpecies:10-008-099 , changeOfSpecies:10-046-999 , changeOfSpecies:10-066-099 , changeOfSpecies:10-307-099 , changeOfSpecies:10-476-099 , changeOfSpecies:10-076-099 , changeOfSpecies:10-023-023 , changeOfSpecies:10-004-099 , changeOfSpecies:10-055-999 , changeOfSpecies:10-016-099 , changeOfSpecies:10-036-023 , changeOfSpecies:10-026-026 , changeOfSpecies:10-276-099 , changeOfSpecies:10-061-999 , changeOfSpecies:10-054-999 , changeOfSpecies:10-576-099 , changeOfSpecies:10-044-045 , changeOfSpecies:10-064-999 , changeOfSpecies:10-037-026 , changeOfSpecies:10-097-099 , changeOfSpecies:10-045-045 , changeOfSpecies:10-047-043 , changeOfSpecies:10-068-099 , changeOfSpecies:10-006-099 , changeOfSpecies:10-043-043 , changeOfSpecies:10-025-026 , changeOfSpecies:10-357-999 , changeOfSpecies:10-013-099 , changeOfSpecies:10-015-099 , changeOfSpecies:10-075-099 , changeOfSpecies:10-299-099 , changeOfSpecies:10-295-099 , changeOfSpecies:10-062-999 , changeOfSpecies:10-237-026 , changeOfSpecies:10-093-099 , changeOfSpecies:10-258-999 , changeOfSpecies:10-072-999 , changeOfSpecies:10-041-043 .
 
 changeOfSpecies:06-008-099
         a                            ifn:ChangeOfSpecies ;
@@ -11501,6 +11495,9 @@ numberOfTrees:62  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  62 .
 
+province:48  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:48-476-099 , changeOfSpecies:48-676-099 , changeOfSpecies:48-099-068 , changeOfSpecies:48-378-099 , changeOfSpecies:48-079-099 , changeOfSpecies:48-041-041 , changeOfSpecies:48-035-019 , changeOfSpecies:48-071-099 , changeOfSpecies:48-075-099 , changeOfSpecies:48-097-068 , changeOfSpecies:48-095-068 , changeOfSpecies:48-002-068 , changeOfSpecies:48-012-099 , changeOfSpecies:48-005-068 , changeOfSpecies:48-007-099 , changeOfSpecies:48-055-099 , changeOfSpecies:48-278-099 , changeOfSpecies:48-016-099 , changeOfSpecies:48-065-068 , changeOfSpecies:48-657-099 , changeOfSpecies:48-076-099 , changeOfSpecies:48-062-099 , changeOfSpecies:48-073-099 , changeOfSpecies:48-297-068 , changeOfSpecies:48-048-041 , changeOfSpecies:48-074-074 , changeOfSpecies:48-235-019 , changeOfSpecies:48-295-068 , changeOfSpecies:48-043-099 , changeOfSpecies:48-357-099 , changeOfSpecies:48-033-019 , changeOfSpecies:48-008-068 , changeOfSpecies:48-315-068 , changeOfSpecies:48-058-099 , changeOfSpecies:48-355-099 , changeOfSpecies:48-576-099 , changeOfSpecies:48-373-099 , changeOfSpecies:48-004-068 , changeOfSpecies:48-028-028 , changeOfSpecies:48-578-099 , changeOfSpecies:48-057-099 , changeOfSpecies:48-256-099 , changeOfSpecies:48-078-099 , changeOfSpecies:48-015-068 , changeOfSpecies:48-044-099 , changeOfSpecies:48-068-068 , changeOfSpecies:48-054-099 , changeOfSpecies:48-018-018 , changeOfSpecies:48-009-068 , changeOfSpecies:48-031-019 , changeOfSpecies:48-025-019 , changeOfSpecies:48-395-068 , changeOfSpecies:48-277-099 , changeOfSpecies:48-237-019 , changeOfSpecies:48-061-099 , changeOfSpecies:48-307-099 , changeOfSpecies:48-014-019 , changeOfSpecies:48-045-099 , changeOfSpecies:48-369-068 , changeOfSpecies:48-255-099 , changeOfSpecies:48-215-068 , changeOfSpecies:48-052-099 , changeOfSpecies:48-026-019 , changeOfSpecies:48-042-041 , changeOfSpecies:48-064-099 , changeOfSpecies:48-678-099 , changeOfSpecies:48-003-068 , changeOfSpecies:48-258-099 , changeOfSpecies:48-037-019 , changeOfSpecies:48-034-019 , changeOfSpecies:48-094-099 , changeOfSpecies:48-072-099 , changeOfSpecies:48-207-099 , changeOfSpecies:48-273-099 , changeOfSpecies:48-056-099 , changeOfSpecies:48-021-019 , changeOfSpecies:48-092-099 .
+
 changeOfSpecies:50-092-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -11670,6 +11667,9 @@ numberOfTrees:1400  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  1400 .
 
+province:06  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:06-075-099 , changeOfSpecies:06-058-099 , changeOfSpecies:06-072-099 , changeOfSpecies:06-024-023 , changeOfSpecies:06-004-099 , changeOfSpecies:06-008-099 , changeOfSpecies:06-006-099 , changeOfSpecies:06-099-099 , changeOfSpecies:06-023-023 , changeOfSpecies:06-043-099 , changeOfSpecies:06-295-099 , changeOfSpecies:06-258-099 , changeOfSpecies:06-215-099 , changeOfSpecies:06-046-046 , changeOfSpecies:06-016-099 , changeOfSpecies:06-066-099 , changeOfSpecies:06-044-099 , changeOfSpecies:06-093-099 , changeOfSpecies:06-062-062 , changeOfSpecies:06-299-099 , changeOfSpecies:06-068-099 , changeOfSpecies:06-015-099 , changeOfSpecies:06-026-026 , changeOfSpecies:06-319-023 , changeOfSpecies:06-237-023 , changeOfSpecies:06-045-045 , changeOfSpecies:06-061-062 .
+
 numberOfTrees:605  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  605 .
@@ -11719,9 +11719,6 @@ changeOfSpecies:44-043-099
         ifn:hasNumberOfTreesInUnits  183 ;
         ifn:hasOriginalSpecies       ifn:Species43 .
 
-province:15  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:15-013-099 , changeOfSpecies:15-015-099 , changeOfSpecies:15-043-040 , changeOfSpecies:15-357-099 , changeOfSpecies:15-009-099 , changeOfSpecies:15-307-007 , changeOfSpecies:15-045-040 , changeOfSpecies:15-058-099 , changeOfSpecies:15-217-099 , changeOfSpecies:15-373-073 , changeOfSpecies:15-048-040 , changeOfSpecies:15-042-040 , changeOfSpecies:15-028-028 , changeOfSpecies:15-073-073 , changeOfSpecies:15-026-026 , changeOfSpecies:15-057-099 , changeOfSpecies:15-295-099 , changeOfSpecies:15-093-099 , changeOfSpecies:15-364-099 , changeOfSpecies:15-041-040 , changeOfSpecies:15-054-099 , changeOfSpecies:15-055-099 , changeOfSpecies:15-036-019 , changeOfSpecies:15-091-099 , changeOfSpecies:15-273-073 , changeOfSpecies:15-061-060 , changeOfSpecies:15-576-099 , changeOfSpecies:15-074-099 , changeOfSpecies:15-657-099 , changeOfSpecies:15-064-060 , changeOfSpecies:15-256-099 , changeOfSpecies:15-062-060 , changeOfSpecies:15-011-099 , changeOfSpecies:15-378-099 , changeOfSpecies:15-075-099 , changeOfSpecies:15-023-019 , changeOfSpecies:15-215-099 , changeOfSpecies:15-078-099 , changeOfSpecies:15-001-099 , changeOfSpecies:15-096-099 , changeOfSpecies:15-033-019 , changeOfSpecies:15-046-040 , changeOfSpecies:15-375-099 , changeOfSpecies:15-094-099 , changeOfSpecies:15-297-099 , changeOfSpecies:15-021-019 , changeOfSpecies:15-071-099 , changeOfSpecies:15-264-099 , changeOfSpecies:15-276-099 , changeOfSpecies:15-006-099 , changeOfSpecies:15-207-007 , changeOfSpecies:15-025-019 , changeOfSpecies:15-957-099 , changeOfSpecies:15-014-099 , changeOfSpecies:15-376-099 , changeOfSpecies:15-031-019 , changeOfSpecies:15-258-099 , changeOfSpecies:15-024-019 , changeOfSpecies:15-255-099 , changeOfSpecies:15-066-099 , changeOfSpecies:15-097-099 , changeOfSpecies:15-082-099 , changeOfSpecies:15-017-019 , changeOfSpecies:15-034-019 , changeOfSpecies:15-095-099 , changeOfSpecies:15-003-099 , changeOfSpecies:15-060-099 , changeOfSpecies:15-315-099 , changeOfSpecies:15-063-060 , changeOfSpecies:15-056-099 , changeOfSpecies:15-007-007 , changeOfSpecies:15-072-072 , changeOfSpecies:15-016-099 , changeOfSpecies:15-076-099 , changeOfSpecies:15-757-099 , changeOfSpecies:15-012-099 , changeOfSpecies:15-008-099 , changeOfSpecies:15-051-099 , changeOfSpecies:15-065-099 , changeOfSpecies:15-068-099 , changeOfSpecies:15-257-099 , changeOfSpecies:15-099-099 , changeOfSpecies:15-092-099 .
-
 changeOfSpecies:02-415-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -11763,6 +11760,9 @@ changeOfSpecies:02-399-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species399 .
+
+province:43  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:43-091-090 , changeOfSpecies:43-476-099 , changeOfSpecies:43-056-099 , changeOfSpecies:43-014-023 , changeOfSpecies:43-065-090 , changeOfSpecies:43-377-099 , changeOfSpecies:43-478-099 , changeOfSpecies:43-258-099 , changeOfSpecies:43-243-099 , changeOfSpecies:43-051-099 , changeOfSpecies:43-038-023 , changeOfSpecies:43-299-090 , changeOfSpecies:43-092-090 , changeOfSpecies:43-076-099 , changeOfSpecies:43-039-023 , changeOfSpecies:43-072-099 , changeOfSpecies:43-016-090 , changeOfSpecies:43-095-090 , changeOfSpecies:43-657-099 , changeOfSpecies:43-257-099 , changeOfSpecies:43-026-019 , changeOfSpecies:43-074-090 , changeOfSpecies:43-378-099 , changeOfSpecies:43-499-090 , changeOfSpecies:43-002-090 , changeOfSpecies:43-004-090 , changeOfSpecies:43-276-099 , changeOfSpecies:43-044-044 , changeOfSpecies:43-369-090 , changeOfSpecies:43-045-045 , changeOfSpecies:43-269-090 , changeOfSpecies:43-043-099 , changeOfSpecies:43-295-090 , changeOfSpecies:43-236-023 , changeOfSpecies:43-067-099 , changeOfSpecies:43-071-099 , changeOfSpecies:43-278-099 , changeOfSpecies:43-255-099 , changeOfSpecies:43-006-090 , changeOfSpecies:43-069-090 , changeOfSpecies:43-066-099 , changeOfSpecies:43-578-099 , changeOfSpecies:43-094-090 , changeOfSpecies:43-013-090 , changeOfSpecies:43-012-090 , changeOfSpecies:43-068-090 , changeOfSpecies:43-093-090 , changeOfSpecies:43-025-019 , changeOfSpecies:43-008-090 , changeOfSpecies:43-237-023 , changeOfSpecies:43-099-090 , changeOfSpecies:43-023-023 , changeOfSpecies:43-215-090 , changeOfSpecies:43-036-023 , changeOfSpecies:43-037-023 , changeOfSpecies:43-021-019 , changeOfSpecies:43-009-090 , changeOfSpecies:43-024-024 .
 
 changeOfSpecies:50-042-044
         a                       ifn:ChangeOfSpecies ;
@@ -11830,6 +11830,9 @@ changeOfSpecies:01-043-099
         ifn:hasNumberOfTreesInUnits  352 ;
         ifn:hasOriginalSpecies       ifn:Species43 .
 
+province:22  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:22-099-099 , changeOfSpecies:22-045-045 , changeOfSpecies:22-033-019 , changeOfSpecies:22-297-099 , changeOfSpecies:22-076-099 , changeOfSpecies:22-012-099 , changeOfSpecies:22-054-099 , changeOfSpecies:22-007-099 , changeOfSpecies:22-257-099 , changeOfSpecies:22-056-099 , changeOfSpecies:22-258-099 , changeOfSpecies:22-299-099 , changeOfSpecies:22-077-099 , changeOfSpecies:22-278-099 , changeOfSpecies:22-003-099 , changeOfSpecies:22-011-099 , changeOfSpecies:22-037-019 , changeOfSpecies:22-093-099 , changeOfSpecies:22-066-099 , changeOfSpecies:22-377-099 , changeOfSpecies:22-256-099 , changeOfSpecies:22-071-071 , changeOfSpecies:22-295-099 , changeOfSpecies:22-578-099 , changeOfSpecies:22-065-099 , changeOfSpecies:22-657-099 , changeOfSpecies:22-676-099 , changeOfSpecies:22-236-019 , changeOfSpecies:22-239-019 , changeOfSpecies:22-055-099 , changeOfSpecies:22-053-099 , changeOfSpecies:22-476-099 , changeOfSpecies:22-013-099 , changeOfSpecies:22-036-019 , changeOfSpecies:22-315-099 , changeOfSpecies:22-024-019 , changeOfSpecies:22-043-099 , changeOfSpecies:22-078-099 , changeOfSpecies:22-957-099 , changeOfSpecies:22-015-099 , changeOfSpecies:22-237-019 , changeOfSpecies:22-095-099 , changeOfSpecies:22-026-019 , changeOfSpecies:22-025-025 , changeOfSpecies:22-016-099 , changeOfSpecies:22-378-099 , changeOfSpecies:22-243-099 , changeOfSpecies:22-097-099 , changeOfSpecies:22-857-099 , changeOfSpecies:22-022-019 , changeOfSpecies:22-009-099 , changeOfSpecies:22-778-099 , changeOfSpecies:22-008-099 , changeOfSpecies:22-255-099 , changeOfSpecies:22-042-099 , changeOfSpecies:22-044-044 , changeOfSpecies:22-091-099 , changeOfSpecies:22-215-099 , changeOfSpecies:22-031-019 , changeOfSpecies:22-277-099 , changeOfSpecies:22-057-099 , changeOfSpecies:22-678-099 , changeOfSpecies:22-276-099 , changeOfSpecies:22-058-099 , changeOfSpecies:22-757-099 , changeOfSpecies:22-373-099 , changeOfSpecies:22-074-099 , changeOfSpecies:22-023-019 , changeOfSpecies:22-004-099 , changeOfSpecies:22-052-099 , changeOfSpecies:22-273-099 , changeOfSpecies:22-073-099 , changeOfSpecies:22-038-019 , changeOfSpecies:22-014-019 , changeOfSpecies:22-039-019 , changeOfSpecies:22-395-099 , changeOfSpecies:22-075-099 , changeOfSpecies:22-002-099 , changeOfSpecies:22-021-021 , changeOfSpecies:22-051-099 , changeOfSpecies:22-068-099 , changeOfSpecies:22-092-099 , changeOfSpecies:22-357-099 , changeOfSpecies:22-576-099 .
+
 changeOfSpecies:14-369-099
         a                       ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies       ifn:Species99 ;
@@ -11884,9 +11887,6 @@ changeOfSpecies:01-676-099
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species676 .
 
-province:31  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:31-255-099 , changeOfSpecies:31-022-019 , changeOfSpecies:31-038-937 , changeOfSpecies:31-373-099 , changeOfSpecies:31-076-099 , changeOfSpecies:31-276-099 , changeOfSpecies:31-091-091 , changeOfSpecies:31-256-099 , changeOfSpecies:31-033-019 , changeOfSpecies:31-031-019 , changeOfSpecies:31-097-099 , changeOfSpecies:31-578-099 , changeOfSpecies:31-055-099 , changeOfSpecies:31-034-019 , changeOfSpecies:31-039-937 , changeOfSpecies:31-857-099 , changeOfSpecies:31-215-099 , changeOfSpecies:31-073-099 , changeOfSpecies:31-278-099 , changeOfSpecies:31-243-040 , changeOfSpecies:31-065-099 , changeOfSpecies:31-315-099 , changeOfSpecies:31-576-099 , changeOfSpecies:31-037-937 , changeOfSpecies:31-008-099 , changeOfSpecies:31-041-040 , changeOfSpecies:31-028-019 , changeOfSpecies:31-257-099 , changeOfSpecies:31-002-099 , changeOfSpecies:31-043-040 , changeOfSpecies:31-357-099 , changeOfSpecies:31-092-099 , changeOfSpecies:31-035-019 , changeOfSpecies:31-068-099 , changeOfSpecies:31-657-099 , changeOfSpecies:31-026-019 , changeOfSpecies:31-005-099 , changeOfSpecies:31-075-099 , changeOfSpecies:31-056-099 , changeOfSpecies:31-273-099 , changeOfSpecies:31-021-021 , changeOfSpecies:31-074-099 , changeOfSpecies:31-557-099 , changeOfSpecies:31-003-099 , changeOfSpecies:31-058-099 , changeOfSpecies:31-095-099 , changeOfSpecies:31-676-099 , changeOfSpecies:31-009-099 , changeOfSpecies:31-066-099 , changeOfSpecies:31-036-019 , changeOfSpecies:31-757-099 , changeOfSpecies:31-377-099 , changeOfSpecies:31-279-099 , changeOfSpecies:31-258-099 , changeOfSpecies:31-012-099 , changeOfSpecies:31-077-099 , changeOfSpecies:31-297-099 , changeOfSpecies:31-072-099 , changeOfSpecies:31-057-099 , changeOfSpecies:31-016-099 , changeOfSpecies:31-015-099 , changeOfSpecies:31-044-040 , changeOfSpecies:31-042-040 , changeOfSpecies:31-014-019 , changeOfSpecies:31-054-099 , changeOfSpecies:31-299-099 , changeOfSpecies:31-079-099 , changeOfSpecies:31-071-071 , changeOfSpecies:31-295-099 , changeOfSpecies:31-052-099 , changeOfSpecies:31-004-099 , changeOfSpecies:31-024-019 , changeOfSpecies:31-007-099 , changeOfSpecies:31-237-937 , changeOfSpecies:31-045-040 , changeOfSpecies:31-078-099 , changeOfSpecies:31-025-019 , changeOfSpecies:31-051-099 , changeOfSpecies:31-048-040 , changeOfSpecies:31-476-099 , changeOfSpecies:31-378-099 , changeOfSpecies:31-093-099 .
-
 changeOfSpecies:42-021-021
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species21 ;
@@ -11897,6 +11897,9 @@ changeOfSpecies:42-021-021
 numberOfTrees:2388  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  2388 .
+
+province:01  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:01-095-099 , changeOfSpecies:01-056-099 , changeOfSpecies:01-034-019 , changeOfSpecies:01-576-099 , changeOfSpecies:01-757-099 , changeOfSpecies:01-042-099 , changeOfSpecies:01-045-045 , changeOfSpecies:01-061-099 , changeOfSpecies:01-237-026 , changeOfSpecies:01-003-099 , changeOfSpecies:01-053-099 , changeOfSpecies:01-014-019 , changeOfSpecies:01-016-099 , changeOfSpecies:01-008-099 , changeOfSpecies:01-076-099 , changeOfSpecies:01-057-099 , changeOfSpecies:01-357-099 , changeOfSpecies:01-073-099 , changeOfSpecies:01-072-099 , changeOfSpecies:01-058-099 , changeOfSpecies:01-373-099 , changeOfSpecies:01-236-026 , changeOfSpecies:01-035-019 , changeOfSpecies:01-055-099 , changeOfSpecies:01-075-099 , changeOfSpecies:01-024-026 , changeOfSpecies:01-074-099 , changeOfSpecies:01-476-099 , changeOfSpecies:01-091-099 , changeOfSpecies:01-048-099 , changeOfSpecies:01-215-215 , changeOfSpecies:01-065-099 , changeOfSpecies:01-377-099 , changeOfSpecies:01-578-099 , changeOfSpecies:01-054-099 , changeOfSpecies:01-676-099 , changeOfSpecies:01-092-099 , changeOfSpecies:01-071-099 , changeOfSpecies:01-026-026 , changeOfSpecies:01-005-099 , changeOfSpecies:01-068-099 , changeOfSpecies:01-031-019 , changeOfSpecies:01-077-099 , changeOfSpecies:01-093-099 , changeOfSpecies:01-315-215 , changeOfSpecies:01-023-026 , changeOfSpecies:01-255-099 , changeOfSpecies:01-657-099 , changeOfSpecies:01-021-019 , changeOfSpecies:01-278-099 , changeOfSpecies:01-495-099 , changeOfSpecies:01-096-099 , changeOfSpecies:01-678-099 , changeOfSpecies:01-097-099 , changeOfSpecies:01-012-099 , changeOfSpecies:01-004-099 , changeOfSpecies:01-078-099 , changeOfSpecies:01-002-099 , changeOfSpecies:01-009-099 , changeOfSpecies:01-378-099 , changeOfSpecies:01-028-028 , changeOfSpecies:01-006-099 , changeOfSpecies:01-018-019 , changeOfSpecies:01-044-044 , changeOfSpecies:01-276-099 , changeOfSpecies:01-007-099 , changeOfSpecies:01-037-026 , changeOfSpecies:01-258-099 , changeOfSpecies:01-256-099 , changeOfSpecies:01-257-099 , changeOfSpecies:01-319-019 , changeOfSpecies:01-295-099 , changeOfSpecies:01-273-099 , changeOfSpecies:01-039-026 , changeOfSpecies:01-043-099 , changeOfSpecies:01-025-019 , changeOfSpecies:01-478-099 , changeOfSpecies:01-052-099 , changeOfSpecies:01-415-215 , changeOfSpecies:01-033-019 , changeOfSpecies:01-041-099 , changeOfSpecies:01-015-215 , changeOfSpecies:01-355-099 , changeOfSpecies:01-395-099 .
 
 changeOfSpecies:37-255-050
         a                       ifn:ChangeOfSpecies ;
@@ -11934,9 +11937,6 @@ changeOfSpecies:22-016-099
         ifn:hasNumberOfTrees         numberOfTrees:3 ;
         ifn:hasNumberOfTreesInUnits  3 ;
         ifn:hasOriginalSpecies       ifn:Species16 .
-
-province:10  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:10-057-999 , changeOfSpecies:10-276-099 , changeOfSpecies:10-041-043 , changeOfSpecies:10-015-099 , changeOfSpecies:10-215-099 , changeOfSpecies:10-008-099 , changeOfSpecies:10-064-999 , changeOfSpecies:10-055-999 , changeOfSpecies:10-037-026 , changeOfSpecies:10-093-099 , changeOfSpecies:10-094-099 , changeOfSpecies:10-097-099 , changeOfSpecies:10-075-099 , changeOfSpecies:10-258-999 , changeOfSpecies:10-012-099 , changeOfSpecies:10-295-099 , changeOfSpecies:10-395-099 , changeOfSpecies:10-043-043 , changeOfSpecies:10-058-999 , changeOfSpecies:10-062-999 , changeOfSpecies:10-047-043 , changeOfSpecies:10-357-999 , changeOfSpecies:10-237-026 , changeOfSpecies:10-046-999 , changeOfSpecies:10-016-099 , changeOfSpecies:10-054-999 , changeOfSpecies:10-066-099 , changeOfSpecies:10-307-099 , changeOfSpecies:10-476-099 , changeOfSpecies:10-013-099 , changeOfSpecies:10-021-026 , changeOfSpecies:10-045-045 , changeOfSpecies:10-061-999 , changeOfSpecies:10-006-099 , changeOfSpecies:10-076-099 , changeOfSpecies:10-036-023 , changeOfSpecies:10-004-099 , changeOfSpecies:10-657-999 , changeOfSpecies:10-023-023 , changeOfSpecies:10-299-099 , changeOfSpecies:10-072-999 , changeOfSpecies:10-025-026 , changeOfSpecies:10-243-043 , changeOfSpecies:10-003-099 , changeOfSpecies:10-576-099 , changeOfSpecies:10-026-026 , changeOfSpecies:10-044-045 , changeOfSpecies:10-068-099 .
 
 changeOfSpecies:06-006-099
         a                       ifn:ChangeOfSpecies ;
@@ -13311,6 +13311,9 @@ changeOfSpecies:15-295-099
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species295 .
 
+province:39  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:39-028-028 , changeOfSpecies:39-076-099 , changeOfSpecies:39-295-099 , changeOfSpecies:39-079-099 , changeOfSpecies:39-657-099 , changeOfSpecies:39-074-074 , changeOfSpecies:39-276-099 , changeOfSpecies:39-237-019 , changeOfSpecies:39-057-099 , changeOfSpecies:39-094-099 , changeOfSpecies:39-016-099 , changeOfSpecies:39-093-099 , changeOfSpecies:39-073-099 , changeOfSpecies:39-051-099 , changeOfSpecies:39-576-099 , changeOfSpecies:39-044-040 , changeOfSpecies:39-021-021 , changeOfSpecies:39-003-099 , changeOfSpecies:39-377-099 , changeOfSpecies:39-045-040 , changeOfSpecies:39-012-099 , changeOfSpecies:39-026-019 , changeOfSpecies:39-378-099 , changeOfSpecies:39-273-099 , changeOfSpecies:39-046-040 , changeOfSpecies:39-065-099 , changeOfSpecies:39-004-099 , changeOfSpecies:39-357-099 , changeOfSpecies:39-071-099 , changeOfSpecies:39-068-099 , changeOfSpecies:39-041-040 , changeOfSpecies:39-058-099 , changeOfSpecies:39-077-099 , changeOfSpecies:39-258-099 , changeOfSpecies:39-061-061 , changeOfSpecies:39-019-019 , changeOfSpecies:39-037-019 , changeOfSpecies:39-957-099 , changeOfSpecies:39-054-099 , changeOfSpecies:39-025-021 , changeOfSpecies:39-257-099 , changeOfSpecies:39-557-099 , changeOfSpecies:39-002-099 , changeOfSpecies:39-055-099 , changeOfSpecies:39-005-099 , changeOfSpecies:39-092-099 , changeOfSpecies:39-095-099 , changeOfSpecies:39-064-061 , changeOfSpecies:39-042-040 , changeOfSpecies:39-215-099 , changeOfSpecies:39-048-040 , changeOfSpecies:39-097-099 , changeOfSpecies:39-072-099 , changeOfSpecies:39-009-099 , changeOfSpecies:39-014-019 , changeOfSpecies:39-299-099 , changeOfSpecies:39-278-099 , changeOfSpecies:39-008-099 , changeOfSpecies:39-255-099 , changeOfSpecies:39-043-040 , changeOfSpecies:39-578-099 , changeOfSpecies:39-256-099 , changeOfSpecies:39-075-099 .
+
 numberOfTrees:155  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  155 .
@@ -13354,12 +13357,12 @@ changeOfSpecies:24-377-999
         ifn:hasNumberOfTreesInUnits  7 ;
         ifn:hasOriginalSpecies       ifn:Species377 .
 
-province:48  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:48-055-099 , changeOfSpecies:48-099-068 , changeOfSpecies:48-008-068 , changeOfSpecies:48-009-068 , changeOfSpecies:48-033-019 , changeOfSpecies:48-273-099 , changeOfSpecies:48-014-019 , changeOfSpecies:48-064-099 , changeOfSpecies:48-278-099 , changeOfSpecies:48-003-068 , changeOfSpecies:48-074-074 , changeOfSpecies:48-056-099 , changeOfSpecies:48-057-099 , changeOfSpecies:48-035-019 , changeOfSpecies:48-002-068 , changeOfSpecies:48-043-099 , changeOfSpecies:48-657-099 , changeOfSpecies:48-256-099 , changeOfSpecies:48-095-068 , changeOfSpecies:48-094-099 , changeOfSpecies:48-258-099 , changeOfSpecies:48-058-099 , changeOfSpecies:48-277-099 , changeOfSpecies:48-018-018 , changeOfSpecies:48-078-099 , changeOfSpecies:48-255-099 , changeOfSpecies:48-307-099 , changeOfSpecies:48-297-068 , changeOfSpecies:48-016-099 , changeOfSpecies:48-065-068 , changeOfSpecies:48-207-099 , changeOfSpecies:48-295-068 , changeOfSpecies:48-073-099 , changeOfSpecies:48-237-019 , changeOfSpecies:48-021-019 , changeOfSpecies:48-357-099 , changeOfSpecies:48-004-068 , changeOfSpecies:48-026-019 , changeOfSpecies:48-235-019 , changeOfSpecies:48-476-099 , changeOfSpecies:48-012-099 , changeOfSpecies:48-005-068 , changeOfSpecies:48-034-019 , changeOfSpecies:48-072-099 , changeOfSpecies:48-576-099 , changeOfSpecies:48-355-099 , changeOfSpecies:48-048-041 , changeOfSpecies:48-075-099 , changeOfSpecies:48-062-099 , changeOfSpecies:48-068-068 , changeOfSpecies:48-041-041 , changeOfSpecies:48-676-099 , changeOfSpecies:48-031-019 , changeOfSpecies:48-076-099 , changeOfSpecies:48-028-028 , changeOfSpecies:48-395-068 , changeOfSpecies:48-007-099 , changeOfSpecies:48-578-099 , changeOfSpecies:48-092-099 , changeOfSpecies:48-045-099 , changeOfSpecies:48-052-099 , changeOfSpecies:48-071-099 , changeOfSpecies:48-025-019 , changeOfSpecies:48-378-099 , changeOfSpecies:48-678-099 , changeOfSpecies:48-079-099 , changeOfSpecies:48-042-041 , changeOfSpecies:48-061-099 , changeOfSpecies:48-037-019 , changeOfSpecies:48-373-099 , changeOfSpecies:48-097-068 , changeOfSpecies:48-215-068 , changeOfSpecies:48-015-068 , changeOfSpecies:48-315-068 , changeOfSpecies:48-054-099 , changeOfSpecies:48-369-068 , changeOfSpecies:48-044-099 .
-
 numberOfTrees:32  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  32 .
+
+province:18  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:18-757-050 , changeOfSpecies:18-022-021 , changeOfSpecies:18-058-258 , changeOfSpecies:18-097-050 , changeOfSpecies:18-072-099 , changeOfSpecies:18-276-099 , changeOfSpecies:18-013-099 , changeOfSpecies:18-395-099 , changeOfSpecies:18-016-099 , changeOfSpecies:18-031-021 , changeOfSpecies:18-357-050 , changeOfSpecies:18-278-099 , changeOfSpecies:18-299-099 , changeOfSpecies:18-657-050 , changeOfSpecies:18-029-026 , changeOfSpecies:18-857-050 , changeOfSpecies:18-215-099 , changeOfSpecies:18-239-937 , changeOfSpecies:18-051-050 , changeOfSpecies:18-291-099 , changeOfSpecies:18-369-099 , changeOfSpecies:18-056-099 , changeOfSpecies:18-099-099 , changeOfSpecies:18-057-050 , changeOfSpecies:18-026-026 , changeOfSpecies:18-476-099 , changeOfSpecies:18-399-099 , changeOfSpecies:18-008-099 , changeOfSpecies:18-037-937 , changeOfSpecies:18-092-050 , changeOfSpecies:18-094-050 , changeOfSpecies:18-053-050 , changeOfSpecies:18-078-099 , changeOfSpecies:18-237-937 , changeOfSpecies:18-011-099 , changeOfSpecies:18-023-026 , changeOfSpecies:18-055-050 , changeOfSpecies:18-257-050 , changeOfSpecies:18-032-021 , changeOfSpecies:18-846-043 , changeOfSpecies:18-946-043 , changeOfSpecies:18-067-099 , changeOfSpecies:18-045-045 , changeOfSpecies:18-004-099 , changeOfSpecies:18-043-043 , changeOfSpecies:18-095-099 , changeOfSpecies:18-093-099 , changeOfSpecies:18-036-937 , changeOfSpecies:18-021-021 , changeOfSpecies:18-068-099 , changeOfSpecies:18-017-026 , changeOfSpecies:18-039-937 , changeOfSpecies:18-025-025 , changeOfSpecies:18-012-099 , changeOfSpecies:18-295-099 , changeOfSpecies:18-015-099 , changeOfSpecies:18-024-024 , changeOfSpecies:18-376-099 , changeOfSpecies:18-317-026 , changeOfSpecies:18-002-099 , changeOfSpecies:18-746-043 , changeOfSpecies:18-258-258 , changeOfSpecies:18-066-099 , changeOfSpecies:18-027-026 , changeOfSpecies:18-236-937 , changeOfSpecies:18-826-026 , changeOfSpecies:18-378-099 , changeOfSpecies:18-044-043 , changeOfSpecies:18-336-937 , changeOfSpecies:18-075-099 .
 
 changeOfSpecies:11-005-099
         a                       ifn:ChangeOfSpecies ;
@@ -13519,13 +13522,6 @@ numberOfTrees:2448  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  2448 .
 
-changeOfSpecies:25-026-019
-        a                            ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies            ifn:Species19 ;
-        ifn:hasNumberOfTrees         numberOfTrees:4 ;
-        ifn:hasNumberOfTreesInUnits  4 ;
-        ifn:hasOriginalSpecies       ifn:Species26 .
-
 changeOfSpecies:33-099-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -13533,8 +13529,12 @@ changeOfSpecies:33-099-099
         ifn:hasNumberOfTreesInUnits  5 ;
         ifn:hasOriginalSpecies       ifn:Species99 .
 
-province:06  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:06-068-099 , changeOfSpecies:06-319-023 , changeOfSpecies:06-237-023 , changeOfSpecies:06-299-099 , changeOfSpecies:06-099-099 , changeOfSpecies:06-258-099 , changeOfSpecies:06-008-099 , changeOfSpecies:06-023-023 , changeOfSpecies:06-024-023 , changeOfSpecies:06-215-099 , changeOfSpecies:06-093-099 , changeOfSpecies:06-016-099 , changeOfSpecies:06-015-099 , changeOfSpecies:06-295-099 , changeOfSpecies:06-046-046 , changeOfSpecies:06-072-099 , changeOfSpecies:06-066-099 , changeOfSpecies:06-058-099 , changeOfSpecies:06-004-099 , changeOfSpecies:06-061-062 , changeOfSpecies:06-062-062 , changeOfSpecies:06-026-026 , changeOfSpecies:06-043-099 , changeOfSpecies:06-044-099 , changeOfSpecies:06-006-099 , changeOfSpecies:06-045-045 , changeOfSpecies:06-075-099 .
+changeOfSpecies:25-026-019
+        a                            ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies            ifn:Species19 ;
+        ifn:hasNumberOfTrees         numberOfTrees:4 ;
+        ifn:hasNumberOfTreesInUnits  4 ;
+        ifn:hasOriginalSpecies       ifn:Species26 .
 
 changeOfSpecies:12-039-038
         a                            ifn:ChangeOfSpecies ;
@@ -13601,6 +13601,9 @@ changeOfSpecies:17-079-099
         ifn:hasNumberOfTreesInUnits  15 ;
         ifn:hasOriginalSpecies       ifn:Species79 .
 
+province:34  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:34-028-026 , changeOfSpecies:34-015-099 , changeOfSpecies:34-012-099 , changeOfSpecies:34-041-042 , changeOfSpecies:34-395-099 , changeOfSpecies:34-215-099 , changeOfSpecies:34-023-023 , changeOfSpecies:34-076-099 , changeOfSpecies:34-378-099 , changeOfSpecies:34-002-099 , changeOfSpecies:34-657-050 , changeOfSpecies:34-278-099 , changeOfSpecies:34-036-024 , changeOfSpecies:34-757-050 , changeOfSpecies:34-022-021 , changeOfSpecies:34-057-050 , changeOfSpecies:34-058-258 , changeOfSpecies:34-037-038 , changeOfSpecies:34-021-021 , changeOfSpecies:34-239-038 , changeOfSpecies:34-025-025 , changeOfSpecies:34-054-050 , changeOfSpecies:34-074-099 , changeOfSpecies:34-055-050 , changeOfSpecies:34-024-024 , changeOfSpecies:34-273-099 , changeOfSpecies:34-073-099 , changeOfSpecies:34-044-044 , changeOfSpecies:34-857-050 , changeOfSpecies:34-071-071 , changeOfSpecies:34-256-099 , changeOfSpecies:34-295-099 , changeOfSpecies:34-026-026 , changeOfSpecies:34-042-042 , changeOfSpecies:34-043-043 , changeOfSpecies:34-097-050 , changeOfSpecies:34-045-045 , changeOfSpecies:34-095-099 , changeOfSpecies:34-092-099 , changeOfSpecies:34-257-050 , changeOfSpecies:34-255-050 , changeOfSpecies:34-051-050 , changeOfSpecies:34-237-038 , changeOfSpecies:34-595-099 , changeOfSpecies:34-957-050 , changeOfSpecies:34-297-050 , changeOfSpecies:34-065-099 , changeOfSpecies:34-357-050 , changeOfSpecies:34-052-050 , changeOfSpecies:34-038-038 , changeOfSpecies:34-016-099 , changeOfSpecies:34-258-258 , changeOfSpecies:34-009-099 , changeOfSpecies:34-236-024 , changeOfSpecies:34-003-099 .
+
 numberOfTrees:633  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  633 .
@@ -13615,9 +13618,6 @@ changeOfSpecies:25-054-099
         ifn:hasNumberOfTrees         numberOfTrees:6 ;
         ifn:hasNumberOfTreesInUnits  6 ;
         ifn:hasOriginalSpecies       ifn:Species54 .
-
-province:43  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:43-478-099 , changeOfSpecies:43-024-024 , changeOfSpecies:43-006-090 , changeOfSpecies:43-008-090 , changeOfSpecies:43-378-099 , changeOfSpecies:43-499-090 , changeOfSpecies:43-276-099 , changeOfSpecies:43-023-023 , changeOfSpecies:43-037-023 , changeOfSpecies:43-091-090 , changeOfSpecies:43-002-090 , changeOfSpecies:43-068-090 , changeOfSpecies:43-067-099 , changeOfSpecies:43-377-099 , changeOfSpecies:43-014-023 , changeOfSpecies:43-072-099 , changeOfSpecies:43-657-099 , changeOfSpecies:43-095-090 , changeOfSpecies:43-051-099 , changeOfSpecies:43-013-090 , changeOfSpecies:43-092-090 , changeOfSpecies:43-369-090 , changeOfSpecies:43-045-045 , changeOfSpecies:43-076-099 , changeOfSpecies:43-099-090 , changeOfSpecies:43-258-099 , changeOfSpecies:43-016-090 , changeOfSpecies:43-026-019 , changeOfSpecies:43-237-023 , changeOfSpecies:43-071-099 , changeOfSpecies:43-056-099 , changeOfSpecies:43-036-023 , changeOfSpecies:43-009-090 , changeOfSpecies:43-578-099 , changeOfSpecies:43-044-044 , changeOfSpecies:43-093-090 , changeOfSpecies:43-004-090 , changeOfSpecies:43-243-099 , changeOfSpecies:43-066-099 , changeOfSpecies:43-074-090 , changeOfSpecies:43-299-090 , changeOfSpecies:43-012-090 , changeOfSpecies:43-065-090 , changeOfSpecies:43-269-090 , changeOfSpecies:43-069-090 , changeOfSpecies:43-278-099 , changeOfSpecies:43-215-090 , changeOfSpecies:43-255-099 , changeOfSpecies:43-236-023 , changeOfSpecies:43-039-023 , changeOfSpecies:43-094-090 , changeOfSpecies:43-476-099 , changeOfSpecies:43-025-019 , changeOfSpecies:43-257-099 , changeOfSpecies:43-043-099 , changeOfSpecies:43-021-019 , changeOfSpecies:43-038-023 , changeOfSpecies:43-295-090 .
 
 changeOfSpecies:29-019-028
         a                            ifn:ChangeOfSpecies ;
@@ -13639,6 +13639,9 @@ changeOfSpecies:14-026-026
         ifn:hasNumberOfTrees         numberOfTrees:3 ;
         ifn:hasNumberOfTreesInUnits  3 ;
         ifn:hasOriginalSpecies       ifn:Species26 .
+
+province:13  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:13-276-099 , changeOfSpecies:13-044-044 , changeOfSpecies:13-025-023 , changeOfSpecies:13-038-237 , changeOfSpecies:13-026-026 , changeOfSpecies:13-062-062 , changeOfSpecies:13-053-050 , changeOfSpecies:13-578-099 , changeOfSpecies:13-237-237 , changeOfSpecies:13-058-258 , changeOfSpecies:13-036-023 , changeOfSpecies:13-043-043 , changeOfSpecies:13-076-099 , changeOfSpecies:13-295-099 , changeOfSpecies:13-072-099 , changeOfSpecies:13-357-050 , changeOfSpecies:13-307-050 , changeOfSpecies:13-317-023 , changeOfSpecies:13-046-046 , changeOfSpecies:13-093-099 , changeOfSpecies:13-075-099 , changeOfSpecies:13-099-099 , changeOfSpecies:13-258-258 , changeOfSpecies:13-057-050 , changeOfSpecies:13-395-099 , changeOfSpecies:13-299-050 , changeOfSpecies:13-016-099 , changeOfSpecies:13-236-023 , changeOfSpecies:13-004-050 , changeOfSpecies:13-054-050 , changeOfSpecies:13-095-099 , changeOfSpecies:13-023-023 , changeOfSpecies:13-003-050 , changeOfSpecies:13-055-050 , changeOfSpecies:13-008-099 , changeOfSpecies:13-056-099 , changeOfSpecies:13-063-062 , changeOfSpecies:13-024-023 , changeOfSpecies:13-012-099 , changeOfSpecies:13-215-099 , changeOfSpecies:13-045-045 , changeOfSpecies:13-068-068 , changeOfSpecies:13-006-099 , changeOfSpecies:13-066-099 .
 
 changeOfSpecies:31-557-099
         a                       ifn:ChangeOfSpecies ;
@@ -13670,9 +13673,6 @@ changeOfSpecies:28-011-099
 numberOfTrees:7183  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  7183 .
-
-province:22  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:22-295-099 , changeOfSpecies:22-273-099 , changeOfSpecies:22-036-019 , changeOfSpecies:22-243-099 , changeOfSpecies:22-037-019 , changeOfSpecies:22-044-044 , changeOfSpecies:22-099-099 , changeOfSpecies:22-058-099 , changeOfSpecies:22-026-019 , changeOfSpecies:22-255-099 , changeOfSpecies:22-055-099 , changeOfSpecies:22-093-099 , changeOfSpecies:22-013-099 , changeOfSpecies:22-576-099 , changeOfSpecies:22-278-099 , changeOfSpecies:22-378-099 , changeOfSpecies:22-778-099 , changeOfSpecies:22-066-099 , changeOfSpecies:22-038-019 , changeOfSpecies:22-015-099 , changeOfSpecies:22-091-099 , changeOfSpecies:22-076-099 , changeOfSpecies:22-045-045 , changeOfSpecies:22-011-099 , changeOfSpecies:22-757-099 , changeOfSpecies:22-054-099 , changeOfSpecies:22-957-099 , changeOfSpecies:22-377-099 , changeOfSpecies:22-073-099 , changeOfSpecies:22-053-099 , changeOfSpecies:22-012-099 , changeOfSpecies:22-068-099 , changeOfSpecies:22-237-019 , changeOfSpecies:22-078-099 , changeOfSpecies:22-021-021 , changeOfSpecies:22-071-071 , changeOfSpecies:22-097-099 , changeOfSpecies:22-578-099 , changeOfSpecies:22-014-019 , changeOfSpecies:22-003-099 , changeOfSpecies:22-065-099 , changeOfSpecies:22-033-019 , changeOfSpecies:22-075-099 , changeOfSpecies:22-043-099 , changeOfSpecies:22-009-099 , changeOfSpecies:22-315-099 , changeOfSpecies:22-025-025 , changeOfSpecies:22-277-099 , changeOfSpecies:22-258-099 , changeOfSpecies:22-857-099 , changeOfSpecies:22-297-099 , changeOfSpecies:22-008-099 , changeOfSpecies:22-016-099 , changeOfSpecies:22-051-099 , changeOfSpecies:22-256-099 , changeOfSpecies:22-031-019 , changeOfSpecies:22-395-099 , changeOfSpecies:22-215-099 , changeOfSpecies:22-057-099 , changeOfSpecies:22-373-099 , changeOfSpecies:22-077-099 , changeOfSpecies:22-276-099 , changeOfSpecies:22-042-099 , changeOfSpecies:22-357-099 , changeOfSpecies:22-074-099 , changeOfSpecies:22-095-099 , changeOfSpecies:22-024-019 , changeOfSpecies:22-052-099 , changeOfSpecies:22-039-019 , changeOfSpecies:22-299-099 , changeOfSpecies:22-056-099 , changeOfSpecies:22-239-019 , changeOfSpecies:22-002-099 , changeOfSpecies:22-678-099 , changeOfSpecies:22-023-019 , changeOfSpecies:22-007-099 , changeOfSpecies:22-257-099 , changeOfSpecies:22-657-099 , changeOfSpecies:22-092-099 , changeOfSpecies:22-236-019 , changeOfSpecies:22-676-099 , changeOfSpecies:22-476-099 , changeOfSpecies:22-022-019 , changeOfSpecies:22-004-099 .
 
 changeOfSpecies:35-061-060
         a                            ifn:ChangeOfSpecies ;
@@ -13726,15 +13726,15 @@ numberOfTrees:506  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  506 .
 
+province:50  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:50-476-099 , changeOfSpecies:50-006-099 , changeOfSpecies:50-357-099 , changeOfSpecies:50-075-099 , changeOfSpecies:50-236-024 , changeOfSpecies:50-095-099 , changeOfSpecies:50-025-019 , changeOfSpecies:50-045-045 , changeOfSpecies:50-055-099 , changeOfSpecies:50-052-099 , changeOfSpecies:50-058-958 , changeOfSpecies:50-578-099 , changeOfSpecies:50-039-019 , changeOfSpecies:50-023-024 , changeOfSpecies:50-003-099 , changeOfSpecies:50-021-021 , changeOfSpecies:50-092-099 , changeOfSpecies:50-071-099 , changeOfSpecies:50-091-099 , changeOfSpecies:50-057-099 , changeOfSpecies:50-066-099 , changeOfSpecies:50-392-099 , changeOfSpecies:50-065-099 , changeOfSpecies:50-957-099 , changeOfSpecies:50-005-099 , changeOfSpecies:50-026-019 , changeOfSpecies:50-295-099 , changeOfSpecies:50-576-099 , changeOfSpecies:50-096-099 , changeOfSpecies:50-024-024 , changeOfSpecies:50-257-099 , changeOfSpecies:50-278-099 , changeOfSpecies:50-051-099 , changeOfSpecies:50-037-019 , changeOfSpecies:50-046-044 , changeOfSpecies:50-093-099 , changeOfSpecies:50-009-099 , changeOfSpecies:50-022-021 , changeOfSpecies:50-013-099 , changeOfSpecies:50-336-024 , changeOfSpecies:50-068-099 , changeOfSpecies:50-273-099 , changeOfSpecies:50-042-044 , changeOfSpecies:50-012-099 , changeOfSpecies:50-076-099 , changeOfSpecies:50-074-099 , changeOfSpecies:50-031-021 , changeOfSpecies:50-078-099 , changeOfSpecies:50-002-099 , changeOfSpecies:50-043-044 , changeOfSpecies:50-395-099 , changeOfSpecies:50-757-099 , changeOfSpecies:50-378-099 , changeOfSpecies:50-008-099 , changeOfSpecies:50-097-099 , changeOfSpecies:50-237-019 , changeOfSpecies:50-215-099 , changeOfSpecies:50-053-099 , changeOfSpecies:50-258-958 , changeOfSpecies:50-239-019 , changeOfSpecies:50-004-099 , changeOfSpecies:50-044-044 , changeOfSpecies:50-056-099 , changeOfSpecies:50-016-099 , changeOfSpecies:50-255-099 , changeOfSpecies:50-059-099 , changeOfSpecies:50-276-099 , changeOfSpecies:50-377-099 , changeOfSpecies:50-067-099 , changeOfSpecies:50-038-019 .
+
 changeOfSpecies:24-576-999
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species999 ;
         ifn:hasNumberOfTrees         numberOfTrees:14 ;
         ifn:hasNumberOfTreesInUnits  14 ;
         ifn:hasOriginalSpecies       ifn:Species576 .
-
-province:01  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:01-042-099 , changeOfSpecies:01-005-099 , changeOfSpecies:01-034-019 , changeOfSpecies:01-052-099 , changeOfSpecies:01-676-099 , changeOfSpecies:01-014-019 , changeOfSpecies:01-002-099 , changeOfSpecies:01-076-099 , changeOfSpecies:01-295-099 , changeOfSpecies:01-006-099 , changeOfSpecies:01-657-099 , changeOfSpecies:01-478-099 , changeOfSpecies:01-024-026 , changeOfSpecies:01-357-099 , changeOfSpecies:01-057-099 , changeOfSpecies:01-055-099 , changeOfSpecies:01-025-019 , changeOfSpecies:01-074-099 , changeOfSpecies:01-258-099 , changeOfSpecies:01-078-099 , changeOfSpecies:01-028-028 , changeOfSpecies:01-319-019 , changeOfSpecies:01-007-099 , changeOfSpecies:01-395-099 , changeOfSpecies:01-068-099 , changeOfSpecies:01-048-099 , changeOfSpecies:01-073-099 , changeOfSpecies:01-053-099 , changeOfSpecies:01-355-099 , changeOfSpecies:01-077-099 , changeOfSpecies:01-096-099 , changeOfSpecies:01-003-099 , changeOfSpecies:01-008-099 , changeOfSpecies:01-039-026 , changeOfSpecies:01-578-099 , changeOfSpecies:01-237-026 , changeOfSpecies:01-016-099 , changeOfSpecies:01-072-099 , changeOfSpecies:01-035-019 , changeOfSpecies:01-056-099 , changeOfSpecies:01-095-099 , changeOfSpecies:01-061-099 , changeOfSpecies:01-315-215 , changeOfSpecies:01-031-019 , changeOfSpecies:01-576-099 , changeOfSpecies:01-033-019 , changeOfSpecies:01-097-099 , changeOfSpecies:01-075-099 , changeOfSpecies:01-018-019 , changeOfSpecies:01-255-099 , changeOfSpecies:01-377-099 , changeOfSpecies:01-373-099 , changeOfSpecies:01-476-099 , changeOfSpecies:01-256-099 , changeOfSpecies:01-378-099 , changeOfSpecies:01-054-099 , changeOfSpecies:01-021-019 , changeOfSpecies:01-091-099 , changeOfSpecies:01-215-215 , changeOfSpecies:01-009-099 , changeOfSpecies:01-065-099 , changeOfSpecies:01-093-099 , changeOfSpecies:01-012-099 , changeOfSpecies:01-044-044 , changeOfSpecies:01-058-099 , changeOfSpecies:01-257-099 , changeOfSpecies:01-276-099 , changeOfSpecies:01-043-099 , changeOfSpecies:01-026-026 , changeOfSpecies:01-023-026 , changeOfSpecies:01-236-026 , changeOfSpecies:01-071-099 , changeOfSpecies:01-415-215 , changeOfSpecies:01-045-045 , changeOfSpecies:01-757-099 , changeOfSpecies:01-015-215 , changeOfSpecies:01-041-099 , changeOfSpecies:01-273-099 , changeOfSpecies:01-278-099 , changeOfSpecies:01-092-099 , changeOfSpecies:01-004-099 , changeOfSpecies:01-495-099 , changeOfSpecies:01-037-026 , changeOfSpecies:01-678-099 .
 
 changeOfSpecies:09-065-090
         a                            ifn:ChangeOfSpecies ;
@@ -14942,13 +14942,6 @@ changeOfSpecies:19-025-025
         ifn:hasNumberOfTreesInUnits  4112 ;
         ifn:hasOriginalSpecies       ifn:Species25 .
 
-changeOfSpecies:42-076-999
-        a                            ifn:ChangeOfSpecies ;
-        ifn:hasNewSpecies            ifn:Species999 ;
-        ifn:hasNumberOfTrees         numberOfTrees:24 ;
-        ifn:hasNumberOfTreesInUnits  24 ;
-        ifn:hasOriginalSpecies       ifn:Species76 .
-
 changeOfSpecies:25-476-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -14956,8 +14949,12 @@ changeOfSpecies:25-476-099
         ifn:hasNumberOfTreesInUnits  53 ;
         ifn:hasOriginalSpecies       ifn:Species476 .
 
-province:39  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:39-092-099 , changeOfSpecies:39-957-099 , changeOfSpecies:39-095-099 , changeOfSpecies:39-071-099 , changeOfSpecies:39-357-099 , changeOfSpecies:39-014-019 , changeOfSpecies:39-377-099 , changeOfSpecies:39-299-099 , changeOfSpecies:39-045-040 , changeOfSpecies:39-019-019 , changeOfSpecies:39-008-099 , changeOfSpecies:39-041-040 , changeOfSpecies:39-578-099 , changeOfSpecies:39-295-099 , changeOfSpecies:39-037-019 , changeOfSpecies:39-255-099 , changeOfSpecies:39-064-061 , changeOfSpecies:39-043-040 , changeOfSpecies:39-072-099 , changeOfSpecies:39-273-099 , changeOfSpecies:39-025-021 , changeOfSpecies:39-028-028 , changeOfSpecies:39-003-099 , changeOfSpecies:39-074-074 , changeOfSpecies:39-576-099 , changeOfSpecies:39-012-099 , changeOfSpecies:39-005-099 , changeOfSpecies:39-097-099 , changeOfSpecies:39-076-099 , changeOfSpecies:39-042-040 , changeOfSpecies:39-068-099 , changeOfSpecies:39-237-019 , changeOfSpecies:39-073-099 , changeOfSpecies:39-058-099 , changeOfSpecies:39-257-099 , changeOfSpecies:39-046-040 , changeOfSpecies:39-077-099 , changeOfSpecies:39-075-099 , changeOfSpecies:39-051-099 , changeOfSpecies:39-055-099 , changeOfSpecies:39-048-040 , changeOfSpecies:39-065-099 , changeOfSpecies:39-093-099 , changeOfSpecies:39-044-040 , changeOfSpecies:39-657-099 , changeOfSpecies:39-215-099 , changeOfSpecies:39-256-099 , changeOfSpecies:39-004-099 , changeOfSpecies:39-026-019 , changeOfSpecies:39-016-099 , changeOfSpecies:39-021-021 , changeOfSpecies:39-054-099 , changeOfSpecies:39-278-099 , changeOfSpecies:39-079-099 , changeOfSpecies:39-557-099 , changeOfSpecies:39-258-099 , changeOfSpecies:39-094-099 , changeOfSpecies:39-378-099 , changeOfSpecies:39-009-099 , changeOfSpecies:39-061-061 , changeOfSpecies:39-276-099 , changeOfSpecies:39-057-099 , changeOfSpecies:39-002-099 .
+changeOfSpecies:42-076-999
+        a                            ifn:ChangeOfSpecies ;
+        ifn:hasNewSpecies            ifn:Species999 ;
+        ifn:hasNumberOfTrees         numberOfTrees:24 ;
+        ifn:hasNumberOfTreesInUnits  24 ;
+        ifn:hasOriginalSpecies       ifn:Species76 .
 
 changeOfSpecies:26-295-099
         a                            ifn:ChangeOfSpecies ;
@@ -14973,6 +14970,9 @@ numberOfTrees:210  a  ifn:NumberOfTrees ;
 numberOfTrees:23  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  23 .
+
+province:09  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:09-026-026 , changeOfSpecies:09-576-070 , changeOfSpecies:09-025-025 , changeOfSpecies:09-376-070 , changeOfSpecies:09-012-090 , changeOfSpecies:09-056-070 , changeOfSpecies:09-065-090 , changeOfSpecies:09-036-023 , changeOfSpecies:09-243-043 , changeOfSpecies:09-076-070 , changeOfSpecies:09-757-050 , changeOfSpecies:09-038-038 , changeOfSpecies:09-273-070 , changeOfSpecies:09-373-070 , changeOfSpecies:09-078-090 , changeOfSpecies:09-043-043 , changeOfSpecies:09-377-070 , changeOfSpecies:09-077-070 , changeOfSpecies:09-042-042 , changeOfSpecies:09-046-045 , changeOfSpecies:09-034-028 , changeOfSpecies:09-072-070 , changeOfSpecies:09-016-090 , changeOfSpecies:09-436-023 , changeOfSpecies:09-039-038 , changeOfSpecies:09-097-050 , changeOfSpecies:09-278-090 , changeOfSpecies:09-295-090 , changeOfSpecies:09-011-070 , changeOfSpecies:09-237-038 , changeOfSpecies:09-099-090 , changeOfSpecies:09-024-023 , changeOfSpecies:09-020-023 , changeOfSpecies:09-015-090 , changeOfSpecies:09-028-028 , changeOfSpecies:09-071-071 , changeOfSpecies:09-257-050 , changeOfSpecies:09-023-023 , changeOfSpecies:09-041-042 , changeOfSpecies:09-395-090 , changeOfSpecies:09-276-070 , changeOfSpecies:09-052-050 , changeOfSpecies:09-357-050 , changeOfSpecies:09-048-042 , changeOfSpecies:09-093-090 , changeOfSpecies:09-002-090 , changeOfSpecies:09-045-045 , changeOfSpecies:09-256-070 , changeOfSpecies:09-215-090 , changeOfSpecies:09-299-090 , changeOfSpecies:09-057-050 , changeOfSpecies:09-068-090 , changeOfSpecies:09-022-021 , changeOfSpecies:09-578-090 , changeOfSpecies:09-005-090 , changeOfSpecies:09-021-021 , changeOfSpecies:09-009-050 , changeOfSpecies:09-657-050 , changeOfSpecies:09-255-050 , changeOfSpecies:09-003-050 , changeOfSpecies:09-040-045 , changeOfSpecies:09-074-090 , changeOfSpecies:09-037-038 , changeOfSpecies:09-033-028 , changeOfSpecies:09-957-050 , changeOfSpecies:09-054-050 , changeOfSpecies:09-476-070 , changeOfSpecies:09-058-058 , changeOfSpecies:09-044-044 , changeOfSpecies:09-073-070 , changeOfSpecies:09-055-050 , changeOfSpecies:09-004-050 , changeOfSpecies:09-258-258 , changeOfSpecies:09-378-090 , changeOfSpecies:09-035-028 , changeOfSpecies:09-014-021 , changeOfSpecies:09-094-090 , changeOfSpecies:09-051-050 , changeOfSpecies:09-095-090 , changeOfSpecies:09-008-090 , changeOfSpecies:09-091-090 , changeOfSpecies:09-075-070 .
 
 changeOfSpecies:22-015-099
         a                            ifn:ChangeOfSpecies ;
@@ -15018,9 +15018,6 @@ changeOfSpecies:18-043-043
         ifn:hasNumberOfTrees         numberOfTrees:41 ;
         ifn:hasNumberOfTreesInUnits  41 ;
         ifn:hasOriginalSpecies       ifn:Species43 .
-
-province:18  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:18-036-937 , changeOfSpecies:18-043-043 , changeOfSpecies:18-002-099 , changeOfSpecies:18-476-099 , changeOfSpecies:18-336-937 , changeOfSpecies:18-258-258 , changeOfSpecies:18-055-050 , changeOfSpecies:18-097-050 , changeOfSpecies:18-757-050 , changeOfSpecies:18-044-043 , changeOfSpecies:18-291-099 , changeOfSpecies:18-093-099 , changeOfSpecies:18-051-050 , changeOfSpecies:18-317-026 , changeOfSpecies:18-369-099 , changeOfSpecies:18-257-050 , changeOfSpecies:18-008-099 , changeOfSpecies:18-037-937 , changeOfSpecies:18-399-099 , changeOfSpecies:18-068-099 , changeOfSpecies:18-004-099 , changeOfSpecies:18-295-099 , changeOfSpecies:18-045-045 , changeOfSpecies:18-846-043 , changeOfSpecies:18-299-099 , changeOfSpecies:18-946-043 , changeOfSpecies:18-239-937 , changeOfSpecies:18-039-937 , changeOfSpecies:18-378-099 , changeOfSpecies:18-215-099 , changeOfSpecies:18-276-099 , changeOfSpecies:18-278-099 , changeOfSpecies:18-057-050 , changeOfSpecies:18-032-021 , changeOfSpecies:18-092-050 , changeOfSpecies:18-023-026 , changeOfSpecies:18-022-021 , changeOfSpecies:18-016-099 , changeOfSpecies:18-857-050 , changeOfSpecies:18-657-050 , changeOfSpecies:18-017-026 , changeOfSpecies:18-066-099 , changeOfSpecies:18-024-024 , changeOfSpecies:18-012-099 , changeOfSpecies:18-021-021 , changeOfSpecies:18-031-021 , changeOfSpecies:18-067-099 , changeOfSpecies:18-056-099 , changeOfSpecies:18-026-026 , changeOfSpecies:18-053-050 , changeOfSpecies:18-357-050 , changeOfSpecies:18-746-043 , changeOfSpecies:18-029-026 , changeOfSpecies:18-095-099 , changeOfSpecies:18-078-099 , changeOfSpecies:18-395-099 , changeOfSpecies:18-027-026 , changeOfSpecies:18-011-099 , changeOfSpecies:18-025-025 , changeOfSpecies:18-094-050 , changeOfSpecies:18-015-099 , changeOfSpecies:18-236-937 , changeOfSpecies:18-237-937 , changeOfSpecies:18-075-099 , changeOfSpecies:18-058-258 , changeOfSpecies:18-072-099 , changeOfSpecies:18-099-099 , changeOfSpecies:18-376-099 , changeOfSpecies:18-013-099 , changeOfSpecies:18-826-026 .
 
 changeOfSpecies:05-068-090
         a                            ifn:ChangeOfSpecies ;
@@ -15146,6 +15143,9 @@ changeOfSpecies:46-055-050
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species55 .
 
+province:46  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:46-319-019 , changeOfSpecies:46-063-050 , changeOfSpecies:46-008-099 , changeOfSpecies:46-024-024 , changeOfSpecies:46-457-050 , changeOfSpecies:46-013-099 , changeOfSpecies:46-006-099 , changeOfSpecies:46-075-099 , changeOfSpecies:46-004-050 , changeOfSpecies:46-067-067 , changeOfSpecies:46-046-045 , changeOfSpecies:46-036-019 , changeOfSpecies:46-058-258 , changeOfSpecies:46-258-258 , changeOfSpecies:46-039-038 , changeOfSpecies:46-096-099 , changeOfSpecies:46-095-099 , changeOfSpecies:46-056-050 , changeOfSpecies:46-021-019 , changeOfSpecies:46-011-099 , changeOfSpecies:46-478-099 , changeOfSpecies:46-295-099 , changeOfSpecies:46-299-099 , changeOfSpecies:46-099-099 , changeOfSpecies:46-037-038 , changeOfSpecies:46-038-038 , changeOfSpecies:46-057-050 , changeOfSpecies:46-355-050 , changeOfSpecies:46-066-099 , changeOfSpecies:46-055-050 , changeOfSpecies:46-757-050 , changeOfSpecies:46-091-099 , changeOfSpecies:46-215-099 , changeOfSpecies:46-023-019 , changeOfSpecies:46-237-038 , changeOfSpecies:46-395-099 , changeOfSpecies:46-369-099 , changeOfSpecies:46-051-050 , changeOfSpecies:46-357-050 , changeOfSpecies:46-025-019 , changeOfSpecies:46-093-099 , changeOfSpecies:46-026-019 , changeOfSpecies:46-278-099 , changeOfSpecies:46-044-045 , changeOfSpecies:46-957-050 , changeOfSpecies:46-053-050 , changeOfSpecies:46-276-099 , changeOfSpecies:46-045-045 , changeOfSpecies:46-068-099 , changeOfSpecies:46-002-099 .
+
 changeOfSpecies:49-075-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -15202,6 +15202,9 @@ changeOfSpecies:08-015-090
         ifn:hasNewSpecies       ifn:Species90 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species15 .
+
+province:25  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:25-236-019 , changeOfSpecies:25-277-099 , changeOfSpecies:25-077-099 , changeOfSpecies:25-002-090 , changeOfSpecies:25-576-099 , changeOfSpecies:25-074-090 , changeOfSpecies:25-657-099 , changeOfSpecies:25-012-090 , changeOfSpecies:25-058-099 , changeOfSpecies:25-021-021 , changeOfSpecies:25-056-099 , changeOfSpecies:25-357-099 , changeOfSpecies:25-051-099 , changeOfSpecies:25-757-099 , changeOfSpecies:25-373-099 , changeOfSpecies:25-016-090 , changeOfSpecies:25-004-090 , changeOfSpecies:25-099-090 , changeOfSpecies:25-008-090 , changeOfSpecies:25-072-099 , changeOfSpecies:25-041-099 , changeOfSpecies:25-014-019 , changeOfSpecies:25-045-045 , changeOfSpecies:25-095-090 , changeOfSpecies:25-013-099 , changeOfSpecies:25-057-099 , changeOfSpecies:25-297-099 , changeOfSpecies:25-273-099 , changeOfSpecies:25-376-099 , changeOfSpecies:25-052-099 , changeOfSpecies:25-022-019 , changeOfSpecies:25-039-019 , changeOfSpecies:25-239-019 , changeOfSpecies:25-075-099 , changeOfSpecies:25-015-090 , changeOfSpecies:25-395-090 , changeOfSpecies:25-235-019 , changeOfSpecies:25-055-099 , changeOfSpecies:25-037-019 , changeOfSpecies:25-257-099 , changeOfSpecies:25-957-099 , changeOfSpecies:25-044-099 , changeOfSpecies:25-578-099 , changeOfSpecies:25-243-243 , changeOfSpecies:25-299-090 , changeOfSpecies:25-023-019 , changeOfSpecies:25-053-099 , changeOfSpecies:25-003-090 , changeOfSpecies:25-476-099 , changeOfSpecies:25-676-099 , changeOfSpecies:25-093-090 , changeOfSpecies:25-377-099 , changeOfSpecies:25-278-099 , changeOfSpecies:25-295-090 , changeOfSpecies:25-026-019 , changeOfSpecies:25-078-099 , changeOfSpecies:25-595-090 , changeOfSpecies:25-024-019 , changeOfSpecies:25-097-099 , changeOfSpecies:25-042-099 , changeOfSpecies:25-009-090 , changeOfSpecies:25-068-090 , changeOfSpecies:25-043-243 , changeOfSpecies:25-275-099 , changeOfSpecies:25-076-099 , changeOfSpecies:25-066-090 , changeOfSpecies:25-599-090 , changeOfSpecies:25-038-019 , changeOfSpecies:25-065-090 , changeOfSpecies:25-073-099 , changeOfSpecies:25-378-099 , changeOfSpecies:25-215-090 , changeOfSpecies:25-478-099 , changeOfSpecies:25-071-099 , changeOfSpecies:25-256-099 , changeOfSpecies:25-255-099 , changeOfSpecies:25-276-099 , changeOfSpecies:25-091-090 , changeOfSpecies:25-054-099 , changeOfSpecies:25-237-019 , changeOfSpecies:25-031-019 , changeOfSpecies:25-025-025 , changeOfSpecies:25-258-099 .
 
 changeOfSpecies:33-097-099
         a                            ifn:ChangeOfSpecies ;
@@ -15317,9 +15320,6 @@ changeOfSpecies:17-077-099
         ifn:hasNumberOfTreesInUnits  32 ;
         ifn:hasOriginalSpecies       ifn:Species77 .
 
-province:34  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:34-273-099 , changeOfSpecies:34-857-050 , changeOfSpecies:34-043-043 , changeOfSpecies:34-012-099 , changeOfSpecies:34-042-042 , changeOfSpecies:34-026-026 , changeOfSpecies:34-095-099 , changeOfSpecies:34-015-099 , changeOfSpecies:34-957-050 , changeOfSpecies:34-028-026 , changeOfSpecies:34-054-050 , changeOfSpecies:34-038-038 , changeOfSpecies:34-002-099 , changeOfSpecies:34-657-050 , changeOfSpecies:34-016-099 , changeOfSpecies:34-295-099 , changeOfSpecies:34-255-050 , changeOfSpecies:34-021-021 , changeOfSpecies:34-023-023 , changeOfSpecies:34-236-024 , changeOfSpecies:34-076-099 , changeOfSpecies:34-378-099 , changeOfSpecies:34-025-025 , changeOfSpecies:34-239-038 , changeOfSpecies:34-024-024 , changeOfSpecies:34-215-099 , changeOfSpecies:34-357-050 , changeOfSpecies:34-278-099 , changeOfSpecies:34-003-099 , changeOfSpecies:34-256-099 , changeOfSpecies:34-073-099 , changeOfSpecies:34-044-044 , changeOfSpecies:34-022-021 , changeOfSpecies:34-009-099 , changeOfSpecies:34-055-050 , changeOfSpecies:34-257-050 , changeOfSpecies:34-074-099 , changeOfSpecies:34-058-258 , changeOfSpecies:34-297-050 , changeOfSpecies:34-395-099 , changeOfSpecies:34-041-042 , changeOfSpecies:34-051-050 , changeOfSpecies:34-258-258 , changeOfSpecies:34-036-024 , changeOfSpecies:34-595-099 , changeOfSpecies:34-757-050 , changeOfSpecies:34-052-050 , changeOfSpecies:34-057-050 , changeOfSpecies:34-092-099 , changeOfSpecies:34-071-071 , changeOfSpecies:34-097-050 , changeOfSpecies:34-065-099 , changeOfSpecies:34-037-038 , changeOfSpecies:34-045-045 , changeOfSpecies:34-237-038 .
-
 changeOfSpecies:06-075-099
         a                       ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies       ifn:Species99 ;
@@ -15339,6 +15339,9 @@ changeOfSpecies:33-072-072
         ifn:hasNumberOfTrees         numberOfTrees:6086 ;
         ifn:hasNumberOfTreesInUnits  6086 ;
         ifn:hasOriginalSpecies       ifn:Species72 .
+
+province:04  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:04-029-026 , changeOfSpecies:04-004-099 , changeOfSpecies:04-237-026 , changeOfSpecies:04-053-099 , changeOfSpecies:04-023-026 , changeOfSpecies:04-056-099 , changeOfSpecies:04-017-026 , changeOfSpecies:04-024-024 , changeOfSpecies:04-357-099 , changeOfSpecies:04-045-045 , changeOfSpecies:04-002-099 , changeOfSpecies:04-039-026 , changeOfSpecies:04-215-099 , changeOfSpecies:04-299-099 , changeOfSpecies:04-058-099 , changeOfSpecies:04-093-099 , changeOfSpecies:04-025-025 , changeOfSpecies:04-016-099 , changeOfSpecies:04-857-099 , changeOfSpecies:04-044-045 , changeOfSpecies:04-057-099 , changeOfSpecies:04-062-099 , changeOfSpecies:04-436-026 , changeOfSpecies:04-364-099 , changeOfSpecies:04-036-026 , changeOfSpecies:04-476-099 , changeOfSpecies:04-478-099 , changeOfSpecies:04-395-099 , changeOfSpecies:04-027-026 , changeOfSpecies:04-066-099 , changeOfSpecies:04-021-021 , changeOfSpecies:04-236-026 , changeOfSpecies:04-295-099 , changeOfSpecies:04-007-099 , changeOfSpecies:04-072-099 , changeOfSpecies:04-054-099 , changeOfSpecies:04-026-026 , changeOfSpecies:04-095-099 , changeOfSpecies:04-075-099 , changeOfSpecies:04-013-099 , changeOfSpecies:04-067-099 .
 
 numberOfTrees:603  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
@@ -15396,9 +15399,6 @@ changeOfSpecies:50-065-099
         ifn:hasNumberOfTreesInUnits  16 ;
         ifn:hasOriginalSpecies       ifn:Species65 .
 
-province:13  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:13-075-099 , changeOfSpecies:13-006-099 , changeOfSpecies:13-016-099 , changeOfSpecies:13-076-099 , changeOfSpecies:13-058-258 , changeOfSpecies:13-295-099 , changeOfSpecies:13-258-258 , changeOfSpecies:13-046-046 , changeOfSpecies:13-093-099 , changeOfSpecies:13-008-099 , changeOfSpecies:13-003-050 , changeOfSpecies:13-072-099 , changeOfSpecies:13-357-050 , changeOfSpecies:13-004-050 , changeOfSpecies:13-053-050 , changeOfSpecies:13-578-099 , changeOfSpecies:13-099-099 , changeOfSpecies:13-054-050 , changeOfSpecies:13-038-237 , changeOfSpecies:13-057-050 , changeOfSpecies:13-095-099 , changeOfSpecies:13-023-023 , changeOfSpecies:13-068-068 , changeOfSpecies:13-236-023 , changeOfSpecies:13-056-099 , changeOfSpecies:13-062-062 , changeOfSpecies:13-043-043 , changeOfSpecies:13-395-099 , changeOfSpecies:13-276-099 , changeOfSpecies:13-307-050 , changeOfSpecies:13-237-237 , changeOfSpecies:13-012-099 , changeOfSpecies:13-063-062 , changeOfSpecies:13-215-099 , changeOfSpecies:13-024-023 , changeOfSpecies:13-066-099 , changeOfSpecies:13-317-023 , changeOfSpecies:13-025-023 , changeOfSpecies:13-044-044 , changeOfSpecies:13-045-045 , changeOfSpecies:13-055-050 , changeOfSpecies:13-036-023 , changeOfSpecies:13-299-050 , changeOfSpecies:13-026-026 .
-
 changeOfSpecies:25-042-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -15453,6 +15453,9 @@ changeOfSpecies:08-095-090
         ifn:hasNumberOfTreesInUnits  12 ;
         ifn:hasOriginalSpecies       ifn:Species95 .
 
+province:41  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:41-044-046 , changeOfSpecies:41-395-099 , changeOfSpecies:41-008-099 , changeOfSpecies:41-055-050 , changeOfSpecies:41-257-050 , changeOfSpecies:41-093-099 , changeOfSpecies:41-083-099 , changeOfSpecies:41-058-050 , changeOfSpecies:41-045-045 , changeOfSpecies:41-075-099 , changeOfSpecies:41-215-099 , changeOfSpecies:41-016-099 , changeOfSpecies:41-056-050 , changeOfSpecies:41-043-046 , changeOfSpecies:41-026-024 , changeOfSpecies:41-062-062 , changeOfSpecies:41-094-050 , changeOfSpecies:41-068-099 , changeOfSpecies:41-369-099 , changeOfSpecies:41-067-099 , changeOfSpecies:41-012-099 , changeOfSpecies:41-295-099 , changeOfSpecies:41-857-050 , changeOfSpecies:41-013-099 , changeOfSpecies:41-072-099 , changeOfSpecies:41-237-024 , changeOfSpecies:41-046-046 , changeOfSpecies:41-006-099 , changeOfSpecies:41-069-050 , changeOfSpecies:41-066-099 , changeOfSpecies:41-357-050 , changeOfSpecies:41-057-050 , changeOfSpecies:41-051-050 , changeOfSpecies:41-299-050 , changeOfSpecies:41-061-061 , changeOfSpecies:41-095-099 , changeOfSpecies:41-023-023 , changeOfSpecies:41-004-050 , changeOfSpecies:41-053-050 , changeOfSpecies:41-097-050 , changeOfSpecies:41-293-099 , changeOfSpecies:41-054-050 , changeOfSpecies:41-024-024 , changeOfSpecies:41-010-099 .
+
 changeOfSpecies:37-012-099
         a                       ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies       ifn:Species99 ;
@@ -15477,9 +15480,6 @@ changeOfSpecies:15-217-099
         ifn:hasNumberOfTreesInUnits  2 ;
         ifn:hasOriginalSpecies       ifn:Species217 .
 
-province:50  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:50-053-099 , changeOfSpecies:50-025-019 , changeOfSpecies:50-052-099 , changeOfSpecies:50-067-099 , changeOfSpecies:50-051-099 , changeOfSpecies:50-038-019 , changeOfSpecies:50-578-099 , changeOfSpecies:50-043-044 , changeOfSpecies:50-237-019 , changeOfSpecies:50-005-099 , changeOfSpecies:50-378-099 , changeOfSpecies:50-092-099 , changeOfSpecies:50-295-099 , changeOfSpecies:50-016-099 , changeOfSpecies:50-031-021 , changeOfSpecies:50-476-099 , changeOfSpecies:50-093-099 , changeOfSpecies:50-957-099 , changeOfSpecies:50-215-099 , changeOfSpecies:50-068-099 , changeOfSpecies:50-013-099 , changeOfSpecies:50-078-099 , changeOfSpecies:50-757-099 , changeOfSpecies:50-239-019 , changeOfSpecies:50-096-099 , changeOfSpecies:50-258-958 , changeOfSpecies:50-357-099 , changeOfSpecies:50-278-099 , changeOfSpecies:50-095-099 , changeOfSpecies:50-026-019 , changeOfSpecies:50-022-021 , changeOfSpecies:50-003-099 , changeOfSpecies:50-037-019 , changeOfSpecies:50-042-044 , changeOfSpecies:50-255-099 , changeOfSpecies:50-002-099 , changeOfSpecies:50-039-019 , changeOfSpecies:50-024-024 , changeOfSpecies:50-046-044 , changeOfSpecies:50-057-099 , changeOfSpecies:50-236-024 , changeOfSpecies:50-097-099 , changeOfSpecies:50-392-099 , changeOfSpecies:50-276-099 , changeOfSpecies:50-074-099 , changeOfSpecies:50-076-099 , changeOfSpecies:50-091-099 , changeOfSpecies:50-257-099 , changeOfSpecies:50-044-044 , changeOfSpecies:50-066-099 , changeOfSpecies:50-336-024 , changeOfSpecies:50-395-099 , changeOfSpecies:50-009-099 , changeOfSpecies:50-021-021 , changeOfSpecies:50-045-045 , changeOfSpecies:50-075-099 , changeOfSpecies:50-006-099 , changeOfSpecies:50-023-024 , changeOfSpecies:50-056-099 , changeOfSpecies:50-012-099 , changeOfSpecies:50-058-958 , changeOfSpecies:50-576-099 , changeOfSpecies:50-008-099 , changeOfSpecies:50-273-099 , changeOfSpecies:50-059-099 , changeOfSpecies:50-004-099 , changeOfSpecies:50-377-099 , changeOfSpecies:50-065-099 , changeOfSpecies:50-055-099 , changeOfSpecies:50-071-099 .
-
 changeOfSpecies:25-357-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -15498,6 +15498,9 @@ changeOfSpecies:06-237-023
         ifn:hasNumberOfTrees         numberOfTrees:2 ;
         ifn:hasNumberOfTreesInUnits  2 ;
         ifn:hasOriginalSpecies       ifn:Species237 .
+
+province:20  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:20-092-099 , changeOfSpecies:20-058-099 , changeOfSpecies:20-056-099 , changeOfSpecies:20-395-099 , changeOfSpecies:20-678-099 , changeOfSpecies:20-457-099 , changeOfSpecies:20-276-099 , changeOfSpecies:20-373-099 , changeOfSpecies:20-016-099 , changeOfSpecies:20-278-099 , changeOfSpecies:20-033-019 , changeOfSpecies:20-255-099 , changeOfSpecies:20-011-099 , changeOfSpecies:20-578-099 , changeOfSpecies:20-073-099 , changeOfSpecies:20-037-019 , changeOfSpecies:20-052-099 , changeOfSpecies:20-075-099 , changeOfSpecies:20-095-099 , changeOfSpecies:20-043-041 , changeOfSpecies:20-061-099 , changeOfSpecies:20-044-099 , changeOfSpecies:20-235-019 , changeOfSpecies:20-076-099 , changeOfSpecies:20-357-099 , changeOfSpecies:20-048-099 , changeOfSpecies:20-077-099 , changeOfSpecies:20-041-041 , changeOfSpecies:20-273-099 , changeOfSpecies:20-028-028 , changeOfSpecies:20-275-099 , changeOfSpecies:20-657-099 , changeOfSpecies:20-094-099 , changeOfSpecies:20-072-072 , changeOfSpecies:20-005-099 , changeOfSpecies:20-091-099 , changeOfSpecies:20-019-019 , changeOfSpecies:20-042-041 , changeOfSpecies:20-034-019 , changeOfSpecies:20-256-099 , changeOfSpecies:20-215-099 , changeOfSpecies:20-065-099 , changeOfSpecies:20-017-025 , changeOfSpecies:20-045-099 , changeOfSpecies:20-031-019 , changeOfSpecies:20-004-099 , changeOfSpecies:20-377-099 , changeOfSpecies:20-478-099 , changeOfSpecies:20-015-099 , changeOfSpecies:20-297-099 , changeOfSpecies:20-026-025 , changeOfSpecies:20-003-099 , changeOfSpecies:20-097-099 , changeOfSpecies:20-676-099 , changeOfSpecies:20-476-099 , changeOfSpecies:20-068-099 , changeOfSpecies:20-054-099 , changeOfSpecies:20-376-099 , changeOfSpecies:20-008-099 , changeOfSpecies:20-055-099 , changeOfSpecies:20-295-099 , changeOfSpecies:20-051-099 , changeOfSpecies:20-035-019 , changeOfSpecies:20-021-025 , changeOfSpecies:20-009-099 , changeOfSpecies:20-057-099 , changeOfSpecies:20-299-099 , changeOfSpecies:20-012-099 , changeOfSpecies:20-099-099 , changeOfSpecies:20-079-099 , changeOfSpecies:20-064-099 , changeOfSpecies:20-007-099 , changeOfSpecies:20-243-041 , changeOfSpecies:20-576-099 , changeOfSpecies:20-315-099 , changeOfSpecies:20-074-099 , changeOfSpecies:20-018-019 , changeOfSpecies:20-378-099 , changeOfSpecies:20-014-025 , changeOfSpecies:20-071-071 , changeOfSpecies:20-025-025 .
 
 changeOfSpecies:43-099-090
         a                       ifn:ChangeOfSpecies ;
@@ -16932,9 +16935,6 @@ changeOfSpecies:24-257-999
         ifn:hasNumberOfTreesInUnits  40 ;
         ifn:hasOriginalSpecies       ifn:Species257 .
 
-province:09  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:09-028-028 , changeOfSpecies:09-044-044 , changeOfSpecies:09-097-050 , changeOfSpecies:09-095-090 , changeOfSpecies:09-054-050 , changeOfSpecies:09-020-023 , changeOfSpecies:09-256-070 , changeOfSpecies:09-395-090 , changeOfSpecies:09-022-021 , changeOfSpecies:09-276-070 , changeOfSpecies:09-093-090 , changeOfSpecies:09-578-090 , changeOfSpecies:09-357-050 , changeOfSpecies:09-024-023 , changeOfSpecies:09-036-023 , changeOfSpecies:09-048-042 , changeOfSpecies:09-094-090 , changeOfSpecies:09-058-058 , changeOfSpecies:09-057-050 , changeOfSpecies:09-051-050 , changeOfSpecies:09-042-042 , changeOfSpecies:09-056-070 , changeOfSpecies:09-055-050 , changeOfSpecies:09-077-070 , changeOfSpecies:09-021-021 , changeOfSpecies:09-237-038 , changeOfSpecies:09-043-043 , changeOfSpecies:09-052-050 , changeOfSpecies:09-041-042 , changeOfSpecies:09-476-070 , changeOfSpecies:09-009-050 , changeOfSpecies:09-757-050 , changeOfSpecies:09-034-028 , changeOfSpecies:09-037-038 , changeOfSpecies:09-257-050 , changeOfSpecies:09-075-070 , changeOfSpecies:09-576-070 , changeOfSpecies:09-074-090 , changeOfSpecies:09-011-070 , changeOfSpecies:09-045-045 , changeOfSpecies:09-078-090 , changeOfSpecies:09-046-045 , changeOfSpecies:09-016-090 , changeOfSpecies:09-378-090 , changeOfSpecies:09-035-028 , changeOfSpecies:09-023-023 , changeOfSpecies:09-243-043 , changeOfSpecies:09-040-045 , changeOfSpecies:09-003-050 , changeOfSpecies:09-436-023 , changeOfSpecies:09-278-090 , changeOfSpecies:09-273-070 , changeOfSpecies:09-215-090 , changeOfSpecies:09-004-050 , changeOfSpecies:09-091-090 , changeOfSpecies:09-376-070 , changeOfSpecies:09-076-070 , changeOfSpecies:09-002-090 , changeOfSpecies:09-038-038 , changeOfSpecies:09-068-090 , changeOfSpecies:09-014-021 , changeOfSpecies:09-012-090 , changeOfSpecies:09-015-090 , changeOfSpecies:09-072-070 , changeOfSpecies:09-299-090 , changeOfSpecies:09-073-070 , changeOfSpecies:09-026-026 , changeOfSpecies:09-005-090 , changeOfSpecies:09-025-025 , changeOfSpecies:09-065-090 , changeOfSpecies:09-657-050 , changeOfSpecies:09-008-090 , changeOfSpecies:09-373-070 , changeOfSpecies:09-295-090 , changeOfSpecies:09-099-090 , changeOfSpecies:09-258-258 , changeOfSpecies:09-033-028 , changeOfSpecies:09-039-038 , changeOfSpecies:09-071-071 , changeOfSpecies:09-255-050 , changeOfSpecies:09-957-050 , changeOfSpecies:09-377-070 .
-
 changeOfSpecies:08-476-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -16993,6 +16993,9 @@ changeOfSpecies:39-092-099
 numberOfTrees:51  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  51 .
+
+province:37  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:37-026-026 , changeOfSpecies:37-215-099 , changeOfSpecies:37-037-026 , changeOfSpecies:37-236-026 , changeOfSpecies:37-678-099 , changeOfSpecies:37-276-099 , changeOfSpecies:37-378-099 , changeOfSpecies:37-041-043 , changeOfSpecies:37-078-099 , changeOfSpecies:37-065-099 , changeOfSpecies:37-015-099 , changeOfSpecies:37-395-099 , changeOfSpecies:37-055-050 , changeOfSpecies:37-042-043 , changeOfSpecies:37-013-099 , changeOfSpecies:37-016-099 , changeOfSpecies:37-357-050 , changeOfSpecies:37-009-099 , changeOfSpecies:37-044-044 , changeOfSpecies:37-258-050 , changeOfSpecies:37-237-026 , changeOfSpecies:37-295-099 , changeOfSpecies:37-023-026 , changeOfSpecies:37-054-050 , changeOfSpecies:37-021-021 , changeOfSpecies:37-066-099 , changeOfSpecies:37-072-072 , changeOfSpecies:37-074-099 , changeOfSpecies:37-073-099 , changeOfSpecies:37-043-043 , changeOfSpecies:37-057-050 , changeOfSpecies:37-025-021 , changeOfSpecies:37-058-050 , changeOfSpecies:37-014-026 , changeOfSpecies:37-657-050 , changeOfSpecies:37-062-050 , changeOfSpecies:37-017-026 , changeOfSpecies:37-595-099 , changeOfSpecies:37-255-050 , changeOfSpecies:37-056-050 , changeOfSpecies:37-046-046 , changeOfSpecies:37-075-099 , changeOfSpecies:37-095-099 , changeOfSpecies:37-045-045 , changeOfSpecies:37-093-099 , changeOfSpecies:37-012-099 , changeOfSpecies:37-068-099 , changeOfSpecies:37-436-026 , changeOfSpecies:37-003-099 , changeOfSpecies:37-092-099 , changeOfSpecies:37-278-099 , changeOfSpecies:37-028-026 .
 
 changeOfSpecies:41-023-023
         a                            ifn:ChangeOfSpecies ;
@@ -17094,9 +17097,6 @@ changeOfSpecies:18-037-937
         ifn:hasNumberOfTreesInUnits  2 ;
         ifn:hasOriginalSpecies       ifn:Species37 .
 
-province:46  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:46-099-099 , changeOfSpecies:46-067-067 , changeOfSpecies:46-006-099 , changeOfSpecies:46-278-099 , changeOfSpecies:46-026-019 , changeOfSpecies:46-369-099 , changeOfSpecies:46-299-099 , changeOfSpecies:46-066-099 , changeOfSpecies:46-044-045 , changeOfSpecies:46-276-099 , changeOfSpecies:46-258-258 , changeOfSpecies:46-058-258 , changeOfSpecies:46-355-050 , changeOfSpecies:46-395-099 , changeOfSpecies:46-093-099 , changeOfSpecies:46-237-038 , changeOfSpecies:46-039-038 , changeOfSpecies:46-357-050 , changeOfSpecies:46-057-050 , changeOfSpecies:46-095-099 , changeOfSpecies:46-091-099 , changeOfSpecies:46-215-099 , changeOfSpecies:46-023-019 , changeOfSpecies:46-008-099 , changeOfSpecies:46-036-019 , changeOfSpecies:46-055-050 , changeOfSpecies:46-295-099 , changeOfSpecies:46-025-019 , changeOfSpecies:46-011-099 , changeOfSpecies:46-021-019 , changeOfSpecies:46-096-099 , changeOfSpecies:46-037-038 , changeOfSpecies:46-053-050 , changeOfSpecies:46-757-050 , changeOfSpecies:46-002-099 , changeOfSpecies:46-063-050 , changeOfSpecies:46-038-038 , changeOfSpecies:46-068-099 , changeOfSpecies:46-051-050 , changeOfSpecies:46-319-019 , changeOfSpecies:46-024-024 , changeOfSpecies:46-075-099 , changeOfSpecies:46-046-045 , changeOfSpecies:46-004-050 , changeOfSpecies:46-013-099 , changeOfSpecies:46-045-045 , changeOfSpecies:46-056-050 , changeOfSpecies:46-957-050 , changeOfSpecies:46-457-050 , changeOfSpecies:46-478-099 .
-
 changeOfSpecies:20-004-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -17107,6 +17107,9 @@ changeOfSpecies:20-004-099
 numberOfTrees:30  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  30 .
+
+province:16  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:16-014-019 , changeOfSpecies:16-042-044 , changeOfSpecies:16-276-990 , changeOfSpecies:16-045-045 , changeOfSpecies:16-037-937 , changeOfSpecies:16-065-990 , changeOfSpecies:16-024-019 , changeOfSpecies:16-095-990 , changeOfSpecies:16-002-990 , changeOfSpecies:16-099-990 , changeOfSpecies:16-009-990 , changeOfSpecies:16-076-990 , changeOfSpecies:16-093-990 , changeOfSpecies:16-415-990 , changeOfSpecies:16-016-990 , changeOfSpecies:16-074-099 , changeOfSpecies:16-957-099 , changeOfSpecies:16-025-025 , changeOfSpecies:16-023-019 , changeOfSpecies:16-055-099 , changeOfSpecies:16-039-937 , changeOfSpecies:16-058-099 , changeOfSpecies:16-012-990 , changeOfSpecies:16-243-044 , changeOfSpecies:16-021-019 , changeOfSpecies:16-056-990 , changeOfSpecies:16-378-990 , changeOfSpecies:16-315-990 , changeOfSpecies:16-297-990 , changeOfSpecies:16-052-099 , changeOfSpecies:16-091-990 , changeOfSpecies:16-757-099 , changeOfSpecies:16-357-099 , changeOfSpecies:16-278-990 , changeOfSpecies:16-857-099 , changeOfSpecies:16-395-990 , changeOfSpecies:16-026-019 , changeOfSpecies:16-239-937 , changeOfSpecies:16-043-044 , changeOfSpecies:16-255-099 , changeOfSpecies:16-075-990 , changeOfSpecies:16-258-099 , changeOfSpecies:16-215-990 , changeOfSpecies:16-066-990 , changeOfSpecies:16-044-044 , changeOfSpecies:16-038-937 , changeOfSpecies:16-257-099 , changeOfSpecies:16-051-099 , changeOfSpecies:16-237-937 , changeOfSpecies:16-236-019 , changeOfSpecies:16-004-990 , changeOfSpecies:16-295-990 , changeOfSpecies:16-068-990 , changeOfSpecies:16-578-990 , changeOfSpecies:16-057-099 .
 
 changeOfSpecies:29-055-050
         a                       ifn:ChangeOfSpecies ;
@@ -17190,9 +17193,6 @@ changeOfSpecies:44-097-099
         a                       ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasOriginalSpecies  ifn:Species97 .
-
-province:25  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:25-039-019 , changeOfSpecies:25-024-019 , changeOfSpecies:25-676-099 , changeOfSpecies:25-215-090 , changeOfSpecies:25-276-099 , changeOfSpecies:25-058-099 , changeOfSpecies:25-478-099 , changeOfSpecies:25-002-090 , changeOfSpecies:25-071-099 , changeOfSpecies:25-599-090 , changeOfSpecies:25-043-243 , changeOfSpecies:25-041-099 , changeOfSpecies:25-075-099 , changeOfSpecies:25-235-019 , changeOfSpecies:25-258-099 , changeOfSpecies:25-578-099 , changeOfSpecies:25-076-099 , changeOfSpecies:25-077-099 , changeOfSpecies:25-256-099 , changeOfSpecies:25-051-099 , changeOfSpecies:25-009-090 , changeOfSpecies:25-097-099 , changeOfSpecies:25-013-099 , changeOfSpecies:25-957-099 , changeOfSpecies:25-395-090 , changeOfSpecies:25-004-090 , changeOfSpecies:25-378-099 , changeOfSpecies:25-099-090 , changeOfSpecies:25-376-099 , changeOfSpecies:25-078-099 , changeOfSpecies:25-042-099 , changeOfSpecies:25-073-099 , changeOfSpecies:25-299-090 , changeOfSpecies:25-275-099 , changeOfSpecies:25-255-099 , changeOfSpecies:25-031-019 , changeOfSpecies:25-377-099 , changeOfSpecies:25-373-099 , changeOfSpecies:25-025-025 , changeOfSpecies:25-243-243 , changeOfSpecies:25-016-090 , changeOfSpecies:25-026-019 , changeOfSpecies:25-022-019 , changeOfSpecies:25-072-099 , changeOfSpecies:25-037-019 , changeOfSpecies:25-015-090 , changeOfSpecies:25-236-019 , changeOfSpecies:25-576-099 , changeOfSpecies:25-357-099 , changeOfSpecies:25-021-021 , changeOfSpecies:25-052-099 , changeOfSpecies:25-008-090 , changeOfSpecies:25-038-019 , changeOfSpecies:25-476-099 , changeOfSpecies:25-074-090 , changeOfSpecies:25-297-099 , changeOfSpecies:25-045-045 , changeOfSpecies:25-003-090 , changeOfSpecies:25-277-099 , changeOfSpecies:25-595-090 , changeOfSpecies:25-757-099 , changeOfSpecies:25-014-019 , changeOfSpecies:25-053-099 , changeOfSpecies:25-065-090 , changeOfSpecies:25-054-099 , changeOfSpecies:25-273-099 , changeOfSpecies:25-657-099 , changeOfSpecies:25-095-090 , changeOfSpecies:25-023-019 , changeOfSpecies:25-257-099 , changeOfSpecies:25-295-090 , changeOfSpecies:25-237-019 , changeOfSpecies:25-056-099 , changeOfSpecies:25-239-019 , changeOfSpecies:25-044-099 , changeOfSpecies:25-055-099 , changeOfSpecies:25-278-099 , changeOfSpecies:25-093-090 , changeOfSpecies:25-066-090 , changeOfSpecies:25-012-090 , changeOfSpecies:25-068-090 , changeOfSpecies:25-091-090 , changeOfSpecies:25-057-099 .
 
 changeOfSpecies:43-278-099
         a                            ifn:ChangeOfSpecies ;
@@ -17290,9 +17290,6 @@ changeOfSpecies:17-075-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species75 .
-
-province:04  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:04-058-099 , changeOfSpecies:04-044-045 , changeOfSpecies:04-476-099 , changeOfSpecies:04-023-026 , changeOfSpecies:04-357-099 , changeOfSpecies:04-016-099 , changeOfSpecies:04-025-025 , changeOfSpecies:04-295-099 , changeOfSpecies:04-066-099 , changeOfSpecies:04-056-099 , changeOfSpecies:04-002-099 , changeOfSpecies:04-062-099 , changeOfSpecies:04-478-099 , changeOfSpecies:04-237-026 , changeOfSpecies:04-095-099 , changeOfSpecies:04-075-099 , changeOfSpecies:04-053-099 , changeOfSpecies:04-045-045 , changeOfSpecies:04-021-021 , changeOfSpecies:04-026-026 , changeOfSpecies:04-857-099 , changeOfSpecies:04-215-099 , changeOfSpecies:04-067-099 , changeOfSpecies:04-093-099 , changeOfSpecies:04-036-026 , changeOfSpecies:04-299-099 , changeOfSpecies:04-007-099 , changeOfSpecies:04-039-026 , changeOfSpecies:04-004-099 , changeOfSpecies:04-024-024 , changeOfSpecies:04-013-099 , changeOfSpecies:04-395-099 , changeOfSpecies:04-027-026 , changeOfSpecies:04-029-026 , changeOfSpecies:04-017-026 , changeOfSpecies:04-436-026 , changeOfSpecies:04-054-099 , changeOfSpecies:04-364-099 , changeOfSpecies:04-057-099 , changeOfSpecies:04-072-099 , changeOfSpecies:04-236-026 .
 
 changeOfSpecies:03-096-099
         a                       ifn:ChangeOfSpecies ;
@@ -17423,9 +17420,6 @@ changeOfSpecies:08-093-090
         ifn:hasNumberOfTreesInUnits  17 ;
         ifn:hasOriginalSpecies       ifn:Species93 .
 
-province:41  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:41-357-050 , changeOfSpecies:41-094-050 , changeOfSpecies:41-299-050 , changeOfSpecies:41-083-099 , changeOfSpecies:41-010-099 , changeOfSpecies:41-024-024 , changeOfSpecies:41-045-045 , changeOfSpecies:41-026-024 , changeOfSpecies:41-006-099 , changeOfSpecies:41-069-050 , changeOfSpecies:41-057-050 , changeOfSpecies:41-072-099 , changeOfSpecies:41-369-099 , changeOfSpecies:41-008-099 , changeOfSpecies:41-054-050 , changeOfSpecies:41-051-050 , changeOfSpecies:41-067-099 , changeOfSpecies:41-061-061 , changeOfSpecies:41-395-099 , changeOfSpecies:41-023-023 , changeOfSpecies:41-016-099 , changeOfSpecies:41-857-050 , changeOfSpecies:41-075-099 , changeOfSpecies:41-093-099 , changeOfSpecies:41-066-099 , changeOfSpecies:41-058-050 , changeOfSpecies:41-257-050 , changeOfSpecies:41-095-099 , changeOfSpecies:41-044-046 , changeOfSpecies:41-056-050 , changeOfSpecies:41-068-099 , changeOfSpecies:41-012-099 , changeOfSpecies:41-046-046 , changeOfSpecies:41-004-050 , changeOfSpecies:41-295-099 , changeOfSpecies:41-215-099 , changeOfSpecies:41-237-024 , changeOfSpecies:41-053-050 , changeOfSpecies:41-097-050 , changeOfSpecies:41-062-062 , changeOfSpecies:41-055-050 , changeOfSpecies:41-293-099 , changeOfSpecies:41-013-099 , changeOfSpecies:41-043-046 .
-
 changeOfSpecies:45-258-958
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species958 ;
@@ -17449,6 +17443,9 @@ changeOfSpecies:18-017-026
         ifn:hasNumberOfTrees         numberOfTrees:3 ;
         ifn:hasNumberOfTreesInUnits  3 ;
         ifn:hasOriginalSpecies       ifn:Species17 .
+
+province:11  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:11-357-099 , changeOfSpecies:11-237-024 , changeOfSpecies:11-044-099 , changeOfSpecies:11-026-019 , changeOfSpecies:11-015-099 , changeOfSpecies:11-066-066 , changeOfSpecies:11-054-099 , changeOfSpecies:11-253-099 , changeOfSpecies:11-299-099 , changeOfSpecies:11-276-099 , changeOfSpecies:11-056-099 , changeOfSpecies:11-094-099 , changeOfSpecies:11-046-099 , changeOfSpecies:11-095-099 , changeOfSpecies:11-857-099 , changeOfSpecies:11-067-099 , changeOfSpecies:11-005-099 , changeOfSpecies:11-039-024 , changeOfSpecies:11-003-099 , changeOfSpecies:11-215-099 , changeOfSpecies:11-049-099 , changeOfSpecies:11-057-099 , changeOfSpecies:11-045-099 , changeOfSpecies:11-093-099 , changeOfSpecies:11-055-099 , changeOfSpecies:11-065-099 , changeOfSpecies:11-024-024 , changeOfSpecies:11-016-099 , changeOfSpecies:11-059-099 , changeOfSpecies:11-036-024 , changeOfSpecies:11-957-099 , changeOfSpecies:11-061-099 , changeOfSpecies:11-053-099 , changeOfSpecies:11-012-099 , changeOfSpecies:11-068-068 , changeOfSpecies:11-023-023 , changeOfSpecies:11-047-099 , changeOfSpecies:11-257-099 , changeOfSpecies:11-028-019 , changeOfSpecies:11-004-099 , changeOfSpecies:11-008-008 , changeOfSpecies:11-062-099 , changeOfSpecies:11-099-099 , changeOfSpecies:11-032-019 , changeOfSpecies:11-058-099 , changeOfSpecies:11-051-099 , changeOfSpecies:11-006-099 , changeOfSpecies:11-369-099 , changeOfSpecies:11-002-099 , changeOfSpecies:11-013-099 , changeOfSpecies:11-089-099 , changeOfSpecies:11-040-099 .
 
 changeOfSpecies:41-067-099
         a                            ifn:ChangeOfSpecies ;
@@ -17491,9 +17488,6 @@ changeOfSpecies:33-857-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species857 .
-
-province:20  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:20-056-099 , changeOfSpecies:20-028-028 , changeOfSpecies:20-034-019 , changeOfSpecies:20-057-099 , changeOfSpecies:20-008-099 , changeOfSpecies:20-478-099 , changeOfSpecies:20-045-099 , changeOfSpecies:20-676-099 , changeOfSpecies:20-077-099 , changeOfSpecies:20-007-099 , changeOfSpecies:20-026-025 , changeOfSpecies:20-044-099 , changeOfSpecies:20-073-099 , changeOfSpecies:20-025-025 , changeOfSpecies:20-052-099 , changeOfSpecies:20-009-099 , changeOfSpecies:20-094-099 , changeOfSpecies:20-376-099 , changeOfSpecies:20-097-099 , changeOfSpecies:20-048-099 , changeOfSpecies:20-015-099 , changeOfSpecies:20-016-099 , changeOfSpecies:20-042-041 , changeOfSpecies:20-299-099 , changeOfSpecies:20-005-099 , changeOfSpecies:20-243-041 , changeOfSpecies:20-074-099 , changeOfSpecies:20-003-099 , changeOfSpecies:20-012-099 , changeOfSpecies:20-041-041 , changeOfSpecies:20-072-072 , changeOfSpecies:20-037-019 , changeOfSpecies:20-235-019 , changeOfSpecies:20-055-099 , changeOfSpecies:20-061-099 , changeOfSpecies:20-018-019 , changeOfSpecies:20-377-099 , changeOfSpecies:20-068-099 , changeOfSpecies:20-004-099 , changeOfSpecies:20-357-099 , changeOfSpecies:20-315-099 , changeOfSpecies:20-054-099 , changeOfSpecies:20-091-099 , changeOfSpecies:20-011-099 , changeOfSpecies:20-476-099 , changeOfSpecies:20-255-099 , changeOfSpecies:20-378-099 , changeOfSpecies:20-065-099 , changeOfSpecies:20-457-099 , changeOfSpecies:20-076-099 , changeOfSpecies:20-678-099 , changeOfSpecies:20-373-099 , changeOfSpecies:20-215-099 , changeOfSpecies:20-099-099 , changeOfSpecies:20-021-025 , changeOfSpecies:20-051-099 , changeOfSpecies:20-079-099 , changeOfSpecies:20-275-099 , changeOfSpecies:20-033-019 , changeOfSpecies:20-035-019 , changeOfSpecies:20-276-099 , changeOfSpecies:20-064-099 , changeOfSpecies:20-295-099 , changeOfSpecies:20-071-071 , changeOfSpecies:20-092-099 , changeOfSpecies:20-256-099 , changeOfSpecies:20-019-019 , changeOfSpecies:20-278-099 , changeOfSpecies:20-095-099 , changeOfSpecies:20-017-025 , changeOfSpecies:20-043-041 , changeOfSpecies:20-058-099 , changeOfSpecies:20-657-099 , changeOfSpecies:20-578-099 , changeOfSpecies:20-014-025 , changeOfSpecies:20-576-099 , changeOfSpecies:20-031-019 , changeOfSpecies:20-075-099 , changeOfSpecies:20-395-099 , changeOfSpecies:20-297-099 , changeOfSpecies:20-273-099 .
 
 changeOfSpecies:05-857-099
         a                            ifn:ChangeOfSpecies ;
@@ -18972,6 +18966,9 @@ changeOfSpecies:33-215-099
         ifn:hasNumberOfTreesInUnits  173 ;
         ifn:hasOriginalSpecies       ifn:Species215 .
 
+province:49  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:49-257-099 , changeOfSpecies:49-258-258 , changeOfSpecies:49-038-019 , changeOfSpecies:49-065-099 , changeOfSpecies:49-025-019 , changeOfSpecies:49-041-043 , changeOfSpecies:49-022-021 , changeOfSpecies:49-042-043 , changeOfSpecies:49-055-099 , changeOfSpecies:49-075-099 , changeOfSpecies:49-043-043 , changeOfSpecies:49-046-045 , changeOfSpecies:49-009-099 , changeOfSpecies:49-056-099 , changeOfSpecies:49-037-019 , changeOfSpecies:49-068-099 , changeOfSpecies:49-657-099 , changeOfSpecies:49-357-099 , changeOfSpecies:49-015-099 , changeOfSpecies:49-023-019 , changeOfSpecies:49-315-099 , changeOfSpecies:49-097-099 , changeOfSpecies:49-074-099 , changeOfSpecies:49-095-099 , changeOfSpecies:49-378-099 , changeOfSpecies:49-295-099 , changeOfSpecies:49-058-099 , changeOfSpecies:49-072-099 , changeOfSpecies:49-044-043 , changeOfSpecies:49-054-099 , changeOfSpecies:49-215-099 , changeOfSpecies:49-273-099 , changeOfSpecies:49-053-099 , changeOfSpecies:49-021-021 , changeOfSpecies:49-093-099 , changeOfSpecies:49-016-099 , changeOfSpecies:49-255-099 , changeOfSpecies:49-395-099 , changeOfSpecies:49-051-099 , changeOfSpecies:49-012-099 , changeOfSpecies:49-026-026 , changeOfSpecies:49-237-019 , changeOfSpecies:49-045-045 , changeOfSpecies:49-057-099 , changeOfSpecies:49-003-099 .
+
 numberOfTrees:648  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  648 .
@@ -19007,6 +19004,9 @@ changeOfSpecies:02-056-099
 numberOfTrees:42  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  42 .
+
+province:28  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:28-046-099 , changeOfSpecies:28-276-099 , changeOfSpecies:28-041-099 , changeOfSpecies:28-356-099 , changeOfSpecies:28-299-090 , changeOfSpecies:28-056-099 , changeOfSpecies:28-042-099 , changeOfSpecies:28-044-099 , changeOfSpecies:28-957-099 , changeOfSpecies:28-043-043 , changeOfSpecies:28-058-099 , changeOfSpecies:28-215-090 , changeOfSpecies:28-014-021 , changeOfSpecies:28-012-090 , changeOfSpecies:28-009-090 , changeOfSpecies:28-257-099 , changeOfSpecies:28-295-090 , changeOfSpecies:28-004-090 , changeOfSpecies:28-024-019 , changeOfSpecies:28-025-019 , changeOfSpecies:28-258-099 , changeOfSpecies:28-002-090 , changeOfSpecies:28-022-021 , changeOfSpecies:28-026-019 , changeOfSpecies:28-095-090 , changeOfSpecies:28-003-090 , changeOfSpecies:28-034-019 , changeOfSpecies:28-023-019 , changeOfSpecies:28-237-837 , changeOfSpecies:28-005-090 , changeOfSpecies:28-011-099 , changeOfSpecies:28-657-099 , changeOfSpecies:28-072-099 , changeOfSpecies:28-097-090 , changeOfSpecies:28-065-090 , changeOfSpecies:28-376-099 , changeOfSpecies:28-476-099 , changeOfSpecies:28-071-099 , changeOfSpecies:28-013-099 , changeOfSpecies:28-055-099 , changeOfSpecies:28-051-099 , changeOfSpecies:28-857-099 , changeOfSpecies:28-357-099 , changeOfSpecies:28-076-099 , changeOfSpecies:28-099-090 , changeOfSpecies:28-057-099 , changeOfSpecies:28-054-099 , changeOfSpecies:28-093-090 , changeOfSpecies:28-378-099 , changeOfSpecies:28-039-837 , changeOfSpecies:28-066-090 , changeOfSpecies:28-037-837 , changeOfSpecies:28-016-090 , changeOfSpecies:28-045-045 , changeOfSpecies:28-678-099 , changeOfSpecies:28-036-019 , changeOfSpecies:28-021-021 , changeOfSpecies:28-053-099 .
 
 changeOfSpecies:11-059-099
         a                       ifn:ChangeOfSpecies ;
@@ -19060,9 +19060,6 @@ changeOfSpecies:39-299-099
         ifn:hasNewSpecies       ifn:Species99 ;
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species299 .
-
-province:37  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:37-041-043 , changeOfSpecies:37-009-099 , changeOfSpecies:37-028-026 , changeOfSpecies:37-215-099 , changeOfSpecies:37-258-050 , changeOfSpecies:37-021-021 , changeOfSpecies:37-357-050 , changeOfSpecies:37-066-099 , changeOfSpecies:37-012-099 , changeOfSpecies:37-013-099 , changeOfSpecies:37-255-050 , changeOfSpecies:37-037-026 , changeOfSpecies:37-042-043 , changeOfSpecies:37-043-043 , changeOfSpecies:37-075-099 , changeOfSpecies:37-045-045 , changeOfSpecies:37-025-021 , changeOfSpecies:37-016-099 , changeOfSpecies:37-068-099 , changeOfSpecies:37-276-099 , changeOfSpecies:37-023-026 , changeOfSpecies:37-074-099 , changeOfSpecies:37-378-099 , changeOfSpecies:37-278-099 , changeOfSpecies:37-237-026 , changeOfSpecies:37-017-026 , changeOfSpecies:37-073-099 , changeOfSpecies:37-014-026 , changeOfSpecies:37-657-050 , changeOfSpecies:37-055-050 , changeOfSpecies:37-044-044 , changeOfSpecies:37-072-072 , changeOfSpecies:37-295-099 , changeOfSpecies:37-015-099 , changeOfSpecies:37-595-099 , changeOfSpecies:37-046-046 , changeOfSpecies:37-057-050 , changeOfSpecies:37-003-099 , changeOfSpecies:37-026-026 , changeOfSpecies:37-236-026 , changeOfSpecies:37-095-099 , changeOfSpecies:37-056-050 , changeOfSpecies:37-058-050 , changeOfSpecies:37-092-099 , changeOfSpecies:37-395-099 , changeOfSpecies:37-062-050 , changeOfSpecies:37-678-099 , changeOfSpecies:37-436-026 , changeOfSpecies:37-054-050 , changeOfSpecies:37-093-099 , changeOfSpecies:37-065-099 , changeOfSpecies:37-078-099 .
 
 numberOfTrees:21  a   ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
@@ -19148,9 +19145,6 @@ changeOfSpecies:20-021-025
         ifn:hasNumberOfTreesInUnits  2 ;
         ifn:hasOriginalSpecies       ifn:Species21 .
 
-province:16  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:16-057-099 , changeOfSpecies:16-056-990 , changeOfSpecies:16-239-937 , changeOfSpecies:16-024-019 , changeOfSpecies:16-058-099 , changeOfSpecies:16-278-990 , changeOfSpecies:16-043-044 , changeOfSpecies:16-039-937 , changeOfSpecies:16-066-990 , changeOfSpecies:16-395-990 , changeOfSpecies:16-009-990 , changeOfSpecies:16-257-099 , changeOfSpecies:16-255-099 , changeOfSpecies:16-026-019 , changeOfSpecies:16-014-019 , changeOfSpecies:16-076-990 , changeOfSpecies:16-075-990 , changeOfSpecies:16-276-990 , changeOfSpecies:16-297-990 , changeOfSpecies:16-295-990 , changeOfSpecies:16-091-990 , changeOfSpecies:16-044-044 , changeOfSpecies:16-099-990 , changeOfSpecies:16-095-990 , changeOfSpecies:16-236-019 , changeOfSpecies:16-357-099 , changeOfSpecies:16-045-045 , changeOfSpecies:16-002-990 , changeOfSpecies:16-055-099 , changeOfSpecies:16-042-044 , changeOfSpecies:16-258-099 , changeOfSpecies:16-052-099 , changeOfSpecies:16-237-937 , changeOfSpecies:16-315-990 , changeOfSpecies:16-957-099 , changeOfSpecies:16-093-990 , changeOfSpecies:16-023-019 , changeOfSpecies:16-038-937 , changeOfSpecies:16-215-990 , changeOfSpecies:16-757-099 , changeOfSpecies:16-578-990 , changeOfSpecies:16-243-044 , changeOfSpecies:16-065-990 , changeOfSpecies:16-378-990 , changeOfSpecies:16-004-990 , changeOfSpecies:16-012-990 , changeOfSpecies:16-037-937 , changeOfSpecies:16-021-019 , changeOfSpecies:16-074-099 , changeOfSpecies:16-051-099 , changeOfSpecies:16-415-990 , changeOfSpecies:16-025-025 , changeOfSpecies:16-068-990 , changeOfSpecies:16-016-990 , changeOfSpecies:16-857-099 .
-
 numberOfTrees:181  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  181 .
@@ -19196,6 +19190,9 @@ changeOfSpecies:50-273-099
         ifn:hasNumberOfTrees         numberOfTrees:1 ;
         ifn:hasNumberOfTreesInUnits  1 ;
         ifn:hasOriginalSpecies       ifn:Species273 .
+
+province:44  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:44-052-099 , changeOfSpecies:44-478-099 , changeOfSpecies:44-097-099 , changeOfSpecies:44-215-099 , changeOfSpecies:44-295-099 , changeOfSpecies:44-068-099 , changeOfSpecies:44-009-099 , changeOfSpecies:44-095-099 , changeOfSpecies:44-237-019 , changeOfSpecies:44-025-025 , changeOfSpecies:44-022-019 , changeOfSpecies:44-278-099 , changeOfSpecies:44-013-099 , changeOfSpecies:44-044-044 , changeOfSpecies:44-076-099 , changeOfSpecies:44-053-099 , changeOfSpecies:44-239-019 , changeOfSpecies:44-023-019 , changeOfSpecies:44-021-021 , changeOfSpecies:44-476-099 , changeOfSpecies:44-038-019 , changeOfSpecies:44-012-099 , changeOfSpecies:44-055-099 , changeOfSpecies:44-056-099 , changeOfSpecies:44-043-099 , changeOfSpecies:44-066-099 , changeOfSpecies:44-957-099 , changeOfSpecies:44-236-019 , changeOfSpecies:44-008-099 , changeOfSpecies:44-004-099 , changeOfSpecies:44-065-099 , changeOfSpecies:44-057-099 , changeOfSpecies:44-857-099 , changeOfSpecies:44-037-019 , changeOfSpecies:44-395-099 , changeOfSpecies:44-036-019 , changeOfSpecies:44-026-019 , changeOfSpecies:44-058-958 , changeOfSpecies:44-093-099 , changeOfSpecies:44-299-099 , changeOfSpecies:44-075-099 , changeOfSpecies:44-002-099 , changeOfSpecies:44-257-099 , changeOfSpecies:44-091-099 , changeOfSpecies:44-757-099 , changeOfSpecies:44-092-099 , changeOfSpecies:44-357-099 , changeOfSpecies:44-378-099 , changeOfSpecies:44-074-099 , changeOfSpecies:44-045-045 , changeOfSpecies:44-276-099 , changeOfSpecies:44-039-019 , changeOfSpecies:44-051-099 , changeOfSpecies:44-014-019 , changeOfSpecies:44-024-019 , changeOfSpecies:44-258-958 .
 
 changeOfSpecies:01-005-099
         a                            ifn:ChangeOfSpecies ;
@@ -19307,6 +19304,9 @@ numberOfTrees:2416  a  ifn:NumberOfTrees ;
         smo:hasUnit   unit:Unities ;
         smo:hasValue  2416 .
 
+province:23  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:23-478-099 , changeOfSpecies:23-024-024 , changeOfSpecies:23-013-099 , changeOfSpecies:23-278-099 , changeOfSpecies:23-299-099 , changeOfSpecies:23-257-050 , changeOfSpecies:23-062-050 , changeOfSpecies:23-066-099 , changeOfSpecies:23-006-099 , changeOfSpecies:23-578-099 , changeOfSpecies:23-015-099 , changeOfSpecies:23-016-099 , changeOfSpecies:23-415-099 , changeOfSpecies:23-357-050 , changeOfSpecies:23-051-050 , changeOfSpecies:23-075-099 , changeOfSpecies:23-025-025 , changeOfSpecies:23-376-099 , changeOfSpecies:23-094-099 , changeOfSpecies:23-021-025 , changeOfSpecies:23-011-099 , changeOfSpecies:23-002-099 , changeOfSpecies:23-076-099 , changeOfSpecies:23-276-099 , changeOfSpecies:23-036-237 , changeOfSpecies:23-043-044 , changeOfSpecies:23-056-050 , changeOfSpecies:23-026-026 , changeOfSpecies:23-053-050 , changeOfSpecies:23-095-099 , changeOfSpecies:23-055-050 , changeOfSpecies:23-008-099 , changeOfSpecies:23-236-237 , changeOfSpecies:23-037-237 , changeOfSpecies:23-054-050 , changeOfSpecies:23-028-025 , changeOfSpecies:23-258-050 , changeOfSpecies:23-004-050 , changeOfSpecies:23-091-099 , changeOfSpecies:23-046-046 , changeOfSpecies:23-957-050 , changeOfSpecies:23-215-099 , changeOfSpecies:23-255-050 , changeOfSpecies:23-068-099 , changeOfSpecies:23-295-099 , changeOfSpecies:23-395-099 , changeOfSpecies:23-009-050 , changeOfSpecies:23-023-023 , changeOfSpecies:23-039-237 , changeOfSpecies:23-092-050 , changeOfSpecies:23-399-099 , changeOfSpecies:23-045-045 , changeOfSpecies:23-457-050 , changeOfSpecies:23-857-050 , changeOfSpecies:23-476-099 , changeOfSpecies:23-757-050 , changeOfSpecies:23-378-099 , changeOfSpecies:23-093-099 , changeOfSpecies:23-058-050 , changeOfSpecies:23-057-050 , changeOfSpecies:23-065-099 , changeOfSpecies:23-237-237 , changeOfSpecies:23-044-044 .
+
 changeOfSpecies:43-499-090
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species90 ;
@@ -19407,6 +19407,9 @@ changeOfSpecies:01-095-099
         ifn:hasNumberOfTrees    numberOfTrees:0 ;
         ifn:hasOriginalSpecies  ifn:Species95 .
 
+province:02  a                  ifn:Province ;
+        ifn:hasChangeOfSpecies  changeOfSpecies:02-295-099 , changeOfSpecies:02-068-099 , changeOfSpecies:02-056-099 , changeOfSpecies:02-055-051 , changeOfSpecies:02-415-099 , changeOfSpecies:02-091-099 , changeOfSpecies:02-045-045 , changeOfSpecies:02-039-038 , changeOfSpecies:02-256-099 , changeOfSpecies:02-062-051 , changeOfSpecies:02-215-099 , changeOfSpecies:02-478-099 , changeOfSpecies:02-051-051 , changeOfSpecies:02-657-051 , changeOfSpecies:02-016-099 , changeOfSpecies:02-026-026 , changeOfSpecies:02-013-099 , changeOfSpecies:02-258-958 , changeOfSpecies:02-278-099 , changeOfSpecies:02-237-038 , changeOfSpecies:02-037-038 , changeOfSpecies:02-053-051 , changeOfSpecies:02-357-051 , changeOfSpecies:02-008-099 , changeOfSpecies:02-002-099 , changeOfSpecies:02-075-099 , changeOfSpecies:02-257-051 , changeOfSpecies:02-023-023 , changeOfSpecies:02-038-038 , changeOfSpecies:02-757-051 , changeOfSpecies:02-044-044 , changeOfSpecies:02-004-099 , changeOfSpecies:02-024-024 , changeOfSpecies:02-093-099 , changeOfSpecies:02-025-025 , changeOfSpecies:02-476-099 , changeOfSpecies:02-095-099 , changeOfSpecies:02-399-099 , changeOfSpecies:02-066-099 , changeOfSpecies:02-057-051 , changeOfSpecies:02-099-099 , changeOfSpecies:02-957-051 , changeOfSpecies:02-058-958 , changeOfSpecies:02-036-023 , changeOfSpecies:02-578-099 .
+
 changeOfSpecies:50-578-099
         a                            ifn:ChangeOfSpecies ;
         ifn:hasNewSpecies            ifn:Species99 ;
@@ -19481,9 +19484,6 @@ changeOfSpecies:08-091-090
         ifn:hasNumberOfTrees         numberOfTrees:2802 ;
         ifn:hasNumberOfTreesInUnits  2802 ;
         ifn:hasOriginalSpecies       ifn:Species91 .
-
-province:11  a                  ifn:Province ;
-        ifn:hasChangeOfSpecies  changeOfSpecies:11-957-099 , changeOfSpecies:11-061-099 , changeOfSpecies:11-026-019 , changeOfSpecies:11-857-099 , changeOfSpecies:11-047-099 , changeOfSpecies:11-039-024 , changeOfSpecies:11-045-099 , changeOfSpecies:11-046-099 , changeOfSpecies:11-369-099 , changeOfSpecies:11-057-099 , changeOfSpecies:11-058-099 , changeOfSpecies:11-299-099 , changeOfSpecies:11-002-099 , changeOfSpecies:11-003-099 , changeOfSpecies:11-066-066 , changeOfSpecies:11-067-099 , changeOfSpecies:11-065-099 , changeOfSpecies:11-055-099 , changeOfSpecies:11-051-099 , changeOfSpecies:11-099-099 , changeOfSpecies:11-032-019 , changeOfSpecies:11-357-099 , changeOfSpecies:11-094-099 , changeOfSpecies:11-059-099 , changeOfSpecies:11-053-099 , changeOfSpecies:11-036-024 , changeOfSpecies:11-012-099 , changeOfSpecies:11-257-099 , changeOfSpecies:11-016-099 , changeOfSpecies:11-005-099 , changeOfSpecies:11-049-099 , changeOfSpecies:11-008-008 , changeOfSpecies:11-062-099 , changeOfSpecies:11-028-019 , changeOfSpecies:11-013-099 , changeOfSpecies:11-015-099 , changeOfSpecies:11-004-099 , changeOfSpecies:11-056-099 , changeOfSpecies:11-215-099 , changeOfSpecies:11-006-099 , changeOfSpecies:11-054-099 , changeOfSpecies:11-095-099 , changeOfSpecies:11-023-023 , changeOfSpecies:11-253-099 , changeOfSpecies:11-024-024 , changeOfSpecies:11-044-099 , changeOfSpecies:11-089-099 , changeOfSpecies:11-068-068 , changeOfSpecies:11-040-099 , changeOfSpecies:11-093-099 , changeOfSpecies:11-237-024 , changeOfSpecies:11-276-099 .
 
 changeOfSpecies:38-046-099
         a                       ifn:ChangeOfSpecies ;
