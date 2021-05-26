@@ -15,7 +15,7 @@
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 
 province:36  a         esadm:Provincia ;
-        rdfs:label     "Pontevedra" ;
+        rdfs:label     "Pontevedra"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "PO" ;
@@ -23,7 +23,7 @@ province:36  a         esadm:Provincia ;
         skos:broader   ccaa:12 .
 
 province:08  a         esadm:Provincia ;
-        rdfs:label     "Barcelona" ;
+        rdfs:label     "Barcelona"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "B" ;
@@ -31,11 +31,11 @@ province:08  a         esadm:Provincia ;
         skos:broader   ccaa:09 .
 
 ccaa:09  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Cataluña" ;
+        rdfs:label     "Cataluña"@es ;
         skos:narrower  province:17 , province:25 , province:43 , province:08 .
 
 province:49  a         esadm:Provincia ;
-        rdfs:label     "Zamora" ;
+        rdfs:label     "Zamora"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "ZA" ;
@@ -43,7 +43,7 @@ province:49  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:30  a         esadm:Provincia ;
-        rdfs:label     "Murcia" ;
+        rdfs:label     "Murcia"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "MU" ;
@@ -51,7 +51,7 @@ province:30  a         esadm:Provincia ;
         skos:broader   ccaa:14 .
 
 province:02  a         esadm:Provincia ;
-        rdfs:label     "Albacete" ;
+        rdfs:label     "Albacete"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "AB" ;
@@ -59,11 +59,11 @@ province:02  a         esadm:Provincia ;
         skos:broader   ccaa:08 .
 
 ccaa:03  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Asturias, Principado de" ;
+        rdfs:label     "Asturias, Principado de"@es ;
         skos:narrower  province:33 .
 
 province:43  a         esadm:Provincia ;
-        rdfs:label     "Tarragona" ;
+        rdfs:label     "Tarragona"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "T" ;
@@ -71,7 +71,7 @@ province:43  a         esadm:Provincia ;
         skos:broader   ccaa:09 .
 
 province:15  a         esadm:Provincia ;
-        rdfs:label     "La Coruña" ;
+        rdfs:label     "La Coruña"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "C" ;
@@ -79,11 +79,11 @@ province:15  a         esadm:Provincia ;
         skos:broader   ccaa:12 .
 
 ccaa:16  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "País Vasco" ;
+        rdfs:label     "País Vasco"@es ;
         skos:narrower  province:20 , province:01 , province:48 .
 
 province:28  a         esadm:Provincia ;
-        rdfs:label     "Madrid" ;
+        rdfs:label     "Madrid"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "M" ;
@@ -91,11 +91,11 @@ province:28  a         esadm:Provincia ;
         skos:broader   ccaa:13 .
 
 ccaa:10  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Comunitat Valenciana" ;
+        rdfs:label     "Comunitat Valenciana"@es ;
         skos:narrower  province:03 , province:46 , province:12 .
 
 province:50  a         esadm:Provincia ;
-        rdfs:label     "Zaragoza" ;
+        rdfs:label     "Zaragoza"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "Z" ;
@@ -103,7 +103,7 @@ province:50  a         esadm:Provincia ;
         skos:broader   ccaa:02 .
 
 province:22  a         esadm:Provincia ;
-        rdfs:label     "Huesca" ;
+        rdfs:label     "Huesca"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "HU" ;
@@ -111,7 +111,7 @@ province:22  a         esadm:Provincia ;
         skos:broader   ccaa:02 .
 
 province:35  a         esadm:Provincia ;
-        rdfs:label     "Las Palmas" ;
+        rdfs:label     "Las Palmas"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "GC" ;
@@ -119,7 +119,7 @@ province:35  a         esadm:Provincia ;
         skos:broader   ccaa:05 .
 
 province:07  a         esadm:Provincia ;
-        rdfs:label     "Islas Baleares" ;
+        rdfs:label     "Islas Baleares"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "PM" ;
@@ -127,11 +127,11 @@ province:07  a         esadm:Provincia ;
         skos:broader   ccaa:04 .
 
 ccaa:08  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Castilla - La Mancha" ;
+        rdfs:label     "Castilla - La Mancha"@es ;
         skos:narrower  province:13 , province:45 , province:19 , province:02 , province:16 .
 
 province:48  a         esadm:Provincia ;
-        rdfs:label     "Vizcaya" ;
+        rdfs:label     "Vizcaya"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "BI" ;
@@ -139,7 +139,7 @@ province:48  a         esadm:Provincia ;
         skos:broader   ccaa:16 .
 
 province:01  a         esadm:Provincia ;
-        rdfs:label     "Álava" ;
+        rdfs:label     "Álava"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "VI" ;
@@ -147,11 +147,11 @@ province:01  a         esadm:Provincia ;
         skos:broader   ccaa:16 .
 
 ccaa:02  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Aragón" ;
+        rdfs:label     "Aragón"@es ;
         skos:narrower  province:22 , province:44 , province:50 .
 
 province:42  a         esadm:Provincia ;
-        rdfs:label     "Soria" ;
+        rdfs:label     "Soria"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "SO" ;
@@ -159,7 +159,7 @@ province:42  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:14  a         esadm:Provincia ;
-        rdfs:label     "Córdoba" ;
+        rdfs:label     "Córdoba"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "CO" ;
@@ -167,11 +167,11 @@ province:14  a         esadm:Provincia ;
         skos:broader   ccaa:01 .
 
 ccaa:15  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Comunidad Foral de Navarra" ;
+        rdfs:label     "Comunidad Foral de Navarra"@es ;
         skos:narrower  province:31 .
 
 province:27  a         esadm:Provincia ;
-        rdfs:label     "Lugo" ;
+        rdfs:label     "Lugo"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "LU" ;
@@ -179,7 +179,7 @@ province:27  a         esadm:Provincia ;
         skos:broader   ccaa:12 .
 
 province:21  a         esadm:Provincia ;
-        rdfs:label     "Huelva" ;
+        rdfs:label     "Huelva"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "H" ;
@@ -187,7 +187,7 @@ province:21  a         esadm:Provincia ;
         skos:broader   ccaa:01 .
 
 province:34  a         esadm:Provincia ;
-        rdfs:label     "Palencia" ;
+        rdfs:label     "Palencia"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "P" ;
@@ -195,7 +195,7 @@ province:34  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:06  a         esadm:Provincia ;
-        rdfs:label     "Badajoz" ;
+        rdfs:label     "Badajoz"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "BA" ;
@@ -203,11 +203,11 @@ province:06  a         esadm:Provincia ;
         skos:broader   ccaa:11 .
 
 ccaa:07  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Castilla y León" ;
+        rdfs:label     "Castilla y León"@es ;
         skos:narrower  province:09 , province:24 , province:40 , province:37 , province:42 , province:05 , province:49 , province:34 , province:47 .
 
 province:47  a         esadm:Provincia ;
-        rdfs:label     "Valladolid" ;
+        rdfs:label     "Valladolid"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "VA" ;
@@ -215,7 +215,7 @@ province:47  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:19  a         esadm:Provincia ;
-        rdfs:label     "Guadalajara" ;
+        rdfs:label     "Guadalajara"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "GU" ;
@@ -223,11 +223,11 @@ province:19  a         esadm:Provincia ;
         skos:broader   ccaa:08 .
 
 ccaa:01  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Andalucía" ;
+        rdfs:label     "Andalucía"@es ;
         skos:narrower  province:21 , province:14 , province:29 , province:18 , province:23 , province:41 , province:04 , province:11 .
 
 province:41  a         esadm:Provincia ;
-        rdfs:label     "Sevilla" ;
+        rdfs:label     "Sevilla"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "SE" ;
@@ -235,7 +235,7 @@ province:41  a         esadm:Provincia ;
         skos:broader   ccaa:01 .
 
 province:13  a         esadm:Provincia ;
-        rdfs:label     "Ciudad Real" ;
+        rdfs:label     "Ciudad Real"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "CR" ;
@@ -243,11 +243,11 @@ province:13  a         esadm:Provincia ;
         skos:broader   ccaa:08 .
 
 ccaa:14  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Región de Murcia" ;
+        rdfs:label     "Región de Murcia"@es ;
         skos:narrower  province:30 .
 
 province:26  a         esadm:Provincia ;
-        rdfs:label     "La Rioja" ;
+        rdfs:label     "La Rioja"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "LO" ;
@@ -255,7 +255,7 @@ province:26  a         esadm:Provincia ;
         skos:broader   ccaa:17 .
 
 province:39  a         esadm:Provincia ;
-        rdfs:label     "Cantabria" ;
+        rdfs:label     "Cantabria"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "S" ;
@@ -263,7 +263,7 @@ province:39  a         esadm:Provincia ;
         skos:broader   ccaa:06 .
 
 province:20  a         esadm:Provincia ;
-        rdfs:label     "Guipúzcoa" ;
+        rdfs:label     "Guipúzcoa"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "SS" ;
@@ -271,7 +271,7 @@ province:20  a         esadm:Provincia ;
         skos:broader   ccaa:16 .
 
 province:33  a         esadm:Provincia ;
-        rdfs:label     "Asturias" ;
+        rdfs:label     "Asturias"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "O" ;
@@ -279,7 +279,7 @@ province:33  a         esadm:Provincia ;
         skos:broader   ccaa:03 .
 
 province:05  a         esadm:Provincia ;
-        rdfs:label     "Ávila" ;
+        rdfs:label     "Ávila"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "AV" ;
@@ -287,11 +287,11 @@ province:05  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 ccaa:06  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Cantabria" ;
+        rdfs:label     "Cantabria"@es ;
         skos:narrower  province:39 .
 
 province:46  a         esadm:Provincia ;
-        rdfs:label     "Valencia" ;
+        rdfs:label     "Valencia"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "V" ;
@@ -299,7 +299,7 @@ province:46  a         esadm:Provincia ;
         skos:broader   ccaa:10 .
 
 province:18  a         esadm:Provincia ;
-        rdfs:label     "Granada" ;
+        rdfs:label     "Granada"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "GR" ;
@@ -307,11 +307,11 @@ province:18  a         esadm:Provincia ;
         skos:broader   ccaa:01 .
 
 ccaa:19  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Melilla" ;
+        rdfs:label     "Melilla"@es ;
         skos:narrower  province:52 .
 
 province:40  a         esadm:Provincia ;
-        rdfs:label     "Segovia" ;
+        rdfs:label     "Segovia"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "SG" ;
@@ -319,7 +319,7 @@ province:40  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:12  a         esadm:Provincia ;
-        rdfs:label     "Castellón" ;
+        rdfs:label     "Castellón"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "CS" ;
@@ -327,11 +327,11 @@ province:12  a         esadm:Provincia ;
         skos:broader   ccaa:10 .
 
 ccaa:13  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Comunidad de Madrid" ;
+        rdfs:label     "Comunidad de Madrid"@es ;
         skos:narrower  province:28 .
 
 province:25  a         esadm:Provincia ;
-        rdfs:label     "Lérida" ;
+        rdfs:label     "Lérida"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "L" ;
@@ -339,7 +339,7 @@ province:25  a         esadm:Provincia ;
         skos:broader   ccaa:09 .
 
 province:38  a         esadm:Provincia ;
-        rdfs:label     "Santa Cruz de Tenerife" ;
+        rdfs:label     "Santa Cruz de Tenerife"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "TF" ;
@@ -347,7 +347,7 @@ province:38  a         esadm:Provincia ;
         skos:broader   ccaa:05 .
 
 province:32  a         esadm:Provincia ;
-        rdfs:label     "Orense" ;
+        rdfs:label     "Orense"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "OR" ;
@@ -355,7 +355,7 @@ province:32  a         esadm:Provincia ;
         skos:broader   ccaa:12 .
 
 province:04  a         esadm:Provincia ;
-        rdfs:label     "Almería" ;
+        rdfs:label     "Almería"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "AL" ;
@@ -363,11 +363,11 @@ province:04  a         esadm:Provincia ;
         skos:broader   ccaa:01 .
 
 ccaa:05  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Canarias" ;
+        rdfs:label     "Canarias"@es ;
         skos:narrower  province:35 , province:38 .
 
 province:45  a         esadm:Provincia ;
-        rdfs:label     "Toledo" ;
+        rdfs:label     "Toledo"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "TO" ;
@@ -375,7 +375,7 @@ province:45  a         esadm:Provincia ;
         skos:broader   ccaa:08 .
 
 province:17  a         esadm:Provincia ;
-        rdfs:label     "Gerona" ;
+        rdfs:label     "Gerona"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "GI" ;
@@ -383,11 +383,11 @@ province:17  a         esadm:Provincia ;
         skos:broader   ccaa:09 .
 
 ccaa:18  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Ceuta" ;
+        rdfs:label     "Ceuta"@es ;
         skos:narrower  province:51 .
 
 province:11  a         esadm:Provincia ;
-        rdfs:label     "Cádiz" ;
+        rdfs:label     "Cádiz"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "CA" ;
@@ -395,11 +395,11 @@ province:11  a         esadm:Provincia ;
         skos:broader   ccaa:01 .
 
 ccaa:12  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Galicia" ;
+        rdfs:label     "Galicia"@es ;
         skos:narrower  province:15 , province:36 , province:27 , province:32 .
 
 province:52  a         esadm:Provincia ;
-        rdfs:label     "Melilla" ;
+        rdfs:label     "Melilla"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "ME" ;
@@ -407,7 +407,7 @@ province:52  a         esadm:Provincia ;
         skos:broader   ccaa:19 .
 
 province:24  a         esadm:Provincia ;
-        rdfs:label     "León" ;
+        rdfs:label     "León"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "LE" ;
@@ -415,7 +415,7 @@ province:24  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:37  a         esadm:Provincia ;
-        rdfs:label     "Salamanca" ;
+        rdfs:label     "Salamanca"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "SA" ;
@@ -423,7 +423,7 @@ province:37  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:09  a         esadm:Provincia ;
-        rdfs:label     "Burgos" ;
+        rdfs:label     "Burgos"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "BU" ;
@@ -431,7 +431,7 @@ province:09  a         esadm:Provincia ;
         skos:broader   ccaa:07 .
 
 province:31  a         esadm:Provincia ;
-        rdfs:label     "Navarra" ;
+        rdfs:label     "Navarra"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "NA" ;
@@ -439,7 +439,7 @@ province:31  a         esadm:Provincia ;
         skos:broader   ccaa:15 .
 
 province:03  a         esadm:Provincia ;
-        rdfs:label     "Alicante" ;
+        rdfs:label     "Alicante"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "A" ;
@@ -447,11 +447,11 @@ province:03  a         esadm:Provincia ;
         skos:broader   ccaa:10 .
 
 ccaa:04  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Illes Balears" ;
+        rdfs:label     "Illes Balears"@es ;
         skos:narrower  province:07 .
 
 province:44  a         esadm:Provincia ;
-        rdfs:label     "Teruel" ;
+        rdfs:label     "Teruel"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "TE" ;
@@ -459,7 +459,7 @@ province:44  a         esadm:Provincia ;
         skos:broader   ccaa:02 .
 
 province:16  a         esadm:Provincia ;
-        rdfs:label     "Cuenca" ;
+        rdfs:label     "Cuenca"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "CU" ;
@@ -467,11 +467,11 @@ province:16  a         esadm:Provincia ;
         skos:broader   ccaa:08 .
 
 ccaa:17  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Rioja, La" ;
+        rdfs:label     "Rioja, La"@es ;
         skos:narrower  province:26 .
 
 province:29  a         esadm:Provincia ;
-        rdfs:label     "Málaga" ;
+        rdfs:label     "Málaga"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "MA" ;
@@ -479,7 +479,7 @@ province:29  a         esadm:Provincia ;
         skos:broader   ccaa:01 .
 
 province:10  a         esadm:Provincia ;
-        rdfs:label     "Cáceres" ;
+        rdfs:label     "Cáceres"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "CC" ;
@@ -487,11 +487,11 @@ province:10  a         esadm:Provincia ;
         skos:broader   ccaa:11 .
 
 ccaa:11  a             esadm:ComunidadAutonoma ;
-        rdfs:label     "Extremadura" ;
+        rdfs:label     "Extremadura"@es ;
         skos:narrower  province:10 , province:06 .
 
 province:51  a         esadm:Provincia ;
-        rdfs:label     "Ceuta" ;
+        rdfs:label     "Ceuta"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "CE" ;
@@ -499,7 +499,7 @@ province:51  a         esadm:Provincia ;
         skos:broader   ccaa:18 .
 
 province:23  a         esadm:Provincia ;
-        rdfs:label     "Jaén" ;
+        rdfs:label     "Jaén"@es ;
         epsg:hasCoordinateReferenceSystem
                 crs:4326 ;
         dc:identifier  "J" ;
